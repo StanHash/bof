@@ -25,90 +25,90 @@ SECTIONS
         asm/crt0.o(.text);
         src/main.o(.text);                          /* rodata 0811FB18 */
         src/code_080007C4.o(.text);                 /* rodata 0811FB38 */
-        asm/sub_8002524.o(.text);                   /* rodata 0811FEA8 */
-        asm/sub_8003450.o(.text);                   /* rodata 0811FFDC */
-        asm/sub_8004E8C.o(.text);                   /* rodata 08120174 */
-        asm/sub_8042B2C.o(.text);                   /* rodata 08124B88 */
-        asm/sub_8044D30.o(.text);                   /* rodata 08124CB0 */
-        asm/sub_80450D0.o(.text);                   /* rodata 08124D5C */
-        asm/sub_8045E64.o(.text);                   /* rodata 08124E14 */
-        asm/sub_8047BEC.o(.text);                   /* rodata 08124F90 */
-        asm/sub_8048DD0.o(.text);                   /* rodata 08125010 */
-        asm/sub_8049A04.o(.text);                   /* rodata 08125080 */
-        asm/sub_804C594.o(.text);                   /* rodata 08125208 */
-        asm/sub_804CA4C.o(.text);                   /* rodata 08125230 */
-        asm/sub_804CE60.o(.text);                   /* rodata 08125258 */
-        asm/sub_804CF38.o(.text);                   /* rodata 08125264 */
-        asm/sub_804E708.o(.text);                   /* rodata 08125364 */
-        asm/sub_804E808.o(.text);                   /* rodata 08125370 */
-        asm/sub_80528F4.o(.text);                   /* rodata 081254C8 */
-        asm/sub_8056128.o(.text);                   /* rodata 0812568C */
-        asm/sub_80568C8.o(.text);                   /* rodata 081256C4 */
-        asm/sub_8057C08.o(.text);                   /* rodata 08125770 */
-        asm/sub_8057C88.o(.text);                   /* rodata 0812577C */
-        asm/sub_8058EBC.o(.text);                   /* rodata 08125804 */
-        asm/sub_8059860.o(.text);                   /* rodata 08125878 */
-        asm/sub_8059A30.o(.text);                   /* rodata 081258B4 */
-        asm/sub_8059CC4.o(.text);                   /* rodata 081258F8 */
-        asm/sub_805E2D0.o(.text);                   /* rodata 08125D88 */
-        asm/sub_805E384.o(.text);                   /* rodata 08125D90 */
-        asm/sub_805E3EC.o(.text);                   /* rodata 08125D98 */
-        asm/sub_805ED6C.o(.text);                   /* rodata 08125E08 */
-        asm/sub_805F3DC.o(.text);                   /* rodata 08125E6C */
-        asm/sub_80617BC.o(.text);                   /* rodata 08126058 */
-        asm/sub_80618F8.o(.text);                   /* rodata 08126074 */
-        asm/sub_80621D4.o(.text);                   /* rodata 081260D4 */
-        asm/sub_8062334.o(.text);                   /* rodata 08126110 */
-        asm/sub_8062BAC.o(.text);                   /* rodata 0812615C */
-        asm/sub_80649F4.o(.text);                   /* rodata 081261E4 */
-        asm/sub_8064E70.o(.text);                   /* rodata 08126224 */
-        asm/sub_8068CF8.o(.text);                   /* rodata 081264C8 */
-        asm/sub_806A378.o(.text);                   /* rodata 0812652C */
-        asm/sub_806AA04.o(.text);                   /* rodata 08126608 */
-        asm/sub_806ADD4.o(.text);                   /* rodata 081266BC */
-        asm/sub_806AEE0.o(.text);                   /* rodata 081266DC */
-        asm/sub_806B008.o(.text);                   /* rodata 081266F8 */
-        asm/sub_806BBDC.o(.text);                   /* rodata 081267B0 */
-        asm/sub_806DE18.o(.text);                   /* rodata 081269CC */
-        asm/sub_806DE70.o(.text);                   /* rodata 081269D4 */
-        asm/sub_806E4E8.o(.text);                   /* rodata 08126A08 */
-        asm/sub_8071830.o(.text);                   /* rodata 08126C14 */
-        asm/sub_80738F4.o(.text);                   /* rodata 08126C98 */
-        asm/sub_80751E4.o(.text);                   /* rodata 0812706C */
-        asm/sub_80764E0.o(.text);                   /* rodata 081271E0 */
-        asm/sub_8077028.o(.text);                   /* rodata 081272E0 */
-        asm/sub_807A280.o(.text);                   /* rodata 081274F4 */
-        asm/sub_807D490.o(.text);                   /* rodata 08127718 */
-        asm/sub_807EBAC.o(.text);                   /* rodata 081277BC */
-        asm/sub_807EC2C.o(.text);                   /* rodata 081277C4 */
-        asm/sub_807ECAC.o(.text);                   /* rodata 081277CC */
-        asm/sub_807EF5C.o(.text);                   /* rodata 081277F8 */
-        asm/sub_8081D5C.o(.text);                   /* rodata 081279DC */
-        asm/sub_80845A8.o(.text);                   /* rodata 08127B8C */
-        asm/sub_8085C0C.o(.text);                   /* rodata 08127C4C */
-        asm/sub_8085C44.o(.text);                   /* rodata 08127C54 */
-        asm/sub_8085E6C.o(.text);                   /* rodata 08127C80 */
-        asm/sub_80866B0.o(.text);                   /* rodata 08127CD0 */
-        asm/sub_808781C.o(.text);                   /* rodata 08127D84 */
-        asm/sub_80898EC.o(.text);                   /* rodata 08127EB8 */
-        asm/sub_8089EB4.o(.text);                   /* rodata 08127ED8 */
-        asm/sub_8091FA0.o(.text);                   /* rodata 0812825C */
-        asm/sub_8099E60.o(.text);                   /* rodata 081286E4 */
-        asm/sub_809A104.o(.text);                   /* rodata 08128714 */
-        asm/sub_809A2A4.o(.text);                   /* rodata 08128720 */
-        asm/sub_809A468.o(.text);                   /* rodata 08128738 */
-        asm/sub_809A7CC.o(.text);                   /* rodata 08128760 */
-        asm/sub_809B314.o(.text);                   /* rodata 081287B0 */
-        asm/sub_809D808.o(.text);                   /* rodata 08128984 */
+        asm/code_08002524.o(.text);                   /* rodata 0811FEA8 */
+        asm/code_08003450.o(.text);                   /* rodata 0811FFDC */
+        asm/code_08004E8C.o(.text);                   /* rodata 08120174 */
+        asm/code_08042B2C.o(.text);                   /* rodata 08124B88 */
+        asm/code_08044D30.o(.text);                   /* rodata 08124CB0 */
+        asm/code_080450D0.o(.text);                   /* rodata 08124D5C */
+        asm/code_08045E64.o(.text);                   /* rodata 08124E14 */
+        asm/code_08047BEC.o(.text);                   /* rodata 08124F90 */
+        asm/code_08048DD0.o(.text);                   /* rodata 08125010 */
+        asm/code_08049A04.o(.text);                   /* rodata 08125080 */
+        asm/code_0804C594.o(.text);                   /* rodata 08125208 */
+        asm/code_0804CA4C.o(.text);                   /* rodata 08125230 */
+        asm/code_0804CE60.o(.text);                   /* rodata 08125258 */
+        asm/code_0804CF38.o(.text);                   /* rodata 08125264 */
+        asm/code_0804E708.o(.text);                   /* rodata 08125364 */
+        asm/code_0804E808.o(.text);                   /* rodata 08125370 */
+        asm/code_080528F4.o(.text);                   /* rodata 081254C8 */
+        asm/code_08056128.o(.text);                   /* rodata 0812568C */
+        asm/code_080568C8.o(.text);                   /* rodata 081256C4 */
+        asm/code_08057C08.o(.text);                   /* rodata 08125770 */
+        asm/code_08057C88.o(.text);                   /* rodata 0812577C */
+        asm/code_08058EBC.o(.text);                   /* rodata 08125804 */
+        asm/code_08059860.o(.text);                   /* rodata 08125878 */
+        asm/code_08059A30.o(.text);                   /* rodata 081258B4 */
+        asm/code_08059CC4.o(.text);                   /* rodata 081258F8 */
+        asm/code_0805E2D0.o(.text);                   /* rodata 08125D88 */
+        asm/code_0805E384.o(.text);                   /* rodata 08125D90 */
+        asm/code_0805E3EC.o(.text);                   /* rodata 08125D98 */
+        asm/code_0805ED6C.o(.text);                   /* rodata 08125E08 */
+        asm/code_0805F3DC.o(.text);                   /* rodata 08125E6C */
+        asm/code_080617BC.o(.text);                   /* rodata 08126058 */
+        asm/code_080618F8.o(.text);                   /* rodata 08126074 */
+        asm/code_080621D4.o(.text);                   /* rodata 081260D4 */
+        asm/code_08062334.o(.text);                   /* rodata 08126110 */
+        asm/code_08062BAC.o(.text);                   /* rodata 0812615C */
+        asm/code_080649F4.o(.text);                   /* rodata 081261E4 */
+        asm/code_08064E70.o(.text);                   /* rodata 08126224 */
+        asm/code_08068CF8.o(.text);                   /* rodata 081264C8 */
+        asm/code_0806A378.o(.text);                   /* rodata 0812652C */
+        asm/code_0806AA04.o(.text);                   /* rodata 08126608 */
+        asm/code_0806ADD4.o(.text);                   /* rodata 081266BC */
+        asm/code_0806AEE0.o(.text);                   /* rodata 081266DC */
+        asm/code_0806B008.o(.text);                   /* rodata 081266F8 */
+        asm/code_0806BBDC.o(.text);                   /* rodata 081267B0 */
+        asm/code_0806DE18.o(.text);                   /* rodata 081269CC */
+        asm/code_0806DE70.o(.text);                   /* rodata 081269D4 */
+        asm/code_0806E4E8.o(.text);                   /* rodata 08126A08 */
+        asm/code_08071830.o(.text);                   /* rodata 08126C14 */
+        asm/code_080738F4.o(.text);                   /* rodata 08126C98 */
+        asm/code_080751E4.o(.text);                   /* rodata 0812706C */
+        asm/code_080764E0.o(.text);                   /* rodata 081271E0 */
+        asm/code_08077028.o(.text);                   /* rodata 081272E0 */
+        asm/code_0807A280.o(.text);                   /* rodata 081274F4 */
+        asm/code_0807D490.o(.text);                   /* rodata 08127718 */
+        asm/code_0807EBAC.o(.text);                   /* rodata 081277BC */
+        asm/code_0807EC2C.o(.text);                   /* rodata 081277C4 */
+        asm/code_0807ECAC.o(.text);                   /* rodata 081277CC */
+        asm/code_0807EF5C.o(.text);                   /* rodata 081277F8 */
+        asm/code_08081D5C.o(.text);                   /* rodata 081279DC */
+        asm/code_080845A8.o(.text);                   /* rodata 08127B8C */
+        asm/code_08085C0C.o(.text);                   /* rodata 08127C4C */
+        asm/code_08085C44.o(.text);                   /* rodata 08127C54 */
+        asm/code_08085E6C.o(.text);                   /* rodata 08127C80 */
+        asm/code_080866B0.o(.text);                   /* rodata 08127CD0 */
+        asm/code_0808781C.o(.text);                   /* rodata 08127D84 */
+        asm/code_080898EC.o(.text);                   /* rodata 08127EB8 */
+        asm/code_08089EB4.o(.text);                   /* rodata 08127ED8 */
+        asm/code_08091FA0.o(.text);                   /* rodata 0812825C */
+        asm/code_08099E60.o(.text);                   /* rodata 081286E4 */
+        asm/code_0809A104.o(.text);                   /* rodata 08128714 */
+        asm/code_0809A2A4.o(.text);                   /* rodata 08128720 */
+        asm/code_0809A468.o(.text);                   /* rodata 08128738 */
+        asm/code_0809A7CC.o(.text);                   /* rodata 08128760 */
+        asm/code_0809B314.o(.text);                   /* rodata 081287B0 */
+        asm/code_0809D808.o(.text);                   /* rodata 08128984 */
         asm/waku.o(.text);                          /* rodata 08128F88 */
-        asm/sub_80AF948.o(.text);                   /* rodata 08129A7C */
-        asm/sub_80B5308.o(.text);                   /* rodata 0812A268 */
-        asm/sub_80B9014.o(.text);                   /* rodata 0812A5BC */
-        asm/sub_80BAB54.o(.text);                   /* rodata 0812A73C */
-        asm/sub_80BBBFC.o(.text);                   /* rodata 0812A8A8 */
-        asm/sub_80BC738.o(.text);                   /* rodata 0812A9C8 */
+        asm/code_080AF948.o(.text);                   /* rodata 08129A7C */
+        asm/code_080B5308.o(.text);                   /* rodata 0812A268 */
+        asm/code_080B9014.o(.text);                   /* rodata 0812A5BC */
+        asm/code_080BAB54.o(.text);                   /* rodata 0812A73C */
+        asm/code_080BBBFC.o(.text);                   /* rodata 0812A8A8 */
+        asm/code_080BC738.o(.text);                   /* rodata 0812A9C8 */
         asm/battle.o(.text);                        /* rodata 0812AFCC */
-        asm/sub_80DB8F0.o(.text);                   /* rodata 0812BF54 */
+        asm/code_080DB8F0.o(.text);                   /* rodata 0812BF54 */
         asm/bsub1.o(.text);                         /* rodata 0812C2CC */
         asm/bsub2.o(.text);                         /* rodata 0812C418 */
         asm/bsub4.o(.text);                         /* rodata 0812C680 */
@@ -156,7 +156,7 @@ SECTIONS
         asm/bmagic.o(.text);                        /* rodata 0812E648 */
         asm/befect.o(.text);                        /* rodata 0812E7B0 */
         asm/btama.o(.text);                         /* rodata 0812E820 */
-        asm/sub_81131A8.o(.text);                   /* rodata 08141DE4 */
+        asm/code_081131A8.o(.text);                   /* rodata 08141DE4 */
         src/m4a_1.o(.text);
         src/m4a.o(.text);
         asm/svc.o(.text);
@@ -217,90 +217,90 @@ SECTIONS
         /* Read Only Data */
         . = ALIGN(4); src/main.o(.rodata);
         . = ALIGN(4); src/code_080007C4.o(.rodata);
-        . = ALIGN(4); data/sub_8002524.rodata.o(.rodata);                   /* rodata 0811FEA8 */
-        . = ALIGN(4); data/sub_8003450.rodata.o(.rodata);                   /* rodata 0811FFDC */
-        . = ALIGN(4); data/sub_8004E8C.rodata.o(.rodata);                   /* rodata 08120174 */
-        . = ALIGN(4); data/sub_8042B2C.rodata.o(.rodata);                   /* rodata 08124B88 */
-        . = ALIGN(4); data/sub_8044D30.rodata.o(.rodata);                   /* rodata 08124CB0 */
-        . = ALIGN(4); data/sub_80450D0.rodata.o(.rodata);                   /* rodata 08124D5C */
-        . = ALIGN(4); data/sub_8045E64.rodata.o(.rodata);                   /* rodata 08124E14 */
-        . = ALIGN(4); data/sub_8047BEC.rodata.o(.rodata);                   /* rodata 08124F90 */
-        . = ALIGN(4); data/sub_8048DD0.rodata.o(.rodata);                   /* rodata 08125010 */
-        . = ALIGN(4); data/sub_8049A04.rodata.o(.rodata);                   /* rodata 08125080 */
-        . = ALIGN(4); data/sub_804C594.rodata.o(.rodata);                   /* rodata 08125208 */
-        . = ALIGN(4); data/sub_804CA4C.rodata.o(.rodata);                   /* rodata 08125230 */
-        . = ALIGN(4); data/sub_804CE60.rodata.o(.rodata);                   /* rodata 08125258 */
-        . = ALIGN(4); data/sub_804CF38.rodata.o(.rodata);                   /* rodata 08125264 */
-        . = ALIGN(4); data/sub_804E708.rodata.o(.rodata);                   /* rodata 08125364 */
-        . = ALIGN(4); data/sub_804E808.rodata.o(.rodata);                   /* rodata 08125370 */
-        . = ALIGN(4); data/sub_80528F4.rodata.o(.rodata);                   /* rodata 081254C8 */
-        . = ALIGN(4); data/sub_8056128.rodata.o(.rodata);                   /* rodata 0812568C */
-        . = ALIGN(4); data/sub_80568C8.rodata.o(.rodata);                   /* rodata 081256C4 */
-        . = ALIGN(4); data/sub_8057C08.rodata.o(.rodata);                   /* rodata 08125770 */
-        . = ALIGN(4); data/sub_8057C88.rodata.o(.rodata);                   /* rodata 0812577C */
-        . = ALIGN(4); data/sub_8058EBC.rodata.o(.rodata);                   /* rodata 08125804 */
-        . = ALIGN(4); data/sub_8059860.rodata.o(.rodata);                   /* rodata 08125878 */
-        . = ALIGN(4); data/sub_8059A30.rodata.o(.rodata);                   /* rodata 081258B4 */
-        . = ALIGN(4); data/sub_8059CC4.rodata.o(.rodata);                   /* rodata 081258F8 */
-        . = ALIGN(4); data/sub_805E2D0.rodata.o(.rodata);                   /* rodata 08125D88 */
-        . = ALIGN(4); data/sub_805E384.rodata.o(.rodata);                   /* rodata 08125D90 */
-        . = ALIGN(4); data/sub_805E3EC.rodata.o(.rodata);                   /* rodata 08125D98 */
-        . = ALIGN(4); data/sub_805ED6C.rodata.o(.rodata);                   /* rodata 08125E08 */
-        . = ALIGN(4); data/sub_805F3DC.rodata.o(.rodata);                   /* rodata 08125E6C */
-        . = ALIGN(4); data/sub_80617BC.rodata.o(.rodata);                   /* rodata 08126058 */
-        . = ALIGN(4); data/sub_80618F8.rodata.o(.rodata);                   /* rodata 08126074 */
-        . = ALIGN(4); data/sub_80621D4.rodata.o(.rodata);                   /* rodata 081260D4 */
-        . = ALIGN(4); data/sub_8062334.rodata.o(.rodata);                   /* rodata 08126110 */
-        . = ALIGN(4); data/sub_8062BAC.rodata.o(.rodata);                   /* rodata 0812615C */
-        . = ALIGN(4); data/sub_80649F4.rodata.o(.rodata);                   /* rodata 081261E4 */
-        . = ALIGN(4); data/sub_8064E70.rodata.o(.rodata);                   /* rodata 08126224 */
-        . = ALIGN(4); data/sub_8068CF8.rodata.o(.rodata);                   /* rodata 081264C8 */
-        . = ALIGN(4); data/sub_806A378.rodata.o(.rodata);                   /* rodata 0812652C */
-        . = ALIGN(4); data/sub_806AA04.rodata.o(.rodata);                   /* rodata 08126608 */
-        . = ALIGN(4); data/sub_806ADD4.rodata.o(.rodata);                   /* rodata 081266BC */
-        . = ALIGN(4); data/sub_806AEE0.rodata.o(.rodata);                   /* rodata 081266DC */
-        . = ALIGN(4); data/sub_806B008.rodata.o(.rodata);                   /* rodata 081266F8 */
-        . = ALIGN(4); data/sub_806BBDC.rodata.o(.rodata);                   /* rodata 081267B0 */
-        . = ALIGN(4); data/sub_806DE18.rodata.o(.rodata);                   /* rodata 081269CC */
-        . = ALIGN(4); data/sub_806DE70.rodata.o(.rodata);                   /* rodata 081269D4 */
-        . = ALIGN(4); data/sub_806E4E8.rodata.o(.rodata);                   /* rodata 08126A08 */
-        . = ALIGN(4); data/sub_8071830.rodata.o(.rodata);                   /* rodata 08126C14 */
-        . = ALIGN(4); data/sub_80738F4.rodata.o(.rodata);                   /* rodata 08126C98 */
-        . = ALIGN(4); data/sub_80751E4.rodata.o(.rodata);                   /* rodata 0812706C */
-        . = ALIGN(4); data/sub_80764E0.rodata.o(.rodata);                   /* rodata 081271E0 */
-        . = ALIGN(4); data/sub_8077028.rodata.o(.rodata);                   /* rodata 081272E0 */
-        . = ALIGN(4); data/sub_807A280.rodata.o(.rodata);                   /* rodata 081274F4 */
-        . = ALIGN(4); data/sub_807D490.rodata.o(.rodata);                   /* rodata 08127718 */
-        . = ALIGN(4); data/sub_807EBAC.rodata.o(.rodata);                   /* rodata 081277BC */
-        . = ALIGN(4); data/sub_807EC2C.rodata.o(.rodata);                   /* rodata 081277C4 */
-        . = ALIGN(4); data/sub_807ECAC.rodata.o(.rodata);                   /* rodata 081277CC */
-        . = ALIGN(4); data/sub_807EF5C.rodata.o(.rodata);                   /* rodata 081277F8 */
-        . = ALIGN(4); data/sub_8081D5C.rodata.o(.rodata);                   /* rodata 081279DC */
-        . = ALIGN(4); data/sub_80845A8.rodata.o(.rodata);                   /* rodata 08127B8C */
-        . = ALIGN(4); data/sub_8085C0C.rodata.o(.rodata);                   /* rodata 08127C4C */
-        . = ALIGN(4); data/sub_8085C44.rodata.o(.rodata);                   /* rodata 08127C54 */
-        . = ALIGN(4); data/sub_8085E6C.rodata.o(.rodata);                   /* rodata 08127C80 */
-        . = ALIGN(4); data/sub_80866B0.rodata.o(.rodata);                   /* rodata 08127CD0 */
-        . = ALIGN(4); data/sub_808781C.rodata.o(.rodata);                   /* rodata 08127D84 */
-        . = ALIGN(4); data/sub_80898EC.rodata.o(.rodata);                   /* rodata 08127EB8 */
-        . = ALIGN(4); data/sub_8089EB4.rodata.o(.rodata);                   /* rodata 08127ED8 */
-        . = ALIGN(4); data/sub_8091FA0.rodata.o(.rodata);                   /* rodata 0812825C */
-        . = ALIGN(4); data/sub_8099E60.rodata.o(.rodata);                   /* rodata 081286E4 */
-        . = ALIGN(4); data/sub_809A104.rodata.o(.rodata);                   /* rodata 08128714 */
-        . = ALIGN(4); data/sub_809A2A4.rodata.o(.rodata);                   /* rodata 08128720 */
-        . = ALIGN(4); data/sub_809A468.rodata.o(.rodata);                   /* rodata 08128738 */
-        . = ALIGN(4); data/sub_809A7CC.rodata.o(.rodata);                   /* rodata 08128760 */
-        . = ALIGN(4); data/sub_809B314.rodata.o(.rodata);                   /* rodata 081287B0 */
-        . = ALIGN(4); data/sub_809D808.rodata.o(.rodata);                   /* rodata 08128984 */
+        . = ALIGN(4); data/code_08002524.rodata.o(.rodata);                   /* rodata 0811FEA8 */
+        . = ALIGN(4); data/code_08003450.rodata.o(.rodata);                   /* rodata 0811FFDC */
+        . = ALIGN(4); data/code_08004E8C.rodata.o(.rodata);                   /* rodata 08120174 */
+        . = ALIGN(4); data/code_08042B2C.rodata.o(.rodata);                   /* rodata 08124B88 */
+        . = ALIGN(4); data/code_08044D30.rodata.o(.rodata);                   /* rodata 08124CB0 */
+        . = ALIGN(4); data/code_080450D0.rodata.o(.rodata);                   /* rodata 08124D5C */
+        . = ALIGN(4); data/code_08045E64.rodata.o(.rodata);                   /* rodata 08124E14 */
+        . = ALIGN(4); data/code_08047BEC.rodata.o(.rodata);                   /* rodata 08124F90 */
+        . = ALIGN(4); data/code_08048DD0.rodata.o(.rodata);                   /* rodata 08125010 */
+        . = ALIGN(4); data/code_08049A04.rodata.o(.rodata);                   /* rodata 08125080 */
+        . = ALIGN(4); data/code_0804C594.rodata.o(.rodata);                   /* rodata 08125208 */
+        . = ALIGN(4); data/code_0804CA4C.rodata.o(.rodata);                   /* rodata 08125230 */
+        . = ALIGN(4); data/code_0804CE60.rodata.o(.rodata);                   /* rodata 08125258 */
+        . = ALIGN(4); data/code_0804CF38.rodata.o(.rodata);                   /* rodata 08125264 */
+        . = ALIGN(4); data/code_0804E708.rodata.o(.rodata);                   /* rodata 08125364 */
+        . = ALIGN(4); data/code_0804E808.rodata.o(.rodata);                   /* rodata 08125370 */
+        . = ALIGN(4); data/code_080528F4.rodata.o(.rodata);                   /* rodata 081254C8 */
+        . = ALIGN(4); data/code_08056128.rodata.o(.rodata);                   /* rodata 0812568C */
+        . = ALIGN(4); data/code_080568C8.rodata.o(.rodata);                   /* rodata 081256C4 */
+        . = ALIGN(4); data/code_08057C08.rodata.o(.rodata);                   /* rodata 08125770 */
+        . = ALIGN(4); data/code_08057C88.rodata.o(.rodata);                   /* rodata 0812577C */
+        . = ALIGN(4); data/code_08058EBC.rodata.o(.rodata);                   /* rodata 08125804 */
+        . = ALIGN(4); data/code_08059860.rodata.o(.rodata);                   /* rodata 08125878 */
+        . = ALIGN(4); data/code_08059A30.rodata.o(.rodata);                   /* rodata 081258B4 */
+        . = ALIGN(4); data/code_08059CC4.rodata.o(.rodata);                   /* rodata 081258F8 */
+        . = ALIGN(4); data/code_0805E2D0.rodata.o(.rodata);                   /* rodata 08125D88 */
+        . = ALIGN(4); data/code_0805E384.rodata.o(.rodata);                   /* rodata 08125D90 */
+        . = ALIGN(4); data/code_0805E3EC.rodata.o(.rodata);                   /* rodata 08125D98 */
+        . = ALIGN(4); data/code_0805ED6C.rodata.o(.rodata);                   /* rodata 08125E08 */
+        . = ALIGN(4); data/code_0805F3DC.rodata.o(.rodata);                   /* rodata 08125E6C */
+        . = ALIGN(4); data/code_080617BC.rodata.o(.rodata);                   /* rodata 08126058 */
+        . = ALIGN(4); data/code_080618F8.rodata.o(.rodata);                   /* rodata 08126074 */
+        . = ALIGN(4); data/code_080621D4.rodata.o(.rodata);                   /* rodata 081260D4 */
+        . = ALIGN(4); data/code_08062334.rodata.o(.rodata);                   /* rodata 08126110 */
+        . = ALIGN(4); data/code_08062BAC.rodata.o(.rodata);                   /* rodata 0812615C */
+        . = ALIGN(4); data/code_080649F4.rodata.o(.rodata);                   /* rodata 081261E4 */
+        . = ALIGN(4); data/code_08064E70.rodata.o(.rodata);                   /* rodata 08126224 */
+        . = ALIGN(4); data/code_08068CF8.rodata.o(.rodata);                   /* rodata 081264C8 */
+        . = ALIGN(4); data/code_0806A378.rodata.o(.rodata);                   /* rodata 0812652C */
+        . = ALIGN(4); data/code_0806AA04.rodata.o(.rodata);                   /* rodata 08126608 */
+        . = ALIGN(4); data/code_0806ADD4.rodata.o(.rodata);                   /* rodata 081266BC */
+        . = ALIGN(4); data/code_0806AEE0.rodata.o(.rodata);                   /* rodata 081266DC */
+        . = ALIGN(4); data/code_0806B008.rodata.o(.rodata);                   /* rodata 081266F8 */
+        . = ALIGN(4); data/code_0806BBDC.rodata.o(.rodata);                   /* rodata 081267B0 */
+        . = ALIGN(4); data/code_0806DE18.rodata.o(.rodata);                   /* rodata 081269CC */
+        . = ALIGN(4); data/code_0806DE70.rodata.o(.rodata);                   /* rodata 081269D4 */
+        . = ALIGN(4); data/code_0806E4E8.rodata.o(.rodata);                   /* rodata 08126A08 */
+        . = ALIGN(4); data/code_08071830.rodata.o(.rodata);                   /* rodata 08126C14 */
+        . = ALIGN(4); data/code_080738F4.rodata.o(.rodata);                   /* rodata 08126C98 */
+        . = ALIGN(4); data/code_080751E4.rodata.o(.rodata);                   /* rodata 0812706C */
+        . = ALIGN(4); data/code_080764E0.rodata.o(.rodata);                   /* rodata 081271E0 */
+        . = ALIGN(4); data/code_08077028.rodata.o(.rodata);                   /* rodata 081272E0 */
+        . = ALIGN(4); data/code_0807A280.rodata.o(.rodata);                   /* rodata 081274F4 */
+        . = ALIGN(4); data/code_0807D490.rodata.o(.rodata);                   /* rodata 08127718 */
+        . = ALIGN(4); data/code_0807EBAC.rodata.o(.rodata);                   /* rodata 081277BC */
+        . = ALIGN(4); data/code_0807EC2C.rodata.o(.rodata);                   /* rodata 081277C4 */
+        . = ALIGN(4); data/code_0807ECAC.rodata.o(.rodata);                   /* rodata 081277CC */
+        . = ALIGN(4); data/code_0807EF5C.rodata.o(.rodata);                   /* rodata 081277F8 */
+        . = ALIGN(4); data/code_08081D5C.rodata.o(.rodata);                   /* rodata 081279DC */
+        . = ALIGN(4); data/code_080845A8.rodata.o(.rodata);                   /* rodata 08127B8C */
+        . = ALIGN(4); data/code_08085C0C.rodata.o(.rodata);                   /* rodata 08127C4C */
+        . = ALIGN(4); data/code_08085C44.rodata.o(.rodata);                   /* rodata 08127C54 */
+        . = ALIGN(4); data/code_08085E6C.rodata.o(.rodata);                   /* rodata 08127C80 */
+        . = ALIGN(4); data/code_080866B0.rodata.o(.rodata);                   /* rodata 08127CD0 */
+        . = ALIGN(4); data/code_0808781C.rodata.o(.rodata);                   /* rodata 08127D84 */
+        . = ALIGN(4); data/code_080898EC.rodata.o(.rodata);                   /* rodata 08127EB8 */
+        . = ALIGN(4); data/code_08089EB4.rodata.o(.rodata);                   /* rodata 08127ED8 */
+        . = ALIGN(4); data/code_08091FA0.rodata.o(.rodata);                   /* rodata 0812825C */
+        . = ALIGN(4); data/code_08099E60.rodata.o(.rodata);                   /* rodata 081286E4 */
+        . = ALIGN(4); data/code_0809A104.rodata.o(.rodata);                   /* rodata 08128714 */
+        . = ALIGN(4); data/code_0809A2A4.rodata.o(.rodata);                   /* rodata 08128720 */
+        . = ALIGN(4); data/code_0809A468.rodata.o(.rodata);                   /* rodata 08128738 */
+        . = ALIGN(4); data/code_0809A7CC.rodata.o(.rodata);                   /* rodata 08128760 */
+        . = ALIGN(4); data/code_0809B314.rodata.o(.rodata);                   /* rodata 081287B0 */
+        . = ALIGN(4); data/code_0809D808.rodata.o(.rodata);                   /* rodata 08128984 */
         . = ALIGN(4); data/waku.rodata.o(.rodata);                          /* rodata 08128F88 */
-        . = ALIGN(4); data/sub_80AF948.rodata.o(.rodata);                   /* rodata 08129A7C */
-        . = ALIGN(4); data/sub_80B5308.rodata.o(.rodata);                   /* rodata 0812A268 */
-        . = ALIGN(4); data/sub_80B9014.rodata.o(.rodata);                   /* rodata 0812A5BC */
-        . = ALIGN(4); data/sub_80BAB54.rodata.o(.rodata);                   /* rodata 0812A73C */
-        . = ALIGN(4); data/sub_80BBBFC.rodata.o(.rodata);                   /* rodata 0812A8A8 */
-        . = ALIGN(4); data/sub_80BC738.rodata.o(.rodata);                   /* rodata 0812A9C8 */
+        . = ALIGN(4); data/code_080AF948.rodata.o(.rodata);                   /* rodata 08129A7C */
+        . = ALIGN(4); data/code_080B5308.rodata.o(.rodata);                   /* rodata 0812A268 */
+        . = ALIGN(4); data/code_080B9014.rodata.o(.rodata);                   /* rodata 0812A5BC */
+        . = ALIGN(4); data/code_080BAB54.rodata.o(.rodata);                   /* rodata 0812A73C */
+        . = ALIGN(4); data/code_080BBBFC.rodata.o(.rodata);                   /* rodata 0812A8A8 */
+        . = ALIGN(4); data/code_080BC738.rodata.o(.rodata);                   /* rodata 0812A9C8 */
         . = ALIGN(4); data/battle.rodata.o(.rodata);                        /* rodata 0812AFCC */
-        . = ALIGN(4); data/sub_80DB8F0.rodata.o(.rodata);                   /* rodata 0812BF54 */
+        . = ALIGN(4); data/code_080DB8F0.rodata.o(.rodata);                   /* rodata 0812BF54 */
         . = ALIGN(4); data/bsub1.rodata.o(.rodata);                         /* rodata 0812C2CC */
         . = ALIGN(4); data/bsub2.rodata.o(.rodata);                         /* rodata 0812C418 */
         . = ALIGN(4); data/bsub4.rodata.o(.rodata);                         /* rodata 0812C680 */
@@ -348,7 +348,7 @@ SECTIONS
         . = ALIGN(4); data/bmagic.rodata.o(.rodata);                        /* rodata 0812E648 */
         . = ALIGN(4); data/befect.rodata.o(.rodata);                        /* rodata 0812E7B0 */
         . = ALIGN(4); data/btama.rodata.o(.rodata);                         /* rodata 0812E820 */
-        . = ALIGN(4); data/sub_81131A8.rodata.o(.rodata);                   /* rodata 08141DE4 */
+        . = ALIGN(4); data/code_081131A8.rodata.o(.rodata);                   /* rodata 08141DE4 */
         . = ALIGN(4); src/m4a.o(.rodata);
         . = ALIGN(4); data/sound_data.o(.rodata);                           /* rodata 08142684 */
         . = ALIGN(4); src/agb_print.o(.rodata);
