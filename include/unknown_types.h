@@ -47,6 +47,68 @@ enum
 
 #define CONSTANT_SLOT_AUTO 0xFFu
 
+enum
+{
+    FLAG_UNK_03004ED8_0 = 1 << 0,
+};
+
+enum
+{
+    FLAG_UNK_030023C4_BIT_0 = 1 << 0,
+    FLAG_UNK_030023C4_WINDIM = 1 << 3,
+
+    FLAG_UNK_030023C4_BIT_9 = 1 << 9,
+
+    FLAG_UNK_030023C4_INHDMA = 1 << 10,
+
+    FLAG_UNK_030023C4_BG0TM = 1 << 16,
+    FLAG_UNK_030023C4_BG1TM = 1 << 17,
+    FLAG_UNK_030023C4_BG2TM = 1 << 18,
+    FLAG_UNK_030023C4_BG3TM = 1 << 19,
+
+    FLAG_UNK_030023C4_BIT_20 = 1 << 20,
+
+    FLAG_UNK_030023C4_ANYTM =
+        FLAG_UNK_030023C4_BG0TM | FLAG_UNK_030023C4_BG1TM | FLAG_UNK_030023C4_BG2TM | FLAG_UNK_030023C4_BG3TM,
+};
+
+// NOTE: RGB_... could be moved to agbsomething
+
+enum
+{
+    RGB_SHIFT_R = 0,
+    RGB_SHIFT_G = 5,
+    RGB_SHIFT_B = 10,
+};
+
+enum
+{
+    RGB_MASK_R = 0x1F << RGB_SHIFT_R,
+    RGB_MASK_G = 0x1F << RGB_SHIFT_G,
+    RGB_MASK_B = 0x1F << RGB_SHIFT_B,
+};
+
+enum
+{
+    FLAG_UNK_030023AC_0 = (1 << 0),
+    FLAG_UNK_030023AC_1 = (1 << 1),
+    FLAG_UNK_030023AC_2 = (1 << 2),
+    FLAG_UNK_030023AC_3 = (1 << 3),
+    FLAG_UNK_030023AC_4 = (1 << 4),
+    FLAG_UNK_030023AC_5 = (1 << 5),
+    FLAG_UNK_030023AC_6 = (1 << 6),
+    FLAG_UNK_030023AC_7 = (1 << 7),
+
+    FLAG_UNK_030023AC_01234 =
+        FLAG_UNK_030023AC_0 | FLAG_UNK_030023AC_1 | FLAG_UNK_030023AC_2 | FLAG_UNK_030023AC_3 | FLAG_UNK_030023AC_4,
+};
+
+enum
+{
+    ENUM_FUNC_0800176C_ARG_0,
+    ENUM_FUNC_0800176C_ARG_1,
+};
+
 // real types
 
 typedef void IntrFunc(void);
@@ -65,7 +127,7 @@ struct Task
 
 typedef struct Task Task;
 
-struct Unk_03002410
+struct UnkSt_03002410
 {
     /* 00 */ u8 unk_00;
     /* 01 */ u8 unk_01;
@@ -76,7 +138,7 @@ struct Unk_03002410
     /* 08 */ struct Task tasks[NUM_TASK + 1];
 };
 
-struct Unk_03005350
+struct UnkSt_03005350
 {
     /* 00 */ u8 unk_00;
     /* 01 */ u8 unk_01;
@@ -99,14 +161,14 @@ struct Unk_03005350
     /* 5C */ STRUCT_PAD(0x5C, 0x60);
 };
 
-struct Unk_03005C44
+struct UnkSt_03005C44
 {
     /* 00 */ u8 unk_00; // "hdma" chunk len
     /* 01 */ u8 unk_01; // other "hdma" chunk len
     /* 02 */ u8 unk_02; // ?
 };
 
-struct Unk_030055D0
+struct UnkSt_030055D0
 {
     /* 00 */ STRUCT_PAD(0x00, 0x10);
     /* 10 */ u16 unk_10;
@@ -149,14 +211,14 @@ struct SavedGameState
     /* 4BA */ STRUCT_PAD(0x4BA, 0x500);
 };
 
-struct Unk_030051B0
+struct UnkSt_030051B0
 {
     /* 00 */ STRUCT_PAD(0x00, 0x0A);
     /* 0A */ u8 unk_0A;
     /* 0B */ STRUCT_PAD(0x0B, 0x38);
 };
 
-struct Unk_030037E0
+struct UnkSt_030037E0
 {
     /* 000 */ STRUCT_PAD(0x000, 0x002);
     /* 002 */ u16 unk_002;
@@ -171,7 +233,7 @@ struct Unk_030037E0
     /* 098 */ STRUCT_PAD(0x098, 0x124);
 };
 
-struct Unk_03003110
+struct UnkSt_03003110
 {
     /* 00 */ STRUCT_PAD(0x00, 0x4C);
     /* 4C */ u8 unk_4C;
@@ -180,7 +242,7 @@ struct Unk_03003110
     /* A6 */ STRUCT_PAD(0xA6, 0xAC);
 };
 
-struct Unk_03006AF0
+struct UnkSt_03006AF0
 {
     /* 00 */ STRUCT_PAD(0x00, 0x0E);
     /* 0E */ u16 unk_0E;

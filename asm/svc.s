@@ -50,4 +50,4 @@ SoftResetRom: @ 0x08119B08
 	svc #0
 	.align 2, 0
 _08119B1C: .4byte 0x04000208
-_08119B20: .4byte gUnknown_03007FFA
+_08119B20: .4byte Unk_03007FFA

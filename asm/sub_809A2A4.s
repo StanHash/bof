@@ -60,7 +60,7 @@ _0809A30A:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0809A314: .4byte gUnknown_08128720
+_0809A314: .4byte Unk_08128720
 
 	THUMB_FUNC_START sub_809A318
 sub_809A318: @ 0x0809A318
@@ -165,7 +165,7 @@ sub_809A3AC: @ 0x0809A3AC
 	str r1, [r0, #0x78]
 	b _0809A42E
 	.align 2, 0
-_0809A3E0: .4byte gUnknown_03003100
+_0809A3E0: .4byte Unk_03003100
 _0809A3E4: .4byte sub_809A8BC+1
 _0809A3E8:
 	ldr r1, [r7, #4]

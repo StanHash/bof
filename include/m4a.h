@@ -363,7 +363,7 @@ struct SongEnt
 };
 
 extern struct MusicPlayerEnt const MusicPlayerTable[];
-extern struct SongEnt const gSongTable[];
+extern struct SongEnt const SongTable[];
 
 void m4aSoundInit(void);
 void m4aSoundMode(u32 mode);

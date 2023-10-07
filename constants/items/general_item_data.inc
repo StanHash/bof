@@ -1,6 +1,6 @@
     .align 2
-    .global gUnknown_082E60B4
-gUnknown_082E60B4:
+    .global Unk_082E60B4
+Unk_082E60B4:
 @ Item 000 / 0x000 - 70GP
     .string "70ゼニ-"	@name
     .fill   3, 1, 0	@filler

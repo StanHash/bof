@@ -29,4 +29,4 @@ sub_8085C0C: @ 0x08085C0C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08085C40: .4byte gUnknown_08127C4C
+_08085C40: .4byte Unk_08127C4C

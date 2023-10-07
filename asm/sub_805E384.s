@@ -28,7 +28,7 @@ _0805E3A6:
 	bls _0805E3B8
 	b _0805E3E0
 	.align 2, 0
-_0805E3B4: .4byte gUnknown_08125D90
+_0805E3B4: .4byte Unk_08125D90
 _0805E3B8:
 	adds r0, r7, #4
 	adds r1, r7, #0

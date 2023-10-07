@@ -24,7 +24,7 @@ SECTIONS
     {
         asm/crt0.o(.text);
         src/main.o(.text);                          /* rodata 0811FB18 */
-        asm/sub_80007C4.o(.text);                   /* rodata 0811FB38 */
+        src/code_080007C4.o(.text);                 /* rodata 0811FB38 */
         asm/sub_8002524.o(.text);                   /* rodata 0811FEA8 */
         asm/sub_8003450.o(.text);                   /* rodata 0811FFDC */
         asm/sub_8004E8C.o(.text);                   /* rodata 08120174 */
@@ -215,8 +215,8 @@ SECTIONS
     .rodata : ALIGN(4)
     {
         /* Read Only Data */
-        . = ALIGN(4); src/main.o(.rodata);                                  /* rodata 0811FB18 */
-        . = ALIGN(4); data/sub_80007C4.rodata.o(.rodata);                   /* rodata 0811FB38 */
+        . = ALIGN(4); src/main.o(.rodata);
+        . = ALIGN(4); src/code_080007C4.o(.rodata);
         . = ALIGN(4); data/sub_8002524.rodata.o(.rodata);                   /* rodata 0811FEA8 */
         . = ALIGN(4); data/sub_8003450.rodata.o(.rodata);                   /* rodata 0811FFDC */
         . = ALIGN(4); data/sub_8004E8C.rodata.o(.rodata);                   /* rodata 08120174 */
@@ -381,10 +381,10 @@ SECTIONS
         . = ALIGN(4); *libc.a:strcmp.o(.rodata);
         . = ALIGN(4); *libc.a:strlen.o(.rodata);
         . = ALIGN(4); *libc.a:syscalls.o(.rodata);
-    } = 0
 
-    .data : ALIGN(4)
-    {
+        . = ALIGN(0x200);
+
+        . = ALIGN(4); src/code_080007C4.o(.data);
         . = ALIGN(4); data/data1.o(.data);
         . = ALIGN(4); *libc.a:impure.o(.data);
         . = ALIGN(4); *libc.a:locale.o(.data);

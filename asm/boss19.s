@@ -25,7 +25,7 @@ mv_boss19: @ 0x080F9D30
 	bl mv_moss22
 	b _080F9E22
 	.align 2, 0
-_080F9D5C: .4byte gUnknown_03006B10
+_080F9D5C: .4byte Unk_03006B10
 _080F9D60:
 	ldr r1, [r7]
 	adds r0, r1, #0
@@ -94,8 +94,8 @@ _080F9DE8:
 	bl DebugPrintf
 	b _080F9E08
 	.align 2, 0
-_080F9E00: .4byte gUnknown_0812D5D8
-_080F9E04: .4byte gUnknown_0812D5FC
+_080F9E00: .4byte Unk_0812D5D8
+_080F9E04: .4byte Unk_0812D5FC
 _080F9E08:
 	ldr r1, [r7]
 	adds r0, r1, #0
@@ -165,7 +165,7 @@ sub_80F9E2C: @ 0x080F9E2C
 	strh r1, [r0]
 	b _080F9ED6
 	.align 2, 0
-_080F9E88: .4byte gUnknown_03004150
+_080F9E88: .4byte Unk_03004150
 _080F9E8C: .4byte 0x00002F38
 _080F9E90:
 	ldr r0, [r7]
@@ -187,7 +187,7 @@ _080F9E90:
 	strh r1, [r0]
 	b _080F9ED6
 	.align 2, 0
-_080F9EB4: .4byte gUnknown_03004274
+_080F9EB4: .4byte Unk_03004274
 _080F9EB8: .4byte 0x00000F68
 _080F9EBC:
 	adds r0, r7, #4
@@ -308,7 +308,7 @@ _080F9ED6:
 	b _080F9FD8
 	.align 2, 0
 _080F9FA4: .4byte 0x00002F68
-_080F9FA8: .4byte gUnknown_03004150
+_080F9FA8: .4byte Unk_03004150
 _080F9FAC:
 	ldr r1, _080F9FDC
 	adds r0, r1, #0
@@ -335,7 +335,7 @@ _080F9FAC:
 _080F9FD8:
 	b _080F9FE6
 	.align 2, 0
-_080F9FDC: .4byte gUnknown_03006B10
+_080F9FDC: .4byte Unk_03006B10
 _080F9FE0:
 	adds r0, r7, #4
 	movs r1, #2
@@ -408,7 +408,7 @@ sub_80FA050: @ 0x080FA050
 	beq _080FA068
 	b _080FA088
 	.align 2, 0
-_080FA064: .4byte gUnknown_03006AF0
+_080FA064: .4byte Unk_03006AF0
 _080FA068:
 	ldr r0, [r7]
 	adds r1, r0, #0
@@ -476,8 +476,8 @@ _080FA0CC:
 	bl DebugPrintf
 	b _080FA0EC
 	.align 2, 0
-_080FA0E4: .4byte gUnknown_0812D628
-_080FA0E8: .4byte gUnknown_0812D5FC
+_080FA0E4: .4byte Unk_0812D628
+_080FA0E8: .4byte Unk_0812D5FC
 _080FA0EC:
 	add sp, #4
 	pop {r4, r7}
@@ -715,8 +715,8 @@ _080FA2B0:
 	bl DebugPrintf
 	b _080FA2D0
 	.align 2, 0
-_080FA2C8: .4byte gUnknown_0812D654
-_080FA2CC: .4byte gUnknown_0812D5FC
+_080FA2C8: .4byte Unk_0812D654
+_080FA2CC: .4byte Unk_0812D5FC
 _080FA2D0:
 	add sp, #4
 	pop {r4, r7}
@@ -902,8 +902,8 @@ _080FA3FC:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080FA438: .4byte gUnknown_03006AF0
-_080FA43C: .4byte gUnknown_03006B10
+_080FA438: .4byte Unk_03006AF0
+_080FA43C: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80FA440
 sub_80FA440: @ 0x080FA440
@@ -933,7 +933,7 @@ sub_80FA440: @ 0x080FA440
 	beq _080FA478
 	b _080FA526
 	.align 2, 0
-_080FA474: .4byte gUnknown_03006B10
+_080FA474: .4byte Unk_03006B10
 _080FA478:
 	adds r0, r7, #4
 	movs r1, #0xf
@@ -1027,8 +1027,8 @@ _080FA526:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080FA530: .4byte gUnknown_03006B10
-_080FA534: .4byte gUnknown_03006AF0
+_080FA530: .4byte Unk_03006B10
+_080FA534: .4byte Unk_03006AF0
 
 	THUMB_FUNC_START sub_80FA538
 sub_80FA538: @ 0x080FA538
@@ -1051,7 +1051,7 @@ sub_80FA538: @ 0x080FA538
 	bl sub_80FA58C
 	b _080FA56A
 	.align 2, 0
-_080FA560: .4byte gUnknown_03006B10
+_080FA560: .4byte Unk_03006B10
 _080FA564:
 	ldr r0, [r7]
 	bl sub_80FA574
@@ -1118,7 +1118,7 @@ sub_80FA58C: @ 0x080FA58C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080FA5E0: .4byte gUnknown_03006AF0
+_080FA5E0: .4byte Unk_03006AF0
 
 	THUMB_FUNC_START sub_80FA5E4
 sub_80FA5E4: @ 0x080FA5E4
@@ -1144,7 +1144,7 @@ sub_80FA5E4: @ 0x080FA5E4
 	beq _080FA614
 	b _080FA680
 	.align 2, 0
-_080FA610: .4byte gUnknown_03006B10
+_080FA610: .4byte Unk_03006B10
 _080FA614:
 	ldr r0, [r7]
 	movs r1, #8
@@ -1204,7 +1204,7 @@ _080FA680:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080FA688: .4byte gUnknown_03006B10
+_080FA688: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80FA68C
 sub_80FA68C: @ 0x080FA68C
@@ -1355,7 +1355,7 @@ _080FA7A0:
 	bl sub_8070DF0
 	b _080FA8AC
 	.align 2, 0
-_080FA7B0: .4byte gUnknown_03004150
+_080FA7B0: .4byte Unk_03004150
 _080FA7B4:
 	adds r0, r7, #6
 	movs r2, #0x96
@@ -1577,7 +1577,7 @@ sub_80FA934: @ 0x080FA934
 	beq _080FA964
 	b _080FAA04
 	.align 2, 0
-_080FA960: .4byte gUnknown_03006B10
+_080FA960: .4byte Unk_03006B10
 _080FA964:
 	ldr r0, _080FAA0C
 	adds r1, r0, #0
@@ -1665,8 +1665,8 @@ _080FAA04:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080FAA0C: .4byte gUnknown_03006B10
-_080FAA10: .4byte gUnknown_03006AF0
+_080FAA0C: .4byte Unk_03006B10
+_080FAA10: .4byte Unk_03006AF0
 
 	THUMB_FUNC_START mv_moss22
 mv_moss22: @ 0x080FAA14
@@ -1754,8 +1754,8 @@ _080FAAC6:
 	bl DebugPrintf
 	b _080FAAE8
 	.align 2, 0
-_080FAADC: .4byte gUnknown_0812D6AC
-_080FAAE0: .4byte gUnknown_0812D5FC
+_080FAADC: .4byte Unk_0812D6AC
+_080FAAE0: .4byte Unk_0812D5FC
 _080FAAE4: .4byte 0x00000239
 _080FAAE8:
 	ldr r0, [r7]
@@ -1960,8 +1960,8 @@ _080FAC70:
 	bl DebugPrintf
 	b _080FAC90
 	.align 2, 0
-_080FAC84: .4byte gUnknown_0812D6DC
-_080FAC88: .4byte gUnknown_0812D5FC
+_080FAC84: .4byte Unk_0812D6DC
+_080FAC88: .4byte Unk_0812D5FC
 _080FAC8C: .4byte 0x00000275
 _080FAC90:
 	add sp, #4
@@ -2295,4 +2295,4 @@ _080FAEF8:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080FAF00: .4byte gUnknown_03006B10
+_080FAF00: .4byte Unk_03006B10

@@ -96,7 +96,7 @@ _0808999C:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080899A4: .4byte gUnknown_08127EB8
+_080899A4: .4byte Unk_08127EB8
 
 	THUMB_FUNC_START sub_80899A8
 sub_80899A8: @ 0x080899A8

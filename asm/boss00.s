@@ -95,8 +95,8 @@ _080ECCA4:
 	bl DebugPrintf
 	b _080ECCC4
 	.align 2, 0
-_080ECCBC: .4byte gUnknown_0812CA60
-_080ECCC0: .4byte gUnknown_0812CA84
+_080ECCBC: .4byte Unk_0812CA60
+_080ECCC0: .4byte Unk_0812CA84
 _080ECCC4:
 	ldr r0, [r7]
 	ldr r1, [r7]
@@ -231,8 +231,8 @@ _080ECDC8:
 	bl DebugPrintf
 	b _080ECDE8
 	.align 2, 0
-_080ECDE0: .4byte gUnknown_0812CA9C
-_080ECDE4: .4byte gUnknown_0812CA84
+_080ECDE0: .4byte Unk_0812CA9C
+_080ECDE4: .4byte Unk_0812CA84
 _080ECDE8:
 	add sp, #4
 	pop {r4, r7}
@@ -754,7 +754,7 @@ sub_80ED170: @ 0x080ED170
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080ED1D0: .4byte gUnknown_03006B10
+_080ED1D0: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80ED1D4
 sub_80ED1D4: @ 0x080ED1D4
@@ -953,8 +953,8 @@ _080ED33C:
 	bl DebugPrintf
 	b _080ED35C
 	.align 2, 0
-_080ED354: .4byte gUnknown_0812CAD0
-_080ED358: .4byte gUnknown_0812CA84
+_080ED354: .4byte Unk_0812CAD0
+_080ED358: .4byte Unk_0812CA84
 _080ED35C:
 	add sp, #4
 	pop {r4, r7}
@@ -1225,7 +1225,7 @@ _080ED564:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080ED56C: .4byte gUnknown_03006B10
+_080ED56C: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80ED570
 sub_80ED570: @ 0x080ED570

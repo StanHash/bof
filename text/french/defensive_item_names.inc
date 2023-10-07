@@ -1,568 +1,568 @@
-    .global gUnknown_0820E34A
-gUnknown_0820E34A:
+    .global Unk_0820E34A
+Unk_0820E34A:
     .string "Robe{END}"
 
-    .global gUnknown_0820E34F
-gUnknown_0820E34F:
+    .global Unk_0820E34F
+Unk_0820E34F:
     .string "CqDaim{END}"
 
-    .global gUnknown_0820E356
-gUnknown_0820E356:
+    .global Unk_0820E356
+Unk_0820E356:
     .string "RobeLèg{END}"
 
-    .global gUnknown_0820E35E
-gUnknown_0820E35E:
+    .global Unk_0820E35E
+Unk_0820E35E:
     .string "ArmMét{END}"
 
-    .global gUnknown_0820E365
-gUnknown_0820E365:
+    .global Unk_0820E365
+Unk_0820E365:
     .string "RobeSoie{END}"
 
-    .global gUnknown_0820E36E
-gUnknown_0820E36E:
+    .global Unk_0820E36E
+Unk_0820E36E:
     .string "Habits{END}"
 
-    .global gUnknown_0820E375
-gUnknown_0820E375:
+    .global Unk_0820E375
+Unk_0820E375:
     .string "HabLèg{END}"
 
-    .global gUnknown_0820E37C
-gUnknown_0820E37C:
+    .global Unk_0820E37C
+Unk_0820E37C:
     .string "RobeSoir{END}"
 
-    .global gUnknown_0820E385
-gUnknown_0820E385:
+    .global Unk_0820E385
+Unk_0820E385:
     .string "ArmPad{END}"
 
-    .global gUnknown_0820E38C
-gUnknown_0820E38C:
+    .global Unk_0820E38C
+Unk_0820E38C:
     .string "PeauLoup{END}"
 
-    .global gUnknown_0820E395
-gUnknown_0820E395:
+    .global Unk_0820E395
+Unk_0820E395:
     .string "ArmRôdr{END}"
 
-    .global gUnknown_0820E39D
-gUnknown_0820E39D:
+    .global Unk_0820E39D
+Unk_0820E39D:
     .string "ArmBronz{END}"
 
-    .global gUnknown_0820E3A6
-gUnknown_0820E3A6:
+    .global Unk_0820E3A6
+Unk_0820E3A6:
     .string "ArmPlaqu{END}"
 
-    .global gUnknown_0820E3AF
-gUnknown_0820E3AF:
+    .global Unk_0820E3AF
+Unk_0820E3AF:
     .string "Faux{END}"
 
-    .global gUnknown_0820E3B4
-gUnknown_0820E3B4:
+    .global Unk_0820E3B4
+Unk_0820E3B4:
     .string "ArmFeu{END}"
 
-    .global gUnknown_0820E3BB
-gUnknown_0820E3BB:
+    .global Unk_0820E3BB
+Unk_0820E3BB:
     .string "HabImmac{END}"
 
-    .global gUnknown_0820E3C4
-gUnknown_0820E3C4:
+    .global Unk_0820E3C4
+Unk_0820E3C4:
     .string "ArmuSp{END}"
 
-    .global gUnknown_0820E3CB
-gUnknown_0820E3CB:
+    .global Unk_0820E3CB
+Unk_0820E3CB:
     .string "ArmGl{END}"
 
-    .global gUnknown_0820E3D1
-gUnknown_0820E3D1:
+    .global Unk_0820E3D1
+Unk_0820E3D1:
     .string "MaillM{END}"
 
-    .global gUnknown_0820E3D8
-gUnknown_0820E3D8:
+    .global Unk_0820E3D8
+Unk_0820E3D8:
     .string "Faux{END}"
 
-    .global gUnknown_0820E3DD
-gUnknown_0820E3DD:
+    .global Unk_0820E3DD
+Unk_0820E3DD:
     .string "CapEp{END}"
 
-    .global gUnknown_0820E3E3
-gUnknown_0820E3E3:
+    .global Unk_0820E3E3
+Unk_0820E3E3:
     .string "CapVol{END}"
 
-    .global gUnknown_0820E3EA
-gUnknown_0820E3EA:
+    .global Unk_0820E3EA
+Unk_0820E3EA:
     .string "RobeMal{END}"
 
-    .global gUnknown_0820E3F2
-gUnknown_0820E3F2:
+    .global Unk_0820E3F2
+Unk_0820E3F2:
     .string "RobeVel{END}"
 
-    .global gUnknown_0820E3FA
-gUnknown_0820E3FA:
+    .global Unk_0820E3FA
+Unk_0820E3FA:
     .string "ArmDaim{END}"
 
-    .global gUnknown_0820E402
-gUnknown_0820E402:
+    .global Unk_0820E402
+Unk_0820E402:
     .string "CottMail{END}"
 
-    .global gUnknown_0820E40B
-gUnknown_0820E40B:
+    .global Unk_0820E40B
+Unk_0820E40B:
     .string "MaillFer{END}"
 
-    .global gUnknown_0820E414
-gUnknown_0820E414:
+    .global Unk_0820E414
+Unk_0820E414:
     .string "RobLaine{END}"
 
-    .global gUnknown_0820E41D
-gUnknown_0820E41D:
+    .global Unk_0820E41D
+Unk_0820E41D:
     .string "RobeDaim{END}"
 
-    .global gUnknown_0820E426
-gUnknown_0820E426:
+    .global Unk_0820E426
+Unk_0820E426:
     .string "ArmVie{END}"
 
-    .global gUnknown_0820E42D
-gUnknown_0820E42D:
+    .global Unk_0820E42D
+Unk_0820E42D:
     .string "ArmPuis{END}"
 
-    .global gUnknown_0820E435
-gUnknown_0820E435:
+    .global Unk_0820E435
+Unk_0820E435:
     .string "ArmQrtz{END}"
 
-    .global gUnknown_0820E43D
-gUnknown_0820E43D:
+    .global Unk_0820E43D
+Unk_0820E43D:
     .string "ArmAngle{END}"
 
-    .global gUnknown_0820E446
-gUnknown_0820E446:
+    .global Unk_0820E446
+Unk_0820E446:
     .string "Faux{END}"
 
-    .global gUnknown_0820E44B
-gUnknown_0820E44B:
+    .global Unk_0820E44B
+Unk_0820E44B:
     .string "MantGour{END}"
 
-    .global gUnknown_0820E454
-gUnknown_0820E454:
+    .global Unk_0820E454
+Unk_0820E454:
     .string "Faux{END}"
 
-    .global gUnknown_0820E459
-gUnknown_0820E459:
+    .global Unk_0820E459
+Unk_0820E459:
     .string "Faux{END}"
 
-    .global gUnknown_0820E45E
-gUnknown_0820E45E:
+    .global Unk_0820E45E
+Unk_0820E45E:
     .string "ArmMond{END}"
 
-    .global gUnknown_0820E466
-gUnknown_0820E466:
+    .global Unk_0820E466
+Unk_0820E466:
     .string "ArmSage{END}"
 
-    .global gUnknown_0820E46E
-gUnknown_0820E46E:
+    .global Unk_0820E46E
+Unk_0820E46E:
     .string "Faux{END}"
 
-    .global gUnknown_0820E473
-gUnknown_0820E473:
+    .global Unk_0820E473
+Unk_0820E473:
     .string "RobeMyst{END}"
 
-    .global gUnknown_0820E47C
-gUnknown_0820E47C:
+    .global Unk_0820E47C
+Unk_0820E47C:
     .string "RobeTer{END}"
 
-    .global gUnknown_0820E484
-gUnknown_0820E484:
+    .global Unk_0820E484
+Unk_0820E484:
     .string "Faux{END}"
 
-    .global gUnknown_0820E489
-gUnknown_0820E489:
+    .global Unk_0820E489
+Unk_0820E489:
     .string "ArmAg{END}"
 
-    .global gUnknown_0820E48F
-gUnknown_0820E48F:
+    .global Unk_0820E48F
+Unk_0820E48F:
     .string "Faux{END}"
 
-    .global gUnknown_0820E494
-gUnknown_0820E494:
+    .global Unk_0820E494
+Unk_0820E494:
     .string "CapChass{END}"
 
-    .global gUnknown_0820E49D
-gUnknown_0820E49D:
+    .global Unk_0820E49D
+Unk_0820E49D:
     .string "CapClair{END}"
 
-    .global gUnknown_0820E4A6
-gUnknown_0820E4A6:
+    .global Unk_0820E4A6
+Unk_0820E4A6:
     .string "Faux{END}"
 
-    .global gUnknown_0820E4AB
-gUnknown_0820E4AB:
+    .global Unk_0820E4AB
+Unk_0820E4AB:
     .string "BoucBois{END}"
 
-    .global gUnknown_0820E4B4
-gUnknown_0820E4B4:
+    .global Unk_0820E4B4
+Unk_0820E4B4:
     .string "Gantelet{END}"
 
-    .global gUnknown_0820E4BD
-gUnknown_0820E4BD:
+    .global Unk_0820E4BD
+Unk_0820E4BD:
     .string "BoucDaim{END}"
 
-    .global gUnknown_0820E4C6
-gUnknown_0820E4C6:
+    .global Unk_0820E4C6
+Unk_0820E4C6:
     .string "BoucGard{END}"
 
-    .global gUnknown_0820E4CF
-gUnknown_0820E4CF:
+    .global Unk_0820E4CF
+Unk_0820E4CF:
     .string "Bracelet{END}"
 
-    .global gUnknown_0820E4D8
-gUnknown_0820E4D8:
+    .global Unk_0820E4D8
+Unk_0820E4D8:
     .string "BoucFer{END}"
 
-    .global gUnknown_0820E4E0
-gUnknown_0820E4E0:
+    .global Unk_0820E4E0
+Unk_0820E4E0:
     .string "BoucBrnz{END}"
 
-    .global gUnknown_0820E4E9
-gUnknown_0820E4E9:
+    .global Unk_0820E4E9
+Unk_0820E4E9:
     .string "BoucMét{END}"
 
-    .global gUnknown_0820E4F1
-gUnknown_0820E4F1:
+    .global Unk_0820E4F1
+Unk_0820E4F1:
     .string "BoucFeu{END}"
 
-    .global gUnknown_0820E4F9
-gUnknown_0820E4F9:
+    .global Unk_0820E4F9
+Unk_0820E4F9:
     .string "Faux{END}"
 
-    .global gUnknown_0820E4FE
-gUnknown_0820E4FE:
+    .global Unk_0820E4FE
+Unk_0820E4FE:
     .string "PetBouc{END}"
 
-    .global gUnknown_0820E506
-gUnknown_0820E506:
+    .global Unk_0820E506
+Unk_0820E506:
     .string "EcuFer{END}"
 
-    .global gUnknown_0820E50D
-gUnknown_0820E50D:
+    .global Unk_0820E50D
+Unk_0820E50D:
     .string "EcuMét{END}"
 
-    .global gUnknown_0820E514
-gUnknown_0820E514:
+    .global Unk_0820E514
+Unk_0820E514:
     .string "Faux{END}"
 
-    .global gUnknown_0820E519
-gUnknown_0820E519:
+    .global Unk_0820E519
+Unk_0820E519:
     .string "Poignet{END}"
 
-    .global gUnknown_0820E521
-gUnknown_0820E521:
+    .global Unk_0820E521
+Unk_0820E521:
     .string "BoucGl{END}"
 
-    .global gUnknown_0820E528
-gUnknown_0820E528:
+    .global Unk_0820E528
+Unk_0820E528:
     .string "BoucPro{END}"
 
-    .global gUnknown_0820E530
-gUnknown_0820E530:
+    .global Unk_0820E530
+Unk_0820E530:
     .string "BracAmr{END}"
 
-    .global gUnknown_0820E538
-gUnknown_0820E538:
+    .global Unk_0820E538
+Unk_0820E538:
     .string "BracVent{END}"
 
-    .global gUnknown_0820E541
-gUnknown_0820E541:
+    .global Unk_0820E541
+Unk_0820E541:
     .string "AnnRubis{END}"
 
-    .global gUnknown_0820E54A
-gUnknown_0820E54A:
+    .global Unk_0820E54A
+Unk_0820E54A:
     .string "Faux{END}"
 
-    .global gUnknown_0820E54F
-gUnknown_0820E54F:
+    .global Unk_0820E54F
+Unk_0820E54F:
     .string "BracNoir{END}"
 
-    .global gUnknown_0820E558
-gUnknown_0820E558:
+    .global Unk_0820E558
+Unk_0820E558:
     .string "Faux{END}"
 
-    .global gUnknown_0820E55D
-gUnknown_0820E55D:
+    .global Unk_0820E55D
+Unk_0820E55D:
     .string "BoucMyst{END}"
 
-    .global gUnknown_0820E566
-gUnknown_0820E566:
+    .global Unk_0820E566
+Unk_0820E566:
     .string "Gant{END}"
 
-    .global gUnknown_0820E56B
-gUnknown_0820E56B:
+    .global Unk_0820E56B
+Unk_0820E56B:
     .string "Faux{END}"
 
-    .global gUnknown_0820E570
-gUnknown_0820E570:
+    .global Unk_0820E570
+Unk_0820E570:
     .string "PiègeGar{END}"
 
-    .global gUnknown_0820E579
-gUnknown_0820E579:
+    .global Unk_0820E579
+Unk_0820E579:
     .string "BoucLèg{END}"
 
-    .global gUnknown_0820E581
-gUnknown_0820E581:
+    .global Unk_0820E581
+Unk_0820E581:
     .string "AnnMag{END}"
 
-    .global gUnknown_0820E588
-gUnknown_0820E588:
+    .global Unk_0820E588
+Unk_0820E588:
     .string "Bandage{END}"
 
-    .global gUnknown_0820E590
-gUnknown_0820E590:
+    .global Unk_0820E590
+Unk_0820E590:
     .string "Faux{END}"
 
-    .global gUnknown_0820E595
-gUnknown_0820E595:
+    .global Unk_0820E595
+Unk_0820E595:
     .string "BracArg{END}"
 
-    .global gUnknown_0820E59D
-gUnknown_0820E59D:
+    .global Unk_0820E59D
+Unk_0820E59D:
     .string "Faux{END}"
 
-    .global gUnknown_0820E5A2
-gUnknown_0820E5A2:
+    .global Unk_0820E5A2
+Unk_0820E5A2:
     .string "BoucFrd{END}"
 
-    .global gUnknown_0820E5AA
-gUnknown_0820E5AA:
+    .global Unk_0820E5AA
+Unk_0820E5AA:
     .string "GantChas{END}"
 
-    .global gUnknown_0820E5B3
-gUnknown_0820E5B3:
+    .global Unk_0820E5B3
+Unk_0820E5B3:
     .string "BoucMasq{END}"
 
-    .global gUnknown_0820E5BC
-gUnknown_0820E5BC:
+    .global Unk_0820E5BC
+Unk_0820E5BC:
     .string "BoucDrag{END}"
 
-    .global gUnknown_0820E5C5
-gUnknown_0820E5C5:
+    .global Unk_0820E5C5
+Unk_0820E5C5:
     .string "Faux{END}"
 
-    .global gUnknown_0820E5CA
-gUnknown_0820E5CA:
+    .global Unk_0820E5CA
+Unk_0820E5CA:
     .string "BoucLave{END}"
 
-    .global gUnknown_0820E5D3
-gUnknown_0820E5D3:
+    .global Unk_0820E5D3
+Unk_0820E5D3:
     .string "Faux{END}"
 
-    .global gUnknown_0820E5D8
-gUnknown_0820E5D8:
+    .global Unk_0820E5D8
+Unk_0820E5D8:
     .string "CasqDaim{END}"
 
-    .global gUnknown_0820E5E1
-gUnknown_0820E5E1:
+    .global Unk_0820E5E1
+Unk_0820E5E1:
     .string "Viseur{END}"
 
-    .global gUnknown_0820E5E8
-gUnknown_0820E5E8:
+    .global Unk_0820E5E8
+Unk_0820E5E8:
     .string "Bandeau{END}"
 
-    .global gUnknown_0820E5F0
-gUnknown_0820E5F0:
+    .global Unk_0820E5F0
+Unk_0820E5F0:
     .string "Tiare{END}"
 
-    .global gUnknown_0820E5F6
-gUnknown_0820E5F6:
+    .global Unk_0820E5F6
+Unk_0820E5F6:
     .string "BndChaîn{END}"
 
-    .global gUnknown_0820E5FF
-gUnknown_0820E5FF:
+    .global Unk_0820E5FF
+Unk_0820E5FF:
     .string "TiareOr{END}"
 
-    .global gUnknown_0820E607
-gUnknown_0820E607:
+    .global Unk_0820E607
+Unk_0820E607:
     .string "CasqEcho{END}"
 
-    .global gUnknown_0820E610
-gUnknown_0820E610:
+    .global Unk_0820E610
+Unk_0820E610:
     .string "MasqFer{END}"
 
-    .global gUnknown_0820E618
-gUnknown_0820E618:
+    .global Unk_0820E618
+Unk_0820E618:
     .string "Faux{END}"
 
-    .global gUnknown_0820E61D
-gUnknown_0820E61D:
+    .global Unk_0820E61D
+Unk_0820E61D:
     .string "Faux{END}"
 
-    .global gUnknown_0820E622
-gUnknown_0820E622:
+    .global Unk_0820E622
+Unk_0820E622:
     .string "CasqPier{END}"
 
-    .global gUnknown_0820E62B
-gUnknown_0820E62B:
+    .global Unk_0820E62B
+Unk_0820E62B:
     .string "CasqOr{END}"
 
-    .global gUnknown_0820E632
-gUnknown_0820E632:
+    .global Unk_0820E632
+Unk_0820E632:
     .string "MasFacia{END}"
 
-    .global gUnknown_0820E63B
-gUnknown_0820E63B:
+    .global Unk_0820E63B
+Unk_0820E63B:
     .string "CasAgil{END}"
 
-    .global gUnknown_0820E643
-gUnknown_0820E643:
+    .global Unk_0820E643
+Unk_0820E643:
     .string "JolieCsq{END}"
 
-    .global gUnknown_0820E64C
-gUnknown_0820E64C:
+    .global Unk_0820E64C
+Unk_0820E64C:
     .string "SfMyst{END}"
 
-    .global gUnknown_0820E653
-gUnknown_0820E653:
+    .global Unk_0820E653
+Unk_0820E653:
     .string "CasqPlng{END}"
 
-    .global gUnknown_0820E65C
-gUnknown_0820E65C:
+    .global Unk_0820E65C
+Unk_0820E65C:
     .string "MasqGaia{END}"
 
-    .global gUnknown_0820E665
-gUnknown_0820E665:
+    .global Unk_0820E665
+Unk_0820E665:
     .string "CouvreCh{END}"
 
-    .global gUnknown_0820E66E
-gUnknown_0820E66E:
+    .global Unk_0820E66E
+Unk_0820E66E:
     .string "CasqMaud{END}"
 
-    .global gUnknown_0820E677
-gUnknown_0820E677:
+    .global Unk_0820E677
+Unk_0820E677:
     .string "CasCoqui{END}"
 
-    .global gUnknown_0820E680
-gUnknown_0820E680:
+    .global Unk_0820E680
+Unk_0820E680:
     .string "CasqPail{END}"
 
-    .global gUnknown_0820E689
-gUnknown_0820E689:
+    .global Unk_0820E689
+Unk_0820E689:
     .string "CasqFer{END}"
 
-    .global gUnknown_0820E691
-gUnknown_0820E691:
+    .global Unk_0820E691
+Unk_0820E691:
     .string "Faux{END}"
 
-    .global gUnknown_0820E696
-gUnknown_0820E696:
+    .global Unk_0820E696
+Unk_0820E696:
     .string "CasqMaré{END}"
 
-    .global gUnknown_0820E69F
-gUnknown_0820E69F:
+    .global Unk_0820E69F
+Unk_0820E69F:
     .string "CasqCrân{END}"
 
-    .global gUnknown_0820E6A8
-gUnknown_0820E6A8:
+    .global Unk_0820E6A8
+Unk_0820E6A8:
     .string "CasqPuis{END}"
 
-    .global gUnknown_0820E6B1
-gUnknown_0820E6B1:
+    .global Unk_0820E6B1
+Unk_0820E6B1:
     .string "Domino{END}"
 
-    .global gUnknown_0820E6B8
-gUnknown_0820E6B8:
+    .global Unk_0820E6B8
+Unk_0820E6B8:
     .string "CasCorn{END}"
 
-    .global gUnknown_0820E6C0
-gUnknown_0820E6C0:
+    .global Unk_0820E6C0
+Unk_0820E6C0:
     .string "Bandana{END}"
 
-    .global gUnknown_0820E6C8
-gUnknown_0820E6C8:
+    .global Unk_0820E6C8
+Unk_0820E6C8:
     .string "Turban{END}"
 
-    .global gUnknown_0820E6CF
-gUnknown_0820E6CF:
+    .global Unk_0820E6CF
+Unk_0820E6CF:
     .string "Faux{END}"
 
-    .global gUnknown_0820E6D4
-gUnknown_0820E6D4:
+    .global Unk_0820E6D4
+Unk_0820E6D4:
     .string "CasqAmr{END}"
 
-    .global gUnknown_0820E6DC
-gUnknown_0820E6DC:
+    .global Unk_0820E6DC
+Unk_0820E6DC:
     .string "Faux{END}"
 
-    .global gUnknown_0820E6E1
-gUnknown_0820E6E1:
+    .global Unk_0820E6E1
+Unk_0820E6E1:
     .string "Faux{END}"
 
-    .global gUnknown_0820E6E6
-gUnknown_0820E6E6:
+    .global Unk_0820E6E6
+Unk_0820E6E6:
     .string "Faux{END}"
 
-    .global gUnknown_0820E6EB
-gUnknown_0820E6EB:
+    .global Unk_0820E6EB
+Unk_0820E6EB:
     .string "CasqBrnz{END}"
 
-    .global gUnknown_0820E6F4
-gUnknown_0820E6F4:
+    .global Unk_0820E6F4
+Unk_0820E6F4:
     .string "CasqSp{END}"
 
-    .global gUnknown_0820E6FB
-gUnknown_0820E6FB:
+    .global Unk_0820E6FB
+Unk_0820E6FB:
     .string "CasqSol{END}"
 
-    .global gUnknown_0820E703
-gUnknown_0820E703:
+    .global Unk_0820E703
+Unk_0820E703:
     .string "CasqLoup{END}"
 
-    .global gUnknown_0820E70C
-gUnknown_0820E70C:
+    .global Unk_0820E70C
+Unk_0820E70C:
     .string "CasqGl{END}"
 
-    .global gUnknown_0820E713
-gUnknown_0820E713:
+    .global Unk_0820E713
+Unk_0820E713:
     .string "Faux{END}"
 
-    .global gUnknown_0820E718
-gUnknown_0820E718:
+    .global Unk_0820E718
+Unk_0820E718:
     .string "Faux{END}"
 
-    .global gUnknown_0820E71D
-gUnknown_0820E71D:
+    .global Unk_0820E71D
+Unk_0820E71D:
     .string "Faux{END}"
 
-    .global gUnknown_0820E722
-gUnknown_0820E722:
+    .global Unk_0820E722
+Unk_0820E722:
     .string "CasqEtoi{END}"
 
-    .global gUnknown_0820E72B
-gUnknown_0820E72B:
+    .global Unk_0820E72B
+Unk_0820E72B:
     .string "Faux{END}"
 
-    .global gUnknown_0820E730
-gUnknown_0820E730:
+    .global Unk_0820E730
+Unk_0820E730:
     .string "AnnCrâne{END}"
 
-    .global gUnknown_0820E739
-gUnknown_0820E739:
+    .global Unk_0820E739
+Unk_0820E739:
     .string "BoucCiel{END}"
 
-    .global gUnknown_0820E742
-gUnknown_0820E742:
+    .global Unk_0820E742
+Unk_0820E742:
     .string "Faux{END}"
 
-    .global gUnknown_0820E747
-gUnknown_0820E747:
+    .global Unk_0820E747
+Unk_0820E747:
     .string "Faux{END}"
 
-    .global gUnknown_0820E74C
-gUnknown_0820E74C:
+    .global Unk_0820E74C
+Unk_0820E74C:
     .string "CasqDrag{END}"
 
-    .global gUnknown_0820E755
-gUnknown_0820E755:
+    .global Unk_0820E755
+Unk_0820E755:
     .string "ArmDrag{END}"
 
-    .global gUnknown_0820E75D
-gUnknown_0820E75D:
+    .global Unk_0820E75D
+Unk_0820E75D:
     .string "AnnIntel{END}"
 
-    .global gUnknown_0820E766
-gUnknown_0820E766:
+    .global Unk_0820E766
+Unk_0820E766:
     .string "AnnRêve{END}"
 

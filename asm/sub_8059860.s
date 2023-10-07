@@ -225,9 +225,9 @@ _0805994C:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08059A18: .4byte gUnknown_08125878
-_08059A1C: .4byte gUnknown_08125880
-_08059A20: .4byte gUnknown_08125888
-_08059A24: .4byte gUnknown_08125898
-_08059A28: .4byte gUnknown_03003110
-_08059A2C: .4byte gUnknown_03004E1C
+_08059A18: .4byte Unk_08125878
+_08059A1C: .4byte Unk_08125880
+_08059A20: .4byte Unk_08125888
+_08059A24: .4byte Unk_08125898
+_08059A28: .4byte Unk_03003110
+_08059A2C: .4byte Unk_03004E1C

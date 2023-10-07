@@ -46,8 +46,9 @@ ASFLAGS := -mcpu=arm7tdmi --defsym MODERN=$(MODERN) -Iinclude
 GCC_VER = $(shell $(CC) -dumpversion)
 
 ifeq ($(MODERN),0)
-CC1             := tools/agbcc/bin/old_agbcc$(EXE)
-override CFLAGS += -mthumb-interwork -Wimplicit -Wparentheses -Werror -O0 -fhex-asm -g
+CC1             := tools/agbcc/bin/agbcc$(EXE)
+CC1_OLD         := tools/agbcc/bin/old_agbcc$(EXE)
+override CFLAGS := -mthumb-interwork -Wall -Werror -Wno-unused -fhex-asm -g $(CFLAGS)
 ROM := bof.gba
 OBJ_DIR := build/bof
 LIBPATH := -L ../../tools/agbcc/lib -L ../../tools/agbcc/
@@ -178,6 +179,7 @@ endif
 
 ifeq ($(MODERN),0)
 $(C_BUILDDIR)/agb_sram.o: CFLAGS := -O1 -mthumb-interwork
+$(C_BUILDDIR)/m4a.o: CC1 := $(CC1_OLD)
 $(C_BUILDDIR)/m4a.o: CFLAGS := -O2 -mthumb-interwork
 endif
 

@@ -25,7 +25,7 @@ CheckFlag_08002524: @ 0x08002524
 	beq _08002578
 	b _08002598
 	.align 2, 0
-_08002550: .4byte gUnknown_0811FEA8
+_08002550: .4byte Unk_0811FEA8
 _08002554: .4byte 0x00000101
 _08002558:
 	ldr r1, _08002574
@@ -43,7 +43,7 @@ _08002558:
 	adds r0, r1, #0
 	b _080025E0
 	.align 2, 0
-_08002574: .4byte gUnknown_0202DBD0
+_08002574: .4byte SavedGameState
 _08002578:
 	ldr r1, _08002594
 	adds r0, r1, #0
@@ -60,7 +60,7 @@ _08002578:
 	adds r0, r1, #0
 	b _080025E0
 	.align 2, 0
-_08002594: .4byte gUnknown_0202DBD0
+_08002594: .4byte SavedGameState
 _08002598:
 	adds r0, r7, #2
 	adds r1, r7, #0
@@ -95,7 +95,7 @@ _08002598:
 	adds r0, r1, #0
 	b _080025E0
 	.align 2, 0
-_080025D8: .4byte gUnknown_0202DBD0
+_080025D8: .4byte SavedGameState
 _080025DC: .4byte 0x0000043E
 _080025E0:
 	add sp, #0xc
@@ -135,7 +135,7 @@ SetFlag_080025E8: @ 0x080025E8
 	beq _0800265C
 	b _0800268C
 	.align 2, 0
-_08002624: .4byte gUnknown_0811FEA8
+_08002624: .4byte Unk_0811FEA8
 _08002628: .4byte 0x00000101
 _0800262C:
 	ldr r0, _08002658
@@ -161,7 +161,7 @@ _0800262C:
 	strh r1, [r0]
 	b _0800271C
 	.align 2, 0
-_08002658: .4byte gUnknown_0202DBD0
+_08002658: .4byte SavedGameState
 _0800265C:
 	ldr r0, _08002688
 	ldr r2, _08002688
@@ -186,7 +186,7 @@ _0800265C:
 	strh r1, [r0]
 	b _0800271C
 	.align 2, 0
-_08002688: .4byte gUnknown_0202DBD0
+_08002688: .4byte SavedGameState
 _0800268C:
 	ldr r0, _0800270C
 	adds r2, r7, #0
@@ -252,9 +252,9 @@ _0800268C:
 	strh r1, [r0, #0xe]
 	b _0800271C
 	.align 2, 0
-_0800270C: .4byte gUnknown_0202DBD0
+_0800270C: .4byte SavedGameState
 _08002710: .4byte 0x0000043E
-_08002714: .4byte gUnknown_03006AF0
+_08002714: .4byte Unk_03006AF0
 _08002718: .4byte 0x00000441
 _0800271C:
 	add sp, #0x10
@@ -294,7 +294,7 @@ ClearFlag_08002724: @ 0x08002724
 	beq _0800279C
 	b _080027D0
 	.align 2, 0
-_08002760: .4byte gUnknown_0811FEA8
+_08002760: .4byte Unk_0811FEA8
 _08002764: .4byte 0x00000101
 _08002768:
 	ldr r0, _08002794
@@ -320,7 +320,7 @@ _08002768:
 	strh r1, [r0]
 	b _08002828
 	.align 2, 0
-_08002794: .4byte gUnknown_0202DBD0
+_08002794: .4byte SavedGameState
 _08002798: .4byte 0x0000FFFE
 _0800279C:
 	ldr r0, _080027C8
@@ -346,7 +346,7 @@ _0800279C:
 	strh r1, [r0]
 	b _08002828
 	.align 2, 0
-_080027C8: .4byte gUnknown_0202DBD0
+_080027C8: .4byte SavedGameState
 _080027CC: .4byte 0x0000FFFD
 _080027D0:
 	ldr r0, _08002820
@@ -390,7 +390,7 @@ _080027D0:
 	strb r1, [r0]
 	b _08002828
 	.align 2, 0
-_08002820: .4byte gUnknown_0202DBD0
+_08002820: .4byte SavedGameState
 _08002824: .4byte 0x0000043E
 _08002828:
 	add sp, #0x10
@@ -443,8 +443,8 @@ sub_8002830: @ 0x08002830
 	adds r0, r1, #0
 	b _0800288C
 	.align 2, 0
-_08002884: .4byte gUnknown_03000804
-_08002888: .4byte gUnknown_03000800
+_08002884: .4byte Unk_03000804
+_08002888: .4byte Unk_03000800
 _0800288C:
 	add sp, #4
 	pop {r7}
@@ -512,7 +512,7 @@ _080028BC:
 	strb r2, [r0]
 	b _080028B0
 	.align 2, 0
-_08002904: .4byte gUnknown_03000800
+_08002904: .4byte Unk_03000800
 _08002908:
 	ldr r0, _08002938
 	ldrh r1, [r0, #0x10]
@@ -539,8 +539,8 @@ _0800292A:
 	bgt _08002940
 	b _08002990
 	.align 2, 0
-_08002938: .4byte gUnknown_030055D0
-_0800293C: .4byte gUnknown_03000800
+_08002938: .4byte Unk_030055D0
+_0800293C: .4byte Unk_03000800
 _08002940:
 	adds r0, r7, #3
 	adds r1, r7, #3
@@ -580,7 +580,7 @@ _08002940:
 	strb r2, [r0]
 	b _0800292A
 	.align 2, 0
-_0800298C: .4byte gUnknown_03000800
+_0800298C: .4byte Unk_03000800
 _08002990:
 	movs r0, #0
 	b _08002994
@@ -732,19 +732,19 @@ _08002AA8:
 	bne _08002AFC
 	b _08002B02
 	.align 2, 0
-_08002AC8: .4byte gUnknown_030023C4
+_08002AC8: .4byte Unk_030023C4
 _08002ACC: .4byte 0xFFEFFFFF
-_08002AD0: .4byte gUnknown_030055D0
-_08002AD4: .4byte gUnknown_03005198
-_08002AD8: .4byte gUnknown_03004EBC
-_08002ADC: .4byte gUnknown_0300414C
-_08002AE0: .4byte gUnknown_03003110
+_08002AD0: .4byte Unk_030055D0
+_08002AD4: .4byte Unk_03005198
+_08002AD8: .4byte Unk_03004EBC
+_08002ADC: .4byte Unk_0300414C
+_08002AE0: .4byte Unk_03003110
 _08002AE4: .4byte 0x040000D4
 _08002AE8: .4byte 0x85006000
-_08002AEC: .4byte gUnknown_03002378
-_08002AF0: .4byte gUnknown_03004ED8
-_08002AF4: .4byte gUnknown_030023A0
-_08002AF8: .4byte gUnknown_03004144
+_08002AEC: .4byte Unk_03002378
+_08002AF0: .4byte Unk_03004ED8
+_08002AF4: .4byte DispCnt
+_08002AF8: .4byte Unk_03004144
 _08002AFC:
 	ldr r0, _08002B74
 	movs r1, #0x17
@@ -801,11 +801,11 @@ _08002B36:
 	strb r1, [r0]
 	b _08002BB2
 	.align 2, 0
-_08002B74: .4byte gUnknown_03002594
-_08002B78: .4byte gUnknown_030023CC
-_08002B7C: .4byte gUnknown_030037E0
-_08002B80: .4byte gUnknown_0300310C
-_08002B84: .4byte gUnknown_03004148
+_08002B74: .4byte Unk_03002594
+_08002B78: .4byte Unk_030023CC
+_08002B7C: .4byte Unk_030037E0
+_08002B80: .4byte Unk_0300310C
+_08002B84: .4byte Unk_03004148
 _08002B88:
 	ldr r0, _08002BCC
 	ldrb r1, [r0]
@@ -842,8 +842,8 @@ _08002BB2:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08002BCC: .4byte gUnknown_03004148
-_08002BD0: .4byte gUnknown_030023A0
+_08002BCC: .4byte Unk_03004148
+_08002BD0: .4byte DispCnt
 
 	THUMB_FUNC_START sub_8002BD4
 sub_8002BD4: @ 0x08002BD4
@@ -1337,51 +1337,51 @@ _08002FA6:
 	cmp r0, r1
 	b _08003070
 	.align 2, 0
-_08002FB8: .4byte gUnknown_03004E1C
-_08002FBC: .4byte gUnknown_030055D0
-_08002FC0: .4byte gUnknown_03004120
-_08002FC4: .4byte gUnknown_03004104
-_08002FC8: .4byte gUnknown_03004E24
-_08002FCC: .4byte gUnknown_03004CC8
-_08002FD0: .4byte gUnknown_03004CCC
-_08002FD4: .4byte gUnknown_03003110
-_08002FD8: .4byte gUnknown_0202DBD0
+_08002FB8: .4byte Unk_03004E1C
+_08002FBC: .4byte Unk_030055D0
+_08002FC0: .4byte Unk_03004120
+_08002FC4: .4byte BgExtraHOffset
+_08002FC8: .4byte BgExtraVOffset
+_08002FCC: .4byte Unk_03004CC8
+_08002FD0: .4byte Unk_03004CCC
+_08002FD4: .4byte Unk_03003110
+_08002FD8: .4byte SavedGameState
 _08002FDC: .4byte 0x000004BA
 _08002FE0: .4byte 0x040000D4
-_08002FE4: .4byte gUnknown_0202E08A
+_08002FE4: .4byte Unk_0202E08A
 _08002FE8: .4byte 0x8000001A
-_08002FEC: .4byte gUnknown_03004144
-_08002FF0: .4byte gUnknown_020291C0
-_08002FF4: .4byte gUnknown_03004150
+_08002FEC: .4byte Unk_03004144
+_08002FF0: .4byte Unk_020291C0
+_08002FF4: .4byte Unk_03004150
 _08002FF8: .4byte 0x84000240
-_08002FFC: .4byte gUnknown_03003240
+_08002FFC: .4byte Unk_03003240
 _08003000: .4byte 0x84000168
-_08003004: .4byte gUnknown_030025A0
+_08003004: .4byte Unk_030025A0
 _08003008: .4byte 0x840002D8
-_0800300C: .4byte gUnknown_030024C0
+_0800300C: .4byte Unk_030024C0
 _08003010: .4byte 0x84000030
 _08003014: .4byte 0x8400002B
-_08003018: .4byte gUnknown_02021340
+_08003018: .4byte Unk_02021340
 _0800301C: .4byte 0x84000020
-_08003020: .4byte gUnknown_02029240
-_08003024: .4byte gUnknown_02021140
-_08003028: .4byte gUnknown_030037E0
-_0800302C: .4byte gUnknown_0300412C
-_08003030: .4byte gUnknown_03004148
-_08003034: .4byte gUnknown_03002590
-_08003038: .4byte gUnknown_03002594
-_0800303C: .4byte gUnknown_03005BA4
-_08003040: .4byte gUnknown_030023A0
-_08003044: .4byte gUnknown_030023C8
-_08003048: .4byte gUnknown_0300239C
-_0800304C: .4byte gUnknown_030023A4
-_08003050: .4byte gUnknown_030023D4
-_08003054: .4byte gUnknown_0300533C
-_08003058: .4byte gUnknown_03005350
-_0800305C: .4byte gUnknown_030055CC
+_08003020: .4byte Unk_02029240
+_08003024: .4byte Unk_02021140
+_08003028: .4byte Unk_030037E0
+_0800302C: .4byte Unk_0300412C
+_08003030: .4byte Unk_03004148
+_08003034: .4byte Unk_03002590
+_08003038: .4byte Unk_03002594
+_0800303C: .4byte Unk_03005BA4
+_08003040: .4byte DispCnt
+_08003044: .4byte Unk_030023C8
+_08003048: .4byte Unk_0300239C
+_0800304C: .4byte Unk_030023A4
+_08003050: .4byte Unk_030023D4
+_08003054: .4byte Unk_0300533C
+_08003058: .4byte Unk_03005350
+_0800305C: .4byte Unk_030055CC
 _08003060: .4byte 0x0000029A
-_08003064: .4byte gUnknown_03002580
-_08003068: .4byte gUnknown_030051A8
+_08003064: .4byte Unk_03002580
+_08003068: .4byte Unk_030051A8
 _0800306C: .4byte 0x00000292
 _08003070:
 	blt _08003074
@@ -1570,19 +1570,19 @@ _080031D8:
 	bls _08003218
 	b _080032D4
 	.align 2, 0
-_080031E4: .4byte gUnknown_03004ED8
+_080031E4: .4byte Unk_03004ED8
 _080031E8: .4byte 0x040000D4
-_080031EC: .4byte gUnknown_02019FC0
+_080031EC: .4byte Unk_02019FC0
 _080031F0: .4byte 0x06003000
 _080031F4: .4byte 0x80000800
-_080031F8: .4byte gUnknown_0201AFC0
-_080031FC: .4byte gUnknown_0201BFC0
+_080031F8: .4byte Unk_0201AFC0
+_080031FC: .4byte Unk_0201BFC0
 _08003200: .4byte 0x06001000
-_08003204: .4byte gUnknown_02011480
-_08003208: .4byte gUnknown_030037E0
+_08003204: .4byte Unk_02011480
+_08003208: .4byte Unk_030037E0
 _0800320C: .4byte 0x80000248
-_08003210: .4byte gUnknown_03003110
-_08003214: .4byte gUnknown_03004E14
+_08003210: .4byte Unk_03003110
+_08003214: .4byte Unk_03004E14
 _08003218:
 	ldr r0, _080032D0
 	adds r2, r7, #0
@@ -1677,7 +1677,7 @@ _08003218:
 	strb r2, [r0]
 	b _080031D8
 	.align 2, 0
-_080032D0: .4byte gUnknown_030037E0
+_080032D0: .4byte Unk_030037E0
 _080032D4:
 	ldr r1, _080033A4
 	adds r0, r1, #0
@@ -1785,17 +1785,17 @@ _08003376:
 	beq _080033D8
 	b _080033EE
 	.align 2, 0
-_080033A4: .4byte gUnknown_03003110
-_080033A8: .4byte gUnknown_03005350
-_080033AC: .4byte gUnknown_03006BA4
-_080033B0: .4byte gUnknown_03006A9C
-_080033B4: .4byte gUnknown_03006A70
-_080033B8: .4byte gUnknown_03003104
-_080033BC: .4byte gUnknown_030023C8
-_080033C0: .4byte gUnknown_03004E10
-_080033C4: .4byte gUnknown_0300239C
-_080033C8: .4byte gUnknown_03005620
-_080033CC: .4byte gUnknown_0300414C
+_080033A4: .4byte Unk_03003110
+_080033A8: .4byte Unk_03005350
+_080033AC: .4byte Unk_03006BA4
+_080033B0: .4byte Unk_03006A9C
+_080033B4: .4byte Unk_03006A70
+_080033B8: .4byte Unk_03003104
+_080033BC: .4byte Unk_030023C8
+_080033C0: .4byte Unk_03004E10
+_080033C4: .4byte Unk_0300239C
+_080033C8: .4byte Unk_03005620
+_080033CC: .4byte Unk_0300414C
 _080033D0: .4byte 0x0000010D
 _080033D4: .4byte 0x0000010F
 _080033D8:
@@ -1823,9 +1823,9 @@ _080033FE:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08003408: .4byte gUnknown_030037E0
-_0800340C: .4byte gUnknown_030050F8
-_08003410: .4byte gUnknown_03004144
+_08003408: .4byte Unk_030037E0
+_0800340C: .4byte Unk_030050F8
+_08003410: .4byte Unk_03004144
 
 	THUMB_FUNC_START sub_8003414
 sub_8003414: @ 0x08003414

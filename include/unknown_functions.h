@@ -14,13 +14,13 @@ void IntrMain(void);
 // main
 
 void AgbMain(void);
-void sub_8000274(struct Unk_03002410 * unk);
+void sub_8000274(struct UnkSt_03002410 * unk);
 void sub_8000314(u32 arg_0);
 void sub_8000470(fu8 arg_0);
-void sub_80004B0(struct Unk_03002410 * unk);
-Task * sub_8000570(TaskFunc * callback, struct Unk_03002410 * unk, fu8 slot);
-u32 sub_8000640(struct Unk_03002410 * unk);
-void ReadKeys(struct Unk_03002410 * unk);
+void sub_80004B0(struct UnkSt_03002410 * unk);
+Task * sub_8000570(TaskFunc * callback, struct UnkSt_03002410 * unk, fu8 slot);
+u32 sub_8000640(struct UnkSt_03002410 * unk);
+void ReadKeys(struct UnkSt_03002410 * unk);
 
 // code_080007C4
 
@@ -2928,8 +2928,8 @@ void sub_80494A0(fu8 arg_0);
 // ??? sub_804B650(???)
 // ??? sub_804B674(???)
 // ??? sub_804B698(???)
-void sub_804B6BC(struct Unk_030037E0 * arg_0);
-fu8 sub_804B718(struct Unk_030037E0 * arg_0);
+void sub_804B6BC(struct UnkSt_030037E0 * arg_0);
+fu8 sub_804B718(struct UnkSt_030037E0 * arg_0);
 // ??? sub_804B8DC(???)
 // ??? sub_804B940(???)
 // ??? sub_804BBCC(???)
@@ -3632,7 +3632,7 @@ void sub_8065FAC(void);
 // ??? sub_8067D40(???)
 // ??? sub_8067E6C(???)
 // ??? sub_8067EB4(???)
-// ??? sub_8067ED4(struct Unk_030037E0 * arg_0);
+// ??? sub_8067ED4(struct UnkSt_030037E0 * arg_0);
 // ??? sub_8067F3C(???)
 // ??? sub_8067FCC(???)
 // ??? sub_8068068(???)

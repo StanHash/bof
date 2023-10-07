@@ -73,8 +73,8 @@ _080EE0E6:
 	bl DebugPrintf
 	b _080EE104
 	.align 2, 0
-_080EE0FC: .4byte gUnknown_0812CB78
-_080EE100: .4byte gUnknown_0812CB9C
+_080EE0FC: .4byte Unk_0812CB78
+_080EE100: .4byte Unk_0812CB9C
 _080EE104:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -157,7 +157,7 @@ _080EE150:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080EE19C: .4byte gUnknown_03006B10
+_080EE19C: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80EE1A0
 sub_80EE1A0: @ 0x080EE1A0

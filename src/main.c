@@ -8,6 +8,8 @@
 #define DPAD_REPEAT_DELAY 20
 #define DPAD_REPEAT_INTERVAL 4
 
+struct UnkSt_03002410 COMMON(Unk_03002410) Unk_03002410 = {0};
+
 void AgbMain(void)
 {
     u32 unused;
@@ -15,17 +17,17 @@ void AgbMain(void)
     DmaFill32(3, 0, MEM_EWRAM, MEM_EWRAM_SIZE);
     DmaFill32(3, 0, MEM_IWRAM, MEM_IWRAM_SIZE - 0x200);
 
-    sub_8000274(&gUnknown_03002410);
-    sub_8000570(sub_800198C, &gUnknown_03002410, CONSTANT_SLOT_AUTO);
-    sub_8000570(sub_8002500, &gUnknown_03002410, 3u);
+    sub_8000274(&Unk_03002410);
+    sub_8000570(sub_800198C, &Unk_03002410, CONSTANT_SLOT_AUTO);
+    sub_8000570(sub_8002500, &Unk_03002410, 3u);
 
     IntrInit();
     m4aSoundInit();
 
-    sub_80004B0(&gUnknown_03002410);
+    sub_80004B0(&Unk_03002410);
 }
 
-void sub_8000274(struct Unk_03002410 * unk)
+void sub_8000274(struct UnkSt_03002410 * unk)
 {
     fu8 i;
     fu8 j;
@@ -50,8 +52,8 @@ void sub_8000314(u32 arg_0)
     Task * var_08;
     int type;
 
-    type = gUnknown_03002410.unk_01;
-    var_04 = &gUnknown_03002410.tasks[type];
+    type = Unk_03002410.unk_01;
+    var_04 = &Unk_03002410.tasks[type];
 
     var_04->params[0] = ENUM_TASK_00_1;
     var_04->params[2] = arg_0;
@@ -60,7 +62,7 @@ void sub_8000314(u32 arg_0)
     {
         while (TRUE)
         {
-            var_08 = &gUnknown_03002410.tasks[gUnknown_03002410.unk_01];
+            var_08 = &Unk_03002410.tasks[Unk_03002410.unk_01];
 
             switch (var_08->params[0])
             {
@@ -94,26 +96,26 @@ void sub_8000314(u32 arg_0)
                     break;
             }
 
-            gUnknown_03002410.unk_01++;
+            Unk_03002410.unk_01++;
 
-            if (gUnknown_03002410.unk_01 > 4)
+            if (Unk_03002410.unk_01 > 4)
             {
-                gUnknown_03002410.unk_01 = 0;
+                Unk_03002410.unk_01 = 0;
                 break;
             }
         }
 
         sub_80018D0();
-        ReadKeys(&gUnknown_03002410);
+        ReadKeys(&Unk_03002410);
     }
 }
 
 void sub_8000470(fu8 arg_0)
 {
-    (gUnknown_03002410.tasks + gUnknown_03002410.unk_01)->params[2] = arg_0;
+    (Unk_03002410.tasks + Unk_03002410.unk_01)->params[2] = arg_0;
 }
 
-void sub_80004B0(struct Unk_03002410 * unk)
+void sub_80004B0(struct UnkSt_03002410 * unk)
 {
     Task * var_04;
 
@@ -138,7 +140,7 @@ void sub_80004B0(struct Unk_03002410 * unk)
     }
 }
 
-Task * sub_8000570(TaskFunc * func, struct Unk_03002410 * unk, fu8 slot)
+Task * sub_8000570(TaskFunc * func, struct UnkSt_03002410 * unk, fu8 slot)
 {
     fu8 dummy;
     fu8 slot_real;
@@ -157,7 +159,7 @@ Task * sub_8000570(TaskFunc * func, struct Unk_03002410 * unk, fu8 slot)
     return unk->tasks + slot_real;
 }
 
-u32 sub_8000640(struct Unk_03002410 * a1)
+u32 sub_8000640(struct UnkSt_03002410 * a1)
 {
     fu8 slot;
 
@@ -170,7 +172,7 @@ u32 sub_8000640(struct Unk_03002410 * a1)
     return slot;
 }
 
-void ReadKeys(struct Unk_03002410 * a1)
+void ReadKeys(struct UnkSt_03002410 * a1)
 {
     fu16 keys;
 

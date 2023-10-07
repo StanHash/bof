@@ -45,7 +45,7 @@ sub_809A104: @ 0x0809A104
 	bl sub_806251C
 	b _0809A19A
 	.align 2, 0
-_0809A15C: .4byte gUnknown_08128714
+_0809A15C: .4byte Unk_08128714
 _0809A160:
 	ldr r0, [r7]
 	adds r1, r7, #0
@@ -194,7 +194,7 @@ sub_809A1DC: @ 0x0809A1DC
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0809A280: .4byte gUnknown_08128714
+_0809A280: .4byte Unk_08128714
 
 	THUMB_FUNC_START sub_809A284
 sub_809A284: @ 0x0809A284

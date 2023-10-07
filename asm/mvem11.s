@@ -83,8 +83,8 @@ _08100E78:
 	bl DebugPrintf
 	b _08100E98
 	.align 2, 0
-_08100E90: .4byte gUnknown_0812DDDC
-_08100E94: .4byte gUnknown_0812DDFC
+_08100E90: .4byte Unk_0812DDDC
+_08100E94: .4byte Unk_0812DDFC
 _08100E98:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -165,8 +165,8 @@ _08100F2C:
 	bl DebugPrintf
 	b _08100F4C
 	.align 2, 0
-_08100F44: .4byte gUnknown_0812DE14
-_08100F48: .4byte gUnknown_0812DDFC
+_08100F44: .4byte Unk_0812DE14
+_08100F48: .4byte Unk_0812DDFC
 _08100F4C:
 	add sp, #4
 	pop {r4, r7}
@@ -536,7 +536,7 @@ sub_81011D4: @ 0x081011D4
 	adds r0, r1, #0
 	b _0810121C
 	.align 2, 0
-_08101218: .4byte gUnknown_0839A86C
+_08101218: .4byte Unk_0839A86C
 _0810121C:
 	add sp, #0xc
 	pop {r7}
@@ -579,7 +579,7 @@ sub_8101224: @ 0x08101224
 	adds r0, r1, #0
 	b _0810126C
 	.align 2, 0
-_08101268: .4byte gUnknown_0839A86C
+_08101268: .4byte Unk_0839A86C
 _0810126C:
 	add sp, #0xc
 	pop {r7}
@@ -615,7 +615,7 @@ sub_8101274: @ 0x08101274
 	adds r0, r1, #0
 	b _081012B0
 	.align 2, 0
-_081012AC: .4byte gUnknown_0839A86C
+_081012AC: .4byte Unk_0839A86C
 _081012B0:
 	add sp, #8
 	pop {r7}
@@ -652,7 +652,7 @@ sub_81012B8: @ 0x081012B8
 	adds r0, r1, #0
 	b _081012F4
 	.align 2, 0
-_081012F0: .4byte gUnknown_0839A86C
+_081012F0: .4byte Unk_0839A86C
 _081012F4:
 	add sp, #8
 	pop {r7}
@@ -695,7 +695,7 @@ sub_81012FC: @ 0x081012FC
 	adds r0, r1, #0
 	b _08101344
 	.align 2, 0
-_08101340: .4byte gUnknown_0839A96C
+_08101340: .4byte Unk_0839A96C
 _08101344:
 	add sp, #8
 	pop {r7}
@@ -742,7 +742,7 @@ sub_810134C: @ 0x0810134C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08101398: .4byte gUnknown_0839A96C
+_08101398: .4byte Unk_0839A96C
 
 	THUMB_FUNC_START sub_810139C
 sub_810139C: @ 0x0810139C
@@ -773,7 +773,7 @@ sub_810139C: @ 0x0810139C
 	adds r0, r1, #0
 	b _081013D8
 	.align 2, 0
-_081013D4: .4byte gUnknown_0839A96C
+_081013D4: .4byte Unk_0839A96C
 _081013D8:
 	add sp, #8
 	pop {r7}
@@ -810,7 +810,7 @@ sub_81013E0: @ 0x081013E0
 	adds r0, r1, #0
 	b _0810141C
 	.align 2, 0
-_08101418: .4byte gUnknown_0839A96C
+_08101418: .4byte Unk_0839A96C
 _0810141C:
 	add sp, #8
 	pop {r7}
@@ -839,7 +839,7 @@ sub_8101424: @ 0x08101424
 	adds r0, r1, #0
 	b _08101450
 	.align 2, 0
-_0810144C: .4byte gUnknown_0839A7EC
+_0810144C: .4byte Unk_0839A7EC
 _08101450:
 	add sp, #4
 	pop {r7}
@@ -886,7 +886,7 @@ sub_8101458: @ 0x08101458
 	adds r0, r1, #0
 	b _081014A8
 	.align 2, 0
-_081014A4: .4byte gUnknown_0839A62C
+_081014A4: .4byte Unk_0839A62C
 _081014A8:
 	add sp, #8
 	pop {r7}
@@ -913,8 +913,8 @@ _081014C6:
 	bl memcpy
 	b _0810150C
 	.align 2, 0
-_081014D4: .4byte gUnknown_03006BC0
-_081014D8: .4byte gUnknown_082187D8
+_081014D4: .4byte Unk_03006BC0
+_081014D8: .4byte Unk_082187D8
 _081014DC:
 	ldr r0, _081014EC
 	ldr r1, _081014F0
@@ -923,8 +923,8 @@ _081014DC:
 	bl memcpy
 	b _0810150C
 	.align 2, 0
-_081014EC: .4byte gUnknown_03006BC0
-_081014F0: .4byte gUnknown_082188F8
+_081014EC: .4byte Unk_03006BC0
+_081014F0: .4byte Unk_082188F8
 _081014F4:
 	ldr r0, _08101504
 	ldr r1, _08101508
@@ -933,8 +933,8 @@ _081014F4:
 	bl memcpy
 	b _0810150C
 	.align 2, 0
-_08101504: .4byte gUnknown_03006BC0
-_08101508: .4byte gUnknown_082186B8
+_08101504: .4byte Unk_03006BC0
+_08101508: .4byte Unk_082186B8
 _0810150C:
 	pop {r7}
 	pop {r0}

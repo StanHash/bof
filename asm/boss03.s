@@ -93,8 +93,8 @@ _080EE292:
 	bl DebugPrintf
 	b _080EE2B0
 	.align 2, 0
-_080EE2A8: .4byte gUnknown_0812CBB8
-_080EE2AC: .4byte gUnknown_0812CBDC
+_080EE2A8: .4byte Unk_0812CBB8
+_080EE2AC: .4byte Unk_0812CBDC
 _080EE2B0:
 	ldr r0, [r7]
 	ldr r1, [r0, #0x6c]
@@ -244,8 +244,8 @@ _080EE3B8:
 	bl DebugPrintf
 	b _080EE3D8
 	.align 2, 0
-_080EE3D0: .4byte gUnknown_0812CBF4
-_080EE3D4: .4byte gUnknown_0812CBDC
+_080EE3D0: .4byte Unk_0812CBF4
+_080EE3D4: .4byte Unk_0812CBDC
 _080EE3D8:
 	add sp, #4
 	pop {r4, r7}
@@ -653,7 +653,7 @@ _080EE6C4:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080EE6CC: .4byte gUnknown_03006B10
+_080EE6CC: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80EE6D0
 sub_80EE6D0: @ 0x080EE6D0
@@ -777,8 +777,8 @@ _080EE7A0:
 	bne _080EE7C0
 	b _080EE7CE
 	.align 2, 0
-_080EE7B8: .4byte gUnknown_03006B10
-_080EE7BC: .4byte gUnknown_0821838C
+_080EE7B8: .4byte Unk_03006B10
+_080EE7BC: .4byte Unk_0821838C
 _080EE7C0:
 	adds r0, r7, #4
 	adds r1, r7, #4
@@ -1011,7 +1011,7 @@ _080EE8FA:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080EE980: .4byte gUnknown_0821838C
+_080EE980: .4byte Unk_0821838C
 
 	THUMB_FUNC_START sub_80EE984
 sub_80EE984: @ 0x080EE984

@@ -45,7 +45,7 @@ sub_804E708: @ 0x0804E708
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0804E760: .4byte gUnknown_08125364
+_0804E760: .4byte Unk_08125364
 
 	THUMB_FUNC_START sub_804E764
 sub_804E764: @ 0x0804E764
@@ -118,7 +118,7 @@ sub_804E7BC: @ 0x0804E7BC
 	beq _0804E7F0
 	b _0804E7F6
 	.align 2, 0
-_0804E7E8: .4byte gUnknown_030037E0
+_0804E7E8: .4byte Unk_030037E0
 _0804E7EC: .4byte 0x00000153
 _0804E7F0:
 	adds r0, r7, #4

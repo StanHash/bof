@@ -135,8 +135,8 @@ _0807EDA6:
 	adds r0, r1, #0
 	b _0807EDB8
 	.align 2, 0
-_0807EDB0: .4byte gUnknown_081277CC
-_0807EDB4: .4byte gUnknown_08183F7C
+_0807EDB0: .4byte Unk_081277CC
+_0807EDB4: .4byte Unk_08183F7C
 _0807EDB8:
 	add sp, #0x18
 	pop {r4, r7}
@@ -188,7 +188,7 @@ sub_807EDC0: @ 0x0807EDC0
 	bne _0807EE1C
 	b _0807EE30
 	.align 2, 0
-_0807EE14: .4byte gUnknown_030037E0
+_0807EE14: .4byte Unk_030037E0
 _0807EE18: .4byte 0x0000FFF0
 _0807EE1C:
 	ldr r0, _0807EE50
@@ -216,8 +216,8 @@ _0807EE30:
 	adds r0, r1, #0
 	b _0807EE58
 	.align 2, 0
-_0807EE50: .4byte gUnknown_03003110
-_0807EE54: .4byte gUnknown_0818409C
+_0807EE50: .4byte Unk_03003110
+_0807EE54: .4byte Unk_0818409C
 _0807EE58:
 	add sp, #0xc
 	pop {r7}
@@ -347,8 +347,8 @@ _0807EF40:
 	adds r0, r1, #0
 	b _0807EF54
 	.align 2, 0
-_0807EF4C: .4byte gUnknown_0202DBD0
-_0807EF50: .4byte gUnknown_030037E0
+_0807EF4C: .4byte SavedGameState
+_0807EF50: .4byte Unk_030037E0
 _0807EF54:
 	add sp, #0xc
 	pop {r7}

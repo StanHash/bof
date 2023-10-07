@@ -110,4 +110,4 @@ _0804CF1A:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0804CF34: .4byte gUnknown_08125258
+_0804CF34: .4byte Unk_08125258

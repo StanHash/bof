@@ -91,8 +91,8 @@ _080ED848:
 	bl DebugPrintf
 	b _080ED868
 	.align 2, 0
-_080ED860: .4byte gUnknown_0812CB04
-_080ED864: .4byte gUnknown_0812CB28
+_080ED860: .4byte Unk_0812CB04
+_080ED864: .4byte Unk_0812CB28
 _080ED868:
 	ldr r0, [r7]
 	ldr r1, [r7]
@@ -305,7 +305,7 @@ sub_80ED988: @ 0x080ED988
 	strb r1, [r0]
 	b _080EDA0A
 	.align 2, 0
-_080EDA00: .4byte gUnknown_03006B10
+_080EDA00: .4byte Unk_03006B10
 _080EDA04:
 	adds r0, r7, #4
 	movs r1, #2
@@ -435,8 +435,8 @@ _080EDAFC:
 	bl DebugPrintf
 	b _080EDB1C
 	.align 2, 0
-_080EDB14: .4byte gUnknown_0812CB44
-_080EDB18: .4byte gUnknown_0812CB28
+_080EDB14: .4byte Unk_0812CB44
+_080EDB18: .4byte Unk_0812CB28
 _080EDB1C:
 	add sp, #4
 	pop {r4, r7}
@@ -997,7 +997,7 @@ _080EDF40:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080EDF48: .4byte gUnknown_03006B10
+_080EDF48: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80EDF4C
 sub_80EDF4C: @ 0x080EDF4C

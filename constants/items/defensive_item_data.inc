@@ -1,6 +1,6 @@
     .align 2
-    .global gUnknown_082E56B4
-gUnknown_082E56B4:
+    .global Unk_082E56B4
+Unk_082E56B4:
 @ Item 000 / 0x000 - Robe
     .string "ぬののマント"	@name
     .fill   2, 1, 0	@filler

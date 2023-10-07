@@ -71,8 +71,8 @@ _0806DEE6:
 	bls _0806DEFC
 	b _0806DF36
 	.align 2, 0
-_0806DEF4: .4byte gUnknown_081269D4
-_0806DEF8: .4byte gUnknown_082EF61C
+_0806DEF4: .4byte Unk_081269D4
+_0806DEF8: .4byte Unk_082EF61C
 _0806DEFC:
 	ldr r0, [r7]
 	adds r1, r7, #4
@@ -612,12 +612,12 @@ _0806E2EE:
 	bge _0806E314
 	b _0806E3AC
 	.align 2, 0
-_0806E2FC: .4byte gUnknown_0202DBD0
-_0806E300: .4byte gUnknown_03005BC0
+_0806E2FC: .4byte SavedGameState
+_0806E300: .4byte Unk_03005BC0
 _0806E304: .4byte 0x000004BA
 _0806E308: .4byte 0xFFFFA000
-_0806E30C: .4byte gUnknown_082E3E00
-_0806E310: .4byte gUnknown_082A5D70
+_0806E30C: .4byte Unk_082E3E00
+_0806E310: .4byte Unk_082A5D70
 _0806E314:
 	adds r0, r7, #0
 	adds r0, #0xa
@@ -655,7 +655,7 @@ _0806E350:
 	lsrs r2, r4, #0xb
 	b _0806E362
 	.align 2, 0
-_0806E358: .4byte gUnknown_082BCBF4
+_0806E358: .4byte Unk_082BCBF4
 _0806E35C: .4byte 0x06010000
 _0806E360:
 	movs r2, #0x80
@@ -825,9 +825,9 @@ _0806E3EA:
 	strh r2, [r0]
 	b _0806E4C4
 	.align 2, 0
-_0806E4A8: .4byte gUnknown_082BCBF4
+_0806E4A8: .4byte Unk_082BCBF4
 _0806E4AC: .4byte 0x06010000
-_0806E4B0: .4byte gUnknown_082A5D70
+_0806E4B0: .4byte Unk_082A5D70
 _0806E4B4:
 	adds r0, r7, #0
 	adds r1, r7, #0

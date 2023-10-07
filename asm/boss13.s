@@ -69,8 +69,8 @@ _080F6690:
 	bl DebugPrintf
 	b _080F66B0
 	.align 2, 0
-_080F66A8: .4byte gUnknown_0812D330
-_080F66AC: .4byte gUnknown_0812D354
+_080F66A8: .4byte Unk_0812D330
+_080F66AC: .4byte Unk_0812D354
 _080F66B0:
 	ldr r0, [r7]
 	ldr r1, [r7]
@@ -325,8 +325,8 @@ _080F68A4:
 	bl DebugPrintf
 	b _080F68C4
 	.align 2, 0
-_080F68BC: .4byte gUnknown_0812D36C
-_080F68C0: .4byte gUnknown_0812D354
+_080F68BC: .4byte Unk_0812D36C
+_080F68C0: .4byte Unk_0812D354
 _080F68C4:
 	add sp, #4
 	pop {r4, r7}
@@ -848,8 +848,8 @@ _080F6C54:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F6CB8: .4byte gUnknown_02023C40
-_080F6CBC: .4byte gUnknown_02024140
+_080F6CB8: .4byte Unk_02023C40
+_080F6CBC: .4byte Unk_02024140
 _080F6CC0: .4byte 0x00002F48
 
 	THUMB_FUNC_START sub_80F6CC4
@@ -893,7 +893,7 @@ sub_80F6CDC: @ 0x080F6CDC
 	bl sub_80FCF6C
 	b _080F6DB4
 	.align 2, 0
-_080F6D10: .4byte gUnknown_03006AF0
+_080F6D10: .4byte Unk_03006AF0
 _080F6D14:
 	ldr r1, [r7]
 	adds r0, r1, #0
@@ -950,7 +950,7 @@ _080F6D28:
 	bl sub_80FCF6C
 	b _080F6DB4
 	.align 2, 0
-_080F6D84: .4byte gUnknown_03006B10
+_080F6D84: .4byte Unk_03006B10
 _080F6D88:
 	ldr r1, _080F6DBC
 	adds r0, r1, #0
@@ -979,4 +979,4 @@ _080F6DB4:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F6DBC: .4byte gUnknown_03006B10
+_080F6DBC: .4byte Unk_03006B10

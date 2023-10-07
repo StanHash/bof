@@ -119,8 +119,8 @@ sub_8062334: @ 0x08062334
 	movs r0, #0
 	b _08062424
 	.align 2, 0
-_0806241C: .4byte gUnknown_08126110
-_08062420: .4byte gUnknown_082A5B20
+_0806241C: .4byte Unk_08126110
+_08062420: .4byte Unk_082A5B20
 _08062424:
 	add sp, #0x24
 	pop {r4, r7}
@@ -244,8 +244,8 @@ sub_806242C: @ 0x0806242C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08062514: .4byte gUnknown_082BAAF4
-_08062518: .4byte gUnknown_030023CC
+_08062514: .4byte Unk_082BAAF4
+_08062518: .4byte Unk_030023CC
 
 	THUMB_FUNC_START sub_806251C
 sub_806251C: @ 0x0806251C
@@ -345,8 +345,8 @@ sub_806251C: @ 0x0806251C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080625DC: .4byte gUnknown_082BAAF4
-_080625E0: .4byte gUnknown_030023CC
+_080625DC: .4byte Unk_082BAAF4
+_080625E0: .4byte Unk_030023CC
 
 	THUMB_FUNC_START sub_80625E4
 sub_80625E4: @ 0x080625E4
@@ -458,8 +458,8 @@ sub_80625E4: @ 0x080625E4
 	strh r1, [r0, #0x22]
 	b _080626CC
 	.align 2, 0
-_080626BC: .4byte gUnknown_082BAAF4
-_080626C0: .4byte gUnknown_030023CC
+_080626BC: .4byte Unk_082BAAF4
+_080626C0: .4byte Unk_030023CC
 _080626C4:
 	ldr r0, [r7]
 	movs r1, #0
@@ -735,10 +735,10 @@ _080628D6:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080628E0: .4byte gUnknown_082BAAF4
-_080628E4: .4byte gUnknown_082AA83C
-_080628E8: .4byte gUnknown_082A5D70
-_080628EC: .4byte gUnknown_030023CC
+_080628E0: .4byte Unk_082BAAF4
+_080628E4: .4byte Unk_082AA83C
+_080628E8: .4byte Unk_082A5D70
+_080628EC: .4byte Unk_030023CC
 
 	THUMB_FUNC_START sub_80628F0
 sub_80628F0: @ 0x080628F0
@@ -842,10 +842,10 @@ _08062968:
 	strb r2, [r0]
 	b _080629D2
 	.align 2, 0
-_080629B4: .4byte gUnknown_082BAAF4
-_080629B8: .4byte gUnknown_082AA83C
-_080629BC: .4byte gUnknown_082A5D70
-_080629C0: .4byte gUnknown_030023CC
+_080629B4: .4byte Unk_082BAAF4
+_080629B8: .4byte Unk_082AA83C
+_080629BC: .4byte Unk_082A5D70
+_080629C0: .4byte Unk_030023CC
 _080629C4:
 	adds r0, r7, #6
 	ldr r1, [r7]
@@ -1089,7 +1089,7 @@ _08062B96:
 	adds r0, r1, #0
 	b _08062BA4
 	.align 2, 0
-_08062BA0: .4byte gUnknown_030023CC
+_08062BA0: .4byte Unk_030023CC
 _08062BA4:
 	add sp, #0x1c
 	pop {r4, r7}

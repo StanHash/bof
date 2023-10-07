@@ -91,8 +91,8 @@ _080F1810:
 	bl DebugPrintf
 	b _080F1830
 	.align 2, 0
-_080F1828: .4byte gUnknown_0812CEF8
-_080F182C: .4byte gUnknown_0812CF1C
+_080F1828: .4byte Unk_0812CEF8
+_080F182C: .4byte Unk_0812CF1C
 _080F1830:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -173,8 +173,8 @@ _080F18C4:
 	bl DebugPrintf
 	b _080F18E4
 	.align 2, 0
-_080F18DC: .4byte gUnknown_0812CF34
-_080F18E0: .4byte gUnknown_0812CF1C
+_080F18DC: .4byte Unk_0812CF34
+_080F18E0: .4byte Unk_0812CF1C
 _080F18E4:
 	add sp, #4
 	pop {r4, r7}

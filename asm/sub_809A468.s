@@ -29,8 +29,8 @@ sub_809A468: @ 0x0809A468
 	bl sub_8067ED4
 	b _0809A5F2
 	.align 2, 0
-_0809A49C: .4byte gUnknown_08128738
-_0809A4A0: .4byte gUnknown_03003100
+_0809A49C: .4byte Unk_08128738
+_0809A4A0: .4byte Unk_03003100
 _0809A4A4:
 	ldr r1, [r7, #8]
 	adds r0, r1, #0

@@ -83,8 +83,8 @@ _080FE4F8:
 	bl DebugPrintf
 	b _080FE518
 	.align 2, 0
-_080FE510: .4byte gUnknown_0812DA18
-_080FE514: .4byte gUnknown_0812DA38
+_080FE510: .4byte Unk_0812DA18
+_080FE514: .4byte Unk_0812DA38
 _080FE518:
 	ldr r0, [r7]
 	ldr r1, [r0, #0x6c]

@@ -83,8 +83,8 @@ _08100984:
 	bl DebugPrintf
 	b _081009A4
 	.align 2, 0
-_0810099C: .4byte gUnknown_0812DD70
-_081009A0: .4byte gUnknown_0812DD90
+_0810099C: .4byte Unk_0812DD70
+_081009A0: .4byte Unk_0812DD90
 _081009A4:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -188,8 +188,8 @@ _08100A68:
 	bl DebugPrintf
 	b _08100A88
 	.align 2, 0
-_08100A80: .4byte gUnknown_0812DDA8
-_08100A84: .4byte gUnknown_0812DD90
+_08100A80: .4byte Unk_0812DDA8
+_08100A84: .4byte Unk_0812DD90
 _08100A88:
 	add sp, #4
 	pop {r4, r7}
@@ -563,7 +563,7 @@ _08100D2A:
 	blo _08100D48
 	b _08100D7E
 	.align 2, 0
-_08100D44: .4byte gUnknown_0821842C
+_08100D44: .4byte Unk_0821842C
 _08100D48:
 	ldr r1, [r7]
 	adds r0, r1, #0

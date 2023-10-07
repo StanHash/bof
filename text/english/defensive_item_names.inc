@@ -1,713 +1,713 @@
-    .global gUnknown_08213888
-gUnknown_08213888:
+    .global Unk_08213888
+Unk_08213888:
     .string "Robe{END}"
 
-    .global gUnknown_0821388D
-gUnknown_0821388D:
+    .global Unk_0821388D
+Unk_0821388D:
     .string "SuedeCP{END}"
 
-    .global gUnknown_08213895
-gUnknown_08213895:
+    .global Unk_08213895
+Unk_08213895:
     .string "Dress{END}"
 
-    .global gUnknown_0821389B
-gUnknown_0821389B:
+    .global Unk_0821389B
+Unk_0821389B:
     .string "MetalAR{END}"
 
-    .global gUnknown_082138A3
-gUnknown_082138A3:
+    .global Unk_082138A3
+Unk_082138A3:
     .string "SilkGN{END}"
 
-    .global gUnknown_082138AA
-gUnknown_082138AA:
+    .global Unk_082138AA
+Unk_082138AA:
     .string "Cloth{END}"
 
-    .global gUnknown_082138B0
-gUnknown_082138B0:
+    .global Unk_082138B0
+Unk_082138B0:
     .string "LightCL{END}"
 
-    .global gUnknown_082138B8
-gUnknown_082138B8:
+    .global Unk_082138B8
+Unk_082138B8:
     .string "Gown{END}"
 
-    .global gUnknown_082138BD
-gUnknown_082138BD:
+    .global Unk_082138BD
+Unk_082138BD:
     .string "ArmPad{END}"
 
-    .global gUnknown_082138C4
-gUnknown_082138C4:
+    .global Unk_082138C4
+Unk_082138C4:
     .string "WolfSkin{END}"
 
-    .global gUnknown_082138CD
-gUnknown_082138CD:
+    .global Unk_082138CD
+Unk_082138CD:
     .string "RangerVT{END}"
 
-    .global gUnknown_082138D6
-gUnknown_082138D6:
+    .global Unk_082138D6
+Unk_082138D6:
     .string "BronzAR{END}"
 
-    .global gUnknown_082138DE
-gUnknown_082138DE:
+    .global Unk_082138DE
+Unk_082138DE:
     .string "PlateAR{END}"
 
-    .global gUnknown_082138E6
-gUnknown_082138E6:
+    .global Unk_082138E6
+Unk_082138E6:
     .string "Dummy{END}"
 
-    .global gUnknown_082138EC
-gUnknown_082138EC:
+    .global Unk_082138EC
+Unk_082138EC:
     .string "FlameAR{END}"
 
-    .global gUnknown_082138F4
-gUnknown_082138F4:
+    .global Unk_082138F4
+Unk_082138F4:
     .string "PrisnCL{END}"
 
-    .global gUnknown_082138FC
-gUnknown_082138FC:
+    .global Unk_082138FC
+Unk_082138FC:
     .string "S.Armor{END}"
 
-    .global gUnknown_08213904
-gUnknown_08213904:
+    .global Unk_08213904
+Unk_08213904:
     .string "IcyAR{END}"
 
-    .global gUnknown_0821390A
-gUnknown_0821390A:
+    .global Unk_0821390A
+Unk_0821390A:
     .string "WorldML{END}"
 
-    .global gUnknown_08213912
-gUnknown_08213912:
+    .global Unk_08213912
+Unk_08213912:
     .string "Dummy{END}"
 
-    .global gUnknown_08213918
-gUnknown_08213918:
+    .global Unk_08213918
+Unk_08213918:
     .string "SpineCL{END}"
 
-    .global gUnknown_08213920
-gUnknown_08213920:
+    .global Unk_08213920
+Unk_08213920:
     .string "ThiefCL{END}"
 
-    .global gUnknown_08213928
-gUnknown_08213928:
+    .global Unk_08213928
+Unk_08213928:
     .string "EvilRB{END}"
 
-    .global gUnknown_0821392F
-gUnknown_0821392F:
+    .global Unk_0821392F
+Unk_0821392F:
     .string "SuedeGN{END}"
 
-    .global gUnknown_08213937
-gUnknown_08213937:
+    .global Unk_08213937
+Unk_08213937:
     .string "SuedeAR{END}"
 
-    .global gUnknown_0821393F
-gUnknown_0821393F:
+    .global Unk_0821393F
+Unk_0821393F:
     .string "ChainML{END}"
 
-    .global gUnknown_08213947
-gUnknown_08213947:
+    .global Unk_08213947
+Unk_08213947:
     .string "IronML{END}"
 
-    .global gUnknown_0821394E
-gUnknown_0821394E:
+    .global Unk_0821394E
+Unk_0821394E:
     .string "WoolRB{END}"
 
-    .global gUnknown_08213955
-gUnknown_08213955:
+    .global Unk_08213955
+Unk_08213955:
     .string "SuedeRB{END}"
 
-    .global gUnknown_0821395D
-gUnknown_0821395D:
+    .global Unk_0821395D
+Unk_0821395D:
     .string "LifeAR{END}"
 
-    .global gUnknown_08213964
-gUnknown_08213964:
+    .global Unk_08213964
+Unk_08213964:
     .string "PowerAR{END}"
 
-    .global gUnknown_0821396C
-gUnknown_0821396C:
+    .global Unk_0821396C
+Unk_0821396C:
     .string "QuartzAR{END}"
 
-    .global gUnknown_08213975
-gUnknown_08213975:
+    .global Unk_08213975
+Unk_08213975:
     .string "AngleAR{END}"
 
-    .global gUnknown_0821397D
-gUnknown_0821397D:
+    .global Unk_0821397D
+Unk_0821397D:
     .string "Dummy{END}"
 
-    .global gUnknown_08213983
-gUnknown_08213983:
+    .global Unk_08213983
+Unk_08213983:
     .string "GuruCT{END}"
 
-    .global gUnknown_0821398A
-gUnknown_0821398A:
+    .global Unk_0821398A
+Unk_0821398A:
     .string "Dummy{END}"
 
-    .global gUnknown_08213990
-gUnknown_08213990:
+    .global Unk_08213990
+Unk_08213990:
     .string "Dummy{END}"
 
-    .global gUnknown_08213996
-gUnknown_08213996:
+    .global Unk_08213996
+Unk_08213996:
     .string "WorldAR{END}"
 
-    .global gUnknown_0821399E
-gUnknown_0821399E:
+    .global Unk_0821399E
+Unk_0821399E:
     .string "SageML{END}"
 
-    .global gUnknown_082139A5
-gUnknown_082139A5:
+    .global Unk_082139A5
+Unk_082139A5:
     .string "Dummy{END}"
 
-    .global gUnknown_082139AB
-gUnknown_082139AB:
+    .global Unk_082139AB
+Unk_082139AB:
     .string "MystRB{END}"
 
-    .global gUnknown_082139B2
-gUnknown_082139B2:
+    .global Unk_082139B2
+Unk_082139B2:
     .string "EarthRB{END}"
 
-    .global gUnknown_082139BA
-gUnknown_082139BA:
+    .global Unk_082139BA
+Unk_082139BA:
     .string "Dummy{END}"
 
-    .global gUnknown_082139C0
-gUnknown_082139C0:
+    .global Unk_082139C0
+Unk_082139C0:
     .string "AgileAR{END}"
 
-    .global gUnknown_082139C8
-gUnknown_082139C8:
+    .global Unk_082139C8
+Unk_082139C8:
     .string "Dummy{END}"
 
-    .global gUnknown_082139CE
-gUnknown_082139CE:
+    .global Unk_082139CE
+Unk_082139CE:
     .string "HuntCL{END}"
 
-    .global gUnknown_082139D5
-gUnknown_082139D5:
+    .global Unk_082139D5
+Unk_082139D5:
     .string "ClearCL{END}"
 
-    .global gUnknown_082139DD
-gUnknown_082139DD:
+    .global Unk_082139DD
+Unk_082139DD:
     .string "Dummy{END}"
 
-    .global gUnknown_082139E3
-gUnknown_082139E3:
+    .global Unk_082139E3
+Unk_082139E3:
     .string "WoodSH{END}"
 
-    .global gUnknown_082139EA
-gUnknown_082139EA:
+    .global Unk_082139EA
+Unk_082139EA:
     .string "Gauntlet{END}"
 
-    .global gUnknown_082139F3
-gUnknown_082139F3:
+    .global Unk_082139F3
+Unk_082139F3:
     .string "SuedeSH{END}"
 
-    .global gUnknown_082139FB
-gUnknown_082139FB:
+    .global Unk_082139FB
+Unk_082139FB:
     .string "GuardSH{END}"
 
-    .global gUnknown_08213A03
-gUnknown_08213A03:
+    .global Unk_08213A03
+Unk_08213A03:
     .string "Bracelet{END}"
 
-    .global gUnknown_08213A0C
-gUnknown_08213A0C:
+    .global Unk_08213A0C
+Unk_08213A0C:
     .string "IronSH{END}"
 
-    .global gUnknown_08213A13
-gUnknown_08213A13:
+    .global Unk_08213A13
+Unk_08213A13:
     .string "BronzSH{END}"
 
-    .global gUnknown_08213A1B
-gUnknown_08213A1B:
+    .global Unk_08213A1B
+Unk_08213A1B:
     .string "MetalSH{END}"
 
-    .global gUnknown_08213A23
-gUnknown_08213A23:
+    .global Unk_08213A23
+Unk_08213A23:
     .string "FlameSH{END}"
 
-    .global gUnknown_08213A2B
-gUnknown_08213A2B:
+    .global Unk_08213A2B
+Unk_08213A2B:
     .string "Dummy{END}"
 
-    .global gUnknown_08213A31
-gUnknown_08213A31:
+    .global Unk_08213A31
+Unk_08213A31:
     .string "S.Shld{END}"
 
-    .global gUnknown_08213A38
-gUnknown_08213A38:
+    .global Unk_08213A38
+Unk_08213A38:
     .string "IronSL{END}"
 
-    .global gUnknown_08213A3F
-gUnknown_08213A3F:
+    .global Unk_08213A3F
+Unk_08213A3F:
     .string "MetalSL{END}"
 
-    .global gUnknown_08213A47
-gUnknown_08213A47:
+    .global Unk_08213A47
+Unk_08213A47:
     .string "Dummy{END}"
 
-    .global gUnknown_08213A4D
-gUnknown_08213A4D:
+    .global Unk_08213A4D
+Unk_08213A4D:
     .string "Wrist{END}"
 
-    .global gUnknown_08213A53
-gUnknown_08213A53:
+    .global Unk_08213A53
+Unk_08213A53:
     .string "IcySH{END}"
 
-    .global gUnknown_08213A59
-gUnknown_08213A59:
+    .global Unk_08213A59
+Unk_08213A59:
     .string "ProSH{END}"
 
-    .global gUnknown_08213A5F
-gUnknown_08213A5F:
+    .global Unk_08213A5F
+Unk_08213A5F:
     .string "LoveBR{END}"
 
-    .global gUnknown_08213A66
-gUnknown_08213A66:
+    .global Unk_08213A66
+Unk_08213A66:
     .string "WindBR{END}"
 
-    .global gUnknown_08213A6D
-gUnknown_08213A6D:
+    .global Unk_08213A6D
+Unk_08213A6D:
     .string "RubyRG{END}"
 
-    .global gUnknown_08213A74
-gUnknown_08213A74:
+    .global Unk_08213A74
+Unk_08213A74:
     .string "Dummy{END}"
 
-    .global gUnknown_08213A7A
-gUnknown_08213A7A:
+    .global Unk_08213A7A
+Unk_08213A7A:
     .string "DarkBR{END}"
 
-    .global gUnknown_08213A81
-gUnknown_08213A81:
+    .global Unk_08213A81
+Unk_08213A81:
     .string "Dummy{END}"
 
-    .global gUnknown_08213A87
-gUnknown_08213A87:
+    .global Unk_08213A87
+Unk_08213A87:
     .string "MystSH{END}"
 
-    .global gUnknown_08213A8E
-gUnknown_08213A8E:
+    .global Unk_08213A8E
+Unk_08213A8E:
     .string "Glove{END}"
 
-    .global gUnknown_08213A94
-gUnknown_08213A94:
+    .global Unk_08213A94
+Unk_08213A94:
     .string "Dummy{END}"
 
-    .global gUnknown_08213A9A
-gUnknown_08213A9A:
+    .global Unk_08213A9A
+Unk_08213A9A:
     .string "TrapGrd{END}"
 
-    .global gUnknown_08213AA2
-gUnknown_08213AA2:
+    .global Unk_08213AA2
+Unk_08213AA2:
     .string "LightSH{END}"
 
-    .global gUnknown_08213AAA
-gUnknown_08213AAA:
+    .global Unk_08213AAA
+Unk_08213AAA:
     .string "MagicRG{END}"
 
-    .global gUnknown_08213AB2
-gUnknown_08213AB2:
+    .global Unk_08213AB2
+Unk_08213AB2:
     .string "Bandage{END}"
 
-    .global gUnknown_08213ABA
-gUnknown_08213ABA:
+    .global Unk_08213ABA
+Unk_08213ABA:
     .string "Dummy{END}"
 
-    .global gUnknown_08213AC0
-gUnknown_08213AC0:
+    .global Unk_08213AC0
+Unk_08213AC0:
     .string "SilverBR{END}"
 
-    .global gUnknown_08213AC9
-gUnknown_08213AC9:
+    .global Unk_08213AC9
+Unk_08213AC9:
     .string "Dummy{END}"
 
-    .global gUnknown_08213ACF
-gUnknown_08213ACF:
+    .global Unk_08213ACF
+Unk_08213ACF:
     .string "ColdSH{END}"
 
-    .global gUnknown_08213AD6
-gUnknown_08213AD6:
+    .global Unk_08213AD6
+Unk_08213AD6:
     .string "HuntGL{END}"
 
-    .global gUnknown_08213ADD
-gUnknown_08213ADD:
+    .global Unk_08213ADD
+Unk_08213ADD:
     .string "MaskSH{END}"
 
-    .global gUnknown_08213AE4
-gUnknown_08213AE4:
+    .global Unk_08213AE4
+Unk_08213AE4:
     .string "DragonSH{END}"
 
-    .global gUnknown_08213AED
-gUnknown_08213AED:
+    .global Unk_08213AED
+Unk_08213AED:
     .string "Dummy{END}"
 
-    .global gUnknown_08213AF3
-gUnknown_08213AF3:
+    .global Unk_08213AF3
+Unk_08213AF3:
     .string "LavaSH{END}"
 
-    .global gUnknown_08213AFA
-gUnknown_08213AFA:
+    .global Unk_08213AFA
+Unk_08213AFA:
     .string "Dummy{END}"
 
-    .global gUnknown_08213B00
-gUnknown_08213B00:
+    .global Unk_08213B00
+Unk_08213B00:
     .string "SuedeHT{END}"
 
-    .global gUnknown_08213B08
-gUnknown_08213B08:
+    .global Unk_08213B08
+Unk_08213B08:
     .string "Visor{END}"
 
-    .global gUnknown_08213B0E
-gUnknown_08213B0E:
+    .global Unk_08213B0E
+Unk_08213B0E:
     .string "HairBand{END}"
 
-    .global gUnknown_08213B17
-gUnknown_08213B17:
+    .global Unk_08213B17
+Unk_08213B17:
     .string "Tiara{END}"
 
-    .global gUnknown_08213B1D
-gUnknown_08213B1D:
+    .global Unk_08213B1D
+Unk_08213B1D:
     .string "ChainHT{END}"
 
-    .global gUnknown_08213B25
-gUnknown_08213B25:
+    .global Unk_08213B25
+Unk_08213B25:
     .string "G.Tiara{END}"
 
-    .global gUnknown_08213B2D
-gUnknown_08213B2D:
+    .global Unk_08213B2D
+Unk_08213B2D:
     .string "EchoHT{END}"
 
-    .global gUnknown_08213B34
-gUnknown_08213B34:
+    .global Unk_08213B34
+Unk_08213B34:
     .string "IronMask{END}"
 
-    .global gUnknown_08213B3D
-gUnknown_08213B3D:
+    .global Unk_08213B3D
+Unk_08213B3D:
     .string "Dummy{END}"
 
-    .global gUnknown_08213B43
-gUnknown_08213B43:
+    .global Unk_08213B43
+Unk_08213B43:
     .string "Dummy{END}"
 
-    .global gUnknown_08213B49
-gUnknown_08213B49:
+    .global Unk_08213B49
+Unk_08213B49:
     .string "StoneHT{END}"
 
-    .global gUnknown_08213B51
-gUnknown_08213B51:
+    .global Unk_08213B51
+Unk_08213B51:
     .string "GoldHT{END}"
 
-    .global gUnknown_08213B58
-gUnknown_08213B58:
+    .global Unk_08213B58
+Unk_08213B58:
     .string "FaceMask{END}"
 
-    .global gUnknown_08213B61
-gUnknown_08213B61:
+    .global Unk_08213B61
+Unk_08213B61:
     .string "AgileHT{END}"
 
-    .global gUnknown_08213B69
-gUnknown_08213B69:
+    .global Unk_08213B69
+Unk_08213B69:
     .string "NiceHT{END}"
 
-    .global gUnknown_08213B70
-gUnknown_08213B70:
+    .global Unk_08213B70
+Unk_08213B70:
     .string "MystSF{END}"
 
-    .global gUnknown_08213B77
-gUnknown_08213B77:
+    .global Unk_08213B77
+Unk_08213B77:
     .string "DivingHT{END}"
 
-    .global gUnknown_08213B80
-gUnknown_08213B80:
+    .global Unk_08213B80
+Unk_08213B80:
     .string "GaiaMask{END}"
 
-    .global gUnknown_08213B89
-gUnknown_08213B89:
+    .global Unk_08213B89
+Unk_08213B89:
     .string "HeadGear{END}"
 
-    .global gUnknown_08213B92
-gUnknown_08213B92:
+    .global Unk_08213B92
+Unk_08213B92:
     .string "CursedHT{END}"
 
-    .global gUnknown_08213B9B
-gUnknown_08213B9B:
+    .global Unk_08213B9B
+Unk_08213B9B:
     .string "ShellHT{END}"
 
-    .global gUnknown_08213BA3
-gUnknown_08213BA3:
+    .global Unk_08213BA3
+Unk_08213BA3:
     .string "StrawHT{END}"
 
-    .global gUnknown_08213BAB
-gUnknown_08213BAB:
+    .global Unk_08213BAB
+Unk_08213BAB:
     .string "IronHT{END}"
 
-    .global gUnknown_08213BB2
-gUnknown_08213BB2:
+    .global Unk_08213BB2
+Unk_08213BB2:
     .string "Dummy{END}"
 
-    .global gUnknown_08213BB8
-gUnknown_08213BB8:
+    .global Unk_08213BB8
+Unk_08213BB8:
     .string "TideHT{END}"
 
-    .global gUnknown_08213BBF
-gUnknown_08213BBF:
+    .global Unk_08213BBF
+Unk_08213BBF:
     .string "SkullHT{END}"
 
-    .global gUnknown_08213BC7
-gUnknown_08213BC7:
+    .global Unk_08213BC7
+Unk_08213BC7:
     .string "PowerHT{END}"
 
-    .global gUnknown_08213BCF
-gUnknown_08213BCF:
+    .global Unk_08213BCF
+Unk_08213BCF:
     .string "Domino{END}"
 
-    .global gUnknown_08213BD6
-gUnknown_08213BD6:
+    .global Unk_08213BD6
+Unk_08213BD6:
     .string "HornHT{END}"
 
-    .global gUnknown_08213BDD
-gUnknown_08213BDD:
+    .global Unk_08213BDD
+Unk_08213BDD:
     .string "Bandana{END}"
 
-    .global gUnknown_08213BE5
-gUnknown_08213BE5:
+    .global Unk_08213BE5
+Unk_08213BE5:
     .string "Turban{END}"
 
-    .global gUnknown_08213BEC
-gUnknown_08213BEC:
+    .global Unk_08213BEC
+Unk_08213BEC:
     .string "Dummy{END}"
 
-    .global gUnknown_08213BF2
-gUnknown_08213BF2:
+    .global Unk_08213BF2
+Unk_08213BF2:
     .string "LoveHT{END}"
 
-    .global gUnknown_08213BF9
-gUnknown_08213BF9:
+    .global Unk_08213BF9
+Unk_08213BF9:
     .string "Dummy{END}"
 
-    .global gUnknown_08213BFF
-gUnknown_08213BFF:
+    .global Unk_08213BFF
+Unk_08213BFF:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C05
-gUnknown_08213C05:
+    .global Unk_08213C05
+Unk_08213C05:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C0B
-gUnknown_08213C0B:
+    .global Unk_08213C0B
+Unk_08213C0B:
     .string "BronzHT{END}"
 
-    .global gUnknown_08213C13
-gUnknown_08213C13:
+    .global Unk_08213C13
+Unk_08213C13:
     .string "S.Helm{END}"
 
-    .global gUnknown_08213C1A
-gUnknown_08213C1A:
+    .global Unk_08213C1A
+Unk_08213C1A:
     .string "SunHT{END}"
 
-    .global gUnknown_08213C20
-gUnknown_08213C20:
+    .global Unk_08213C20
+Unk_08213C20:
     .string "WolfHT{END}"
 
-    .global gUnknown_08213C27
-gUnknown_08213C27:
+    .global Unk_08213C27
+Unk_08213C27:
     .string "IcyHT{END}"
 
-    .global gUnknown_08213C2D
-gUnknown_08213C2D:
+    .global Unk_08213C2D
+Unk_08213C2D:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C33
-gUnknown_08213C33:
+    .global Unk_08213C33
+Unk_08213C33:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C39
-gUnknown_08213C39:
+    .global Unk_08213C39
+Unk_08213C39:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C3F
-gUnknown_08213C3F:
+    .global Unk_08213C3F
+Unk_08213C3F:
     .string "StarSH{END}"
 
-    .global gUnknown_08213C46
-gUnknown_08213C46:
+    .global Unk_08213C46
+Unk_08213C46:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C4C
-gUnknown_08213C4C:
+    .global Unk_08213C4C
+Unk_08213C4C:
     .string "SkullRG{END}"
 
-    .global gUnknown_08213C54
-gUnknown_08213C54:
+    .global Unk_08213C54
+Unk_08213C54:
     .string "SkySH{END}"
 
-    .global gUnknown_08213C5A
-gUnknown_08213C5A:
+    .global Unk_08213C5A
+Unk_08213C5A:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C60
-gUnknown_08213C60:
+    .global Unk_08213C60
+Unk_08213C60:
     .string "Dummy{END}"
 
-    .global gUnknown_08213C66
-gUnknown_08213C66:
+    .global Unk_08213C66
+Unk_08213C66:
     .string "DragonHT{END}"
 
-    .global gUnknown_08213C6F
-gUnknown_08213C6F:
+    .global Unk_08213C6F
+Unk_08213C6F:
     .string "DragonAR{END}"
 
-    .global gUnknown_08213C78
-gUnknown_08213C78:
+    .global Unk_08213C78
+Unk_08213C78:
     .string "SmartRG{END}"
 
-    .global gUnknown_08213C80
-gUnknown_08213C80:
+    .global Unk_08213C80
+Unk_08213C80:
     .string "DreamRG{END}"
 
     .align 2
-    .global gUnknown_08213C88
-gUnknown_08213C88:
-    .word gUnknown_08213888 @ 0 / 0x0
-    .word gUnknown_0821388D @ 1 / 0x1
-    .word gUnknown_08213895 @ 2 / 0x2
-    .word gUnknown_0821389B @ 3 / 0x3
-    .word gUnknown_082138A3 @ 4 / 0x4
-    .word gUnknown_082138AA @ 5 / 0x5
-    .word gUnknown_082138B0 @ 6 / 0x6
-    .word gUnknown_082138B8 @ 7 / 0x7
-    .word gUnknown_082138BD @ 8 / 0x8
-    .word gUnknown_082138C4 @ 9 / 0x9
-    .word gUnknown_082138CD @ 10 / 0xA
-    .word gUnknown_082138D6 @ 11 / 0xB
-    .word gUnknown_082138DE @ 12 / 0xC
-    .word gUnknown_082138E6 @ 13 / 0xD
-    .word gUnknown_082138EC @ 14 / 0xE
-    .word gUnknown_082138F4 @ 15 / 0xF
-    .word gUnknown_082138FC @ 16 / 0x10
-    .word gUnknown_08213904 @ 17 / 0x11
-    .word gUnknown_0821390A @ 18 / 0x12
-    .word gUnknown_08213912 @ 19 / 0x13
-    .word gUnknown_08213918 @ 20 / 0x14
-    .word gUnknown_08213920 @ 21 / 0x15
-    .word gUnknown_08213928 @ 22 / 0x16
-    .word gUnknown_0821392F @ 23 / 0x17
-    .word gUnknown_08213937 @ 24 / 0x18
-    .word gUnknown_0821393F @ 25 / 0x19
-    .word gUnknown_08213947 @ 26 / 0x1A
-    .word gUnknown_0821394E @ 27 / 0x1B
-    .word gUnknown_08213955 @ 28 / 0x1C
-    .word gUnknown_0821395D @ 29 / 0x1D
-    .word gUnknown_08213964 @ 30 / 0x1E
-    .word gUnknown_0821396C @ 31 / 0x1F
-    .word gUnknown_08213975 @ 32 / 0x20
-    .word gUnknown_0821397D @ 33 / 0x21
-    .word gUnknown_08213983 @ 34 / 0x22
-    .word gUnknown_0821398A @ 35 / 0x23
-    .word gUnknown_08213990 @ 36 / 0x24
-    .word gUnknown_08213996 @ 37 / 0x25
-    .word gUnknown_0821399E @ 38 / 0x26
-    .word gUnknown_082139A5 @ 39 / 0x27
-    .word gUnknown_082139AB @ 40 / 0x28
-    .word gUnknown_082139B2 @ 41 / 0x29
-    .word gUnknown_082139BA @ 42 / 0x2A
-    .word gUnknown_082139C0 @ 43 / 0x2B
-    .word gUnknown_082139C8 @ 44 / 0x2C
-    .word gUnknown_082139CE @ 45 / 0x2D
-    .word gUnknown_082139D5 @ 46 / 0x2E
-    .word gUnknown_082139DD @ 47 / 0x2F
-    .word gUnknown_082139E3 @ 48 / 0x30
-    .word gUnknown_082139EA @ 49 / 0x31
-    .word gUnknown_082139F3 @ 50 / 0x32
-    .word gUnknown_082139FB @ 51 / 0x33
-    .word gUnknown_08213A03 @ 52 / 0x34
-    .word gUnknown_08213A0C @ 53 / 0x35
-    .word gUnknown_08213A13 @ 54 / 0x36
-    .word gUnknown_08213A1B @ 55 / 0x37
-    .word gUnknown_08213A23 @ 56 / 0x38
-    .word gUnknown_08213A2B @ 57 / 0x39
-    .word gUnknown_08213A31 @ 58 / 0x3A
-    .word gUnknown_08213A38 @ 59 / 0x3B
-    .word gUnknown_08213A3F @ 60 / 0x3C
-    .word gUnknown_08213A47 @ 61 / 0x3D
-    .word gUnknown_08213A4D @ 62 / 0x3E
-    .word gUnknown_08213A53 @ 63 / 0x3F
-    .word gUnknown_08213A59 @ 64 / 0x40
-    .word gUnknown_08213A5F @ 65 / 0x41
-    .word gUnknown_08213A66 @ 66 / 0x42
-    .word gUnknown_08213A6D @ 67 / 0x43
-    .word gUnknown_08213A74 @ 68 / 0x44
-    .word gUnknown_08213A7A @ 69 / 0x45
-    .word gUnknown_08213A81 @ 70 / 0x46
-    .word gUnknown_08213A87 @ 71 / 0x47
-    .word gUnknown_08213A8E @ 72 / 0x48
-    .word gUnknown_08213A94 @ 73 / 0x49
-    .word gUnknown_08213A9A @ 74 / 0x4A
-    .word gUnknown_08213AA2 @ 75 / 0x4B
-    .word gUnknown_08213AAA @ 76 / 0x4C
-    .word gUnknown_08213AB2 @ 77 / 0x4D
-    .word gUnknown_08213ABA @ 78 / 0x4E
-    .word gUnknown_08213AC0 @ 79 / 0x4F
-    .word gUnknown_08213AC9 @ 80 / 0x50
-    .word gUnknown_08213ACF @ 81 / 0x51
-    .word gUnknown_08213AD6 @ 82 / 0x52
-    .word gUnknown_08213ADD @ 83 / 0x53
-    .word gUnknown_08213AE4 @ 84 / 0x54
-    .word gUnknown_08213AED @ 85 / 0x55
-    .word gUnknown_08213AF3 @ 86 / 0x56
-    .word gUnknown_08213AFA @ 87 / 0x57
-    .word gUnknown_08213B00 @ 88 / 0x58
-    .word gUnknown_08213B08 @ 89 / 0x59
-    .word gUnknown_08213B0E @ 90 / 0x5A
-    .word gUnknown_08213B17 @ 91 / 0x5B
-    .word gUnknown_08213B1D @ 92 / 0x5C
-    .word gUnknown_08213B25 @ 93 / 0x5D
-    .word gUnknown_08213B2D @ 94 / 0x5E
-    .word gUnknown_08213B34 @ 95 / 0x5F
-    .word gUnknown_08213B3D @ 96 / 0x60
-    .word gUnknown_08213B43 @ 97 / 0x61
-    .word gUnknown_08213B49 @ 98 / 0x62
-    .word gUnknown_08213B51 @ 99 / 0x63
-    .word gUnknown_08213B58 @ 100 / 0x64
-    .word gUnknown_08213B61 @ 101 / 0x65
-    .word gUnknown_08213B69 @ 102 / 0x66
-    .word gUnknown_08213B70 @ 103 / 0x67
-    .word gUnknown_08213B77 @ 104 / 0x68
-    .word gUnknown_08213B80 @ 105 / 0x69
-    .word gUnknown_08213B89 @ 106 / 0x6A
-    .word gUnknown_08213B92 @ 107 / 0x6B
-    .word gUnknown_08213B9B @ 108 / 0x6C
-    .word gUnknown_08213BA3 @ 109 / 0x6D
-    .word gUnknown_08213BAB @ 110 / 0x6E
-    .word gUnknown_08213BB2 @ 111 / 0x6F
-    .word gUnknown_08213BB8 @ 112 / 0x70
-    .word gUnknown_08213BBF @ 113 / 0x71
-    .word gUnknown_08213BC7 @ 114 / 0x72
-    .word gUnknown_08213BCF @ 115 / 0x73
-    .word gUnknown_08213BD6 @ 116 / 0x74
-    .word gUnknown_08213BDD @ 117 / 0x75
-    .word gUnknown_08213BE5 @ 118 / 0x76
-    .word gUnknown_08213BEC @ 119 / 0x77
-    .word gUnknown_08213BF2 @ 120 / 0x78
-    .word gUnknown_08213BF9 @ 121 / 0x79
-    .word gUnknown_08213BFF @ 122 / 0x7A
-    .word gUnknown_08213C05 @ 123 / 0x7B
-    .word gUnknown_08213C0B @ 124 / 0x7C
-    .word gUnknown_08213C13 @ 125 / 0x7D
-    .word gUnknown_08213C1A @ 126 / 0x7E
-    .word gUnknown_08213C20 @ 127 / 0x7F
-    .word gUnknown_08213C27 @ 128 / 0x80
-    .word gUnknown_08213C2D @ 129 / 0x81
-    .word gUnknown_08213C33 @ 130 / 0x82
-    .word gUnknown_08213C39 @ 131 / 0x83
-    .word gUnknown_08213C3F @ 132 / 0x84
-    .word gUnknown_08213C46 @ 133 / 0x85
-    .word gUnknown_08213C4C @ 134 / 0x86
-    .word gUnknown_08213C54 @ 135 / 0x87
-    .word gUnknown_08213C5A @ 136 / 0x88
-    .word gUnknown_08213C60 @ 137 / 0x89
-    .word gUnknown_08213C66 @ 138 / 0x8A
-    .word gUnknown_08213C6F @ 139 / 0x8B
-    .word gUnknown_08213C78 @ 140 / 0x8C
-    .word gUnknown_08213C80 @ 141 / 0x8D
+    .global Unk_08213C88
+Unk_08213C88:
+    .word Unk_08213888 @ 0 / 0x0
+    .word Unk_0821388D @ 1 / 0x1
+    .word Unk_08213895 @ 2 / 0x2
+    .word Unk_0821389B @ 3 / 0x3
+    .word Unk_082138A3 @ 4 / 0x4
+    .word Unk_082138AA @ 5 / 0x5
+    .word Unk_082138B0 @ 6 / 0x6
+    .word Unk_082138B8 @ 7 / 0x7
+    .word Unk_082138BD @ 8 / 0x8
+    .word Unk_082138C4 @ 9 / 0x9
+    .word Unk_082138CD @ 10 / 0xA
+    .word Unk_082138D6 @ 11 / 0xB
+    .word Unk_082138DE @ 12 / 0xC
+    .word Unk_082138E6 @ 13 / 0xD
+    .word Unk_082138EC @ 14 / 0xE
+    .word Unk_082138F4 @ 15 / 0xF
+    .word Unk_082138FC @ 16 / 0x10
+    .word Unk_08213904 @ 17 / 0x11
+    .word Unk_0821390A @ 18 / 0x12
+    .word Unk_08213912 @ 19 / 0x13
+    .word Unk_08213918 @ 20 / 0x14
+    .word Unk_08213920 @ 21 / 0x15
+    .word Unk_08213928 @ 22 / 0x16
+    .word Unk_0821392F @ 23 / 0x17
+    .word Unk_08213937 @ 24 / 0x18
+    .word Unk_0821393F @ 25 / 0x19
+    .word Unk_08213947 @ 26 / 0x1A
+    .word Unk_0821394E @ 27 / 0x1B
+    .word Unk_08213955 @ 28 / 0x1C
+    .word Unk_0821395D @ 29 / 0x1D
+    .word Unk_08213964 @ 30 / 0x1E
+    .word Unk_0821396C @ 31 / 0x1F
+    .word Unk_08213975 @ 32 / 0x20
+    .word Unk_0821397D @ 33 / 0x21
+    .word Unk_08213983 @ 34 / 0x22
+    .word Unk_0821398A @ 35 / 0x23
+    .word Unk_08213990 @ 36 / 0x24
+    .word Unk_08213996 @ 37 / 0x25
+    .word Unk_0821399E @ 38 / 0x26
+    .word Unk_082139A5 @ 39 / 0x27
+    .word Unk_082139AB @ 40 / 0x28
+    .word Unk_082139B2 @ 41 / 0x29
+    .word Unk_082139BA @ 42 / 0x2A
+    .word Unk_082139C0 @ 43 / 0x2B
+    .word Unk_082139C8 @ 44 / 0x2C
+    .word Unk_082139CE @ 45 / 0x2D
+    .word Unk_082139D5 @ 46 / 0x2E
+    .word Unk_082139DD @ 47 / 0x2F
+    .word Unk_082139E3 @ 48 / 0x30
+    .word Unk_082139EA @ 49 / 0x31
+    .word Unk_082139F3 @ 50 / 0x32
+    .word Unk_082139FB @ 51 / 0x33
+    .word Unk_08213A03 @ 52 / 0x34
+    .word Unk_08213A0C @ 53 / 0x35
+    .word Unk_08213A13 @ 54 / 0x36
+    .word Unk_08213A1B @ 55 / 0x37
+    .word Unk_08213A23 @ 56 / 0x38
+    .word Unk_08213A2B @ 57 / 0x39
+    .word Unk_08213A31 @ 58 / 0x3A
+    .word Unk_08213A38 @ 59 / 0x3B
+    .word Unk_08213A3F @ 60 / 0x3C
+    .word Unk_08213A47 @ 61 / 0x3D
+    .word Unk_08213A4D @ 62 / 0x3E
+    .word Unk_08213A53 @ 63 / 0x3F
+    .word Unk_08213A59 @ 64 / 0x40
+    .word Unk_08213A5F @ 65 / 0x41
+    .word Unk_08213A66 @ 66 / 0x42
+    .word Unk_08213A6D @ 67 / 0x43
+    .word Unk_08213A74 @ 68 / 0x44
+    .word Unk_08213A7A @ 69 / 0x45
+    .word Unk_08213A81 @ 70 / 0x46
+    .word Unk_08213A87 @ 71 / 0x47
+    .word Unk_08213A8E @ 72 / 0x48
+    .word Unk_08213A94 @ 73 / 0x49
+    .word Unk_08213A9A @ 74 / 0x4A
+    .word Unk_08213AA2 @ 75 / 0x4B
+    .word Unk_08213AAA @ 76 / 0x4C
+    .word Unk_08213AB2 @ 77 / 0x4D
+    .word Unk_08213ABA @ 78 / 0x4E
+    .word Unk_08213AC0 @ 79 / 0x4F
+    .word Unk_08213AC9 @ 80 / 0x50
+    .word Unk_08213ACF @ 81 / 0x51
+    .word Unk_08213AD6 @ 82 / 0x52
+    .word Unk_08213ADD @ 83 / 0x53
+    .word Unk_08213AE4 @ 84 / 0x54
+    .word Unk_08213AED @ 85 / 0x55
+    .word Unk_08213AF3 @ 86 / 0x56
+    .word Unk_08213AFA @ 87 / 0x57
+    .word Unk_08213B00 @ 88 / 0x58
+    .word Unk_08213B08 @ 89 / 0x59
+    .word Unk_08213B0E @ 90 / 0x5A
+    .word Unk_08213B17 @ 91 / 0x5B
+    .word Unk_08213B1D @ 92 / 0x5C
+    .word Unk_08213B25 @ 93 / 0x5D
+    .word Unk_08213B2D @ 94 / 0x5E
+    .word Unk_08213B34 @ 95 / 0x5F
+    .word Unk_08213B3D @ 96 / 0x60
+    .word Unk_08213B43 @ 97 / 0x61
+    .word Unk_08213B49 @ 98 / 0x62
+    .word Unk_08213B51 @ 99 / 0x63
+    .word Unk_08213B58 @ 100 / 0x64
+    .word Unk_08213B61 @ 101 / 0x65
+    .word Unk_08213B69 @ 102 / 0x66
+    .word Unk_08213B70 @ 103 / 0x67
+    .word Unk_08213B77 @ 104 / 0x68
+    .word Unk_08213B80 @ 105 / 0x69
+    .word Unk_08213B89 @ 106 / 0x6A
+    .word Unk_08213B92 @ 107 / 0x6B
+    .word Unk_08213B9B @ 108 / 0x6C
+    .word Unk_08213BA3 @ 109 / 0x6D
+    .word Unk_08213BAB @ 110 / 0x6E
+    .word Unk_08213BB2 @ 111 / 0x6F
+    .word Unk_08213BB8 @ 112 / 0x70
+    .word Unk_08213BBF @ 113 / 0x71
+    .word Unk_08213BC7 @ 114 / 0x72
+    .word Unk_08213BCF @ 115 / 0x73
+    .word Unk_08213BD6 @ 116 / 0x74
+    .word Unk_08213BDD @ 117 / 0x75
+    .word Unk_08213BE5 @ 118 / 0x76
+    .word Unk_08213BEC @ 119 / 0x77
+    .word Unk_08213BF2 @ 120 / 0x78
+    .word Unk_08213BF9 @ 121 / 0x79
+    .word Unk_08213BFF @ 122 / 0x7A
+    .word Unk_08213C05 @ 123 / 0x7B
+    .word Unk_08213C0B @ 124 / 0x7C
+    .word Unk_08213C13 @ 125 / 0x7D
+    .word Unk_08213C1A @ 126 / 0x7E
+    .word Unk_08213C20 @ 127 / 0x7F
+    .word Unk_08213C27 @ 128 / 0x80
+    .word Unk_08213C2D @ 129 / 0x81
+    .word Unk_08213C33 @ 130 / 0x82
+    .word Unk_08213C39 @ 131 / 0x83
+    .word Unk_08213C3F @ 132 / 0x84
+    .word Unk_08213C46 @ 133 / 0x85
+    .word Unk_08213C4C @ 134 / 0x86
+    .word Unk_08213C54 @ 135 / 0x87
+    .word Unk_08213C5A @ 136 / 0x88
+    .word Unk_08213C60 @ 137 / 0x89
+    .word Unk_08213C66 @ 138 / 0x8A
+    .word Unk_08213C6F @ 139 / 0x8B
+    .word Unk_08213C78 @ 140 / 0x8C
+    .word Unk_08213C80 @ 141 / 0x8D

@@ -146,8 +146,8 @@ _08099F6A:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08099F84: .4byte gUnknown_081286E4
-_08099F88: .4byte gUnknown_081286F0
+_08099F84: .4byte Unk_081286E4
+_08099F88: .4byte Unk_081286F0
 
 	THUMB_FUNC_START sub_8099F8C
 sub_8099F8C: @ 0x08099F8C
@@ -322,7 +322,7 @@ sub_809A098: @ 0x0809A098
 	beq _0809A0D8
 	b _0809A0FA
 	.align 2, 0
-_0809A0D4: .4byte gUnknown_03003110
+_0809A0D4: .4byte Unk_03003110
 _0809A0D8:
 	ldr r0, [r7]
 	ldr r2, [r7]

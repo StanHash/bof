@@ -91,8 +91,8 @@ _080F942C:
 	bl DebugPrintf
 	b _080F944C
 	.align 2, 0
-_080F9444: .4byte gUnknown_0812D54C
-_080F9448: .4byte gUnknown_0812D570
+_080F9444: .4byte Unk_0812D54C
+_080F9448: .4byte Unk_0812D570
 _080F944C:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -348,8 +348,8 @@ _080F9644:
 	bl DebugPrintf
 	b _080F9664
 	.align 2, 0
-_080F965C: .4byte gUnknown_0812D588
-_080F9660: .4byte gUnknown_0812D570
+_080F965C: .4byte Unk_0812D588
+_080F9660: .4byte Unk_0812D570
 _080F9664:
 	add sp, #4
 	pop {r4, r7}
@@ -705,11 +705,11 @@ _080F98FC:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F9904: .4byte gUnknown_03006CE8
-_080F9908: .4byte gUnknown_03006CE0
-_080F990C: .4byte gUnknown_03006CE4
-_080F9910: .4byte gUnknown_030023BC
-_080F9914: .4byte gUnknown_03002374
+_080F9904: .4byte Unk_03006CE8
+_080F9908: .4byte Unk_03006CE0
+_080F990C: .4byte Unk_03006CE4
+_080F9910: .4byte BlendCnt
+_080F9914: .4byte BlendVal
 
 	THUMB_FUNC_START sub_80F9918
 sub_80F9918: @ 0x080F9918
@@ -756,7 +756,7 @@ sub_80F994C: @ 0x080F994C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F9970: .4byte gUnknown_03004140
+_080F9970: .4byte Unk_03004140
 
 	THUMB_FUNC_START sub_80F9974
 sub_80F9974: @ 0x080F9974
@@ -876,7 +876,7 @@ _080F9A4C:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F9A54: .4byte gUnknown_03006B10
+_080F9A54: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80F9A58
 sub_80F9A58: @ 0x080F9A58
@@ -1249,7 +1249,7 @@ sub_80F9CF4: @ 0x080F9CF4
 	beq _080F9D20
 	b _080F9D26
 	.align 2, 0
-_080F9D1C: .4byte gUnknown_03006AF0
+_080F9D1C: .4byte Unk_03006AF0
 _080F9D20:
 	ldr r0, [r7]
 	bl sub_80F99CC

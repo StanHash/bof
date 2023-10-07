@@ -174,7 +174,7 @@ void m4aSoundMain(void)
 void m4aSongNumStart(u16 n)
 {
     struct MusicPlayerEnt const * music_player_table = MusicPlayerTable;
-    struct SongEnt const * song_table = gSongTable;
+    struct SongEnt const * song_table = SongTable;
     struct SongEnt const * song_ent = song_table + n;
     struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
 
@@ -184,7 +184,7 @@ void m4aSongNumStart(u16 n)
 void m4aSongNumStartOrChange(u16 n)
 {
     struct MusicPlayerEnt const * music_player_table = MusicPlayerTable;
-    struct SongEnt const * song_table = gSongTable;
+    struct SongEnt const * song_table = SongTable;
     struct SongEnt const * song_ent = song_table + n;
     struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
 
@@ -205,7 +205,7 @@ void m4aSongNumStartOrChange(u16 n)
 void m4aSongNumStartOrContinue(u16 n)
 {
     struct MusicPlayerEnt const * music_player_table = MusicPlayerTable;
-    struct SongEnt const * song_table = gSongTable;
+    struct SongEnt const * song_table = SongTable;
     struct SongEnt const * song_ent = song_table + n;
     struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
 
@@ -220,7 +220,7 @@ void m4aSongNumStartOrContinue(u16 n)
 void m4aSongNumStop(u16 n)
 {
     struct MusicPlayerEnt const * music_player_table = MusicPlayerTable;
-    struct SongEnt const * song_table = gSongTable;
+    struct SongEnt const * song_table = SongTable;
     struct SongEnt const * song_ent = song_table + n;
     struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
 
@@ -231,7 +231,7 @@ void m4aSongNumStop(u16 n)
 void m4aSongNumContinue(u16 n)
 {
     struct MusicPlayerEnt const * music_player_table = MusicPlayerTable;
-    struct SongEnt const * song_table = gSongTable;
+    struct SongEnt const * song_table = SongTable;
     struct SongEnt const * song_ent = song_table + n;
     struct MusicPlayerEnt const * music_player_ent = music_player_table + song_ent->ms;
 

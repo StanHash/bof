@@ -81,8 +81,8 @@ _0810E694:
 	bl DebugPrintf
 	b _0810E6B4
 	.align 2, 0
-_0810E6AC: .4byte gUnknown_0812E7B0
-_0810E6B0: .4byte gUnknown_0812E7D0
+_0810E6AC: .4byte Unk_0812E7B0
+_0810E6B0: .4byte Unk_0812E7D0
 _0810E6B4:
 	add sp, #4
 	pop {r4, r7}
@@ -291,8 +291,8 @@ _0810E844:
 	bl DebugPrintf
 	b _0810E864
 	.align 2, 0
-_0810E85C: .4byte gUnknown_0812E7E8
-_0810E860: .4byte gUnknown_0812E7D0
+_0810E85C: .4byte Unk_0812E7E8
+_0810E860: .4byte Unk_0812E7D0
 _0810E864:
 	add sp, #8
 	pop {r4, r7}
@@ -482,7 +482,7 @@ _0810E9B8:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0810E9C0: .4byte gUnknown_03002594
+_0810E9C0: .4byte Unk_03002594
 
 	THUMB_FUNC_START sub_810E9C4
 sub_810E9C4: @ 0x0810E9C4

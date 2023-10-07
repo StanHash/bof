@@ -83,12 +83,12 @@ _0805EE04:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0805EE10: .4byte gUnknown_03003110
-_0805EE14: .4byte gUnknown_08125E08
-_0805EE18: .4byte gUnknown_0826E3B4
-_0805EE1C: .4byte gUnknown_0826DFD4
-_0805EE20: .4byte gUnknown_03004120
-_0805EE24: .4byte gUnknown_03005350
+_0805EE10: .4byte Unk_03003110
+_0805EE14: .4byte Unk_08125E08
+_0805EE18: .4byte Unk_0826E3B4
+_0805EE1C: .4byte Unk_0826DFD4
+_0805EE20: .4byte Unk_03004120
+_0805EE24: .4byte Unk_03005350
 
 	THUMB_FUNC_START sub_805EE28
 sub_805EE28: @ 0x0805EE28
@@ -106,9 +106,9 @@ sub_805EE28: @ 0x0805EE28
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0805EE48: .4byte gUnknown_030055D0
-_0805EE4C: .4byte gUnknown_0826E3B4
-_0805EE50: .4byte gUnknown_0826DEB4
+_0805EE48: .4byte Unk_030055D0
+_0805EE4C: .4byte Unk_0826E3B4
+_0805EE50: .4byte Unk_0826DEB4
 
 	THUMB_FUNC_START sub_805EE54
 sub_805EE54: @ 0x0805EE54
@@ -179,7 +179,7 @@ _0805EE86:
 	strb r2, [r0]
 	b _0805EE7A
 	.align 2, 0
-_0805EED4: .4byte gUnknown_030031C0
+_0805EED4: .4byte Unk_030031C0
 _0805EED8:
 	ldr r0, _0805EF38
 	movs r1, #0
@@ -231,9 +231,9 @@ _0805EF2A:
 	bne _0805EF44
 	b _0805F140
 	.align 2, 0
-_0805EF38: .4byte gUnknown_03004100
+_0805EF38: .4byte Unk_03004100
 _0805EF3C: .4byte 0x0000FFFF
-_0805EF40: .4byte gUnknown_0818202C
+_0805EF40: .4byte Unk_0818202C
 _0805EF44:
 	ldr r0, [r7, #0x10]
 	adds r1, r7, #0
@@ -659,9 +659,9 @@ _0805F1BE:
 	strh r2, [r0]
 	b _0805F2A2
 	.align 2, 0
-_0805F284: .4byte gUnknown_03004E14
-_0805F288: .4byte gUnknown_03005194
-_0805F28C: .4byte gUnknown_08182346
+_0805F284: .4byte Unk_03004E14
+_0805F288: .4byte Unk_03005194
+_0805F28C: .4byte Unk_08182346
 _0805F290:
 	adds r0, r7, #0
 	adds r0, #0xe
@@ -816,11 +816,11 @@ _0805F2A2:
 	adds r0, r1, #0
 	b _0805F3D4
 	.align 2, 0
-_0805F3C0: .4byte gUnknown_0200D280
-_0805F3C4: .4byte gUnknown_020131B0
-_0805F3C8: .4byte gUnknown_02000810
-_0805F3CC: .4byte gUnknown_020171B0
-_0805F3D0: .4byte gUnknown_02000000
+_0805F3C0: .4byte Unk_0200D280
+_0805F3C4: .4byte Unk_020131B0
+_0805F3C8: .4byte Unk_02000810
+_0805F3CC: .4byte Unk_020171B0
+_0805F3D0: .4byte Unk_02000000
 _0805F3D4:
 	add sp, #0x14
 	pop {r4, r7}

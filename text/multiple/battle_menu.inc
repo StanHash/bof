@@ -1,316 +1,316 @@
-    .global gUnknown_08216654
-gUnknown_08216654:
+    .global Unk_08216654
+Unk_08216654:
     .string "ATT{END}"
 
-    .global gUnknown_08216658
-gUnknown_08216658:
+    .global Unk_08216658
+Unk_08216658:
     .string "SORT{END}"
 
-    .global gUnknown_0821665D
-gUnknown_0821665D:
+    .global Unk_0821665D
+Unk_0821665D:
     .string "OBJ{END}"
 
-    .global gUnknown_08216661
-gUnknown_08216661:
+    .global Unk_08216661
+Unk_08216661:
     .string "CHNG{END}"
 
-    .global gUnknown_08216666
-gUnknown_08216666:
+    .global Unk_08216666
+Unk_08216666:
     .string "A{END}"
 
-    .global gUnknown_08216668
-gUnknown_08216668:
+    .global Unk_08216668
+Unk_08216668:
     .string "U{END}"
 
-    .global gUnknown_0821666A
-gUnknown_0821666A:
+    .global Unk_0821666A
+Unk_0821666A:
     .string "T{END}"
 
-    .global gUnknown_0821666C
-gUnknown_0821666C:
+    .global Unk_0821666C
+Unk_0821666C:
     .string "O{END}"
 
-    .global gUnknown_0821666E
-gUnknown_0821666E:
+    .global Unk_0821666E
+Unk_0821666E:
     .string "V{END}"
 
-    .global gUnknown_08216670
-gUnknown_08216670:
+    .global Unk_08216670
+Unk_08216670:
     .string "A{END}"
 
-    .global gUnknown_08216672
-gUnknown_08216672:
+    .global Unk_08216672
+Unk_08216672:
     .string " {END}"
 
-    .global gUnknown_08216674
-gUnknown_08216674:
+    .global Unk_08216674
+Unk_08216674:
     .string " {END}"
 
-    .global gUnknown_08216676
-gUnknown_08216676:
+    .global Unk_08216676
+Unk_08216676:
     .string "{0x15}{END}"
 
-    .global gUnknown_08216678
-gUnknown_08216678:
+    .global Unk_08216678
+Unk_08216678:
     .string "ATTK{END}"
 
-    .global gUnknown_0821667D
-gUnknown_0821667D:
+    .global Unk_0821667D
+Unk_0821667D:
     .string "SPEL{END}"
 
-    .global gUnknown_08216682
-gUnknown_08216682:
+    .global Unk_08216682
+Unk_08216682:
     .string "ITEM{END}"
 
-    .global gUnknown_08216687
-gUnknown_08216687:
+    .global Unk_08216687
+Unk_08216687:
     .string "CHNG{END}"
 
-    .global gUnknown_0821668C
-gUnknown_0821668C:
+    .global Unk_0821668C
+Unk_0821668C:
     .string "A{END}"
 
-    .global gUnknown_0821668E
-gUnknown_0821668E:
+    .global Unk_0821668E
+Unk_0821668E:
     .string "U{END}"
 
-    .global gUnknown_08216690
-gUnknown_08216690:
+    .global Unk_08216690
+Unk_08216690:
     .string "T{END}"
 
-    .global gUnknown_08216692
-gUnknown_08216692:
+    .global Unk_08216692
+Unk_08216692:
     .string "O{END}"
 
-    .global gUnknown_08216694
-gUnknown_08216694:
+    .global Unk_08216694
+Unk_08216694:
     .string "R{END}"
 
-    .global gUnknown_08216696
-gUnknown_08216696:
+    .global Unk_08216696
+Unk_08216696:
     .string "U{END}"
 
-    .global gUnknown_08216698
-gUnknown_08216698:
+    .global Unk_08216698
+Unk_08216698:
     .string "N{END}"
 
-    .global gUnknown_0821669A
-gUnknown_0821669A:
+    .global Unk_0821669A
+Unk_0821669A:
     .string " {END}"
 
-    .global gUnknown_0821669C
-gUnknown_0821669C:
+    .global Unk_0821669C
+Unk_0821669C:
     .string "{0x15}{END}"
 
-    .global gUnknown_0821669E
-gUnknown_0821669E:
+    .global Unk_0821669E
+Unk_0821669E:
     .string "ANGR{END}"
 
-    .global gUnknown_082166A3
-gUnknown_082166A3:
+    .global Unk_082166A3
+Unk_082166A3:
     .string "ZAUB{END}"
 
-    .global gUnknown_082166A8
-gUnknown_082166A8:
+    .global Unk_082166A8
+Unk_082166A8:
     .string "OBJK{END}"
 
-    .global gUnknown_082166AD
-gUnknown_082166AD:
+    .global Unk_082166AD
+Unk_082166AD:
     .string "POS{END}"
 
-    .global gUnknown_082166B1
-gUnknown_082166B1:
+    .global Unk_082166B1
+Unk_082166B1:
     .string "A{END}"
 
-    .global gUnknown_082166B3
-gUnknown_082166B3:
+    .global Unk_082166B3
+Unk_082166B3:
     .string "U{END}"
 
-    .global gUnknown_082166B5
-gUnknown_082166B5:
+    .global Unk_082166B5
+Unk_082166B5:
     .string "T{END}"
 
-    .global gUnknown_082166B7
-gUnknown_082166B7:
+    .global Unk_082166B7
+Unk_082166B7:
     .string "O{END}"
 
-    .global gUnknown_082166B9
-gUnknown_082166B9:
+    .global Unk_082166B9
+Unk_082166B9:
     .string "G{END}"
 
-    .global gUnknown_082166BB
-gUnknown_082166BB:
+    .global Unk_082166BB
+Unk_082166BB:
     .string "E{END}"
 
-    .global gUnknown_082166BD
-gUnknown_082166BD:
+    .global Unk_082166BD
+Unk_082166BD:
     .string "H{END}"
 
-    .global gUnknown_082166BF
-gUnknown_082166BF:
+    .global Unk_082166BF
+Unk_082166BF:
     .string " {END}"
 
-    .global gUnknown_082166C1
-gUnknown_082166C1:
+    .global Unk_082166C1
+Unk_082166C1:
     .string "{0x15}{END}"
 
-    .global gUnknown_082166C3
-gUnknown_082166C3:
+    .global Unk_082166C3
+Unk_082166C3:
     .string "SWCH{END}"
 
-    .global gUnknown_082166C8
-gUnknown_082166C8:
+    .global Unk_082166C8
+Unk_082166C8:
     .string "TSCH{END}"
 
-    .global gUnknown_082166CD
-gUnknown_082166CD:
+    .global Unk_082166CD
+Unk_082166CD:
     .string "POS{END}"
 
-    .global gUnknown_082166D1
-gUnknown_082166D1:
+    .global Unk_082166D1
+Unk_082166D1:
     .string "DFND{END}"
 
-    .global gUnknown_082166D6
-gUnknown_082166D6:
+    .global Unk_082166D6
+Unk_082166D6:
     .string "VERT{END}"
 
-    .global gUnknown_082166DB
-gUnknown_082166DB:
+    .global Unk_082166DB
+Unk_082166DB:
     .string "DEF{END}"
 
-    .global gUnknown_082166DF
-gUnknown_082166DF:
+    .global Unk_082166DF
+Unk_082166DF:
     .string "HP1 {END}"
 
-    .global gUnknown_082166E4
-gUnknown_082166E4:
+    .global Unk_082166E4
+Unk_082166E4:
     .string "HP1 {END}"
 
-    .global gUnknown_082166E9
-gUnknown_082166E9:
+    .global Unk_082166E9
+Unk_082166E9:
     .string "PV1 {END}"
 
-    .global gUnknown_082166EE
-gUnknown_082166EE:
+    .global Unk_082166EE
+Unk_082166EE:
     .string "DUMP{END}"
 
-    .global gUnknown_082166F3
-gUnknown_082166F3:
+    .global Unk_082166F3
+Unk_082166F3:
     .string "DUMP{END}"
 
-    .global gUnknown_082166F8
-gUnknown_082166F8:
+    .global Unk_082166F8
+Unk_082166F8:
     .string "LACH{END}"
 
-    .global gUnknown_082166FD
-gUnknown_082166FD:
+    .global Unk_082166FD
+Unk_082166FD:
     .string "HPMX{END}"
 
-    .global gUnknown_08216702
-gUnknown_08216702:
+    .global Unk_08216702
+Unk_08216702:
     .string "HPMX{END}"
 
-    .global gUnknown_08216707
-gUnknown_08216707:
+    .global Unk_08216707
+Unk_08216707:
     .string "PVMX{END}"
 
-    .global gUnknown_0821670C
-gUnknown_0821670C:
+    .global Unk_0821670C
+Unk_0821670C:
     .string "Fail{END}"
 
-    .global gUnknown_08216711
-gUnknown_08216711:
+    .global Unk_08216711
+Unk_08216711:
     .string "Miss{END}"
 
-    .global gUnknown_08216716
-gUnknown_08216716:
+    .global Unk_08216716
+Unk_08216716:
     .string "Cntr{END}"
 
-    .global gUnknown_0821671B
-gUnknown_0821671B:
+    .global Unk_0821671B
+Unk_0821671B:
     .string "Slam{END}"
 
-    .global gUnknown_08216720
-gUnknown_08216720:
+    .global Unk_08216720
+Unk_08216720:
     .string "Cont{END}"
 
-    .global gUnknown_08216725
-gUnknown_08216725:
+    .global Unk_08216725
+Unk_08216725:
     .string "Ech{END}"
 
-    .global gUnknown_08216729
-gUnknown_08216729:
+    .global Unk_08216729
+Unk_08216729:
     .string "Raté{END}"
 
-    .global gUnknown_0821672E
-gUnknown_0821672E:
+    .global Unk_0821672E
+Unk_0821672E:
     .string "Cntr{END}"
 
-    .global gUnknown_08216733
-gUnknown_08216733:
+    .global Unk_08216733
+Unk_08216733:
     .string "Yah!{END}"
 
-    .global gUnknown_08216738
-gUnknown_08216738:
+    .global Unk_08216738
+Unk_08216738:
     .string "Cont{END}"
 
-    .global gUnknown_0821673D
-gUnknown_0821673D:
+    .global Unk_0821673D
+Unk_0821673D:
     .string "Fehl{END}"
 
-    .global gUnknown_08216742
-gUnknown_08216742:
+    .global Unk_08216742
+Unk_08216742:
     .string "Verf{END}"
 
-    .global gUnknown_08216747
-gUnknown_08216747:
+    .global Unk_08216747
+Unk_08216747:
     .string "Kntr{END}"
 
-    .global gUnknown_0821674C
-gUnknown_0821674C:
+    .global Unk_0821674C
+Unk_0821674C:
     .string "Slam{END}"
 
-    .global gUnknown_08216751
-gUnknown_08216751:
+    .global Unk_08216751
+Unk_08216751:
     .string "Ver{END}"
 
-    .global gUnknown_08216755
-gUnknown_08216755:
+    .global Unk_08216755
+Unk_08216755:
     .string " Used in battle.{END}"
 
-    .global gUnknown_08216766
-gUnknown_08216766:
+    .global Unk_08216766
+Unk_08216766:
     .string "Im Kampf benutzt.{END}"
 
-    .global gUnknown_08216778
-gUnknown_08216778:
+    .global Unk_08216778
+Unk_08216778:
     .string "Utilisé au combat.{END}"
 
-    .global gUnknown_0821678B
-gUnknown_0821678B:
+    .global Unk_0821678B
+Unk_0821678B:
     .string "AP{END}"
 
-    .global gUnknown_0821678E
-gUnknown_0821678E:
+    .global Unk_0821678E
+Unk_0821678E:
     .string "AP{END}"
 
-    .global gUnknown_08216791
-gUnknown_08216791:
+    .global Unk_08216791
+Unk_08216791:
     .string "PC{END}"
 
-    .global gUnknown_08216794
-gUnknown_08216794:
+    .global Unk_08216794
+Unk_08216794:
     .string "/{END}"
 
-    .global gUnknown_08216796
-gUnknown_08216796:
+    .global Unk_08216796
+Unk_08216796:
     .string "Spells are not available.{END}"
 
-    .global gUnknown_082167B0
-gUnknown_082167B0:
+    .global Unk_082167B0
+Unk_082167B0:
     .string "Sorts indisponibles.{END}"
 
-    .global gUnknown_082167C5
-gUnknown_082167C5:
+    .global Unk_082167C5
+Unk_082167C5:
     .string "Zauber nicht verfügbar. {END}"
 

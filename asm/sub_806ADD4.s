@@ -32,8 +32,8 @@ _0806AE02:
 	bls _0806AE14
 	b _0806AE46
 	.align 2, 0
-_0806AE0C: .4byte gUnknown_081266BC
-_0806AE10: .4byte gUnknown_081266C2
+_0806AE0C: .4byte Unk_081266BC
+_0806AE10: .4byte Unk_081266C2
 _0806AE14:
 	adds r0, r7, #0
 	adds r1, r7, #4
@@ -86,7 +86,7 @@ _0806AE66:
 	b _0806AEA2
 	.align 2, 0
 _0806AE70: .4byte 0x0000011F
-_0806AE74: .4byte gUnknown_03004148
+_0806AE74: .4byte Unk_03004148
 _0806AE78:
 	adds r0, r7, #0
 	adds r1, r7, #0
@@ -129,7 +129,7 @@ _0806AEA2:
 	bhi _0806AEC8
 	b _0806AED4
 	.align 2, 0
-_0806AEC4: .4byte gUnknown_03003110
+_0806AEC4: .4byte Unk_03003110
 _0806AEC8:
 	adds r0, r7, #0
 	ldrh r1, [r0]

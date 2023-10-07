@@ -1,6 +1,6 @@
     .align 2
-    .global gUnknown_082E6B34
-gUnknown_082E6B34:
+    .global Unk_082E6B34
+Unk_082E6B34:
 @ Item 000 / 0x000 - Dirk
     .string "たんけん"	@name
     .fill   4, 1, 0	@filler

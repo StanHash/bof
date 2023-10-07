@@ -34,7 +34,7 @@ _08062202:
 	bls _08062210
 	b _08062250
 	.align 2, 0
-_0806220C: .4byte gUnknown_081260D4
+_0806220C: .4byte Unk_081260D4
 _08062210:
 	adds r0, r7, #4
 	adds r2, r7, #4
@@ -97,7 +97,7 @@ _08062276:
 	bls _08062284
 	b _080622E4
 	.align 2, 0
-_08062280: .4byte gUnknown_081260D4
+_08062280: .4byte Unk_081260D4
 _08062284:
 	ldr r0, _080622D8
 	ldr r1, _080622DC
@@ -142,8 +142,8 @@ _080622C6:
 	b _08062276
 	.align 2, 0
 _080622D8: .4byte MusicPlayerTable
-_080622DC: .4byte gSongTable
-_080622E0: .4byte gUnknown_0300412C
+_080622DC: .4byte SongTable
+_080622E0: .4byte Unk_0300412C
 _080622E4:
 	add sp, #0x28
 	pop {r4, r7}
@@ -181,7 +181,7 @@ sub_80622EC: @ 0x080622EC
 	movs r0, #0
 	b _0806232C
 	.align 2, 0
-_08062328: .4byte gUnknown_082A5B20
+_08062328: .4byte Unk_082A5B20
 _0806232C:
 	add sp, #8
 	pop {r4, r7}

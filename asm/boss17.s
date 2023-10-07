@@ -91,8 +91,8 @@ _080F8A30:
 	bl DebugPrintf
 	b _080F8A50
 	.align 2, 0
-_080F8A48: .4byte gUnknown_0812D4C0
-_080F8A4C: .4byte gUnknown_0812D4E4
+_080F8A48: .4byte Unk_0812D4C0
+_080F8A4C: .4byte Unk_0812D4E4
 _080F8A50:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -288,8 +288,8 @@ _080F8BE0:
 	bl DebugPrintf
 	b _080F8C00
 	.align 2, 0
-_080F8BF8: .4byte gUnknown_0812D4FC
-_080F8BFC: .4byte gUnknown_0812D4E4
+_080F8BF8: .4byte Unk_0812D4FC
+_080F8BFC: .4byte Unk_0812D4E4
 _080F8C00:
 	add sp, #4
 	pop {r4, r7}
@@ -776,7 +776,7 @@ _080F8F3A:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F8F90: .4byte gUnknown_082183F0
+_080F8F90: .4byte Unk_082183F0
 
 	THUMB_FUNC_START sub_80F8F94
 sub_80F8F94: @ 0x080F8F94
@@ -877,8 +877,8 @@ _080F9028:
 	strb r2, [r0]
 	b _080F907C
 	.align 2, 0
-_080F9050: .4byte gUnknown_030023BC
-_080F9054: .4byte gUnknown_03002374
+_080F9050: .4byte BlendCnt
+_080F9054: .4byte BlendVal
 _080F9058:
 	ldr r0, [r7]
 	bl sub_80E6C04
@@ -933,7 +933,7 @@ sub_80F9084: @ 0x080F9084
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F90C0: .4byte gUnknown_03004140
+_080F90C0: .4byte Unk_03004140
 
 	THUMB_FUNC_START sub_80F90C4
 sub_80F90C4: @ 0x080F90C4
@@ -986,7 +986,7 @@ _080F9118:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F9120: .4byte gUnknown_03006B10
+_080F9120: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80F9124
 sub_80F9124: @ 0x080F9124
@@ -1136,7 +1136,7 @@ _080F9232:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F923C: .4byte gUnknown_03006B10
+_080F923C: .4byte Unk_03006B10
 
 	THUMB_FUNC_START sub_80F9240
 sub_80F9240: @ 0x080F9240
@@ -1205,7 +1205,7 @@ sub_80F9240: @ 0x080F9240
 	bl sub_80F92EC
 	b _080F92E4
 	.align 2, 0
-_080F92C8: .4byte gUnknown_03006B10
+_080F92C8: .4byte Unk_03006B10
 _080F92CC:
 	ldr r0, [r7]
 	adds r1, r0, #0
@@ -1282,7 +1282,7 @@ _080F9324:
 	strb r2, [r0]
 	b _080F936A
 	.align 2, 0
-_080F9354: .4byte gUnknown_03006B10
+_080F9354: .4byte Unk_03006B10
 _080F9358:
 	adds r0, r7, #4
 	ldrb r1, [r0]

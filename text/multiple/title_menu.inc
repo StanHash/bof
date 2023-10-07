@@ -1,528 +1,528 @@
-    .global gUnknown_08183140
-gUnknown_08183140:
+    .global Unk_08183140
+Unk_08183140:
     .string "LANGUAGE{END}"
 
-    .global gUnknown_08183149
-gUnknown_08183149:
+    .global Unk_08183149
+Unk_08183149:
     .string "LANGUE{END}"
 
-    .global gUnknown_08183150
-gUnknown_08183150:
+    .global Unk_08183150
+Unk_08183150:
     .string "SPRACHE{END}"
 
-    .global gUnknown_08183158
-gUnknown_08183158:
+    .global Unk_08183158
+Unk_08183158:
     .string "English{END}"
 
-    .global gUnknown_08183160
-gUnknown_08183160:
+    .global Unk_08183160
+Unk_08183160:
     .string "Français{END}"
 
-    .global gUnknown_08183169
-gUnknown_08183169:
+    .global Unk_08183169
+Unk_08183169:
     .string "Deutsch{END}"
 
-    .global gUnknown_08183171
-gUnknown_08183171:
+    .global Unk_08183171
+Unk_08183171:
     .string "OK to delete the data{END}"
 
-    .global gUnknown_08183187
-gUnknown_08183187:
+    .global Unk_08183187
+Unk_08183187:
     .string "?{END}"
 
-    .global gUnknown_08183189
-gUnknown_08183189:
+    .global Unk_08183189
+Unk_08183189:
     .string "YES  NO{END}"
 
-    .global gUnknown_08183191
-gUnknown_08183191:
+    .global Unk_08183191
+Unk_08183191:
     .string "Yes{END}"
 
-    .global gUnknown_08183195
-gUnknown_08183195:
+    .global Unk_08183195
+Unk_08183195:
     .string " No{END}"
 
-    .global gUnknown_08183199
-gUnknown_08183199:
+    .global Unk_08183199
+Unk_08183199:
     .string "cù{END}"
 
-    .global gUnknown_0818319C
-gUnknown_0818319C:
+    .global Unk_0818319C
+Unk_0818319C:
     .string "ccù{END}"
 
-    .global gUnknown_081831A0
-gUnknown_081831A0:
+    .global Unk_081831A0
+Unk_081831A0:
     .string "EXCHANGE{END}"
 
-    .global gUnknown_081831A9
-gUnknown_081831A9:
+    .global Unk_081831A9
+Unk_081831A9:
     .string "WARNING: Save Data{END}"
 
-    .global gUnknown_081831BC
-gUnknown_081831BC:
+    .global Unk_081831BC
+Unk_081831BC:
     .string " already exists.{END}"
 
-    .global gUnknown_081831CD
-gUnknown_081831CD:
+    .global Unk_081831CD
+Unk_081831CD:
     .string "WARNING: Starting the{END}"
 
-    .global gUnknown_081831E3
-gUnknown_081831E3:
+    .global Unk_081831E3
+Unk_081831E3:
     .string "game from the Quick Save{END}"
 
-    .global gUnknown_081831FC
-gUnknown_081831FC:
+    .global Unk_081831FC
+Unk_081831FC:
     .string "point will delete the{END}"
 
-    .global gUnknown_08183212
-gUnknown_08183212:
+    .global Unk_08183212
+Unk_08183212:
     .string "data.{END}"
 
-    .global gUnknown_08183218
-gUnknown_08183218:
+    .global Unk_08183218
+Unk_08183218:
     .string "Start the game from the{END}"
 
-    .global gUnknown_08183230
-gUnknown_08183230:
+    .global Unk_08183230
+Unk_08183230:
     .string "Quick Save point?{END}"
 
-    .global gUnknown_08183242
-gUnknown_08183242:
+    .global Unk_08183242
+Unk_08183242:
     .string "{END}"
 
-    .global gUnknown_08183243
-gUnknown_08183243:
+    .global Unk_08183243
+Unk_08183243:
     .string "Unfortunately, the saved{END}"
 
-    .global gUnknown_0818325C
-gUnknown_0818325C:
+    .global Unk_0818325C
+Unk_0818325C:
     .string "data has been erased.{END}"
 
-    .global gUnknown_08183272
-gUnknown_08183272:
+    .global Unk_08183272
+Unk_08183272:
     .string "SCENARIO{END}"
 
-    .global gUnknown_0818327B
-gUnknown_0818327B:
+    .global Unk_0818327B
+Unk_0818327B:
     .string "GAME START{END}"
 
-    .global gUnknown_08183286
-gUnknown_08183286:
+    .global Unk_08183286
+Unk_08183286:
     .string "NEW GAME{END}"
 
-    .global gUnknown_0818328F
-gUnknown_0818328F:
+    .global Unk_0818328F
+Unk_0818328F:
     .string "COPY{END}"
 
-    .global gUnknown_08183294
-gUnknown_08183294:
+    .global Unk_08183294
+Unk_08183294:
     .string "ERASE{END}"
 
-    .global gUnknown_0818329A
-gUnknown_0818329A:
+    .global Unk_0818329A
+Unk_0818329A:
     .string "No.{END}"
 
-    .global gUnknown_0818329E
-gUnknown_0818329E:
+    .global Unk_0818329E
+Unk_0818329E:
     .string "Blank{END}"
 
-    .global gUnknown_081832A4
-gUnknown_081832A4:
+    .global Unk_081832A4
+Unk_081832A4:
     .string "Text Speed{END}"
 
-    .global gUnknown_081832AF
-gUnknown_081832AF:
+    .global Unk_081832AF
+Unk_081832AF:
     .string "Dash{END}"
 
-    .global gUnknown_081832B4
-gUnknown_081832B4:
+    .global Unk_081832B4
+Unk_081832B4:
     .string "{0xA3}{0x9B}{0xC6}{0xDF}{END}"
 
-    .global gUnknown_081832B9
-gUnknown_081832B9:
+    .global Unk_081832B9
+Unk_081832B9:
     .string "Music{END}"
 
-    .global gUnknown_081832BF
-gUnknown_081832BF:
+    .global Unk_081832BF
+Unk_081832BF:
     .string "END{END}"
 
-    .global gUnknown_081832C3
-gUnknown_081832C3:
+    .global Unk_081832C3
+Unk_081832C3:
     .string "Fast{END}"
 
-    .global gUnknown_081832C8
-gUnknown_081832C8:
+    .global Unk_081832C8
+Unk_081832C8:
     .string "Nrml{END}"
 
-    .global gUnknown_081832CD
-gUnknown_081832CD:
+    .global Unk_081832CD
+Unk_081832CD:
     .string "Slow{END}"
 
-    .global gUnknown_081832D2
-gUnknown_081832D2:
+    .global Unk_081832D2
+Unk_081832D2:
     .string "Nrml{END}"
 
-    .global gUnknown_081832D7
-gUnknown_081832D7:
+    .global Unk_081832D7
+Unk_081832D7:
     .string "Auto{END}"
 
-    .global gUnknown_081832DC
-gUnknown_081832DC:
+    .global Unk_081832DC
+Unk_081832DC:
     .string "{0xA5}{0xAB}{0xC2}{0x9D}{END}"
 
-    .global gUnknown_081832E1
-gUnknown_081832E1:
+    .global Unk_081832E1
+Unk_081832E1:
     .string "{0xBB}{0xB1}{0xBF}{0xC1}{END}"
 
-    .global gUnknown_081832E6
-gUnknown_081832E6:
+    .global Unk_081832E6
+Unk_081832E6:
     .string "ON{END}"
 
-    .global gUnknown_081832E9
-gUnknown_081832E9:
+    .global Unk_081832E9
+Unk_081832E9:
     .string "OFF{END}"
 
-    .global gUnknown_081832ED
-gUnknown_081832ED:
+    .global Unk_081832ED
+Unk_081832ED:
     .string "{0x7F}   {END}"
 
-    .global gUnknown_081832F2
-gUnknown_081832F2:
+    .global Unk_081832F2
+Unk_081832F2:
     .string "{END}"
 
-    .global gUnknown_081832F3
-gUnknown_081832F3:
+    .global Unk_081832F3
+Unk_081832F3:
     .string "{END}"
 
-    .global gUnknown_081832F4
-gUnknown_081832F4:
+    .global Unk_081832F4
+Unk_081832F4:
     .string "{END}"
 
-    .global gUnknown_081832F5
-gUnknown_081832F5:
+    .global Unk_081832F5
+Unk_081832F5:
     .string " {0x7F}  {END}"
 
-    .global gUnknown_081832FA
-gUnknown_081832FA:
+    .global Unk_081832FA
+Unk_081832FA:
     .string "{END}"
 
-    .global gUnknown_081832FB
-gUnknown_081832FB:
+    .global Unk_081832FB
+Unk_081832FB:
     .string "{END}"
 
-    .global gUnknown_081832FC
-gUnknown_081832FC:
+    .global Unk_081832FC
+Unk_081832FC:
     .string "{END}"
 
-    .global gUnknown_081832FD
-gUnknown_081832FD:
+    .global Unk_081832FD
+Unk_081832FD:
     .string "  {0x7F} {END}"
 
-    .global gUnknown_08183302
-gUnknown_08183302:
+    .global Unk_08183302
+Unk_08183302:
     .string "{END}"
 
-    .global gUnknown_08183303
-gUnknown_08183303:
+    .global Unk_08183303
+Unk_08183303:
     .string "{END}"
 
-    .global gUnknown_08183304
-gUnknown_08183304:
+    .global Unk_08183304
+Unk_08183304:
     .string "{END}"
 
-    .global gUnknown_08183305
-gUnknown_08183305:
+    .global Unk_08183305
+Unk_08183305:
     .string "   {0x7F}{END}"
 
-    .global gUnknown_0818330A
-gUnknown_0818330A:
+    .global Unk_0818330A
+Unk_0818330A:
     .string "{END}"
 
-    .global gUnknown_0818330B
-gUnknown_0818330B:
+    .global Unk_0818330B
+Unk_0818330B:
     .string "{END}"
 
-    .global gUnknown_0818330C
-gUnknown_0818330C:
+    .global Unk_0818330C
+Unk_0818330C:
     .string "{END}"
 
-    .global gUnknown_0818330D
-gUnknown_0818330D:
+    .global Unk_0818330D
+Unk_0818330D:
     .string "Daten löschen OK {END}"
 
-    .global gUnknown_0818331F
-gUnknown_0818331F:
+    .global Unk_0818331F
+Unk_0818331F:
     .string "?{END}"
 
-    .global gUnknown_08183321
-gUnknown_08183321:
+    .global Unk_08183321
+Unk_08183321:
     .string "JA NEIN{END}"
 
-    .global gUnknown_08183329
-gUnknown_08183329:
+    .global Unk_08183329
+Unk_08183329:
     .string "Ja{END}"
 
-    .global gUnknown_0818332C
-gUnknown_0818332C:
+    .global Unk_0818332C
+Unk_0818332C:
     .string "Nein{END}"
 
-    .global gUnknown_08183331
-gUnknown_08183331:
+    .global Unk_08183331
+Unk_08183331:
     .string "AUSTAUSCH{END}"
 
-    .global gUnknown_0818333B
-gUnknown_0818333B:
+    .global Unk_0818333B
+Unk_0818333B:
     .string "WARNUNG: Daten {END}"
 
-    .global gUnknown_0818334B
-gUnknown_0818334B:
+    .global Unk_0818334B
+Unk_0818334B:
     .string "existieren bereits.{END}"
 
-    .global gUnknown_0818335F
-gUnknown_0818335F:
+    .global Unk_0818335F
+Unk_0818335F:
     .string "WARNUNG: Alte{END}"
 
-    .global gUnknown_0818336D
-gUnknown_0818336D:
+    .global Unk_0818336D
+Unk_0818336D:
     .string "Daten werden{END}"
 
-    .global gUnknown_0818337A
-gUnknown_0818337A:
+    .global Unk_0818337A
+Unk_0818337A:
     .string "gelöscht!{END}"
 
-    .global gUnknown_08183384
-gUnknown_08183384:
+    .global Unk_08183384
+Unk_08183384:
     .string "{END}"
 
-    .global gUnknown_08183385
-gUnknown_08183385:
+    .global Unk_08183385
+Unk_08183385:
     .string "Quick-Save{END}"
 
-    .global gUnknown_08183390
-gUnknown_08183390:
+    .global Unk_08183390
+Unk_08183390:
     .string "starten?{END}"
 
-    .global gUnknown_08183399
-gUnknown_08183399:
+    .global Unk_08183399
+Unk_08183399:
     .string "{END}"
 
-    .global gUnknown_0818339A
-gUnknown_0818339A:
+    .global Unk_0818339A
+Unk_0818339A:
     .string "Die gespeicherten Daten{END}"
 
-    .global gUnknown_081833B2
-gUnknown_081833B2:
+    .global Unk_081833B2
+Unk_081833B2:
     .string "wurden gelöscht{END}"
 
-    .global gUnknown_081833C2
-gUnknown_081833C2:
+    .global Unk_081833C2
+Unk_081833C2:
     .string "SZENARIO{END}"
 
-    .global gUnknown_081833CB
-gUnknown_081833CB:
+    .global Unk_081833CB
+Unk_081833CB:
     .string "SPIELSTART{END}"
 
-    .global gUnknown_081833D6
-gUnknown_081833D6:
+    .global Unk_081833D6
+Unk_081833D6:
     .string "NEUES SPIEL{END}"
 
-    .global gUnknown_081833E2
-gUnknown_081833E2:
+    .global Unk_081833E2
+Unk_081833E2:
     .string "KOPIE{END}"
 
-    .global gUnknown_081833E8
-gUnknown_081833E8:
+    .global Unk_081833E8
+Unk_081833E8:
     .string "LÖSCHEN{END}"
 
-    .global gUnknown_081833F0
-gUnknown_081833F0:
+    .global Unk_081833F0
+Unk_081833F0:
     .string "Nr.{END}"
 
-    .global gUnknown_081833F4
-gUnknown_081833F4:
+    .global Unk_081833F4
+Unk_081833F4:
     .string "Leer{END}"
 
-    .global gUnknown_081833F9
-gUnknown_081833F9:
+    .global Unk_081833F9
+Unk_081833F9:
     .string "Texttempo{END}"
 
-    .global gUnknown_08183403
-gUnknown_08183403:
+    .global Unk_08183403
+Unk_08183403:
     .string "Renn{END}"
 
-    .global gUnknown_08183408
-gUnknown_08183408:
+    .global Unk_08183408
+Unk_08183408:
     .string "Musik{END}"
 
-    .global gUnknown_0818340E
-gUnknown_0818340E:
+    .global Unk_0818340E
+Unk_0818340E:
     .string "ENDE{END}"
 
-    .global gUnknown_08183413
-gUnknown_08183413:
+    .global Unk_08183413
+Unk_08183413:
     .string "shnl{END}"
 
-    .global gUnknown_08183418
-gUnknown_08183418:
+    .global Unk_08183418
+Unk_08183418:
     .string "Nrml{END}"
 
-    .global gUnknown_0818341D
-gUnknown_0818341D:
+    .global Unk_0818341D
+Unk_0818341D:
     .string "Lngs{END}"
 
-    .global gUnknown_08183422
-gUnknown_08183422:
+    .global Unk_08183422
+Unk_08183422:
     .string "Nrml{END}"
 
-    .global gUnknown_08183427
-gUnknown_08183427:
+    .global Unk_08183427
+Unk_08183427:
     .string "Auto{END}"
 
-    .global gUnknown_0818342C
-gUnknown_0818342C:
+    .global Unk_0818342C
+Unk_0818342C:
     .string "AN{END}"
 
-    .global gUnknown_0818342F
-gUnknown_0818342F:
+    .global Unk_0818342F
+Unk_0818342F:
     .string "AUS{END}"
 
-    .global gUnknown_08183433
-gUnknown_08183433:
+    .global Unk_08183433
+Unk_08183433:
     .string "OK pour effacer{END}"
 
-    .global gUnknown_08183443
-gUnknown_08183443:
+    .global Unk_08183443
+Unk_08183443:
     .string "?{END}"
 
-    .global gUnknown_08183445
-gUnknown_08183445:
+    .global Unk_08183445
+Unk_08183445:
     .string "OUI  NON{END}"
 
-    .global gUnknown_0818344E
-gUnknown_0818344E:
+    .global Unk_0818344E
+Unk_0818344E:
     .string "Oui{END}"
 
-    .global gUnknown_08183452
-gUnknown_08183452:
+    .global Unk_08183452
+Unk_08183452:
     .string "Non{END}"
 
-    .global gUnknown_08183456
-gUnknown_08183456:
+    .global Unk_08183456
+Unk_08183456:
     .string "ECHANGER{END}"
 
-    .global gUnknown_0818345F
-gUnknown_0818345F:
+    .global Unk_0818345F
+Unk_0818345F:
     .string "AVERTISSEMENT: les données de{END}"
 
-    .global gUnknown_0818347D
-gUnknown_0818347D:
+    .global Unk_0818347D
+Unk_0818347D:
     .string " existent déjà.{END}"
 
-    .global gUnknown_0818348D
-gUnknown_0818348D:
+    .global Unk_0818348D
+Unk_0818348D:
     .string "AVERTISSEMENT : démarrer{END}"
 
-    .global gUnknown_081834A6
-gUnknown_081834A6:
+    .global Unk_081834A6
+Unk_081834A6:
     .string "la partie au point{END}"
 
-    .global gUnknown_081834B9
-gUnknown_081834B9:
+    .global Unk_081834B9
+Unk_081834B9:
     .string "de sauvegarde rapide {END}"
 
-    .global gUnknown_081834CF
-gUnknown_081834CF:
+    .global Unk_081834CF
+Unk_081834CF:
     .string "effacera les données.{END}"
 
-    .global gUnknown_081834E5
-gUnknown_081834E5:
+    .global Unk_081834E5
+Unk_081834E5:
     .string "Démarrer la partie à {END}"
 
-    .global gUnknown_081834FB
-gUnknown_081834FB:
+    .global Unk_081834FB
+Unk_081834FB:
     .string "partir du point de {END}"
 
-    .global gUnknown_0818350F
-gUnknown_0818350F:
+    .global Unk_0818350F
+Unk_0818350F:
     .string "sauvegarde rapide ?{END}"
 
-    .global gUnknown_08183523
-gUnknown_08183523:
+    .global Unk_08183523
+Unk_08183523:
     .string "Hélas, les données{END}"
 
-    .global gUnknown_08183536
-gUnknown_08183536:
+    .global Unk_08183536
+Unk_08183536:
     .string "sauvegardées ont été effacées.{END}"
 
-    .global gUnknown_08183555
-gUnknown_08183555:
+    .global Unk_08183555
+Unk_08183555:
     .string "SCENARIO{END}"
 
-    .global gUnknown_0818355E
-gUnknown_0818355E:
+    .global Unk_0818355E
+Unk_0818355E:
     .string "LANCER JEU{END}"
 
-    .global gUnknown_08183569
-gUnknown_08183569:
+    .global Unk_08183569
+Unk_08183569:
     .string "NOUV PARTIE{END}"
 
-    .global gUnknown_08183575
-gUnknown_08183575:
+    .global Unk_08183575
+Unk_08183575:
     .string "COPIER{END}"
 
-    .global gUnknown_0818357C
-gUnknown_0818357C:
+    .global Unk_0818357C
+Unk_0818357C:
     .string "EFFACER{END}"
 
-    .global gUnknown_08183584
-gUnknown_08183584:
+    .global Unk_08183584
+Unk_08183584:
     .string "No.{END}"
 
-    .global gUnknown_08183588
-gUnknown_08183588:
+    .global Unk_08183588
+Unk_08183588:
     .string "Vide{END}"
 
-    .global gUnknown_0818358D
-gUnknown_0818358D:
+    .global Unk_0818358D
+Unk_0818358D:
     .string "Texte{END}"
 
-    .global gUnknown_08183593
-gUnknown_08183593:
+    .global Unk_08183593
+Unk_08183593:
     .string "Courir{END}"
 
-    .global gUnknown_0818359A
-gUnknown_0818359A:
+    .global Unk_0818359A
+Unk_0818359A:
     .string "Musique{END}"
 
-    .global gUnknown_081835A2
-gUnknown_081835A2:
+    .global Unk_081835A2
+Unk_081835A2:
     .string "Fin{END}"
 
-    .global gUnknown_081835A6
-gUnknown_081835A6:
+    .global Unk_081835A6
+Unk_081835A6:
     .string "Rapd{END}"
 
-    .global gUnknown_081835AB
-gUnknown_081835AB:
+    .global Unk_081835AB
+Unk_081835AB:
     .string "Nrml{END}"
 
-    .global gUnknown_081835B0
-gUnknown_081835B0:
+    .global Unk_081835B0
+Unk_081835B0:
     .string "Lent{END}"
 
-    .global gUnknown_081835B5
-gUnknown_081835B5:
+    .global Unk_081835B5
+Unk_081835B5:
     .string "Nrml{END}"
 
-    .global gUnknown_081835BA
-gUnknown_081835BA:
+    .global Unk_081835BA
+Unk_081835BA:
     .string "Auto{END}"
 
-    .global gUnknown_081835BF
-gUnknown_081835BF:
+    .global Unk_081835BF
+Unk_081835BF:
     .string "Oui{END}"
 
-    .global gUnknown_081835C3
-gUnknown_081835C3:
+    .global Unk_081835C3
+Unk_081835C3:
     .string "Non{END}"
 

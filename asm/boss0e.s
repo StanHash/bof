@@ -91,8 +91,8 @@ _080F4198:
 	bl DebugPrintf
 	b _080F41B8
 	.align 2, 0
-_080F41B0: .4byte gUnknown_0812D128
-_080F41B4: .4byte gUnknown_0812D14C
+_080F41B0: .4byte Unk_0812D128
+_080F41B4: .4byte Unk_0812D14C
 _080F41B8:
 	ldr r0, [r7]
 	bl sub_80D7D08
@@ -169,8 +169,8 @@ _080F4248:
 	bl DebugPrintf
 	b _080F4268
 	.align 2, 0
-_080F4260: .4byte gUnknown_0812D164
-_080F4264: .4byte gUnknown_0812D14C
+_080F4260: .4byte Unk_0812D164
+_080F4264: .4byte Unk_0812D14C
 _080F4268:
 	add sp, #4
 	pop {r4, r7}
@@ -765,7 +765,7 @@ _080F4682:
 	strb r1, [r0]
 	b _080F4728
 	.align 2, 0
-_080F46D8: .4byte gUnknown_082183CC
+_080F46D8: .4byte Unk_082183CC
 _080F46DC:
 	adds r0, r7, #4
 	ldrb r1, [r0]
@@ -870,4 +870,4 @@ _080F4794:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080F479C: .4byte gUnknown_03006B10
+_080F479C: .4byte Unk_03006B10

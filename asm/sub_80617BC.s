@@ -31,8 +31,8 @@ _080617E6:
 	bls _080617F8
 	b _08061828
 	.align 2, 0
-_080617F0: .4byte gUnknown_08126058
-_080617F4: .4byte gUnknown_03004E1C
+_080617F0: .4byte Unk_08126058
+_080617F4: .4byte Unk_03004E1C
 _080617F8:
 	adds r0, r7, #0
 	adds r1, r7, #4
@@ -160,12 +160,12 @@ _08061862:
 	strh r2, [r0]
 	b _08061854
 	.align 2, 0
-_080618E4: .4byte gUnknown_0201CFC0
+_080618E4: .4byte Unk_0201CFC0
 _080618E8:
 	ldr r0, _080618EC
 	b _080618F0
 	.align 2, 0
-_080618EC: .4byte gUnknown_0201CFC0
+_080618EC: .4byte Unk_0201CFC0
 _080618F0:
 	add sp, #0xc
 	pop {r7}

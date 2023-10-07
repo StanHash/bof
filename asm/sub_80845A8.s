@@ -130,8 +130,8 @@ _0808468C:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080846A8: .4byte gUnknown_08127B8C
-_080846AC: .4byte gUnknown_03005630
+_080846A8: .4byte Unk_08127B8C
+_080846AC: .4byte Unk_03005630
 
 	THUMB_FUNC_START sub_80846B0
 sub_80846B0: @ 0x080846B0
@@ -283,8 +283,8 @@ _080847BC:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080847CC: .4byte gUnknown_03004CC8
-_080847D0: .4byte gUnknown_03004CCC
+_080847CC: .4byte Unk_03004CC8
+_080847D0: .4byte Unk_03004CCC
 
 	THUMB_FUNC_START sub_80847D4
 sub_80847D4: @ 0x080847D4
@@ -319,7 +319,7 @@ sub_80847D4: @ 0x080847D4
 	bl sub_8070D28
 	b _0808484A
 	.align 2, 0
-_08084814: .4byte gUnknown_03004CCC
+_08084814: .4byte Unk_03004CCC
 _08084818:
 	ldr r0, [r7, #4]
 	ldrh r1, [r0, #6]
@@ -471,7 +471,7 @@ _08084930:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08084940: .4byte gUnknown_03004CC8
+_08084940: .4byte Unk_03004CC8
 
 	THUMB_FUNC_START sub_8084944
 sub_8084944: @ 0x08084944
@@ -606,7 +606,7 @@ sub_80849F0: @ 0x080849F0
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08084A48: .4byte gUnknown_030037E0
+_08084A48: .4byte Unk_030037E0
 
 	THUMB_FUNC_START sub_8084A4C
 sub_8084A4C: @ 0x08084A4C
@@ -691,7 +691,7 @@ _08084ADC:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08084AE4: .4byte gUnknown_03002580
+_08084AE4: .4byte Unk_03002580
 _08084AE8: .4byte sub_8084AEC+1
 
 	THUMB_FUNC_START sub_8084AEC
@@ -871,7 +871,7 @@ _08084C36:
 	bx r0
 	.align 2, 0
 _08084C48: .4byte sub_8084C50+1
-_08084C4C: .4byte gUnknown_03004CC8
+_08084C4C: .4byte Unk_03004CC8
 
 	THUMB_FUNC_START sub_8084C50
 sub_8084C50: @ 0x08084C50
@@ -907,7 +907,7 @@ _08084C88:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08084C90: .4byte gUnknown_03004CC8
+_08084C90: .4byte Unk_03004CC8
 _08084C94: .4byte sub_8084C0C+1
 
 	THUMB_FUNC_START sub_8084C98
@@ -1160,7 +1160,7 @@ _08084E5C:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08084E84: .4byte gUnknown_02022840
+_08084E84: .4byte Unk_02022840
 
 	THUMB_FUNC_START sub_8084E88
 sub_8084E88: @ 0x08084E88
@@ -1456,8 +1456,8 @@ _080850A6:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080850D0: .4byte gUnknown_02022840
-_080850D4: .4byte gUnknown_08184AB8
+_080850D0: .4byte Unk_02022840
+_080850D4: .4byte Unk_08184AB8
 _080850D8: .4byte sub_80850DC+1
 
 	THUMB_FUNC_START sub_80850DC
@@ -1572,7 +1572,7 @@ sub_808516C: @ 0x0808516C
 _080851AA:
 	b _080851BC
 	.align 2, 0
-_080851AC: .4byte gUnknown_03004CC8
+_080851AC: .4byte Unk_03004CC8
 _080851B0: .4byte sub_80851C4+1
 _080851B4:
 	ldr r1, [r7, #4]
@@ -1782,13 +1782,13 @@ _0808533A:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0808534C: .4byte gUnknown_030037E0
-_08085350: .4byte gUnknown_03004CC8
+_0808534C: .4byte Unk_030037E0
+_08085350: .4byte Unk_03004CC8
 _08085354: .4byte sub_808516C+1
-_08085358: .4byte gUnknown_08184AAC
-_0808535C: .4byte gUnknown_03003904
-_08085360: .4byte gUnknown_03003A28
-_08085364: .4byte gUnknown_03003B4C
+_08085358: .4byte Unk_08184AAC
+_0808535C: .4byte Unk_030037E0+1*0x124
+_08085360: .4byte Unk_030037E0+2*0x124
+_08085364: .4byte Unk_030037E0+3*0x124
 
 	THUMB_FUNC_START sub_8085368
 sub_8085368: @ 0x08085368
@@ -1966,7 +1966,7 @@ _080854B2:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080854C0: .4byte gUnknown_03002580
+_080854C0: .4byte Unk_03002580
 _080854C4: .4byte sub_8085500+1
 
 	THUMB_FUNC_START sub_80854C8
@@ -2408,7 +2408,7 @@ _0808578E:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0808581C: .4byte gUnknown_02022840
+_0808581C: .4byte Unk_02022840
 _08085820: .4byte 0x0000F910
 
 	THUMB_FUNC_START sub_8085824
@@ -2474,7 +2474,7 @@ _0808588E:
 	bx r0
 	.align 2, 0
 _08085898: .4byte 0x0000FFFF
-_0808589C: .4byte gUnknown_030055D0
+_0808589C: .4byte Unk_030055D0
 _080858A0: .4byte sub_8084338+1
 
 	THUMB_FUNC_START sub_80858A4
@@ -2713,7 +2713,7 @@ _08085A7C:
 	adds r0, r1, #0
 	b _08085A88
 	.align 2, 0
-_08085A84: .4byte gUnknown_0202DBD0
+_08085A84: .4byte SavedGameState
 _08085A88:
 	add sp, #8
 	pop {r7}
@@ -2748,7 +2748,7 @@ _08085AB8:
 	adds r0, r1, #0
 	b _08085AC4
 	.align 2, 0
-_08085AC0: .4byte gUnknown_030037E0
+_08085AC0: .4byte Unk_030037E0
 _08085AC4:
 	add sp, #8
 	pop {r7}
@@ -2920,5 +2920,5 @@ sub_8085B14: @ 0x08085B14
 	pop {r0}
 	bx r0
 	.align 2, 0
-_08085C04: .4byte gUnknown_030037E0
-_08085C08: .4byte gUnknown_08184B20
+_08085C04: .4byte Unk_030037E0
+_08085C08: .4byte Unk_08184B20

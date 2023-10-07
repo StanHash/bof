@@ -1,384 +1,384 @@
-    .global gUnknown_082100CC
-gUnknown_082100CC:
+    .global Unk_082100CC
+Unk_082100CC:
     .string "Dolch{END}"
 
-    .global gUnknown_082100D2
-gUnknown_082100D2:
+    .global Unk_082100D2
+Unk_082100D2:
     .string "BronzSW{END}"
 
-    .global gUnknown_082100DA
-gUnknown_082100DA:
+    .global Unk_082100DA
+Unk_082100DA:
     .string "Säbel{END}"
 
-    .global gUnknown_082100E0
-gUnknown_082100E0:
+    .global Unk_082100E0
+Unk_082100E0:
     .string "Sense{END}"
 
-    .global gUnknown_082100E6
-gUnknown_082100E6:
+    .global Unk_082100E6
+Unk_082100E6:
     .string "LangSW{END}"
 
-    .global gUnknown_082100ED
-gUnknown_082100ED:
+    .global Unk_082100ED
+Unk_082100ED:
     .string "DrchnSW{END}"
 
-    .global gUnknown_082100F5
-gUnknown_082100F5:
+    .global Unk_082100F5
+Unk_082100F5:
     .string "PowerSW{END}"
 
-    .global gUnknown_082100FD
-gUnknown_082100FD:
+    .global Unk_082100FD
+Unk_082100FD:
     .string "FlügelSW{END}"
 
-    .global gUnknown_08210106
-gUnknown_08210106:
+    .global Unk_08210106
+Unk_08210106:
     .string "ImperSW{END}"
 
-    .global gUnknown_0821010E
-gUnknown_0821010E:
+    .global Unk_0821010E
+Unk_0821010E:
     .string "ZerbrSW{END}"
 
-    .global gUnknown_08210116
-gUnknown_08210116:
+    .global Unk_08210116
+Unk_08210116:
     .string "Dummy{END}"
 
-    .global gUnknown_0821011C
-gUnknown_0821011C:
+    .global Unk_0821011C
+Unk_0821011C:
     .string "FlammSW{END}"
 
-    .global gUnknown_08210124
-gUnknown_08210124:
+    .global Unk_08210124
+Unk_08210124:
     .string "Sichel{END}"
 
-    .global gUnknown_0821012B
-gUnknown_0821012B:
+    .global Unk_0821012B
+Unk_0821012B:
     .string "BreitSW{END}"
 
-    .global gUnknown_08210133
-gUnknown_08210133:
+    .global Unk_08210133
+Unk_08210133:
     .string "MystSW{END}"
 
-    .global gUnknown_0821013A
-gUnknown_0821013A:
+    .global Unk_0821013A
+Unk_0821013A:
     .string "SWaff{END}"
 
-    .global gUnknown_08210140
-gUnknown_08210140:
+    .global Unk_08210140
+Unk_08210140:
     .string "KurzRP{END}"
 
-    .global gUnknown_08210147
-gUnknown_08210147:
+    .global Unk_08210147
+Unk_08210147:
     .string "Rapier{END}"
 
-    .global gUnknown_0821014E
-gUnknown_0821014E:
+    .global Unk_0821014E
+Unk_0821014E:
     .string "EisnRP{END}"
 
-    .global gUnknown_08210155
-gUnknown_08210155:
+    .global Unk_08210155
+Unk_08210155:
     .string "GiftRP{END}"
 
-    .global gUnknown_0821015C
-gUnknown_0821015C:
+    .global Unk_0821015C
+Unk_0821015C:
     .string "LichtRP{END}"
 
-    .global gUnknown_08210164
-gUnknown_08210164:
+    .global Unk_08210164
+Unk_08210164:
     .string "Dummy{END}"
 
-    .global gUnknown_0821016A
-gUnknown_0821016A:
+    .global Unk_0821016A
+Unk_0821016A:
     .string "FlammRP{END}"
 
-    .global gUnknown_08210172
-gUnknown_08210172:
+    .global Unk_08210172
+Unk_08210172:
     .string "FlüglRP{END}"
 
-    .global gUnknown_0821017A
-gUnknown_0821017A:
+    .global Unk_0821017A
+Unk_0821017A:
     .string "BronzRP{END}"
 
-    .global gUnknown_08210182
-gUnknown_08210182:
+    .global Unk_08210182
+Unk_08210182:
     .string "TeuflRP{END}"
 
-    .global gUnknown_0821018A
-gUnknown_0821018A:
+    .global Unk_0821018A
+Unk_0821018A:
     .string "BlitzRP{END}"
 
-    .global gUnknown_08210192
-gUnknown_08210192:
+    .global Unk_08210192
+Unk_08210192:
     .string "Dummy{END}"
 
-    .global gUnknown_08210198
-gUnknown_08210198:
+    .global Unk_08210198
+Unk_08210198:
     .string "LoyalRP{END}"
 
-    .global gUnknown_082101A0
-gUnknown_082101A0:
+    .global Unk_082101A0
+Unk_082101A0:
     .string "PowerRP{END}"
 
-    .global gUnknown_082101A8
-gUnknown_082101A8:
+    .global Unk_082101A8
+Unk_082101A8:
     .string "EisnHR{END}"
 
-    .global gUnknown_082101AF
-gUnknown_082101AF:
+    .global Unk_082101AF
+Unk_082101AF:
     .string "StchlHR{END}"
 
-    .global gUnknown_082101B7
-gUnknown_082101B7:
+    .global Unk_082101B7
+Unk_082101B7:
     .string "Keule{END}"
 
-    .global gUnknown_082101BD
-gUnknown_082101BD:
+    .global Unk_082101BD
+Unk_082101BD:
     .string "RiesnHR{END}"
 
-    .global gUnknown_082101C5
-gUnknown_082101C5:
+    .global Unk_082101C5
+Unk_082101C5:
     .string "FlammHR{END}"
 
-    .global gUnknown_082101CD
-gUnknown_082101CD:
+    .global Unk_082101CD
+Unk_082101CD:
     .string "Dummy{END}"
 
-    .global gUnknown_082101D3
-gUnknown_082101D3:
+    .global Unk_082101D3
+Unk_082101D3:
     .string "WutHR{END}"
 
-    .global gUnknown_082101D9
-gUnknown_082101D9:
+    .global Unk_082101D9
+Unk_082101D9:
     .string "Dummy{END}"
 
-    .global gUnknown_082101DF
-gUnknown_082101DF:
+    .global Unk_082101DF
+Unk_082101DF:
     .string "Hammer{END}"
 
-    .global gUnknown_082101E6
-gUnknown_082101E6:
+    .global Unk_082101E6
+Unk_082101E6:
     .string "StrnHR{END}"
 
-    .global gUnknown_082101ED
-gUnknown_082101ED:
+    .global Unk_082101ED
+Unk_082101ED:
     .string "Stock{END}"
 
-    .global gUnknown_082101F3
-gUnknown_082101F3:
+    .global Unk_082101F3
+Unk_082101F3:
     .string "Prügel{END}"
 
-    .global gUnknown_082101FA
-gUnknown_082101FA:
+    .global Unk_082101FA
+Unk_082101FA:
     .string "KnchnPR{END}"
 
-    .global gUnknown_08210202
-gUnknown_08210202:
+    .global Unk_08210202
+Unk_08210202:
     .string "TeuflPR{END}"
 
-    .global gUnknown_0821020A
-gUnknown_0821020A:
+    .global Unk_0821020A
+Unk_0821020A:
     .string "Dummy{END}"
 
-    .global gUnknown_08210210
-gUnknown_08210210:
+    .global Unk_08210210
+Unk_08210210:
     .string "EisPR{END}"
 
-    .global gUnknown_08210216
-gUnknown_08210216:
+    .global Unk_08210216
+Unk_08210216:
     .string "Dummy{END}"
 
-    .global gUnknown_0821021C
-gUnknown_0821021C:
+    .global Unk_0821021C
+Unk_0821021C:
     .string "GlutPR{END}"
 
-    .global gUnknown_08210223
-gUnknown_08210223:
+    .global Unk_08210223
+Unk_08210223:
     .string "Dummy{END}"
 
-    .global gUnknown_08210229
-gUnknown_08210229:
+    .global Unk_08210229
+Unk_08210229:
     .string "Stab{END}"
 
-    .global gUnknown_0821022E
-gUnknown_0821022E:
+    .global Unk_0821022E
+Unk_0821022E:
     .string "Spieß{END}"
 
-    .global gUnknown_08210234
-gUnknown_08210234:
+    .global Unk_08210234
+Unk_08210234:
     .string "Speer{END}"
 
-    .global gUnknown_0821023A
-gUnknown_0821023A:
+    .global Unk_0821023A
+Unk_0821023A:
     .string "AltSP{END}"
 
-    .global gUnknown_08210240
-gUnknown_08210240:
+    .global Unk_08210240
+Unk_08210240:
     .string "HeldSP{END}"
 
-    .global gUnknown_08210247
-gUnknown_08210247:
+    .global Unk_08210247
+Unk_08210247:
     .string "Drzck{END}"
 
-    .global gUnknown_0821024D
-gUnknown_0821024D:
+    .global Unk_0821024D
+Unk_0821024D:
     .string "Dummy{END}"
 
-    .global gUnknown_08210253
-gUnknown_08210253:
+    .global Unk_08210253
+Unk_08210253:
     .string "Schlfr{END}"
 
-    .global gUnknown_0821025A
-gUnknown_0821025A:
+    .global Unk_0821025A
+Unk_0821025A:
     .string "Dummy{END}"
 
-    .global gUnknown_08210260
-gUnknown_08210260:
+    .global Unk_08210260
+Unk_08210260:
     .string "GrabKR{END}"
 
-    .global gUnknown_08210267
-gUnknown_08210267:
+    .global Unk_08210267
+Unk_08210267:
     .string "RostKR{END}"
 
-    .global gUnknown_0821026E
-gUnknown_0821026E:
+    .global Unk_0821026E
+Unk_0821026E:
     .string "EisnKR{END}"
 
-    .global gUnknown_08210275
-gUnknown_08210275:
+    .global Unk_08210275
+Unk_08210275:
     .string "EisKR{END}"
 
-    .global gUnknown_0821027B
-gUnknown_0821027B:
+    .global Unk_0821027B
+Unk_0821027B:
     .string "Dummy{END}"
 
-    .global gUnknown_08210281
-gUnknown_08210281:
+    .global Unk_08210281
+Unk_08210281:
     .string "MystKR{END}"
 
-    .global gUnknown_08210288
-gUnknown_08210288:
+    .global Unk_08210288
+Unk_08210288:
     .string "Dummy{END}"
 
-    .global gUnknown_0821028E
-gUnknown_0821028E:
+    .global Unk_0821028E
+Unk_0821028E:
     .string "WurfDL{END}"
 
-    .global gUnknown_08210295
-gUnknown_08210295:
+    .global Unk_08210295
+Unk_08210295:
     .string "Dolch{END}"
 
-    .global gUnknown_0821029B
-gUnknown_0821029B:
+    .global Unk_0821029B
+Unk_0821029B:
     .string "WSpieß{END}"
 
-    .global gUnknown_082102A2
-gUnknown_082102A2:
+    .global Unk_082102A2
+Unk_082102A2:
     .string "DrzkDL{END}"
 
-    .global gUnknown_082102A9
-gUnknown_082102A9:
+    .global Unk_082102A9
+Unk_082102A9:
     .string "PowerDL{END}"
 
-    .global gUnknown_082102B1
-gUnknown_082102B1:
+    .global Unk_082102B1
+Unk_082102B1:
     .string "FlammDL{END}"
 
-    .global gUnknown_082102B9
-gUnknown_082102B9:
+    .global Unk_082102B9
+Unk_082102B9:
     .string "SilberDL{END}"
 
-    .global gUnknown_082102C2
-gUnknown_082102C2:
+    .global Unk_082102C2
+Unk_082102C2:
     .string "Dummy{END}"
 
-    .global gUnknown_082102C8
-gUnknown_082102C8:
+    .global Unk_082102C8
+Unk_082102C8:
     .string "Dummy{END}"
 
-    .global gUnknown_082102CE
-gUnknown_082102CE:
+    .global Unk_082102CE
+Unk_082102CE:
     .string "EisDL{END}"
 
-    .global gUnknown_082102D4
-gUnknown_082102D4:
+    .global Unk_082102D4
+Unk_082102D4:
     .string "Dummy{END}"
 
-    .global gUnknown_082102DA
-gUnknown_082102DA:
+    .global Unk_082102DA
+Unk_082102DA:
     .string "DnklDL{END}"
 
-    .global gUnknown_082102E1
-gUnknown_082102E1:
+    .global Unk_082102E1
+Unk_082102E1:
     .string "Dummy{END}"
 
-    .global gUnknown_082102E7
-gUnknown_082102E7:
+    .global Unk_082102E7
+Unk_082102E7:
     .string "BronzBG{END}"
 
-    .global gUnknown_082102EF
-gUnknown_082102EF:
+    .global Unk_082102EF
+Unk_082102EF:
     .string "KurzBG{END}"
 
-    .global gUnknown_082102F6
-gUnknown_082102F6:
+    .global Unk_082102F6
+Unk_082102F6:
     .string "LangBG{END}"
 
-    .global gUnknown_082102FD
-gUnknown_082102FD:
+    .global Unk_082102FD
+Unk_082102FD:
     .string "StahlBG{END}"
 
-    .global gUnknown_08210305
-gUnknown_08210305:
+    .global Unk_08210305
+Unk_08210305:
     .string "GiftBG{END}"
 
-    .global gUnknown_0821030C
-gUnknown_0821030C:
+    .global Unk_0821030C
+Unk_0821030C:
     .string "SharfBG{END}"
 
-    .global gUnknown_08210314
-gUnknown_08210314:
+    .global Unk_08210314
+Unk_08210314:
     .string "MondBG{END}"
 
-    .global gUnknown_0821031B
-gUnknown_0821031B:
+    .global Unk_0821031B
+Unk_0821031B:
     .string "JadeBG{END}"
 
-    .global gUnknown_08210322
-gUnknown_08210322:
+    .global Unk_08210322
+Unk_08210322:
     .string "DrzkBG{END}"
 
-    .global gUnknown_08210329
-gUnknown_08210329:
+    .global Unk_08210329
+Unk_08210329:
     .string "Dummy{END}"
 
-    .global gUnknown_0821032F
-gUnknown_0821032F:
+    .global Unk_0821032F
+Unk_0821032F:
     .string "Dummy{END}"
 
-    .global gUnknown_08210335
-gUnknown_08210335:
+    .global Unk_08210335
+Unk_08210335:
     .string "Dummy{END}"
 
-    .global gUnknown_0821033B
-gUnknown_0821033B:
+    .global Unk_0821033B
+Unk_0821033B:
     .string "ZwrgBG{END}"
 
-    .global gUnknown_08210342
-gUnknown_08210342:
+    .global Unk_08210342
+Unk_08210342:
     .string "HeldBG{END}"
 
-    .global gUnknown_08210349
-gUnknown_08210349:
+    .global Unk_08210349
+Unk_08210349:
     .string "Dummy{END}"
 
-    .global gUnknown_0821034F
-gUnknown_0821034F:
+    .global Unk_0821034F
+Unk_0821034F:
     .string "BRang{END}"
 
-    .global gUnknown_08210355
-gUnknown_08210355:
+    .global Unk_08210355
+Unk_08210355:
     .string "WurfKl{END}"
 
-    .global gUnknown_0821035C
-gUnknown_0821035C:
+    .global Unk_0821035C
+Unk_0821035C:
     .string "DrRang{END}"
 

@@ -147,6 +147,52 @@
 
 #define REG_WAITCNT REG(u16, 0x04000204)
 
+// DISPCNT
+
+enum
+{
+    BG_MODE_REGULAR = 0,
+    BG_MODE_MIXED = 1,
+    BG_MODE_AFFINE = 2,
+    BG_MODE_BITMAP = 3,
+    BG_MODE_BITMAP_INDEXED = 4,
+    BG_MODE_BITMAP_SMALL = 5,
+};
+
+enum
+{
+    OBJ_MAPPING_2D = 0,
+    OBJ_MAPPING_1D = 1,
+};
+
+#define DISPCNT_BG_MODE(n) (((n) & 7) << 0)
+#define DISPCNT_BITMAP_FRAME(n) (((n) & 1) << 4)
+#define DISPCNT_OBJ_MAPPING(n) (((n) & 1) << 6)
+
+enum
+{
+    DISPCNT_BG_MODE_REGULAR = DISPCNT_BG_MODE(BG_MODE_REGULAR),
+    DISPCNT_BG_MODE_MIXED = DISPCNT_BG_MODE(BG_MODE_MIXED),
+    DISPCNT_BG_MODE_AFFINE = DISPCNT_BG_MODE(BG_MODE_AFFINE),
+    DISPCNT_BG_MODE_BITMAP = DISPCNT_BG_MODE(BG_MODE_BITMAP),
+    DISPCNT_BG_MODE_BITMAP_INDEXED = DISPCNT_BG_MODE(BG_MODE_BITMAP_INDEXED),
+    DISPCNT_BG_MODE_BITMAP_SMALL = DISPCNT_BG_MODE(BG_MODE_BITMAP_SMALL),
+    DISPCNT_BITMAP_FRAME_0 = DISPCNT_BITMAP_FRAME(0),
+    DISPCNT_BITMAP_FRAME_1 = DISPCNT_BITMAP_FRAME(1),
+    DISPCNT_HBLANK_INTERVAL_FREE = 1 << 5,
+    DISPCNT_OBJ_MAPPING_2D = DISPCNT_OBJ_MAPPING(OBJ_MAPPING_2D),
+    DISPCNT_OBJ_MAPPING_1D = DISPCNT_OBJ_MAPPING(OBJ_MAPPING_1D),
+    DISPCNT_FORCE_BLANK = 1 << 7,
+    DISPCNT_BG0_ENABLE = 1 << 8,
+    DISPCNT_BG1_ENABLE = 1 << 9,
+    DISPCNT_BG2_ENABLE = 1 << 10,
+    DISPCNT_BG3_ENABLE = 1 << 11,
+    DISPCNT_OBJ_ENABLE = 1 << 12,
+    DISPCNT_WIN0_ENABLE = 1 << 13,
+    DISPCNT_WIN1_ENABLE = 1 << 14,
+    DISPCNT_OBJWIN_ENABLE = 1 << 15,
+};
+
 // DISPSTAT
 
 #define DISPSTAT_VCOUNT_COMPARE(n) (((n) & 0xFF) << 8)
@@ -229,7 +275,7 @@ enum
     {                                                                                                                  \
         u##bit volatile tmp = (u##bit volatile)(value);                                                                \
         DmaSet(dma_num, &tmp, dest,                                                                                    \
-               (DMA_ENABLE | DMA_START_NOW | DMA_##bit##BIT | DMA_SRC_FIXED | DMA_DST_INC) << 16 |                     \
+               ((DMA_ENABLE | DMA_START_NOW | DMA_##bit##BIT | DMA_SRC_FIXED | DMA_DST_INC) << 16) |                   \
                    ((size) / (bit / 8)));                                                                              \
     }
 
@@ -253,7 +299,7 @@ enum
 
 #define DMA_COPY(dma_num, src, dest, size, bit)                                                                        \
     DmaSet(dma_num, src, dest,                                                                                         \
-           (DMA_ENABLE | DMA_START_NOW | DMA_##bit##BIT | DMA_SRC_INC | DMA_DST_INC) | ((size) / (bit / 8)))
+           ((DMA_ENABLE | DMA_START_NOW | DMA_##bit##BIT | DMA_SRC_INC | DMA_DST_INC) << 16) | ((size) / (bit / 8)))
 
 #define DmaCopy16(dma_num, src, dest, size) DMA_COPY(dma_num, src, dest, size, 16)
 #define DmaCopy32(dma_num, src, dest, size) DMA_COPY(dma_num, src, dest, size, 32)

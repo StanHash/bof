@@ -3,6 +3,6 @@
 	.align 2
 
 
-    .global gUnknown_08128760
-gUnknown_08128760:
+    .global Unk_08128760
+Unk_08128760:
     .incbin "baserom.gba", 0x00128760, 0x50

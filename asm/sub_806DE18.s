@@ -45,4 +45,4 @@ sub_806DE18: @ 0x0806DE18
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0806DE6C: .4byte gUnknown_081269CC
+_0806DE6C: .4byte Unk_081269CC

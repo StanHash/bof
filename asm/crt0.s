@@ -25,8 +25,8 @@ crt0:
 j_crt0: @ 0x080000F0
 	b crt0
 	.align 2, 0
-_080000F4: .4byte gUnknown_03007E00
-_080000F8: .4byte gUnknown_03007FA0
+_080000F4: .4byte Unk_03007E00
+_080000F8: .4byte Unk_03007FA0
 
 	ARM_FUNC_START IntrMain
 IntrMain: @ IntrMain
@@ -82,6 +82,6 @@ _080001AC:
 	ldr r0, [r1]
 	bx r0
 	.align 2, 0
-_080001C0: .4byte gUnknown_03007FFC
+_080001C0: .4byte Unk_03007FFC
 _080001C4: .4byte AgbMain+1
 _080001C8: .4byte IntrTable

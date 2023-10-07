@@ -26,7 +26,7 @@ sub_806AEE0: @ 0x0806AEE0
 	bl sub_806ADD4
 	b _0806AFD6
 	.align 2, 0
-_0806AF10: .4byte gUnknown_081266DC
+_0806AF10: .4byte Unk_081266DC
 _0806AF14:
 	movs r0, #0x27
 	bl CheckFlag_08002524
@@ -101,9 +101,9 @@ _0806AF8C:
 	bl sub_806B420
 	b _0806AFBE
 	.align 2, 0
-_0806AFA4: .4byte gUnknown_03005BB8
+_0806AFA4: .4byte Unk_03005BB8
 _0806AFA8: .4byte 0x00007E0F
-_0806AFAC: .4byte gUnknown_03005BB4
+_0806AFAC: .4byte Unk_03005BB4
 _0806AFB0: .4byte 0x00000485
 _0806AFB4:
 	adds r0, r7, #0
@@ -129,9 +129,9 @@ _0806AFD6:
 	pop {r0}
 	bx r0
 	.align 2, 0
-_0806AFE0: .4byte gUnknown_03005BA8
+_0806AFE0: .4byte Unk_03005BA8
 _0806AFE4: .4byte 0x00007F01
-_0806AFE8: .4byte gUnknown_03005BAC
+_0806AFE8: .4byte Unk_03005BAC
 
 	THUMB_FUNC_START sub_806AFEC
 sub_806AFEC: @ 0x0806AFEC
