@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_805E384
-sub_805E384: @ 0x0805E384
+	THUMB_FUNC_START func_0805E384
+func_0805E384: @ 0x0805E384
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -37,7 +37,7 @@ _0805E3B8:
 	adds r0, r0, r2
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_805E828
+	bl func_0805E828
 	adds r1, r7, #0
 	adds r1, #8
 	adds r0, r7, #0
@@ -50,7 +50,7 @@ _0805E3B8:
 	strb r2, [r0]
 	b _0805E3A6
 _0805E3E0:
-	bl sub_805E534
+	bl func_0805E534
 	add sp, #0xc
 	pop {r7}
 	pop {r0}

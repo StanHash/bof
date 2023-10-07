@@ -148,6 +148,7 @@
 . = 0x0002E08A; Unk_0202E08A = .;
 . = 0x0002E0D0; Unk_0202E0D0 = .;
 
+/* note: this is not actual COMMON */
 . = 0x03E000; src/m4a.o(COMMON.SoundInfo);
 . = 0x03EFB0; src/m4a.o(COMMON.MPlayJumpTable);
 . = 0x03F040; src/m4a.o(COMMON.CgbChans);

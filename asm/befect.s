@@ -39,11 +39,11 @@ _0810E618: @ jump table
 	.4byte _0810E68C @ case 14
 _0810E654:
 	ldr r0, [r7]
-	bl sub_810A6A4
+	bl func_0810A6A4
 	b _0810E6B4
 _0810E65C:
 	ldr r0, [r7]
-	bl sub_810A684
+	bl func_0810A684
 	b _0810E6B4
 _0810E664:
 	ldr r0, [r7]
@@ -63,11 +63,11 @@ _0810E67C:
 	b _0810E6B4
 _0810E684:
 	ldr r0, [r7]
-	bl sub_810E9C4
+	bl func_0810E9C4
 	b _0810E6B4
 _0810E68C:
 	ldr r0, [r7]
-	bl sub_810E6BC
+	bl func_0810E6BC
 	b _0810E6B4
 _0810E694:
 	ldr r0, _0810E6AC
@@ -89,8 +89,8 @@ _0810E6B4:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_810E6BC
-sub_810E6BC: @ 0x0810E6BC
+	THUMB_FUNC_START func_0810E6BC
+func_0810E6BC: @ 0x0810E6BC
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -161,7 +161,7 @@ _0810E6FE:
 	b _0810E74A
 _0810E744:
 	ldr r0, [r7]
-	bl sub_8070D28
+	bl func_08070D28
 _0810E74A:
 	add sp, #0xc
 	pop {r7}
@@ -253,31 +253,31 @@ _0810E7D8: @ jump table
 	.4byte _0810E83C @ case 12
 _0810E80C:
 	ldr r0, [r7]
-	bl sub_810E86C
+	bl func_0810E86C
 	b _0810E864
 _0810E814:
 	ldr r0, [r7]
-	bl sub_810E974
+	bl func_0810E974
 	b _0810E864
 _0810E81C:
 	ldr r0, [r7]
-	bl sub_810E8A4
+	bl func_0810E8A4
 	b _0810E864
 _0810E824:
 	ldr r0, [r7]
-	bl sub_810E910
+	bl func_0810E910
 	b _0810E864
 _0810E82C:
 	ldr r0, [r7]
-	bl sub_810E990
+	bl func_0810E990
 	b _0810E864
 _0810E834:
 	ldr r0, [r7]
-	bl sub_8070D28
+	bl func_08070D28
 	b _0810E864
 _0810E83C:
 	ldr r0, [r7]
-	bl sub_810E8DC
+	bl func_0810E8DC
 	b _0810E864
 _0810E844:
 	ldr r0, _0810E85C
@@ -299,8 +299,8 @@ _0810E864:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_810E86C
-sub_810E86C: @ 0x0810E86C
+	THUMB_FUNC_START func_0810E86C
+func_0810E86C: @ 0x0810E86C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -319,17 +319,17 @@ sub_810E86C: @ 0x0810E86C
 	strb r2, [r0]
 	ldr r0, [r7]
 	movs r1, #0
-	bl sub_806251C
+	bl func_0806251C
 	ldr r0, [r7]
-	bl sub_810E990
+	bl func_0810E990
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_810E8A4
-sub_810E8A4: @ 0x0810E8A4
+	THUMB_FUNC_START func_0810E8A4
+func_0810E8A4: @ 0x0810E8A4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -348,17 +348,17 @@ sub_810E8A4: @ 0x0810E8A4
 	strb r2, [r0]
 	ldr r0, [r7]
 	movs r1, #2
-	bl sub_806251C
+	bl func_0806251C
 	ldr r0, [r7]
-	bl sub_810E990
+	bl func_0810E990
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_810E8DC
-sub_810E8DC: @ 0x0810E8DC
+	THUMB_FUNC_START func_0810E8DC
+func_0810E8DC: @ 0x0810E8DC
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -387,8 +387,8 @@ _0810E906:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_810E910
-sub_810E910: @ 0x0810E910
+	THUMB_FUNC_START func_0810E910
+func_0810E910: @ 0x0810E910
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -434,29 +434,29 @@ sub_810E910: @ 0x0810E910
 	strb r2, [r0]
 _0810E966:
 	ldr r0, [r7]
-	bl sub_810E974
+	bl func_0810E974
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_810E974
-sub_810E974: @ 0x0810E974
+	THUMB_FUNC_START func_0810E974
+func_0810E974: @ 0x0810E974
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0E98
+	bl func_080D0E98
 	ldr r0, [r7]
-	bl sub_810E990
+	bl func_0810E990
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_810E990
-sub_810E990: @ 0x0810E990
+	THUMB_FUNC_START func_0810E990
+func_0810E990: @ 0x0810E990
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -475,7 +475,7 @@ sub_810E990: @ 0x0810E990
 	cmp r1, #0x11
 	beq _0810E9B8
 	ldr r0, [r7]
-	bl sub_8067ED4
+	bl func_08067ED4
 _0810E9B8:
 	add sp, #8
 	pop {r7}
@@ -484,26 +484,26 @@ _0810E9B8:
 	.align 2, 0
 _0810E9C0: .4byte Unk_03002594
 
-	THUMB_FUNC_START sub_810E9C4
-sub_810E9C4: @ 0x0810E9C4
+	THUMB_FUNC_START func_0810E9C4
+func_0810E9C4: @ 0x0810E9C4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8086514
+	bl func_08086514
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_810E9DC
-sub_810E9DC: @ 0x0810E9DC
+	THUMB_FUNC_START func_0810E9DC
+func_0810E9DC: @ 0x0810E9DC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
-	bl sub_8070B24
+	bl func_08070B24
 	str r0, [r7]
 	ldr r0, [r7]
 	cmp r0, #0

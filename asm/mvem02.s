@@ -41,7 +41,7 @@ _080FE478: @ jump table
 	.4byte _080FE4F0 @ case 16
 _080FE4BC:
 	ldr r0, [r7]
-	bl sub_80EE328
+	bl func_080EE328
 	b _080FE518
 _080FE4C4:
 	ldr r0, [r7]
@@ -49,19 +49,19 @@ _080FE4C4:
 	b _080FE518
 _080FE4CC:
 	ldr r0, [r7]
-	bl sub_80FCF6C
+	bl func_080FCF6C
 	b _080FE518
 _080FE4D4:
 	ldr r0, [r7]
-	bl sub_80FE5BC
+	bl func_080FE5BC
 	b _080FE518
 _080FE4DC:
 	ldr r0, [r7]
-	bl sub_80FD624
+	bl func_080FD624
 	b _080FE518
 _080FE4E4:
 	ldr r0, [r7]
-	bl sub_80D80B0
+	bl func_080D80B0
 	b _080FE518
 _080FE4EC:
 	b _080FE518
@@ -69,7 +69,7 @@ _080FE4EE:
 	b _080FE518
 _080FE4F0:
 	ldr r0, [r7]
-	bl sub_80D8F8C
+	bl func_080D8F8C
 	b _080FE518
 _080FE4F8:
 	ldr r0, _080FE510
@@ -153,15 +153,15 @@ _080FE518:
 	adds r1, r2, #0
 	strb r1, [r0]
 	ldr r0, [r7]
-	bl sub_80D7D08
+	bl func_080D7D08
 	add sp, #0xc
 	pop {r4, r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80FE5AC
-sub_80FE5AC: @ 0x080FE5AC
+	THUMB_FUNC_START func_080FE5AC
+func_080FE5AC: @ 0x080FE5AC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -171,8 +171,8 @@ sub_80FE5AC: @ 0x080FE5AC
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80FE5BC
-sub_80FE5BC: @ 0x080FE5BC
+	THUMB_FUNC_START func_080FE5BC
+func_080FE5BC: @ 0x080FE5BC
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -188,17 +188,17 @@ sub_80FE5BC: @ 0x080FE5BC
 	str r1, [r7, #4]
 	ldr r1, [r7, #4]
 	adds r0, r1, #0
-	bl sub_80FE5EC
+	bl func_080FE5EC
 _080FE5DE:
 	ldr r0, [r7]
-	bl sub_80FD0A4
+	bl func_080FD0A4
 	add sp, #8
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80FE5EC
-sub_80FE5EC: @ 0x080FE5EC
+	THUMB_FUNC_START func_080FE5EC
+func_080FE5EC: @ 0x080FE5EC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp

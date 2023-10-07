@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_807ECAC
-sub_807ECAC: @ 0x0807ECAC
+	THUMB_FUNC_START func_0807ECAC
+func_0807ECAC: @ 0x0807ECAC
 	push {r4, r7, lr}
 	sub sp, #0x18
 	mov r7, sp
@@ -79,7 +79,7 @@ sub_807ECAC: @ 0x0807ECAC
 	adds r3, #0x76
 	ldrh r2, [r3]
 	ldr r0, [r7]
-	bl sub_807EDC0
+	bl func_0807EDC0
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -143,8 +143,8 @@ _0807EDB8:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_807EDC0
-sub_807EDC0: @ 0x0807EDC0
+	THUMB_FUNC_START func_0807EDC0
+func_0807EDC0: @ 0x0807EDC0
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -196,7 +196,7 @@ _0807EE1C:
 	ldrh r1, [r2]
 	adds r3, r7, #6
 	ldrh r2, [r3]
-	bl sub_805F7C0
+	bl func_0805F7C0
 	adds r1, r7, #0
 	adds r1, #8
 	strb r0, [r1]
@@ -224,8 +224,8 @@ _0807EE58:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_807EE60
-sub_807EE60: @ 0x0807EE60
+	THUMB_FUNC_START func_0807EE60
+func_0807EE60: @ 0x0807EE60
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp

@@ -6,22 +6,22 @@
     .align 2
     .global Unk_0817BCD8
 Unk_0817BCD8:
-    .word sub_8004BE8
-    .word sub_8004CDC
-    .word sub_8004D20
-    .word sub_8004D50
-    .word sub_8004DC4
-    .word sub_8004E14
-    .word sub_8004E8C
-    .word sub_8004E98
+    .word func_08004BE8
+    .word func_08004CDC
+    .word func_08004D20
+    .word func_08004D50
+    .word func_08004DC4
+    .word func_08004E14
+    .word func_08004E8C
+    .word func_08004E98
 
     .align 2
     .global Unk_0817BCF8
 Unk_0817BCF8:
-    .word sub_8003AF0
-    .word sub_8003B48
-    .word sub_8003BA0
-    .word sub_8003BF8
+    .word func_08003AF0
+    .word func_08003B48
+    .word func_08003BA0
+    .word func_08003BF8
 
     .global Unk_0817BD08
 Unk_0817BD08:
@@ -83,87 +83,87 @@ Unk_0817BF7C:
     .align 2
     .global Unk_0817BF94
 Unk_0817BF94:
-    .word sub_80067DC
-    .word sub_8006844
-    .word sub_80068EC
-    .word sub_80069A8
+    .word func_080067DC
+    .word func_08006844
+    .word func_080068EC
+    .word func_080069A8
 
     .align 2
     .global Unk_0817BFA4
 Unk_0817BFA4:
-    .word sub_800939C
-    .word sub_80111EC
-    .word sub_8017A34
-    .word sub_801E39C
-    .word sub_8024DC8
-    .word sub_8030548
-    .word sub_8035BC8
+    .word func_0800939C
+    .word func_080111EC
+    .word func_08017A34
+    .word func_0801E39C
+    .word func_08024DC8
+    .word func_08030548
+    .word func_08035BC8
 
     .align 2
     .global Unk_0817BFC0
 Unk_0817BFC0:
-    .word sub_8009210
-    .word sub_8011174
-    .word sub_8017950
-    .word sub_801E048
-    .word sub_8024850
-    .word sub_80303A8
-    .word sub_8035B78
+    .word func_08009210
+    .word func_08011174
+    .word func_08017950
+    .word func_0801E048
+    .word func_08024850
+    .word func_080303A8
+    .word func_08035B78
 
     .align 2
     .global Unk_0817BFDC
 Unk_0817BFDC:
-    .word sub_800DBA8
-    .word sub_8015A2C
-    .word sub_801B7E8
-    .word sub_8021EA8
-    .word sub_802D99C
-    .word sub_8035024
-    .word sub_803864C
+    .word func_0800DBA8
+    .word func_08015A2C
+    .word func_0801B7E8
+    .word func_08021EA8
+    .word func_0802D99C
+    .word func_08035024
+    .word func_0803864C
 
     .align 2
     .global Unk_0817BFF8
 Unk_0817BFF8:
-    .word sub_800DF74
-    .word sub_8015E88
-    .word sub_801B9EC
-    .word sub_80224B0
-    .word sub_802DF70
-    .word sub_801B9EC
-    .word sub_801B9EC
+    .word func_0800DF74
+    .word func_08015E88
+    .word func_0801B9EC
+    .word func_080224B0
+    .word func_0802DF70
+    .word func_0801B9EC
+    .word func_0801B9EC
 
     .align 2
     .global Unk_0817C014
 Unk_0817C014:
-    .word sub_801046C
-    .word sub_8016780
-    .word sub_801D680
-    .word sub_8023798
-    .word sub_802E494
-    .word sub_80353E4
-    .word sub_8038688
+    .word func_0801046C
+    .word func_08016780
+    .word func_0801D680
+    .word func_08023798
+    .word func_0802E494
+    .word func_080353E4
+    .word func_08038688
 
     .align 2
     .global Unk_0817C030
 Unk_0817C030:
-    .word sub_8010254
-    .word sub_8017394
-    .word sub_801D918
-    .word sub_80244E0
-    .word sub_802F65C
-    .word sub_803557C
-    .word sub_80386B0
+    .word func_08010254
+    .word func_08017394
+    .word func_0801D918
+    .word func_080244E0
+    .word func_0802F65C
+    .word func_0803557C
+    .word func_080386B0
 
     .align 2
     .global Unk_0817C04C
 Unk_0817C04C:
-    .word sub_8010FF4
-    .word sub_8017798
-    .word sub_801DAEC
-    .word sub_8024784
-    .word sub_802FBA4
-    .word sub_8035814
-    .word sub_80386D4
+    .word func_08010FF4
+    .word func_08017798
+    .word func_0801DAEC
+    .word func_08024784
+    .word func_0802FBA4
+    .word func_08035814
+    .word func_080386D4
 
     .global Unk_0817C068
 Unk_0817C068:
@@ -266,210 +266,210 @@ Unk_0817CCE0:
     .align 2
     .global Unk_0817CD28
 Unk_0817CD28:
-    .word sub_8007B34
-    .word sub_8007D14
-    .word sub_8007E3C
-    .word sub_8007F74
-    .word sub_800817C
-    .word sub_800822C
-    .word sub_8008274
-    .word sub_8008408
-    .word sub_800854C
-    .word sub_8008694
-    .word sub_80088B8
-    .word sub_8008A0C
+    .word func_08007B34
+    .word func_08007D14
+    .word func_08007E3C
+    .word func_08007F74
+    .word func_0800817C
+    .word func_0800822C
+    .word func_08008274
+    .word func_08008408
+    .word func_0800854C
+    .word func_08008694
+    .word func_080088B8
+    .word func_08008A0C
 
     .align 2
     .global Unk_0817CD58
 Unk_0817CD58:
     .word 5
-    .word sub_8009288
+    .word func_08009288
     .word 1
-    .word sub_8009228
+    .word func_08009228
     .word 6
-    .word sub_80092C8
+    .word func_080092C8
     .word 0x89
-    .word sub_8009300
+    .word func_08009300
     .word 0xFFFF
     .word 0
 
     .align 2
     .global Unk_0817CD80
 Unk_0817CD80:
-    .word sub_8009400
-    .word sub_8009B14
-    .word sub_800B910
-    .word sub_8009268
-    .word sub_800BA40
-    .word sub_800BC98
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800C3C8
-    .word sub_800C4A0
-    .word sub_800C4FC
-    .word sub_800C630
-    .word sub_800D190
-    .word sub_800D400
-    .word sub_800D4B8
-    .word sub_800D9C8
-    .word sub_800DA5C
+    .word func_08009400
+    .word func_08009B14
+    .word func_0800B910
+    .word func_08009268
+    .word func_0800BA40
+    .word func_0800BC98
+    .word func_08009268
+    .word func_08009268
+    .word func_0800C3C8
+    .word func_0800C4A0
+    .word func_0800C4FC
+    .word func_0800C630
+    .word func_0800D190
+    .word func_0800D400
+    .word func_0800D4B8
+    .word func_0800D9C8
+    .word func_0800DA5C
 
     .align 2
     .global Unk_0817CDC4
 Unk_0817CDC4:
-    .word sub_800942C
-    .word sub_80094DC
-    .word sub_8009534
-    .word sub_8009684
-    .word sub_800974C
-    .word sub_80097D4
-    .word sub_800987C
-    .word sub_80098A8
-    .word sub_80098E0
-    .word sub_8009934
-    .word sub_80099AC
-    .word sub_80099F0
-    .word sub_8009A40
-    .word sub_8009268
-    .word sub_8009A94
-    .word sub_8009AF4
-    .word sub_8009268
+    .word func_0800942C
+    .word func_080094DC
+    .word func_08009534
+    .word func_08009684
+    .word func_0800974C
+    .word func_080097D4
+    .word func_0800987C
+    .word func_080098A8
+    .word func_080098E0
+    .word func_08009934
+    .word func_080099AC
+    .word func_080099F0
+    .word func_08009A40
+    .word func_08009268
+    .word func_08009A94
+    .word func_08009AF4
+    .word func_08009268
 
     .align 2
     .global Unk_0817CE08
 Unk_0817CE08:
-    .word sub_8009B40
-    .word sub_8009B88
-    .word sub_8009BBC
-    .word sub_8009C6C
-    .word sub_8009268
-    .word sub_8009CC8
-    .word sub_8009D48
-    .word sub_8009D80
-    .word sub_8009DF8
-    .word sub_8009268
-    .word sub_8009E74
-    .word sub_8009EE8
-    .word sub_8009F3C
-    .word sub_8009F7C
-    .word sub_8009268
-    .word sub_8009FA4
-    .word sub_800A008
-    .word sub_800A078
-    .word sub_800A128
-    .word sub_800A174
-    .word sub_8009268
-    .word sub_800A1D0
-    .word sub_800A224
-    .word sub_800A288
-    .word sub_8009268
-    .word sub_800A2D8
-    .word sub_800A32C
-    .word sub_800A390
-    .word sub_8009268
-    .word sub_800A3E0
-    .word sub_800A430
-    .word sub_800A490
-    .word sub_800A4F0
-    .word sub_800A550
-    .word sub_800A5B4
-    .word sub_8009268
-    .word sub_800A5FC
-    .word sub_800A650
-    .word sub_800A6B0
-    .word sub_800A710
-    .word sub_800A770
-    .word sub_800A7D4
-    .word sub_800A848
-    .word sub_800A8A0
-    .word sub_800A8F8
-    .word sub_800A950
-    .word sub_800A9A4
-    .word sub_8009268
-    .word sub_800AA2C
-    .word sub_8009268
-    .word sub_800AAA0
-    .word sub_8009268
-    .word sub_800ABCC
-    .word sub_800AC78
-    .word sub_8009268
-    .word sub_800ACFC
-    .word sub_8009268
-    .word sub_800AD80
-    .word sub_800ADB8
-    .word sub_8009268
-    .word sub_800AE6C
-    .word sub_800AF30
-    .word sub_8009268
-    .word sub_800AF6C
-    .word sub_800AFC8
-    .word sub_800B028
-    .word sub_8009268
-    .word sub_800B084
-    .word sub_800B0B8
-    .word sub_8009268
-    .word sub_800B110
-    .word sub_800B140
-    .word sub_800B170
-    .word sub_800B22C
-    .word sub_800B280
-    .word sub_800B2E8
-    .word sub_800B340
-    .word sub_800B398
-    .word sub_800B438
-    .word sub_800B49C
-    .word sub_800B59C
-    .word sub_8009268
+    .word func_08009B40
+    .word func_08009B88
+    .word func_08009BBC
+    .word func_08009C6C
+    .word func_08009268
+    .word func_08009CC8
+    .word func_08009D48
+    .word func_08009D80
+    .word func_08009DF8
+    .word func_08009268
+    .word func_08009E74
+    .word func_08009EE8
+    .word func_08009F3C
+    .word func_08009F7C
+    .word func_08009268
+    .word func_08009FA4
+    .word func_0800A008
+    .word func_0800A078
+    .word func_0800A128
+    .word func_0800A174
+    .word func_08009268
+    .word func_0800A1D0
+    .word func_0800A224
+    .word func_0800A288
+    .word func_08009268
+    .word func_0800A2D8
+    .word func_0800A32C
+    .word func_0800A390
+    .word func_08009268
+    .word func_0800A3E0
+    .word func_0800A430
+    .word func_0800A490
+    .word func_0800A4F0
+    .word func_0800A550
+    .word func_0800A5B4
+    .word func_08009268
+    .word func_0800A5FC
+    .word func_0800A650
+    .word func_0800A6B0
+    .word func_0800A710
+    .word func_0800A770
+    .word func_0800A7D4
+    .word func_0800A848
+    .word func_0800A8A0
+    .word func_0800A8F8
+    .word func_0800A950
+    .word func_0800A9A4
+    .word func_08009268
+    .word func_0800AA2C
+    .word func_08009268
+    .word func_0800AAA0
+    .word func_08009268
+    .word func_0800ABCC
+    .word func_0800AC78
+    .word func_08009268
+    .word func_0800ACFC
+    .word func_08009268
+    .word func_0800AD80
+    .word func_0800ADB8
+    .word func_08009268
+    .word func_0800AE6C
+    .word func_0800AF30
+    .word func_08009268
+    .word func_0800AF6C
+    .word func_0800AFC8
+    .word func_0800B028
+    .word func_08009268
+    .word func_0800B084
+    .word func_0800B0B8
+    .word func_08009268
+    .word func_0800B110
+    .word func_0800B140
+    .word func_0800B170
+    .word func_0800B22C
+    .word func_0800B280
+    .word func_0800B2E8
+    .word func_0800B340
+    .word func_0800B398
+    .word func_0800B438
+    .word func_0800B49C
+    .word func_0800B59C
+    .word func_08009268
 
     .align 2
     .global Unk_0817CF50
 Unk_0817CF50:
-    .word sub_800B93C
-    .word sub_8009268
-    .word sub_800B97C
-    .word sub_8009268
-    .word sub_800B9B0
-    .word sub_8009268
-    .word sub_800B9E4
-    .word sub_800B9FC
-    .word sub_8009268
+    .word func_0800B93C
+    .word func_08009268
+    .word func_0800B97C
+    .word func_08009268
+    .word func_0800B9B0
+    .word func_08009268
+    .word func_0800B9E4
+    .word func_0800B9FC
+    .word func_08009268
 
     .align 2
     .global Unk_0817CF74
 Unk_0817CF74:
-    .word sub_800BA6C
-    .word sub_8009268
-    .word sub_800BA90
-    .word sub_800BAA8
-    .word sub_8009268
-    .word sub_800BB18
-    .word sub_800BB70
-    .word sub_800BBDC
-    .word sub_800BC40
+    .word func_0800BA6C
+    .word func_08009268
+    .word func_0800BA90
+    .word func_0800BAA8
+    .word func_08009268
+    .word func_0800BB18
+    .word func_0800BB70
+    .word func_0800BBDC
+    .word func_0800BC40
 
     .align 2
     .global Unk_0817CF98
 Unk_0817CF98:
-    .word sub_800BCC4
-    .word sub_800BCF4
-    .word sub_800BD18
-    .word sub_800BD64
-    .word sub_800BDA4
-    .word sub_8009268
-    .word sub_800BF58
-    .word sub_800BFA4
-    .word sub_800BFF8
-    .word sub_8009268
-    .word sub_800C034
-    .word sub_800C090
-    .word sub_800C0E4
-    .word sub_8009268
-    .word sub_800C124
-    .word sub_800C15C
-    .word sub_800C1B4
-    .word sub_800C208
-    .word sub_800C258
-    .word sub_800C2D0
+    .word func_0800BCC4
+    .word func_0800BCF4
+    .word func_0800BD18
+    .word func_0800BD64
+    .word func_0800BDA4
+    .word func_08009268
+    .word func_0800BF58
+    .word func_0800BFA4
+    .word func_0800BFF8
+    .word func_08009268
+    .word func_0800C034
+    .word func_0800C090
+    .word func_0800C0E4
+    .word func_08009268
+    .word func_0800C124
+    .word func_0800C15C
+    .word func_0800C1B4
+    .word func_0800C208
+    .word func_0800C258
+    .word func_0800C2D0
 
     .align 2
     .global Unk_0817CFE8
@@ -494,326 +494,326 @@ Unk_0817CFE8:
     .align 2
     .global Unk_0817D008
 Unk_0817D008:
-    .word sub_8009268
-    .word sub_800C3F4
-    .word sub_800C460
-    .word sub_8009268
+    .word func_08009268
+    .word func_0800C3F4
+    .word func_0800C460
+    .word func_08009268
 
     .align 2
     .global Unk_0817D018
 Unk_0817D018:
-    .word sub_800C4CC
-    .word sub_8009268
-    .word sub_800C4E4
-    .word sub_8009268
-    .word sub_8009268
+    .word func_0800C4CC
+    .word func_08009268
+    .word func_0800C4E4
+    .word func_08009268
+    .word func_08009268
 
     .align 2
     .global Unk_0817D02C
 Unk_0817D02C:
-    .word sub_800C528
-    .word sub_8009268
-    .word sub_800C5AC
-    .word sub_8009268
+    .word func_0800C528
+    .word func_08009268
+    .word func_0800C5AC
+    .word func_08009268
 
     .align 2
     .global Unk_0817D03C
 Unk_0817D03C:
-    .word sub_800C65C
-    .word sub_800C760
-    .word sub_8009268
-    .word sub_800C85C
-    .word sub_800C918
-    .word sub_800C94C
-    .word sub_800C978
-    .word sub_800C9A4
-    .word sub_800C9D0
-    .word sub_800CA34
-    .word sub_800CAA8
-    .word sub_800CAD0
-    .word sub_800CB24
-    .word sub_800CB70
-    .word sub_800CB88
-    .word sub_800CBD4
-    .word sub_8009268
-    .word sub_800CC38
-    .word sub_8009268
-    .word sub_800CCB4
-    .word sub_800CCE4
-    .word sub_800CD20
-    .word sub_800CD54
-    .word sub_800CDA4
-    .word sub_800CDEC
-    .word sub_800CE40
-    .word sub_800CE94
-    .word sub_800CEE8
-    .word sub_800CF3C
-    .word sub_800CF7C
-    .word sub_800CFB8
-    .word sub_800CFF8
-    .word sub_800D018
-    .word sub_800D064
-    .word sub_8009268
+    .word func_0800C65C
+    .word func_0800C760
+    .word func_08009268
+    .word func_0800C85C
+    .word func_0800C918
+    .word func_0800C94C
+    .word func_0800C978
+    .word func_0800C9A4
+    .word func_0800C9D0
+    .word func_0800CA34
+    .word func_0800CAA8
+    .word func_0800CAD0
+    .word func_0800CB24
+    .word func_0800CB70
+    .word func_0800CB88
+    .word func_0800CBD4
+    .word func_08009268
+    .word func_0800CC38
+    .word func_08009268
+    .word func_0800CCB4
+    .word func_0800CCE4
+    .word func_0800CD20
+    .word func_0800CD54
+    .word func_0800CDA4
+    .word func_0800CDEC
+    .word func_0800CE40
+    .word func_0800CE94
+    .word func_0800CEE8
+    .word func_0800CF3C
+    .word func_0800CF7C
+    .word func_0800CFB8
+    .word func_0800CFF8
+    .word func_0800D018
+    .word func_0800D064
+    .word func_08009268
 
     .align 2
     .global Unk_0817D0C8
 Unk_0817D0C8:
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800D21C
-    .word sub_800D22C
-    .word sub_800D20C
-    .word sub_800D22C
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800D26C
-    .word sub_800D2A8
-    .word sub_800D2A8
-    .word sub_8009268
-    .word sub_800D2D8
-    .word sub_800D318
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800D34C
-    .word sub_800D398
-    .word sub_8009268
+    .word func_08009268
+    .word func_08009268
+    .word func_0800D21C
+    .word func_0800D22C
+    .word func_0800D20C
+    .word func_0800D22C
+    .word func_08009268
+    .word func_08009268
+    .word func_0800D26C
+    .word func_0800D2A8
+    .word func_0800D2A8
+    .word func_08009268
+    .word func_0800D2D8
+    .word func_0800D318
+    .word func_08009268
+    .word func_08009268
+    .word func_0800D34C
+    .word func_0800D398
+    .word func_08009268
 
     .align 2
     .global Unk_0817D114
 Unk_0817D114:
-    .word sub_800D46C
-    .word sub_8009268
+    .word func_0800D46C
+    .word func_08009268
 
     .align 2
     .global Unk_0817D11C
 Unk_0817D11C:
-    .word sub_800D4E4
-    .word sub_800D4FC
-    .word sub_800D560
-    .word sub_800D5A0
-    .word sub_800D748
-    .word sub_8009268
-    .word sub_800D788
-    .word sub_800D7C8
-    .word sub_800D870
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800D8A4
-    .word sub_800D8FC
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800D96C
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800D97C
-    .word sub_8009268
+    .word func_0800D4E4
+    .word func_0800D4FC
+    .word func_0800D560
+    .word func_0800D5A0
+    .word func_0800D748
+    .word func_08009268
+    .word func_0800D788
+    .word func_0800D7C8
+    .word func_0800D870
+    .word func_08009268
+    .word func_08009268
+    .word func_0800D8A4
+    .word func_0800D8FC
+    .word func_08009268
+    .word func_08009268
+    .word func_0800D96C
+    .word func_08009268
+    .word func_08009268
+    .word func_0800D97C
+    .word func_08009268
 
     .align 2
     .global Unk_0817D16C
 Unk_0817D16C:
-    .word sub_800D9F4
-    .word sub_8009268
-    .word sub_800DA28
-    .word sub_8009268
+    .word func_0800D9F4
+    .word func_08009268
+    .word func_0800DA28
+    .word func_08009268
 
     .align 2
     .global Unk_0817D17C
 Unk_0817D17C:
-    .word sub_800DA88
-    .word sub_800DAD0
-    .word sub_800DB28
-    .word sub_8009268
-    .word sub_800DB74
-    .word sub_8009268
+    .word func_0800DA88
+    .word func_0800DAD0
+    .word func_0800DB28
+    .word func_08009268
+    .word func_0800DB74
+    .word func_08009268
 
     .align 2
     .global Unk_0817D194
 Unk_0817D194:
-    .word sub_8009268
-    .word sub_8009268
-    .word sub_800DBEC
-    .word sub_8009268
-    .word sub_800DC50
-    .word sub_800DC5C
-    .word sub_800DCAC
-    .word sub_800DD88
-    .word sub_800DD70
-    .word sub_800DD98
-    .word sub_800DDCC
-    .word sub_800DE28
-    .word sub_800DE84
-    .word sub_800DEE8
-    .word sub_800DF00
-    .word sub_800DF18
+    .word func_08009268
+    .word func_08009268
+    .word func_0800DBEC
+    .word func_08009268
+    .word func_0800DC50
+    .word func_0800DC5C
+    .word func_0800DCAC
+    .word func_0800DD88
+    .word func_0800DD70
+    .word func_0800DD98
+    .word func_0800DDCC
+    .word func_0800DE28
+    .word func_0800DE84
+    .word func_0800DEE8
+    .word func_0800DF00
+    .word func_0800DF18
 
     .align 2
     .global Unk_0817D1D4
 Unk_0817D1D4:
-    .word sub_8009274
-    .word sub_800E168
-    .word sub_800E184
-    .word sub_800E1A4
-    .word sub_800E1F0
-    .word sub_800E214
-    .word sub_800E24C
-    .word sub_800E268
-    .word sub_800E284
-    .word sub_800E324
-    .word sub_800E33C
-    .word sub_800E37C
-    .word sub_800E3B0
-    .word sub_800E458
-    .word sub_800E494
-    .word sub_800E41C
-    .word sub_800E4FC
-    .word sub_800E514
-    .word sub_800E52C
-    .word sub_800E6E0
-    .word sub_800E544
-    .word sub_800E580
-    .word sub_800E5AC
-    .word sub_800E5E8
-    .word sub_800E624
-    .word sub_800E670
-    .word sub_800E694
-    .word sub_800E6F8
-    .word sub_800E710
-    .word sub_800E728
-    .word sub_800E740
-    .word sub_800E7A0
-    .word sub_800E7B8
-    .word sub_800E7D0
-    .word sub_8009274
-    .word sub_800E7E8
-    .word sub_800E838
-    .word sub_800E860
-    .word sub_800E898
-    .word sub_800E8CC
-    .word sub_800E8F0
-    .word sub_800E934
-    .word sub_800E97C
-    .word sub_800E9A8
-    .word sub_800E9CC
-    .word sub_800EA04
-    .word sub_800EA34
-    .word sub_800EA78
-    .word sub_800EAB0
-    .word sub_800EB28
-    .word sub_800EB64
-    .word sub_800EAEC
-    .word sub_800EB80
-    .word sub_800EBF4
-    .word sub_800EC10
-    .word sub_800EC38
-    .word sub_800EC5C
-    .word sub_800EC7C
-    .word sub_800EC9C
-    .word sub_800ECC0
-    .word sub_800ED14
-    .word sub_800ED3C
-    .word sub_800ED74
-    .word sub_800ED90
-    .word sub_800EDC8
-    .word sub_800EE00
-    .word sub_800EE38
-    .word sub_800EE54
-    .word sub_800EE84
-    .word sub_800EEB4
-    .word sub_800EEC8
-    .word sub_800EEF8
-    .word sub_800EF1C
-    .word sub_800EF70
-    .word sub_800EF94
-    .word sub_800EFBC
-    .word sub_800EFFC
-    .word sub_800F020
-    .word sub_800F044
-    .word sub_800F078
-    .word sub_800F09C
-    .word sub_800F0CC
-    .word sub_800F0F0
-    .word sub_800F10C
-    .word sub_800F148
-    .word sub_800F164
-    .word sub_800F1AC
-    .word sub_800F1CC
-    .word sub_800F20C
-    .word sub_800F248
-    .word sub_800F278
-    .word sub_800F2A0
-    .word sub_800F2C4
-    .word sub_800F2F4
-    .word sub_800F388
-    .word sub_800F3E0
-    .word sub_800F474
-    .word sub_800F4A4
-    .word sub_800F4C8
-    .word sub_800F4EC
-    .word sub_800F528
-    .word sub_800F548
-    .word sub_800F564
-    .word sub_800F588
-    .word sub_800F5C4
-    .word sub_800F5EC
-    .word sub_800F610
-    .word sub_800F638
-    .word sub_800F69C
-    .word sub_800F6E4
-    .word sub_800F704
-    .word sub_800F72C
-    .word sub_800F760
-    .word sub_800F788
-    .word sub_800F7C8
-    .word sub_800F7EC
-    .word sub_800F814
-    .word sub_800F850
-    .word sub_800F900
-    .word sub_800F96C
-    .word sub_800F9B4
-    .word sub_800FA64
-    .word sub_800FAAC
-    .word sub_800F91C
-    .word sub_800F7AC
-    .word sub_800FB5C
-    .word sub_800FBA4
-    .word sub_800FBC8
-    .word sub_800FBEC
-    .word sub_800FC24
-    .word sub_800FC44
-    .word sub_800FC64
-    .word sub_800FC94
-    .word sub_800FCBC
-    .word sub_800FCE0
-    .word sub_800FD74
-    .word sub_800FD98
-    .word sub_800FDB8
-    .word sub_800FE08
-    .word sub_800FE3C
-    .word sub_800FE60
-    .word sub_800FE90
-    .word sub_800FEA8
-    .word sub_800FEC0
-    .word sub_800FED8
-    .word sub_800FEF0
-    .word sub_800FF08
-    .word sub_800FF20
-    .word sub_800FF38
-    .word sub_800FF50
-    .word sub_800FF68
-    .word sub_800FF80
-    .word sub_800FF98
-    .word sub_800FFB0
-    .word sub_800FFC8
-    .word sub_800FFE0
-    .word sub_800FFF8
+    .word func_08009274
+    .word func_0800E168
+    .word func_0800E184
+    .word func_0800E1A4
+    .word func_0800E1F0
+    .word func_0800E214
+    .word func_0800E24C
+    .word func_0800E268
+    .word func_0800E284
+    .word func_0800E324
+    .word func_0800E33C
+    .word func_0800E37C
+    .word func_0800E3B0
+    .word func_0800E458
+    .word func_0800E494
+    .word func_0800E41C
+    .word func_0800E4FC
+    .word func_0800E514
+    .word func_0800E52C
+    .word func_0800E6E0
+    .word func_0800E544
+    .word func_0800E580
+    .word func_0800E5AC
+    .word func_0800E5E8
+    .word func_0800E624
+    .word func_0800E670
+    .word func_0800E694
+    .word func_0800E6F8
+    .word func_0800E710
+    .word func_0800E728
+    .word func_0800E740
+    .word func_0800E7A0
+    .word func_0800E7B8
+    .word func_0800E7D0
+    .word func_08009274
+    .word func_0800E7E8
+    .word func_0800E838
+    .word func_0800E860
+    .word func_0800E898
+    .word func_0800E8CC
+    .word func_0800E8F0
+    .word func_0800E934
+    .word func_0800E97C
+    .word func_0800E9A8
+    .word func_0800E9CC
+    .word func_0800EA04
+    .word func_0800EA34
+    .word func_0800EA78
+    .word func_0800EAB0
+    .word func_0800EB28
+    .word func_0800EB64
+    .word func_0800EAEC
+    .word func_0800EB80
+    .word func_0800EBF4
+    .word func_0800EC10
+    .word func_0800EC38
+    .word func_0800EC5C
+    .word func_0800EC7C
+    .word func_0800EC9C
+    .word func_0800ECC0
+    .word func_0800ED14
+    .word func_0800ED3C
+    .word func_0800ED74
+    .word func_0800ED90
+    .word func_0800EDC8
+    .word func_0800EE00
+    .word func_0800EE38
+    .word func_0800EE54
+    .word func_0800EE84
+    .word func_0800EEB4
+    .word func_0800EEC8
+    .word func_0800EEF8
+    .word func_0800EF1C
+    .word func_0800EF70
+    .word func_0800EF94
+    .word func_0800EFBC
+    .word func_0800EFFC
+    .word func_0800F020
+    .word func_0800F044
+    .word func_0800F078
+    .word func_0800F09C
+    .word func_0800F0CC
+    .word func_0800F0F0
+    .word func_0800F10C
+    .word func_0800F148
+    .word func_0800F164
+    .word func_0800F1AC
+    .word func_0800F1CC
+    .word func_0800F20C
+    .word func_0800F248
+    .word func_0800F278
+    .word func_0800F2A0
+    .word func_0800F2C4
+    .word func_0800F2F4
+    .word func_0800F388
+    .word func_0800F3E0
+    .word func_0800F474
+    .word func_0800F4A4
+    .word func_0800F4C8
+    .word func_0800F4EC
+    .word func_0800F528
+    .word func_0800F548
+    .word func_0800F564
+    .word func_0800F588
+    .word func_0800F5C4
+    .word func_0800F5EC
+    .word func_0800F610
+    .word func_0800F638
+    .word func_0800F69C
+    .word func_0800F6E4
+    .word func_0800F704
+    .word func_0800F72C
+    .word func_0800F760
+    .word func_0800F788
+    .word func_0800F7C8
+    .word func_0800F7EC
+    .word func_0800F814
+    .word func_0800F850
+    .word func_0800F900
+    .word func_0800F96C
+    .word func_0800F9B4
+    .word func_0800FA64
+    .word func_0800FAAC
+    .word func_0800F91C
+    .word func_0800F7AC
+    .word func_0800FB5C
+    .word func_0800FBA4
+    .word func_0800FBC8
+    .word func_0800FBEC
+    .word func_0800FC24
+    .word func_0800FC44
+    .word func_0800FC64
+    .word func_0800FC94
+    .word func_0800FCBC
+    .word func_0800FCE0
+    .word func_0800FD74
+    .word func_0800FD98
+    .word func_0800FDB8
+    .word func_0800FE08
+    .word func_0800FE3C
+    .word func_0800FE60
+    .word func_0800FE90
+    .word func_0800FEA8
+    .word func_0800FEC0
+    .word func_0800FED8
+    .word func_0800FEF0
+    .word func_0800FF08
+    .word func_0800FF20
+    .word func_0800FF38
+    .word func_0800FF50
+    .word func_0800FF68
+    .word func_0800FF80
+    .word func_0800FF98
+    .word func_0800FFB0
+    .word func_0800FFC8
+    .word func_0800FFE0
+    .word func_0800FFF8
 
     .align 2
     .global Unk_0817D448
 Unk_0817D448:
     .word 0x92
-    .word sub_80103C4
+    .word func_080103C4
     .word 0x91
-    .word sub_8010374
+    .word func_08010374
     .word 0xFFFF
     .word 0
 
@@ -821,119 +821,119 @@ Unk_0817D448:
     .global Unk_0817D460
 Unk_0817D460:
     .word 0
-    .word sub_8010588
+    .word func_08010588
     .word 6
-    .word sub_8010DF0
+    .word func_08010DF0
     .word 0xF
-    .word sub_8010698
+    .word func_08010698
     .word 0x91
-    .word sub_8010898
+    .word func_08010898
     .word 0x90
-    .word sub_8010900
+    .word func_08010900
     .word 0x51
-    .word sub_8010964
+    .word func_08010964
     .word 0x7F
-    .word sub_8010B2C
+    .word func_08010B2C
     .word 0x80
-    .word sub_8010BB0
+    .word func_08010BB0
     .word 0x82
-    .word sub_8010C00
+    .word func_08010C00
     .word 0x10
-    .word sub_8010D44
+    .word func_08010D44
     .word 0xFFFF
     .word 0
 
     .align 2
     .global Unk_0817D4B8
 Unk_0817D4B8:
-    .word sub_8017944
-    .word sub_801121C
-    .word sub_80113D8
-    .word sub_801158C
-    .word sub_8011624
-    .word sub_8011868
-    .word sub_80119E4
-    .word sub_8012040
-    .word sub_8012680
-    .word sub_8013074
-    .word sub_80135DC
-    .word sub_8013698
-    .word sub_8013A40
-    .word sub_8014510
-    .word sub_8014708
-    .word sub_80155F0
-    .word sub_80156B0
+    .word func_08017944
+    .word func_0801121C
+    .word func_080113D8
+    .word func_0801158C
+    .word func_08011624
+    .word func_08011868
+    .word func_080119E4
+    .word func_08012040
+    .word func_08012680
+    .word func_08013074
+    .word func_080135DC
+    .word func_08013698
+    .word func_08013A40
+    .word func_08014510
+    .word func_08014708
+    .word func_080155F0
+    .word func_080156B0
 
     .align 2
     .global Unk_0817D4FC
 Unk_0817D4FC:
-    .word sub_801124C
-    .word sub_8017944
-    .word sub_80112B0
-    .word sub_801132C
+    .word func_0801124C
+    .word func_08017944
+    .word func_080112B0
+    .word func_0801132C
 
     .align 2
     .global Unk_0817D50C
 Unk_0817D50C:
-    .word sub_8011408
-    .word sub_8017944
-    .word sub_8011468
-    .word sub_8017944
-    .word sub_80114B8
-    .word sub_8024DF8
-    .word sub_8011510
+    .word func_08011408
+    .word func_08017944
+    .word func_08011468
+    .word func_08017944
+    .word func_080114B8
+    .word func_08024DF8
+    .word func_08011510
 
     .align 2
     .global Unk_0817D528
 Unk_0817D528:
-    .word sub_8011654
-    .word sub_80116DC
-    .word sub_801177C
-    .word sub_80117D4
-    .word sub_8017944
+    .word func_08011654
+    .word func_080116DC
+    .word func_0801177C
+    .word func_080117D4
+    .word func_08017944
 
     .align 2
     .global Unk_0817D53C
 Unk_0817D53C:
-    .word sub_8011898
-    .word sub_801190C
-    .word sub_8011960
-    .word sub_8017944
-    .word sub_80119A8
+    .word func_08011898
+    .word func_0801190C
+    .word func_08011960
+    .word func_08017944
+    .word func_080119A8
 
     .align 2
     .global Unk_0817D550
 Unk_0817D550:
-    .word sub_8011A14
-    .word sub_8011AC0
-    .word sub_8011B90
-    .word sub_8011C04
-    .word sub_8011C6C
-    .word sub_8011D00
-    .word sub_8011D88
-    .word sub_8011E1C
-    .word sub_8011EC4
-    .word sub_8017944
-    .word sub_8011FA8
+    .word func_08011A14
+    .word func_08011AC0
+    .word func_08011B90
+    .word func_08011C04
+    .word func_08011C6C
+    .word func_08011D00
+    .word func_08011D88
+    .word func_08011E1C
+    .word func_08011EC4
+    .word func_08017944
+    .word func_08011FA8
 
     .align 2
     .global Unk_0817D57C
 Unk_0817D57C:
-    .word sub_8012070
-    .word sub_8017944
-    .word sub_80120B0
-    .word sub_80120F0
-    .word sub_8012150
-    .word sub_8013E20
-    .word sub_80121F0
-    .word sub_8012234
-    .word sub_80122A8
-    .word sub_80123A8
-    .word sub_8012448
-    .word sub_8017944
-    .word sub_8012498
-    .word sub_8012508
-    .word sub_8017944
+    .word func_08012070
+    .word func_08017944
+    .word func_080120B0
+    .word func_080120F0
+    .word func_08012150
+    .word func_08013E20
+    .word func_080121F0
+    .word func_08012234
+    .word func_080122A8
+    .word func_080123A8
+    .word func_08012448
+    .word func_08017944
+    .word func_08012498
+    .word func_08012508
+    .word func_08017944
 
     .align 2
     .global Unk_0817D5B8
@@ -958,224 +958,224 @@ Unk_0817D5B8:
     .align 2
     .global Unk_0817D5D8
 Unk_0817D5D8:
-    .word sub_80126B0
-    .word sub_8012700
-    .word sub_8012768
-    .word sub_8012700
-    .word sub_80127C0
-    .word sub_8012700
-    .word sub_801290C
-    .word sub_8012700
-    .word sub_801295C
-    .word sub_8012700
-    .word sub_80129B0
-    .word sub_8012A44
-    .word sub_8017944
-    .word sub_8012A98
-    .word sub_8012700
-    .word sub_8012AF0
-    .word sub_8012700
-    .word sub_8012B54
-    .word sub_8012700
-    .word sub_8012BF0
-    .word sub_8012700
-    .word sub_8012CE0
-    .word sub_8012D40
-    .word sub_8017944
-    .word sub_8012E44
-    .word sub_8017944
-    .word sub_8012E84
+    .word func_080126B0
+    .word func_08012700
+    .word func_08012768
+    .word func_08012700
+    .word func_080127C0
+    .word func_08012700
+    .word func_0801290C
+    .word func_08012700
+    .word func_0801295C
+    .word func_08012700
+    .word func_080129B0
+    .word func_08012A44
+    .word func_08017944
+    .word func_08012A98
+    .word func_08012700
+    .word func_08012AF0
+    .word func_08012700
+    .word func_08012B54
+    .word func_08012700
+    .word func_08012BF0
+    .word func_08012700
+    .word func_08012CE0
+    .word func_08012D40
+    .word func_08017944
+    .word func_08012E44
+    .word func_08017944
+    .word func_08012E84
 
     .align 2
     .global Unk_0817D644
 Unk_0817D644:
-    .word sub_80130A4
-    .word sub_8013174
-    .word sub_80131DC
-    .word sub_8013174
-    .word sub_8013254
-    .word sub_8017944
-    .word sub_80132AC
-    .word sub_8013174
-    .word sub_8013354
-    .word sub_8013174
-    .word sub_80133E0
-    .word sub_8013440
-    .word sub_8017944
-    .word sub_80134F0
-    .word sub_8017944
-    .word sub_8013530
+    .word func_080130A4
+    .word func_08013174
+    .word func_080131DC
+    .word func_08013174
+    .word func_08013254
+    .word func_08017944
+    .word func_080132AC
+    .word func_08013174
+    .word func_08013354
+    .word func_08013174
+    .word func_080133E0
+    .word func_08013440
+    .word func_08017944
+    .word func_080134F0
+    .word func_08017944
+    .word func_08013530
 
     .align 2
     .global Unk_0817D684
 Unk_0817D684:
-    .word sub_80136C8
-    .word sub_8017944
-    .word sub_8013730
-    .word sub_8017944
-    .word sub_8013774
-    .word sub_8013844
-    .word sub_80138F8
-    .word sub_8013844
-    .word sub_8013934
-    .word sub_8013980
-    .word sub_8017944
-    .word sub_80139CC
-    .word sub_8017944
-    .word sub_8013A18
+    .word func_080136C8
+    .word func_08017944
+    .word func_08013730
+    .word func_08017944
+    .word func_08013774
+    .word func_08013844
+    .word func_080138F8
+    .word func_08013844
+    .word func_08013934
+    .word func_08013980
+    .word func_08017944
+    .word func_080139CC
+    .word func_08017944
+    .word func_08013A18
 
     .align 2
     .global Unk_0817D6BC
 Unk_0817D6BC:
-    .word sub_8013A70
-    .word sub_8013C04
-    .word sub_8013AC0
-    .word sub_8013C04
-    .word sub_8013B18
-    .word sub_8013C04
-    .word sub_8013B58
-    .word sub_8013C04
-    .word sub_8013BA8
-    .word sub_8013C04
-    .word sub_8013C6C
-    .word sub_8013D58
-    .word sub_8013DC8
-    .word sub_8013E20
-    .word sub_8013E7C
-    .word sub_8013F0C
-    .word sub_8013F80
-    .word sub_8013C04
-    .word sub_80140CC
-    .word sub_8013C04
-    .word sub_8014118
-    .word sub_8013C04
-    .word sub_80141AC
-    .word sub_8014254
-    .word sub_8024DF8
-    .word sub_80142FC
-    .word sub_8014354
+    .word func_08013A70
+    .word func_08013C04
+    .word func_08013AC0
+    .word func_08013C04
+    .word func_08013B18
+    .word func_08013C04
+    .word func_08013B58
+    .word func_08013C04
+    .word func_08013BA8
+    .word func_08013C04
+    .word func_08013C6C
+    .word func_08013D58
+    .word func_08013DC8
+    .word func_08013E20
+    .word func_08013E7C
+    .word func_08013F0C
+    .word func_08013F80
+    .word func_08013C04
+    .word func_080140CC
+    .word func_08013C04
+    .word func_08014118
+    .word func_08013C04
+    .word func_080141AC
+    .word func_08014254
+    .word func_08024DF8
+    .word func_080142FC
+    .word func_08014354
 
     .align 2
     .global Unk_0817D728
 Unk_0817D728:
-    .word sub_8017944
-    .word sub_8014738
-    .word sub_8017944
-    .word sub_80147AC
-    .word sub_8014AEC
-    .word sub_8014814
-    .word sub_80148A4
-    .word sub_80148D8
-    .word sub_80149E0
-    .word sub_8014B54
-    .word sub_80148D8
-    .word sub_80149E0
-    .word sub_8014BC4
-    .word sub_8014C9C
-    .word sub_8014AEC
-    .word sub_8014CF4
-    .word sub_8014D34
-    .word sub_8014DA0
-    .word sub_8014E1C
-    .word sub_8014EA8
-    .word sub_8014F1C
-    .word sub_8014F88
-    .word sub_8014AEC
-    .word sub_8014FE4
-    .word sub_8014AEC
-    .word sub_801506C
-    .word sub_8014AEC
-    .word sub_80150D8
-    .word sub_8015174
-    .word sub_80151CC
-    .word sub_8015230
-    .word sub_8014AEC
-    .word sub_8015288
-    .word sub_8014AEC
-    .word sub_8015374
-    .word sub_8014EA8
-    .word sub_80153C4
-    .word sub_801542C
-    .word sub_8014AEC
-    .word sub_8015550
-    .word sub_8014EA8
-    .word sub_80155B4
-    .word sub_80159C0
+    .word func_08017944
+    .word func_08014738
+    .word func_08017944
+    .word func_080147AC
+    .word func_08014AEC
+    .word func_08014814
+    .word func_080148A4
+    .word func_080148D8
+    .word func_080149E0
+    .word func_08014B54
+    .word func_080148D8
+    .word func_080149E0
+    .word func_08014BC4
+    .word func_08014C9C
+    .word func_08014AEC
+    .word func_08014CF4
+    .word func_08014D34
+    .word func_08014DA0
+    .word func_08014E1C
+    .word func_08014EA8
+    .word func_08014F1C
+    .word func_08014F88
+    .word func_08014AEC
+    .word func_08014FE4
+    .word func_08014AEC
+    .word func_0801506C
+    .word func_08014AEC
+    .word func_080150D8
+    .word func_08015174
+    .word func_080151CC
+    .word func_08015230
+    .word func_08014AEC
+    .word func_08015288
+    .word func_08014AEC
+    .word func_08015374
+    .word func_08014EA8
+    .word func_080153C4
+    .word func_0801542C
+    .word func_08014AEC
+    .word func_08015550
+    .word func_08014EA8
+    .word func_080155B4
+    .word func_080159C0
 
     .align 2
     .global Unk_0817D7D4
 Unk_0817D7D4:
-    .word sub_80156E0
-    .word sub_8015730
-    .word sub_80157C0
-    .word sub_80158EC
+    .word func_080156E0
+    .word func_08015730
+    .word func_080157C0
+    .word func_080158EC
 
     .align 2
     .global Unk_0817D7E4
 Unk_0817D7E4:
-    .word sub_8015A6C
-    .word sub_8015A80
-    .word sub_8015A94
-    .word sub_8015AD0
-    .word sub_8015B14
-    .word sub_8015B7C
-    .word sub_8015BCC
-    .word sub_8015C50
-    .word sub_8015CF4
-    .word sub_8015D50
-    .word sub_8015DB0
-    .word sub_8015E28
+    .word func_08015A6C
+    .word func_08015A80
+    .word func_08015A94
+    .word func_08015AD0
+    .word func_08015B14
+    .word func_08015B7C
+    .word func_08015BCC
+    .word func_08015C50
+    .word func_08015CF4
+    .word func_08015D50
+    .word func_08015DB0
+    .word func_08015E28
 
     .align 2
     .global Unk_0817D814
 Unk_0817D814:
-    .word sub_8015EB8
-    .word sub_8015EE8
-    .word sub_8016094
-    .word sub_80160EC
-    .word sub_801614C
-    .word sub_801617C
-    .word sub_80161A4
-    .word sub_80161CC
-    .word sub_801620C
-    .word sub_80161CC
-    .word sub_801623C
-    .word sub_801626C
-    .word sub_80162BC
-    .word sub_80162E4
-    .word sub_8016340
-    .word sub_801639C
-    .word sub_80163E0
-    .word sub_8016448
-    .word sub_801649C
-    .word sub_801652C
-    .word sub_80165A4
-    .word sub_80165EC
-    .word sub_8016644
-    .word sub_8016684
-    .word sub_80166C0
-    .word sub_80166F0
-    .word sub_8016720
-    .word sub_802E384
-    .word sub_8016750
+    .word func_08015EB8
+    .word func_08015EE8
+    .word func_08016094
+    .word func_080160EC
+    .word func_0801614C
+    .word func_0801617C
+    .word func_080161A4
+    .word func_080161CC
+    .word func_0801620C
+    .word func_080161CC
+    .word func_0801623C
+    .word func_0801626C
+    .word func_080162BC
+    .word func_080162E4
+    .word func_08016340
+    .word func_0801639C
+    .word func_080163E0
+    .word func_08016448
+    .word func_0801649C
+    .word func_0801652C
+    .word func_080165A4
+    .word func_080165EC
+    .word func_08016644
+    .word func_08016684
+    .word func_080166C0
+    .word func_080166F0
+    .word func_08016720
+    .word func_0802E384
+    .word func_08016750
 
     .align 2
     .global Unk_0817D888
 Unk_0817D888:
     .word 0
-    .word sub_80167B0
+    .word func_080167B0
     .word 0xAD
-    .word sub_8016C00
+    .word func_08016C00
     .word 0xAC
-    .word sub_8016FB8
+    .word func_08016FB8
     .word 0xAB
-    .word sub_8017168
+    .word func_08017168
     .word 0xB1
-    .word sub_80171BC
+    .word func_080171BC
     .word 0x56
-    .word sub_80172C8
+    .word func_080172C8
     .word 0xB8
-    .word sub_8017320
+    .word func_08017320
     .word 0x8000
     .word 0
 
@@ -1183,356 +1183,356 @@ Unk_0817D888:
     .global Unk_0817D8C8
 Unk_0817D8C8:
     .word 0xB8
-    .word sub_80173C0
+    .word func_080173C0
     .word 0xAD
-    .word sub_8017538
+    .word func_08017538
     .word 0xAB
-    .word sub_801769C
+    .word func_0801769C
     .word 0x8000
     .word 0
 
     .align 2
     .global Unk_0817D8E8
 Unk_0817D8E8:
-    .word sub_801DF10
-    .word sub_8017B14
-    .word sub_8017DF8
-    .word sub_8017FB8
-    .word sub_801814C
-    .word sub_8018318
-    .word sub_80183E0
-    .word sub_80184B4
-    .word sub_80188A0
-    .word sub_8018FCC
-    .word sub_80192F4
-    .word sub_8019548
-    .word sub_80196D4
-    .word sub_80197D4
-    .word sub_80198D4
-    .word sub_8019A44
-    .word sub_801A258
-    .word sub_801AA60
-    .word sub_801B25C
-    .word sub_801B320
-    .word sub_801B36C
-    .word sub_801B4CC
+    .word func_0801DF10
+    .word func_08017B14
+    .word func_08017DF8
+    .word func_08017FB8
+    .word func_0801814C
+    .word func_08018318
+    .word func_080183E0
+    .word func_080184B4
+    .word func_080188A0
+    .word func_08018FCC
+    .word func_080192F4
+    .word func_08019548
+    .word func_080196D4
+    .word func_080197D4
+    .word func_080198D4
+    .word func_08019A44
+    .word func_0801A258
+    .word func_0801AA60
+    .word func_0801B25C
+    .word func_0801B320
+    .word func_0801B36C
+    .word func_0801B4CC
 
     .align 2
     .global Unk_0817D940
 Unk_0817D940:
-    .word sub_8017B44
-    .word sub_8017C08
-    .word sub_8017C54
-    .word sub_8017CC8
-    .word sub_8017D04
-    .word sub_8017D90
+    .word func_08017B44
+    .word func_08017C08
+    .word func_08017C54
+    .word func_08017CC8
+    .word func_08017D04
+    .word func_08017D90
 
     .align 2
     .global Unk_0817D958
 Unk_0817D958:
-    .word sub_8017E28
-    .word sub_801DF10
-    .word sub_8017E84
-    .word sub_801DF10
-    .word sub_8017EF0
-    .word sub_8024DF8
-    .word sub_8017F48
-    .word sub_801DF10
+    .word func_08017E28
+    .word func_0801DF10
+    .word func_08017E84
+    .word func_0801DF10
+    .word func_08017EF0
+    .word func_08024DF8
+    .word func_08017F48
+    .word func_0801DF10
 
     .align 2
     .global Unk_0817D978
 Unk_0817D978:
-    .word sub_8017FE8
-    .word sub_80180AC
-    .word sub_80180E8
-    .word sub_8017D90
+    .word func_08017FE8
+    .word func_080180AC
+    .word func_080180E8
+    .word func_08017D90
 
     .align 2
     .global Unk_0817D988
 Unk_0817D988:
-    .word sub_8017A64
-    .word sub_8018410
-    .word sub_801844C
-    .word sub_801817C
-    .word sub_80181C0
-    .word sub_801DF10
-    .word sub_80181F8
-    .word sub_801DF10
-    .word sub_8018258
-    .word sub_80182B4
+    .word func_08017A64
+    .word func_08018410
+    .word func_0801844C
+    .word func_0801817C
+    .word func_080181C0
+    .word func_0801DF10
+    .word func_080181F8
+    .word func_0801DF10
+    .word func_08018258
+    .word func_080182B4
 
     .align 2
     .global Unk_0817D9B0
 Unk_0817D9B0:
-    .word sub_8018348
-    .word sub_8018380
+    .word func_08018348
+    .word func_08018380
 
     .align 2
     .global Unk_0817D9B8
 Unk_0817D9B8:
-    .word sub_8017A64
-    .word sub_8018410
-    .word sub_801844C
-    .word sub_8017D90
+    .word func_08017A64
+    .word func_08018410
+    .word func_0801844C
+    .word func_08017D90
 
     .align 2
     .global Unk_0817D9C8
 Unk_0817D9C8:
-    .word sub_80184F8
-    .word sub_801855C
-    .word sub_8018594
-    .word sub_801864C
-    .word sub_8018664
-    .word sub_8018828
-    .word sub_801864C
-    .word sub_8017ABC
-    .word sub_801886C
+    .word func_080184F8
+    .word func_0801855C
+    .word func_08018594
+    .word func_0801864C
+    .word func_08018664
+    .word func_08018828
+    .word func_0801864C
+    .word func_08017ABC
+    .word func_0801886C
 
     .align 2
     .global Unk_0817D9EC
 Unk_0817D9EC:
-    .word sub_80188D0
-    .word sub_8018914
-    .word sub_801896C
-    .word sub_80189B0
-    .word sub_8018A2C
-    .word sub_8018A94
-    .word sub_8018B18
-    .word sub_8018B9C
-    .word sub_8018C24
-    .word sub_8018DCC
-    .word sub_8018E84
-    .word sub_8018F60
+    .word func_080188D0
+    .word func_08018914
+    .word func_0801896C
+    .word func_080189B0
+    .word func_08018A2C
+    .word func_08018A94
+    .word func_08018B18
+    .word func_08018B9C
+    .word func_08018C24
+    .word func_08018DCC
+    .word func_08018E84
+    .word func_08018F60
 
     .align 2
     .global Unk_0817DA1C
 Unk_0817DA1C:
-    .word sub_8018FFC
-    .word sub_80190A8
-    .word sub_8019148
-    .word sub_8019190
-    .word sub_80191E8
-    .word sub_8019280
+    .word func_08018FFC
+    .word func_080190A8
+    .word func_08019148
+    .word func_08019190
+    .word func_080191E8
+    .word func_08019280
 
     .align 2
     .global Unk_0817DA34
 Unk_0817DA34:
-    .word sub_8019324
-    .word sub_80193BC
-    .word sub_80193EC
-    .word sub_80194C8
-    .word sub_80194DC
-    .word sub_80194F0
+    .word func_08019324
+    .word func_080193BC
+    .word func_080193EC
+    .word func_080194C8
+    .word func_080194DC
+    .word func_080194F0
 
     .align 2
     .global Unk_0817DA4C
 Unk_0817DA4C:
-    .word sub_8019578
-    .word sub_80195B8
-    .word sub_8019648
+    .word func_08019578
+    .word func_080195B8
+    .word func_08019648
 
     .align 2
     .global Unk_0817DA58
 Unk_0817DA58:
-    .word sub_8019704
-    .word sub_8019744
-    .word sub_8019648
+    .word func_08019704
+    .word func_08019744
+    .word func_08019648
 
     .align 2
     .global Unk_0817DA64
 Unk_0817DA64:
-    .word sub_8019804
-    .word sub_8019844
-    .word sub_8019648
+    .word func_08019804
+    .word func_08019844
+    .word func_08019648
 
     .align 2
     .global Unk_0817DA70
 Unk_0817DA70:
-    .word sub_8019904
-    .word sub_801DF10
-    .word sub_801995C
-    .word sub_8019984
-    .word sub_80199C4
+    .word func_08019904
+    .word func_0801DF10
+    .word func_0801995C
+    .word func_08019984
+    .word func_080199C4
 
     .align 2
     .global Unk_0817DA84
 Unk_0817DA84:
-    .word sub_8019A74
-    .word sub_8019AAC
-    .word sub_8019B14
-    .word sub_8019BB8
-    .word sub_8019C44
-    .word sub_8019CDC
-    .word sub_8019D54
-    .word sub_8019DC8
-    .word sub_8019E54
-    .word sub_8019ED8
-    .word sub_8019F48
-    .word sub_8019FCC
-    .word sub_801A038
-    .word sub_801A0A4
-    .word sub_801A0FC
-    .word sub_801A150
-    .word sub_801A1A4
-    .word sub_801A1F8
+    .word func_08019A74
+    .word func_08019AAC
+    .word func_08019B14
+    .word func_08019BB8
+    .word func_08019C44
+    .word func_08019CDC
+    .word func_08019D54
+    .word func_08019DC8
+    .word func_08019E54
+    .word func_08019ED8
+    .word func_08019F48
+    .word func_08019FCC
+    .word func_0801A038
+    .word func_0801A0A4
+    .word func_0801A0FC
+    .word func_0801A150
+    .word func_0801A1A4
+    .word func_0801A1F8
 
     .align 2
     .global Unk_0817DACC
 Unk_0817DACC:
-    .word sub_801A288
-    .word sub_801A2C0
-    .word sub_801A328
-    .word sub_801A3BC
-    .word sub_801A43C
-    .word sub_801A47C
-    .word sub_801A4E4
-    .word sub_801A52C
-    .word sub_801A594
-    .word sub_801A5D8
-    .word sub_801A65C
-    .word sub_801A694
-    .word sub_801A6F0
-    .word sub_801A728
-    .word sub_801A7B4
-    .word sub_801A7F8
-    .word sub_801A854
-    .word sub_801A890
-    .word sub_801DF10
-    .word sub_801A914
-    .word sub_801A980
-    .word sub_801A9E4
-    .word sub_801DF10
-    .word sub_801DF10
+    .word func_0801A288
+    .word func_0801A2C0
+    .word func_0801A328
+    .word func_0801A3BC
+    .word func_0801A43C
+    .word func_0801A47C
+    .word func_0801A4E4
+    .word func_0801A52C
+    .word func_0801A594
+    .word func_0801A5D8
+    .word func_0801A65C
+    .word func_0801A694
+    .word func_0801A6F0
+    .word func_0801A728
+    .word func_0801A7B4
+    .word func_0801A7F8
+    .word func_0801A854
+    .word func_0801A890
+    .word func_0801DF10
+    .word func_0801A914
+    .word func_0801A980
+    .word func_0801A9E4
+    .word func_0801DF10
+    .word func_0801DF10
 
     .align 2
     .global Unk_0817DB2C
 Unk_0817DB2C:
-    .word sub_801AA90
-    .word sub_801AADC
-    .word sub_801AB4C
-    .word sub_801AC24
-    .word sub_801AC68
-    .word sub_801ACBC
-    .word sub_801AD24
-    .word sub_801AD80
-    .word sub_801AEAC
-    .word sub_801AEFC
-    .word sub_801AF6C
-    .word sub_801B080
-    .word sub_801B0C4
+    .word func_0801AA90
+    .word func_0801AADC
+    .word func_0801AB4C
+    .word func_0801AC24
+    .word func_0801AC68
+    .word func_0801ACBC
+    .word func_0801AD24
+    .word func_0801AD80
+    .word func_0801AEAC
+    .word func_0801AEFC
+    .word func_0801AF6C
+    .word func_0801B080
+    .word func_0801B0C4
 
     .align 2
     .global Unk_0817DB60
 Unk_0817DB60:
-    .word sub_801DF10
-    .word sub_801B82C
-    .word sub_801B860
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801DF10
-    .word sub_801B894
-    .word sub_801B8D4
-    .word sub_801B8EC
-    .word sub_801B920
-    .word sub_801B934
-    .word sub_801B948
-    .word sub_801B95C
-    .word sub_801B970
-    .word sub_801B9AC
+    .word func_0801DF10
+    .word func_0801B82C
+    .word func_0801B860
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801DF10
+    .word func_0801B894
+    .word func_0801B8D4
+    .word func_0801B8EC
+    .word func_0801B920
+    .word func_0801B934
+    .word func_0801B948
+    .word func_0801B95C
+    .word func_0801B970
+    .word func_0801B9AC
 
     .align 2
     .global Unk_0817DBC0
 Unk_0817DBC0:
-    .word sub_801BA1C
-    .word sub_801BA34
-    .word sub_801BB1C
-    .word sub_801BC00
-    .word sub_801BC3C
-    .word sub_801BC88
-    .word sub_801BCD0
-    .word sub_801BD0C
-    .word sub_801BD3C
-    .word sub_801BD60
-    .word sub_801C128
-    .word sub_801C248
-    .word sub_801C2D8
-    .word sub_801C304
-    .word sub_801C348
-    .word sub_801C370
-    .word sub_801C3C0
-    .word sub_801C410
-    .word sub_801C454
-    .word sub_801C4A8
-    .word sub_801C4D0
-    .word sub_801C4F0
-    .word sub_801C5B8
-    .word sub_801C724
-    .word sub_801C74C
-    .word sub_801C774
-    .word sub_801C7E0
-    .word sub_801C80C
-    .word sub_801C868
-    .word sub_801C894
-    .word sub_801C960
-    .word sub_801C9B0
-    .word sub_801C9E8
-    .word sub_801CA0C
-    .word sub_801CAE0
-    .word sub_801CB3C
-    .word sub_801CB90
-    .word sub_801CBBC
-    .word sub_801CBE4
-    .word sub_801CC0C
-    .word sub_801CC3C
-    .word sub_801CC54
-    .word sub_801CCE0
-    .word sub_801CD68
-    .word sub_801CD98
-    .word sub_801CDCC
-    .word sub_801CE58
-    .word sub_801CEF8
-    .word sub_801CF78
-    .word sub_801CFB8
-    .word sub_801D098
-    .word sub_801CDF8
-    .word sub_801CD0C
-    .word sub_801CF3C
-    .word sub_801D100
-    .word sub_801D1C8
-    .word sub_801D294
-    .word sub_801D304
-    .word sub_801D330
-    .word sub_801D40C
-    .word sub_801D470
-    .word sub_801D4A4
-    .word sub_801D508
-    .word sub_801D56C
-    .word sub_801D5BC
-    .word sub_801D5E8
-    .word sub_801BAE4
+    .word func_0801BA1C
+    .word func_0801BA34
+    .word func_0801BB1C
+    .word func_0801BC00
+    .word func_0801BC3C
+    .word func_0801BC88
+    .word func_0801BCD0
+    .word func_0801BD0C
+    .word func_0801BD3C
+    .word func_0801BD60
+    .word func_0801C128
+    .word func_0801C248
+    .word func_0801C2D8
+    .word func_0801C304
+    .word func_0801C348
+    .word func_0801C370
+    .word func_0801C3C0
+    .word func_0801C410
+    .word func_0801C454
+    .word func_0801C4A8
+    .word func_0801C4D0
+    .word func_0801C4F0
+    .word func_0801C5B8
+    .word func_0801C724
+    .word func_0801C74C
+    .word func_0801C774
+    .word func_0801C7E0
+    .word func_0801C80C
+    .word func_0801C868
+    .word func_0801C894
+    .word func_0801C960
+    .word func_0801C9B0
+    .word func_0801C9E8
+    .word func_0801CA0C
+    .word func_0801CAE0
+    .word func_0801CB3C
+    .word func_0801CB90
+    .word func_0801CBBC
+    .word func_0801CBE4
+    .word func_0801CC0C
+    .word func_0801CC3C
+    .word func_0801CC54
+    .word func_0801CCE0
+    .word func_0801CD68
+    .word func_0801CD98
+    .word func_0801CDCC
+    .word func_0801CE58
+    .word func_0801CEF8
+    .word func_0801CF78
+    .word func_0801CFB8
+    .word func_0801D098
+    .word func_0801CDF8
+    .word func_0801CD0C
+    .word func_0801CF3C
+    .word func_0801D100
+    .word func_0801D1C8
+    .word func_0801D294
+    .word func_0801D304
+    .word func_0801D330
+    .word func_0801D40C
+    .word func_0801D470
+    .word func_0801D4A4
+    .word func_0801D508
+    .word func_0801D56C
+    .word func_0801D5BC
+    .word func_0801D5E8
+    .word func_0801BAE4
 
     .align 2
     .global Unk_0817DCCC
 Unk_0817DCCC:
     .word 0xC6
-    .word sub_801D7EC
+    .word func_0801D7EC
     .word 0x96
-    .word sub_801D7A8
+    .word func_0801D7A8
     .word 0xBB
-    .word sub_801D84C
+    .word func_0801D84C
     .word 0xBD
-    .word sub_801D890
+    .word func_0801D890
     .word 0xBE
-    .word sub_801D8D4
+    .word func_0801D8D4
     .word 0x8000
     .word 0
 
@@ -1540,11 +1540,11 @@ Unk_0817DCCC:
     .global Unk_0817DCFC
 Unk_0817DCFC:
     .word 0x10C
-    .word sub_801D934
+    .word func_0801D934
     .word 0xDF
-    .word sub_801D988
+    .word func_0801D988
     .word 0xC7
-    .word sub_801DA38
+    .word func_0801DA38
     .word 0x8000
     .word 0
 
@@ -1552,549 +1552,549 @@ Unk_0817DCFC:
     .global Unk_0817DD1C
 Unk_0817DD1C:
     .word 0
-    .word sub_801E060
+    .word func_0801E060
     .word 0xFC
-    .word sub_801E13C
+    .word func_0801E13C
     .word 0xD2
-    .word sub_801E1B0
+    .word func_0801E1B0
     .word 0xD1
-    .word sub_801E1D0
+    .word func_0801E1D0
     .word 0x9B
-    .word sub_801E200
+    .word func_0801E200
     .word 0xFD
-    .word sub_801E2A8
+    .word func_0801E2A8
     .word 0x11F
-    .word sub_801E2E0
+    .word func_0801E2E0
     .word 0x154
-    .word sub_801E340
+    .word func_0801E340
     .word 0xFFFF
     .word 0
 
     .align 2
     .global Unk_0817DD64
 Unk_0817DD64:
-    .word sub_8024830
-    .word sub_801E424
-    .word sub_801E594
-    .word sub_801E804
-    .word sub_801E880
-    .word sub_801EF94
-    .word sub_801F114
-    .word sub_801F350
-    .word sub_801F464
-    .word sub_801F654
-    .word sub_801F774
-    .word sub_801FC3C
-    .word sub_8020080
-    .word sub_802025C
-    .word sub_8020634
-    .word sub_8020DE8
-    .word sub_80215DC
+    .word func_08024830
+    .word func_0801E424
+    .word func_0801E594
+    .word func_0801E804
+    .word func_0801E880
+    .word func_0801EF94
+    .word func_0801F114
+    .word func_0801F350
+    .word func_0801F464
+    .word func_0801F654
+    .word func_0801F774
+    .word func_0801FC3C
+    .word func_08020080
+    .word func_0802025C
+    .word func_08020634
+    .word func_08020DE8
+    .word func_080215DC
 
     .align 2
     .global Unk_0817DDA8
 Unk_0817DDA8:
-    .word sub_801E450
-    .word sub_801E3C8
-    .word sub_801E54C
-    .word sub_8024830
+    .word func_0801E450
+    .word func_0801E3C8
+    .word func_0801E54C
+    .word func_08024830
 
     .align 2
     .global Unk_0817DDB8
 Unk_0817DDB8:
-    .word sub_801E628
-    .word sub_801E3C8
-    .word sub_801E670
-    .word sub_801E3C8
-    .word sub_801E680
-    .word sub_801E3C8
-    .word sub_801E680
-    .word sub_801E3C8
-    .word sub_801E680
-    .word sub_801E3C8
-    .word sub_801E690
-    .word sub_801E3C8
-    .word sub_801E690
-    .word sub_801E3C8
-    .word sub_801E680
-    .word sub_801E3C8
-    .word sub_801E6A0
-    .word sub_801E3C8
-    .word sub_801E6B0
-    .word sub_801E6D0
-    .word sub_801E714
-    .word sub_8024830
-    .word sub_801E76C
-    .word sub_8024830
-    .word sub_801E7A0
-    .word sub_801E3C8
-    .word sub_801E7E0
-    .word sub_8024830
+    .word func_0801E628
+    .word func_0801E3C8
+    .word func_0801E670
+    .word func_0801E3C8
+    .word func_0801E680
+    .word func_0801E3C8
+    .word func_0801E680
+    .word func_0801E3C8
+    .word func_0801E680
+    .word func_0801E3C8
+    .word func_0801E690
+    .word func_0801E3C8
+    .word func_0801E690
+    .word func_0801E3C8
+    .word func_0801E680
+    .word func_0801E3C8
+    .word func_0801E6A0
+    .word func_0801E3C8
+    .word func_0801E6B0
+    .word func_0801E6D0
+    .word func_0801E714
+    .word func_08024830
+    .word func_0801E76C
+    .word func_08024830
+    .word func_0801E7A0
+    .word func_0801E3C8
+    .word func_0801E7E0
+    .word func_08024830
 
     .align 2
     .global Unk_0817DE28
 Unk_0817DE28:
-    .word sub_801E830
-    .word sub_8024830
+    .word func_0801E830
+    .word func_08024830
 
     .align 2
     .global Unk_0817DE30
 Unk_0817DE30:
-    .word sub_801E8AC
-    .word sub_801E93C
-    .word sub_801E3C8
-    .word sub_801E970
-    .word sub_801E3C8
-    .word sub_801E9CC
-    .word sub_801E3C8
-    .word sub_801EA40
-    .word sub_801E3C8
-    .word sub_801EA74
-    .word sub_8024830
-    .word sub_801EB30
-    .word sub_801E3C8
-    .word sub_801EB78
-    .word sub_801E3C8
-    .word sub_801EC20
-    .word sub_801ECE8
-    .word sub_801E3C8
-    .word sub_801ED34
-    .word sub_801E3C8
-    .word sub_801EDA0
-    .word sub_801E3C8
-    .word sub_801EDE0
-    .word sub_801E3C8
-    .word sub_801EE20
-    .word sub_8024830
-    .word sub_801EE6C
-    .word sub_801E3C8
-    .word sub_801EEA0
-    .word sub_8024830
-    .word sub_801EEEC
-    .word sub_8024830
-    .word sub_801E3C8
-    .word sub_801E3C8
-    .word sub_801EF30
-    .word sub_8024830
+    .word func_0801E8AC
+    .word func_0801E93C
+    .word func_0801E3C8
+    .word func_0801E970
+    .word func_0801E3C8
+    .word func_0801E9CC
+    .word func_0801E3C8
+    .word func_0801EA40
+    .word func_0801E3C8
+    .word func_0801EA74
+    .word func_08024830
+    .word func_0801EB30
+    .word func_0801E3C8
+    .word func_0801EB78
+    .word func_0801E3C8
+    .word func_0801EC20
+    .word func_0801ECE8
+    .word func_0801E3C8
+    .word func_0801ED34
+    .word func_0801E3C8
+    .word func_0801EDA0
+    .word func_0801E3C8
+    .word func_0801EDE0
+    .word func_0801E3C8
+    .word func_0801EE20
+    .word func_08024830
+    .word func_0801EE6C
+    .word func_0801E3C8
+    .word func_0801EEA0
+    .word func_08024830
+    .word func_0801EEEC
+    .word func_08024830
+    .word func_0801E3C8
+    .word func_0801E3C8
+    .word func_0801EF30
+    .word func_08024830
 
     .align 2
     .global Unk_0817DEC0
 Unk_0817DEC0:
-    .word sub_801EFC0
-    .word sub_8024830
-    .word sub_801EFE4
-    .word sub_8024830
+    .word func_0801EFC0
+    .word func_08024830
+    .word func_0801EFE4
+    .word func_08024830
 
     .align 2
     .global Unk_0817DED0
 Unk_0817DED0:
-    .word sub_801F140
-    .word sub_801E3C8
-    .word sub_801F180
-    .word sub_8024830
-    .word sub_801F1D8
-    .word sub_801F220
-    .word sub_801E3C8
-    .word sub_801F254
-    .word sub_801E3C8
-    .word sub_801F2A8
-    .word sub_8024830
-    .word sub_801F31C
-    .word sub_8024830
+    .word func_0801F140
+    .word func_0801E3C8
+    .word func_0801F180
+    .word func_08024830
+    .word func_0801F1D8
+    .word func_0801F220
+    .word func_0801E3C8
+    .word func_0801F254
+    .word func_0801E3C8
+    .word func_0801F2A8
+    .word func_08024830
+    .word func_0801F31C
+    .word func_08024830
 
     .align 2
     .global Unk_0817DF04
 Unk_0817DF04:
-    .word sub_801F37C
-    .word sub_801F394
-    .word sub_8024830
-    .word sub_801F3E8
-    .word sub_8024830
-    .word sub_801F404
-    .word sub_8024830
-    .word sub_801F44C
-    .word sub_801F394
-    .word sub_8024830
+    .word func_0801F37C
+    .word func_0801F394
+    .word func_08024830
+    .word func_0801F3E8
+    .word func_08024830
+    .word func_0801F404
+    .word func_08024830
+    .word func_0801F44C
+    .word func_0801F394
+    .word func_08024830
 
     .align 2
     .global Unk_0817DF2C
 Unk_0817DF2C:
-    .word sub_801F490
-    .word sub_8024830
-    .word sub_801F4FC
-    .word sub_801F568
-    .word sub_8024830
-    .word sub_801F5D4
-    .word sub_8024830
+    .word func_0801F490
+    .word func_08024830
+    .word func_0801F4FC
+    .word func_0801F568
+    .word func_08024830
+    .word func_0801F5D4
+    .word func_08024830
 
     .align 2
     .global Unk_0817DF48
 Unk_0817DF48:
-    .word sub_801F680
-    .word sub_801F700
-    .word sub_8024830
+    .word func_0801F680
+    .word func_0801F700
+    .word func_08024830
 
     .align 2
     .global Unk_0817DF54
 Unk_0817DF54:
-    .word sub_801F7A0
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_801F7E4
-    .word sub_801E3C8
-    .word sub_801F84C
-    .word sub_801F864
-    .word sub_801E3C8
-    .word sub_801F8D0
-    .word sub_8024830
-    .word sub_801F944
-    .word sub_801F990
-    .word sub_8024830
-    .word sub_801F9DC
-    .word sub_8024830
-    .word sub_801E3C8
-    .word sub_801FA30
-    .word sub_8024830
-    .word sub_801FA88
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_801FB38
-    .word sub_8024830
-    .word sub_801FB70
-    .word sub_801FBA8
-    .word sub_801FBF8
-    .word sub_8024830
+    .word func_0801F7A0
+    .word func_08024830
+    .word func_08024830
+    .word func_08024830
+    .word func_0801F7E4
+    .word func_0801E3C8
+    .word func_0801F84C
+    .word func_0801F864
+    .word func_0801E3C8
+    .word func_0801F8D0
+    .word func_08024830
+    .word func_0801F944
+    .word func_0801F990
+    .word func_08024830
+    .word func_0801F9DC
+    .word func_08024830
+    .word func_0801E3C8
+    .word func_0801FA30
+    .word func_08024830
+    .word func_0801FA88
+    .word func_08024830
+    .word func_08024830
+    .word func_0801FB38
+    .word func_08024830
+    .word func_0801FB70
+    .word func_0801FBA8
+    .word func_0801FBF8
+    .word func_08024830
 
     .align 2
     .global Unk_0817DFC4
 Unk_0817DFC4:
-    .word sub_801FC68
-    .word sub_801E3C8
-    .word sub_801FCCC
-    .word sub_8024830
-    .word sub_801FD00
-    .word sub_801E3C8
-    .word sub_801FD4C
-    .word sub_801E3C8
-    .word sub_801FDA0
-    .word sub_8024830
-    .word sub_801FDD4
-    .word sub_801FE20
-    .word sub_801E3C8
-    .word sub_801FE70
-    .word sub_8024830
-    .word sub_801FE8C
-    .word sub_801FED8
-    .word sub_801E3C8
-    .word sub_801FF28
-    .word sub_8024830
-    .word sub_801FF44
-    .word sub_801FF90
-    .word sub_8020014
-    .word sub_8024830
+    .word func_0801FC68
+    .word func_0801E3C8
+    .word func_0801FCCC
+    .word func_08024830
+    .word func_0801FD00
+    .word func_0801E3C8
+    .word func_0801FD4C
+    .word func_0801E3C8
+    .word func_0801FDA0
+    .word func_08024830
+    .word func_0801FDD4
+    .word func_0801FE20
+    .word func_0801E3C8
+    .word func_0801FE70
+    .word func_08024830
+    .word func_0801FE8C
+    .word func_0801FED8
+    .word func_0801E3C8
+    .word func_0801FF28
+    .word func_08024830
+    .word func_0801FF44
+    .word func_0801FF90
+    .word func_08020014
+    .word func_08024830
 
     .align 2
     .global Unk_0817E024
 Unk_0817E024:
-    .word sub_80200AC
-    .word sub_801E3C8
-    .word sub_8020170
-    .word sub_801E3C8
-    .word sub_80201C4
-    .word sub_8020214
+    .word func_080200AC
+    .word func_0801E3C8
+    .word func_08020170
+    .word func_0801E3C8
+    .word func_080201C4
+    .word func_08020214
 
     .align 2
     .global Unk_0817E03C
 Unk_0817E03C:
-    .word sub_8024830
-    .word sub_8020288
-    .word sub_801E3C8
-    .word sub_80202D4
-    .word sub_8020308
-    .word sub_8020360
-    .word sub_8024830
-    .word sub_80203A0
-    .word sub_801E3C8
-    .word sub_80203FC
-    .word sub_8024830
-    .word sub_8020470
-    .word sub_8024830
-    .word sub_80202D4
-    .word sub_80204A4
-    .word sub_8020500
-    .word sub_8024830
-    .word sub_8020544
-    .word sub_8024830
-    .word sub_8020580
-    .word sub_8024830
-    .word sub_8020594
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_8020594
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_80205A8
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_80205DC
+    .word func_08024830
+    .word func_08020288
+    .word func_0801E3C8
+    .word func_080202D4
+    .word func_08020308
+    .word func_08020360
+    .word func_08024830
+    .word func_080203A0
+    .word func_0801E3C8
+    .word func_080203FC
+    .word func_08024830
+    .word func_08020470
+    .word func_08024830
+    .word func_080202D4
+    .word func_080204A4
+    .word func_08020500
+    .word func_08024830
+    .word func_08020544
+    .word func_08024830
+    .word func_08020580
+    .word func_08024830
+    .word func_08020594
+    .word func_08024830
+    .word func_08024830
+    .word func_08020594
+    .word func_08024830
+    .word func_08024830
+    .word func_080205A8
+    .word func_08024830
+    .word func_08024830
+    .word func_08024830
+    .word func_080205DC
 
     .align 2
     .global Unk_0817E0BC
 Unk_0817E0BC:
-    .word sub_8020660
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_80206B8
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_80206D0
-    .word sub_8020704
-    .word sub_8020760
-    .word sub_801E3C8
-    .word sub_80207F4
-    .word sub_8020824
-    .word sub_801E3C8
-    .word sub_802086C
-    .word sub_8020884
-    .word sub_801E3C8
-    .word sub_80208D4
-    .word sub_801E3C8
-    .word sub_8020924
-    .word sub_801E3C8
-    .word sub_8020974
-    .word sub_8024830
-    .word sub_802098C
-    .word sub_801E3C8
-    .word sub_80209B8
-    .word sub_80209D0
-    .word sub_801E3C8
-    .word sub_8020A20
-    .word sub_8020A54
-    .word sub_8020B0C
-    .word sub_8024830
-    .word sub_8020B74
-    .word sub_8020A54
-    .word sub_8020BBC
-    .word sub_8024830
-    .word sub_8020BF0
-    .word sub_801E3C8
-    .word sub_8020C30
-    .word sub_8024830
-    .word sub_8020C48
-    .word sub_8024830
-    .word sub_8020C60
-    .word sub_8020C94
-    .word sub_8020CEC
-    .word sub_8020D20
-    .word sub_8024830
-    .word sub_8024830
-    .word sub_8020D70
-    .word sub_8024830
+    .word func_08020660
+    .word func_08024830
+    .word func_08024830
+    .word func_080206B8
+    .word func_08024830
+    .word func_08024830
+    .word func_080206D0
+    .word func_08020704
+    .word func_08020760
+    .word func_0801E3C8
+    .word func_080207F4
+    .word func_08020824
+    .word func_0801E3C8
+    .word func_0802086C
+    .word func_08020884
+    .word func_0801E3C8
+    .word func_080208D4
+    .word func_0801E3C8
+    .word func_08020924
+    .word func_0801E3C8
+    .word func_08020974
+    .word func_08024830
+    .word func_0802098C
+    .word func_0801E3C8
+    .word func_080209B8
+    .word func_080209D0
+    .word func_0801E3C8
+    .word func_08020A20
+    .word func_08020A54
+    .word func_08020B0C
+    .word func_08024830
+    .word func_08020B74
+    .word func_08020A54
+    .word func_08020BBC
+    .word func_08024830
+    .word func_08020BF0
+    .word func_0801E3C8
+    .word func_08020C30
+    .word func_08024830
+    .word func_08020C48
+    .word func_08024830
+    .word func_08020C60
+    .word func_08020C94
+    .word func_08020CEC
+    .word func_08020D20
+    .word func_08024830
+    .word func_08024830
+    .word func_08020D70
+    .word func_08024830
 
     .align 2
     .global Unk_0817E180
 Unk_0817E180:
-    .word sub_8020E14
-    .word sub_8024830
-    .word sub_8020E54
-    .word sub_8024830
-    .word sub_8020EB4
-    .word sub_8024830
-    .word sub_8020F7C
-    .word sub_8020FE0
-    .word sub_8024830
-    .word sub_80210A0
-    .word sub_8024830
-    .word sub_80210D4
-    .word sub_8024830
-    .word sub_8021114
-    .word sub_8024830
-    .word sub_8021164
-    .word sub_80211F0
-    .word sub_8024830
-    .word sub_8021248
-    .word sub_8024830
-    .word sub_802127C
-    .word sub_8024830
-    .word sub_80212B0
-    .word sub_801E3C8
-    .word sub_80212F8
-    .word sub_802132C
-    .word sub_8024830
-    .word sub_80213A0
-    .word sub_8024830
-    .word sub_80213D4
-    .word sub_802140C
-    .word sub_8024830
-    .word sub_8021470
-    .word sub_8024830
-    .word sub_8021470
-    .word sub_8024830
-    .word sub_80214A8
-    .word sub_80214F8
-    .word sub_801E3C8
-    .word sub_802154C
-    .word sub_8024830
+    .word func_08020E14
+    .word func_08024830
+    .word func_08020E54
+    .word func_08024830
+    .word func_08020EB4
+    .word func_08024830
+    .word func_08020F7C
+    .word func_08020FE0
+    .word func_08024830
+    .word func_080210A0
+    .word func_08024830
+    .word func_080210D4
+    .word func_08024830
+    .word func_08021114
+    .word func_08024830
+    .word func_08021164
+    .word func_080211F0
+    .word func_08024830
+    .word func_08021248
+    .word func_08024830
+    .word func_0802127C
+    .word func_08024830
+    .word func_080212B0
+    .word func_0801E3C8
+    .word func_080212F8
+    .word func_0802132C
+    .word func_08024830
+    .word func_080213A0
+    .word func_08024830
+    .word func_080213D4
+    .word func_0802140C
+    .word func_08024830
+    .word func_08021470
+    .word func_08024830
+    .word func_08021470
+    .word func_08024830
+    .word func_080214A8
+    .word func_080214F8
+    .word func_0801E3C8
+    .word func_0802154C
+    .word func_08024830
 
     .align 2
     .global Unk_0817E224
 Unk_0817E224:
-    .word sub_8024830
-    .word sub_8021608
-    .word sub_8024830
-    .word sub_8021638
-    .word sub_8021678
-    .word sub_8024830
+    .word func_08024830
+    .word func_08021608
+    .word func_08024830
+    .word func_08021638
+    .word func_08021678
+    .word func_08024830
 
     .align 2
     .global Unk_0817E23C
 Unk_0817E23C:
-    .word sub_8021EE4
-    .word sub_8021EF4
-    .word sub_8021F24
-    .word sub_8021FA0
-    .word sub_8021FE4
-    .word sub_8022010
-    .word sub_802206C
-    .word sub_80220D0
-    .word sub_802213C
-    .word sub_80221A8
-    .word sub_80221FC
-    .word sub_802225C
-    .word sub_80222D4
-    .word sub_80222EC
+    .word func_08021EE4
+    .word func_08021EF4
+    .word func_08021F24
+    .word func_08021FA0
+    .word func_08021FE4
+    .word func_08022010
+    .word func_0802206C
+    .word func_080220D0
+    .word func_0802213C
+    .word func_080221A8
+    .word func_080221FC
+    .word func_0802225C
+    .word func_080222D4
+    .word func_080222EC
 
     .align 2
     .global Unk_0817E274
 Unk_0817E274:
-    .word sub_802483C
-    .word sub_8022514
-    .word sub_80224DC
-    .word sub_802253C
-    .word sub_8022578
-    .word sub_80225B8
-    .word sub_80225F4
-    .word sub_802262C
-    .word sub_8022644
-    .word sub_8022670
-    .word sub_80226AC
-    .word sub_80226EC
-    .word sub_8022728
-    .word sub_8022764
-    .word sub_80227A0
-    .word sub_8022814
-    .word sub_8022830
-    .word sub_8022854
-    .word sub_8022878
-    .word sub_8022898
-    .word sub_802483C
-    .word sub_802483C
-    .word sub_802483C
-    .word sub_802483C
-    .word sub_80228B8
-    .word sub_80228FC
-    .word sub_8022944
-    .word sub_8022960
-    .word sub_8022994
-    .word sub_80229B0
-    .word sub_80229D0
-    .word sub_80229EC
-    .word sub_8022A7C
-    .word sub_8022AA4
-    .word sub_8022AF0
-    .word sub_8022B28
-    .word sub_8022B48
-    .word sub_8022B68
-    .word sub_8022BAC
-    .word sub_8022BCC
-    .word sub_8022BE8
-    .word sub_8022C28
-    .word sub_8022C68
-    .word sub_8022CA4
-    .word sub_8022CEC
-    .word sub_8022D40
-    .word sub_8022D78
-    .word sub_8022DCC
-    .word sub_8022E74
-    .word sub_8022E90
-    .word sub_8022EAC
-    .word sub_8022ED0
-    .word sub_8022EF0
-    .word sub_8022F0C
-    .word sub_8022F44
-    .word sub_8022F64
-    .word sub_8022F84
-    .word sub_8022FA8
-    .word sub_8022FC8
-    .word sub_8023028
-    .word sub_8023044
-    .word sub_8023060
-    .word sub_8023084
-    .word sub_80230AC
-    .word sub_80230C8
-    .word sub_8023100
-    .word sub_802311C
-    .word sub_802313C
-    .word sub_8023174
-    .word sub_802319C
-    .word sub_80231C4
-    .word sub_80231EC
-    .word sub_8023214
-    .word sub_8023230
-    .word sub_8023290
-    .word sub_80232D4
-    .word sub_8023310
-    .word sub_8023334
-    .word sub_8023350
-    .word sub_8023370
-    .word sub_8023394
-    .word sub_80233B8
-    .word sub_80233D4
-    .word sub_80233F0
-    .word sub_802340C
-    .word sub_8023448
-    .word sub_8023488
-    .word sub_80234C8
-    .word sub_8023510
-    .word sub_802352C
-    .word sub_802354C
-    .word sub_8023568
-    .word sub_80235A4
-    .word sub_8023600
-    .word sub_8023650
-    .word sub_802366C
-    .word sub_802368C
-    .word sub_80236A8
-    .word sub_80236C4
-    .word sub_80236EC
-    .word sub_8023714
-    .word sub_802373C
-    .word sub_802375C
-    .word sub_8023778
+    .word func_0802483C
+    .word func_08022514
+    .word func_080224DC
+    .word func_0802253C
+    .word func_08022578
+    .word func_080225B8
+    .word func_080225F4
+    .word func_0802262C
+    .word func_08022644
+    .word func_08022670
+    .word func_080226AC
+    .word func_080226EC
+    .word func_08022728
+    .word func_08022764
+    .word func_080227A0
+    .word func_08022814
+    .word func_08022830
+    .word func_08022854
+    .word func_08022878
+    .word func_08022898
+    .word func_0802483C
+    .word func_0802483C
+    .word func_0802483C
+    .word func_0802483C
+    .word func_080228B8
+    .word func_080228FC
+    .word func_08022944
+    .word func_08022960
+    .word func_08022994
+    .word func_080229B0
+    .word func_080229D0
+    .word func_080229EC
+    .word func_08022A7C
+    .word func_08022AA4
+    .word func_08022AF0
+    .word func_08022B28
+    .word func_08022B48
+    .word func_08022B68
+    .word func_08022BAC
+    .word func_08022BCC
+    .word func_08022BE8
+    .word func_08022C28
+    .word func_08022C68
+    .word func_08022CA4
+    .word func_08022CEC
+    .word func_08022D40
+    .word func_08022D78
+    .word func_08022DCC
+    .word func_08022E74
+    .word func_08022E90
+    .word func_08022EAC
+    .word func_08022ED0
+    .word func_08022EF0
+    .word func_08022F0C
+    .word func_08022F44
+    .word func_08022F64
+    .word func_08022F84
+    .word func_08022FA8
+    .word func_08022FC8
+    .word func_08023028
+    .word func_08023044
+    .word func_08023060
+    .word func_08023084
+    .word func_080230AC
+    .word func_080230C8
+    .word func_08023100
+    .word func_0802311C
+    .word func_0802313C
+    .word func_08023174
+    .word func_0802319C
+    .word func_080231C4
+    .word func_080231EC
+    .word func_08023214
+    .word func_08023230
+    .word func_08023290
+    .word func_080232D4
+    .word func_08023310
+    .word func_08023334
+    .word func_08023350
+    .word func_08023370
+    .word func_08023394
+    .word func_080233B8
+    .word func_080233D4
+    .word func_080233F0
+    .word func_0802340C
+    .word func_08023448
+    .word func_08023488
+    .word func_080234C8
+    .word func_08023510
+    .word func_0802352C
+    .word func_0802354C
+    .word func_08023568
+    .word func_080235A4
+    .word func_08023600
+    .word func_08023650
+    .word func_0802366C
+    .word func_0802368C
+    .word func_080236A8
+    .word func_080236C4
+    .word func_080236EC
+    .word func_08023714
+    .word func_0802373C
+    .word func_0802375C
+    .word func_08023778
 
     .align 2
     .global Unk_0817E414
 Unk_0817E414:
     .word 0
-    .word sub_80237C8
+    .word func_080237C8
     .word 0xD0
-    .word sub_8023908
+    .word func_08023908
     .word 0xD1
-    .word sub_8023D20
+    .word func_08023D20
     .word 0x9B
-    .word sub_8023E70
+    .word func_08023E70
     .word 0xCF
-    .word sub_8023EDC
+    .word func_08023EDC
     .word 0x16B
-    .word sub_80240A8
+    .word func_080240A8
     .word 0x15C
-    .word sub_8024114
+    .word func_08024114
     .word 0x11F
-    .word sub_80241F8
+    .word func_080241F8
     .word 0xFC
-    .word sub_802435C
+    .word func_0802435C
     .word 0xFFFF
     .word 0
 
@@ -2102,11 +2102,11 @@ Unk_0817E414:
     .global Unk_0817E464
 Unk_0817E464:
     .word 0
-    .word sub_802466C
+    .word func_0802466C
     .word 0x9B
-    .word sub_802450C
+    .word func_0802450C
     .word 0xE7
-    .word sub_80246FC
+    .word func_080246FC
     .word 0xFFFF
     .word 0
 
@@ -2114,102 +2114,102 @@ Unk_0817E464:
     .global Unk_0817E484
 Unk_0817E484:
     .word 0
-    .word sub_8030370
+    .word func_08030370
     .word 0xCD
-    .word sub_8024908
+    .word func_08024908
     .word 0xFF
-    .word sub_802492C
+    .word func_0802492C
     .word 0x1CE
-    .word sub_802496C
+    .word func_0802496C
     .word 0x1C5
-    .word sub_8024994
+    .word func_08024994
     .word 0x1C8
-    .word sub_80249C8
+    .word func_080249C8
     .word 0x185
-    .word sub_80249FC
+    .word func_080249FC
     .word 0x182
-    .word sub_8024A48
+    .word func_08024A48
     .word 0x169
-    .word sub_8024A88
+    .word func_08024A88
     .word 0xFE
-    .word sub_8024AFC
+    .word func_08024AFC
     .word 0xEC
-    .word sub_802486C
+    .word func_0802486C
     .word 0x173
-    .word sub_8024C5C
+    .word func_08024C5C
     .word 0x13C
-    .word sub_8024C9C
+    .word func_08024C9C
     .word 0x1B5
-    .word sub_8024AB0
+    .word func_08024AB0
     .word 0x104
-    .word sub_8024880
+    .word func_08024880
     .word 0x1CA
-    .word sub_8024938
+    .word func_08024938
     .word 0x8000
     .word 0
 
     .align 2
     .global Unk_0817E50C
 Unk_0817E50C:
-    .word sub_8030370
-    .word sub_8024F90
-    .word sub_8025368
-    .word sub_8025420
-    .word sub_8025B30
-    .word sub_8025BF8
-    .word sub_80261B8
-    .word sub_802647C
-    .word sub_8026988
-    .word sub_8026BBC
-    .word sub_8026D08
-    .word sub_8026E58
-    .word sub_8026EC8
-    .word sub_8027030
-    .word sub_8027B98
-    .word sub_80280A0
-    .word sub_8028180
-    .word sub_8028300
-    .word sub_802837C
-    .word sub_802862C
-    .word sub_80289D8
-    .word sub_80291A0
-    .word sub_8029598
-    .word sub_8029770
-    .word sub_802A628
-    .word sub_802A6C8
-    .word sub_802A898
-    .word sub_802A90C
-    .word sub_802B3B8
-    .word sub_802B730
-    .word sub_802BF7C
-    .word sub_802C04C
-    .word sub_802C0D8
-    .word sub_802CB4C
-    .word sub_802CC60
-    .word sub_802CE60
-    .word sub_802D030
-    .word sub_802D40C
-    .word sub_802D590
+    .word func_08030370
+    .word func_08024F90
+    .word func_08025368
+    .word func_08025420
+    .word func_08025B30
+    .word func_08025BF8
+    .word func_080261B8
+    .word func_0802647C
+    .word func_08026988
+    .word func_08026BBC
+    .word func_08026D08
+    .word func_08026E58
+    .word func_08026EC8
+    .word func_08027030
+    .word func_08027B98
+    .word func_080280A0
+    .word func_08028180
+    .word func_08028300
+    .word func_0802837C
+    .word func_0802862C
+    .word func_080289D8
+    .word func_080291A0
+    .word func_08029598
+    .word func_08029770
+    .word func_0802A628
+    .word func_0802A6C8
+    .word func_0802A898
+    .word func_0802A90C
+    .word func_0802B3B8
+    .word func_0802B730
+    .word func_0802BF7C
+    .word func_0802C04C
+    .word func_0802C0D8
+    .word func_0802CB4C
+    .word func_0802CC60
+    .word func_0802CE60
+    .word func_0802D030
+    .word func_0802D40C
+    .word func_0802D590
 
     .align 2
     .global Unk_0817E5A8
 Unk_0817E5A8:
-    .word sub_8026EF4
-    .word sub_8026F48
+    .word func_08026EF4
+    .word func_08026F48
 
     .align 2
     .global Unk_0817E5B0
 Unk_0817E5B0:
-    .word sub_8030370
-    .word sub_8024FC0
-    .word sub_80250E4
-    .word sub_802502C
-    .word sub_8025070
-    .word sub_80250E4
-    .word sub_8030370
-    .word sub_80252DC
-    .word sub_8030370
-    .word sub_8025320
+    .word func_08030370
+    .word func_08024FC0
+    .word func_080250E4
+    .word func_0802502C
+    .word func_08025070
+    .word func_080250E4
+    .word func_08030370
+    .word func_080252DC
+    .word func_08030370
+    .word func_08025320
 
     .align 2
     .global Unk_0817E5D8
@@ -2236,349 +2236,349 @@ Unk_0817E5D8:
     .align 2
     .global Unk_0817E5FC
 Unk_0817E5FC:
-    .word sub_8030370
-    .word sub_8025450
-    .word sub_8025494
-    .word sub_8024DF8
-    .word sub_80254F0
-    .word sub_8030370
-    .word sub_8025554
-    .word sub_8024DF8
-    .word sub_802565C
-    .word sub_8024DF8
-    .word sub_80256B4
-    .word sub_8025738
-    .word sub_8024DF8
-    .word sub_8025AB0
+    .word func_08030370
+    .word func_08025450
+    .word func_08025494
+    .word func_08024DF8
+    .word func_080254F0
+    .word func_08030370
+    .word func_08025554
+    .word func_08024DF8
+    .word func_0802565C
+    .word func_08024DF8
+    .word func_080256B4
+    .word func_08025738
+    .word func_08024DF8
+    .word func_08025AB0
 
     .align 2
     .global Unk_0817E634
 Unk_0817E634:
-    .word sub_8030370
-    .word sub_8025C28
-    .word sub_8030370
-    .word sub_8025C98
-    .word sub_8030370
-    .word sub_8025E04
-    .word sub_8030370
-    .word sub_8025E94
-    .word sub_8030370
-    .word sub_8025ED8
-    .word sub_8025F58
-    .word sub_8030370
-    .word sub_8026038
-    .word sub_8024DF8
-    .word sub_8026090
-    .word sub_8026124
-    .word sub_8030370
-    .word sub_8026164
+    .word func_08030370
+    .word func_08025C28
+    .word func_08030370
+    .word func_08025C98
+    .word func_08030370
+    .word func_08025E04
+    .word func_08030370
+    .word func_08025E94
+    .word func_08030370
+    .word func_08025ED8
+    .word func_08025F58
+    .word func_08030370
+    .word func_08026038
+    .word func_08024DF8
+    .word func_08026090
+    .word func_08026124
+    .word func_08030370
+    .word func_08026164
 
     .align 2
     .global Unk_0817E67C
 Unk_0817E67C:
-    .word sub_8030370
-    .word sub_80261E8
-    .word sub_8024DF8
-    .word sub_8026274
-    .word sub_8024DF8
-    .word sub_80262CC
-    .word sub_8026354
-    .word sub_8026394
-    .word sub_8030370
-    .word sub_8026414
+    .word func_08030370
+    .word func_080261E8
+    .word func_08024DF8
+    .word func_08026274
+    .word func_08024DF8
+    .word func_080262CC
+    .word func_08026354
+    .word func_08026394
+    .word func_08030370
+    .word func_08026414
 
     .align 2
     .global Unk_0817E6A4
 Unk_0817E6A4:
-    .word sub_80264AC
-    .word sub_8030370
-    .word sub_80264E4
-    .word sub_8030370
-    .word sub_8026520
-    .word sub_8030370
-    .word sub_80265BC
-    .word sub_8024EA8
-    .word sub_8030370
-    .word sub_80266B0
-    .word sub_8030370
-    .word sub_8026788
-    .word sub_8024DF8
-    .word sub_80267EC
-    .word sub_8030370
-    .word sub_80268B4
-    .word sub_8026954
+    .word func_080264AC
+    .word func_08030370
+    .word func_080264E4
+    .word func_08030370
+    .word func_08026520
+    .word func_08030370
+    .word func_080265BC
+    .word func_08024EA8
+    .word func_08030370
+    .word func_080266B0
+    .word func_08030370
+    .word func_08026788
+    .word func_08024DF8
+    .word func_080267EC
+    .word func_08030370
+    .word func_080268B4
+    .word func_08026954
 
     .align 2
     .global Unk_0817E6E8
 Unk_0817E6E8:
-    .word sub_80269B8
-    .word sub_8024DF8
-    .word sub_8026A3C
-    .word sub_8024DF8
-    .word sub_8026A8C
-    .word sub_8030370
-    .word sub_8026AEC
-    .word sub_8030370
-    .word sub_8026BA4
+    .word func_080269B8
+    .word func_08024DF8
+    .word func_08026A3C
+    .word func_08024DF8
+    .word func_08026A8C
+    .word func_08030370
+    .word func_08026AEC
+    .word func_08030370
+    .word func_08026BA4
 
     .align 2
     .global Unk_0817E70C
 Unk_0817E70C:
-    .word sub_8026BEC
-    .word sub_8030370
-    .word sub_8026C60
-    .word sub_8030370
-    .word sub_8026CC4
+    .word func_08026BEC
+    .word func_08030370
+    .word func_08026C60
+    .word func_08030370
+    .word func_08026CC4
 
     .align 2
     .global Unk_0817E720
 Unk_0817E720:
-    .word sub_8026D38
-    .word sub_8030370
-    .word sub_8026DAC
-    .word sub_8030370
-    .word sub_8026E10
+    .word func_08026D38
+    .word func_08030370
+    .word func_08026DAC
+    .word func_08030370
+    .word func_08026E10
 
     .align 2
     .global Unk_0817E734
 Unk_0817E734:
-    .word sub_8030370
-    .word sub_8024DF8
-    .word sub_8027060
-    .word sub_8030370
-    .word sub_80270C4
-    .word sub_8030370
-    .word sub_8027138
-    .word sub_8030370
-    .word sub_80271AC
-    .word sub_8030370
-    .word sub_8027204
-    .word sub_8030370
-    .word sub_8027350
-    .word sub_8024DF8
-    .word sub_802743C
-    .word sub_8030370
-    .word sub_802750C
-    .word sub_8027600
-    .word sub_8024DF8
-    .word sub_80276A0
-    .word sub_8030370
-    .word sub_80276F0
-    .word sub_8030370
-    .word sub_8027730
-    .word sub_8030370
-    .word sub_8027768
-    .word sub_8024DF8
-    .word sub_80277B8
-    .word sub_8027808
-    .word sub_8024DF8
-    .word sub_8027890
-    .word sub_8024DF8
-    .word sub_8027928
-    .word sub_8027A0C
-    .word sub_8030370
-    .word sub_8027A5C
-    .word sub_8030370
-    .word sub_8027A94
+    .word func_08030370
+    .word func_08024DF8
+    .word func_08027060
+    .word func_08030370
+    .word func_080270C4
+    .word func_08030370
+    .word func_08027138
+    .word func_08030370
+    .word func_080271AC
+    .word func_08030370
+    .word func_08027204
+    .word func_08030370
+    .word func_08027350
+    .word func_08024DF8
+    .word func_0802743C
+    .word func_08030370
+    .word func_0802750C
+    .word func_08027600
+    .word func_08024DF8
+    .word func_080276A0
+    .word func_08030370
+    .word func_080276F0
+    .word func_08030370
+    .word func_08027730
+    .word func_08030370
+    .word func_08027768
+    .word func_08024DF8
+    .word func_080277B8
+    .word func_08027808
+    .word func_08024DF8
+    .word func_08027890
+    .word func_08024DF8
+    .word func_08027928
+    .word func_08027A0C
+    .word func_08030370
+    .word func_08027A5C
+    .word func_08030370
+    .word func_08027A94
 
     .align 2
     .global Unk_0817E7CC
 Unk_0817E7CC:
-    .word sub_8024DF8
-    .word sub_8027C20
-    .word sub_8024DF8
-    .word sub_8027C78
-    .word sub_8024DF8
-    .word sub_8027D2C
-    .word sub_8024F28
-    .word sub_8027DB4
-    .word sub_8027DF8
-    .word sub_8024DF8
-    .word sub_8027F58
-    .word sub_8024DF8
-    .word sub_8027C20
-    .word sub_8024DF8
-    .word sub_8027FAC
-    .word sub_8030370
-    .word sub_8028068
+    .word func_08024DF8
+    .word func_08027C20
+    .word func_08024DF8
+    .word func_08027C78
+    .word func_08024DF8
+    .word func_08027D2C
+    .word func_08024F28
+    .word func_08027DB4
+    .word func_08027DF8
+    .word func_08024DF8
+    .word func_08027F58
+    .word func_08024DF8
+    .word func_08027C20
+    .word func_08024DF8
+    .word func_08027FAC
+    .word func_08030370
+    .word func_08028068
 
     .align 2
     .global Unk_0817E810
 Unk_0817E810:
-    .word sub_8030370
-    .word sub_80280D0
-    .word sub_8024DF8
-    .word sub_8028138
+    .word func_08030370
+    .word func_080280D0
+    .word func_08024DF8
+    .word func_08028138
 
     .align 2
     .global Unk_0817E820
 Unk_0817E820:
-    .word sub_80281B0
-    .word sub_8024DF8
-    .word sub_802821C
-    .word sub_8030370
-    .word sub_8024DF8
-    .word sub_8028288
+    .word func_080281B0
+    .word func_08024DF8
+    .word func_0802821C
+    .word func_08030370
+    .word func_08024DF8
+    .word func_08028288
 
     .align 2
     .global Unk_0817E838
 Unk_0817E838:
-    .word sub_8030370
-    .word sub_80283AC
-    .word sub_8030370
-    .word sub_80283E4
-    .word sub_8030370
-    .word sub_80283FC
-    .word sub_8030370
-    .word sub_8028450
-    .word sub_80283FC
-    .word sub_8030370
-    .word sub_80284A4
-    .word sub_80284F8
-    .word sub_8030370
-    .word sub_8028574
-    .word sub_8030370
-    .word sub_80285AC
+    .word func_08030370
+    .word func_080283AC
+    .word func_08030370
+    .word func_080283E4
+    .word func_08030370
+    .word func_080283FC
+    .word func_08030370
+    .word func_08028450
+    .word func_080283FC
+    .word func_08030370
+    .word func_080284A4
+    .word func_080284F8
+    .word func_08030370
+    .word func_08028574
+    .word func_08030370
+    .word func_080285AC
 
     .align 2
     .global Unk_0817E878
 Unk_0817E878:
-    .word sub_802865C
-    .word sub_8030370
-    .word sub_80286CC
-    .word sub_8030370
-    .word sub_8024DF8
-    .word sub_8027C20
-    .word sub_8024DF8
-    .word sub_8027C78
-    .word sub_8024DF8
-    .word sub_802876C
-    .word sub_8024DF8
-    .word sub_80287C8
-    .word sub_802880C
-    .word sub_8024DF8
-    .word sub_80288D4
-    .word sub_8024DF8
-    .word sub_8027C20
-    .word sub_8024DF8
-    .word sub_8027FAC
-    .word sub_8030370
-    .word sub_8028920
+    .word func_0802865C
+    .word func_08030370
+    .word func_080286CC
+    .word func_08030370
+    .word func_08024DF8
+    .word func_08027C20
+    .word func_08024DF8
+    .word func_08027C78
+    .word func_08024DF8
+    .word func_0802876C
+    .word func_08024DF8
+    .word func_080287C8
+    .word func_0802880C
+    .word func_08024DF8
+    .word func_080288D4
+    .word func_08024DF8
+    .word func_08027C20
+    .word func_08024DF8
+    .word func_08027FAC
+    .word func_08030370
+    .word func_08028920
 
     .align 2
     .global Unk_0817E8CC
 Unk_0817E8CC:
-    .word sub_8028A08
-    .word sub_8030370
-    .word sub_8028A74
-    .word sub_8024DF8
-    .word sub_8028AE0
-    .word sub_8024DF8
-    .word sub_8028B38
-    .word sub_8030370
-    .word sub_8028C38
-    .word sub_8030370
-    .word sub_8028CC0
-    .word sub_8024DF8
-    .word sub_8028D28
-    .word sub_8024EA8
-    .word sub_8028D8C
-    .word sub_8024DF8
-    .word sub_8028E4C
-    .word sub_8024EA8
-    .word sub_8027BC8
-    .word sub_8024DF8
-    .word sub_8028EB4
-    .word sub_8024DF8
-    .word sub_8028F04
-    .word sub_8028F4C
-    .word sub_8024DF8
-    .word sub_8028FA8
-    .word sub_8024DF8
-    .word sub_8027BC8
-    .word sub_8024EA8
-    .word sub_8030370
-    .word sub_802905C
-    .word sub_8024EA8
-    .word sub_80290B4
-    .word sub_8024DF8
-    .word sub_8029100
+    .word func_08028A08
+    .word func_08030370
+    .word func_08028A74
+    .word func_08024DF8
+    .word func_08028AE0
+    .word func_08024DF8
+    .word func_08028B38
+    .word func_08030370
+    .word func_08028C38
+    .word func_08030370
+    .word func_08028CC0
+    .word func_08024DF8
+    .word func_08028D28
+    .word func_08024EA8
+    .word func_08028D8C
+    .word func_08024DF8
+    .word func_08028E4C
+    .word func_08024EA8
+    .word func_08027BC8
+    .word func_08024DF8
+    .word func_08028EB4
+    .word func_08024DF8
+    .word func_08028F04
+    .word func_08028F4C
+    .word func_08024DF8
+    .word func_08028FA8
+    .word func_08024DF8
+    .word func_08027BC8
+    .word func_08024EA8
+    .word func_08030370
+    .word func_0802905C
+    .word func_08024EA8
+    .word func_080290B4
+    .word func_08024DF8
+    .word func_08029100
 
     .align 2
     .global Unk_0817E958
 Unk_0817E958:
-    .word sub_8024DF8
-    .word sub_80291D0
-    .word sub_8024DF8
-    .word sub_8029274
-    .word sub_8024DF8
-    .word sub_8027C20
-    .word sub_8024DF8
-    .word sub_80292CC
-    .word sub_8024DF8
-    .word sub_8029328
-    .word sub_802936C
-    .word sub_8024DF8
-    .word sub_8029430
-    .word sub_8024DF8
-    .word sub_8027C20
-    .word sub_8024DF8
-    .word sub_8029484
-    .word sub_8024DF8
-    .word sub_8029538
+    .word func_08024DF8
+    .word func_080291D0
+    .word func_08024DF8
+    .word func_08029274
+    .word func_08024DF8
+    .word func_08027C20
+    .word func_08024DF8
+    .word func_080292CC
+    .word func_08024DF8
+    .word func_08029328
+    .word func_0802936C
+    .word func_08024DF8
+    .word func_08029430
+    .word func_08024DF8
+    .word func_08027C20
+    .word func_08024DF8
+    .word func_08029484
+    .word func_08024DF8
+    .word func_08029538
 
 
     .align 2
     .global Unk_0817E9A4
 Unk_0817E9A4:
-    .word sub_80295C8
-    .word sub_8024DF8
-    .word sub_8029630
-    .word sub_8029684
-    .word sub_8024DF8
-    .word sub_802970C
+    .word func_080295C8
+    .word func_08024DF8
+    .word func_08029630
+    .word func_08029684
+    .word func_08024DF8
+    .word func_0802970C
 
 
     .align 2
     .global Unk_0817E9BC
 Unk_0817E9BC:
-    .word sub_80297A0
-    .word sub_8024DF8
-    .word sub_8029804
-    .word sub_8029854
-    .word sub_8030370
-    .word sub_80298C4
-    .word sub_8029928
-    .word sub_8024DF8
-    .word sub_8029990
-    .word sub_8029A50
-    .word sub_8029B5C
-    .word sub_8024DF8
-    .word sub_8029C00
-    .word sub_8024EA8
-    .word sub_8030370
-    .word sub_80298D8
-    .word sub_8029C8C
-    .word sub_8029D50
-    .word sub_8030370
-    .word sub_8024DF8
-    .word sub_8029DAC
-    .word sub_8029DF0
-    .word sub_8024DF8
-    .word sub_8029E48
-    .word sub_8030370
-    .word sub_8029E80
-    .word sub_8029EC8
-    .word sub_8024DF8
-    .word sub_8029F20
-    .word sub_80298D8
-    .word sub_8029FEC
-    .word sub_802A13C
-    .word sub_8024DF8
-    .word sub_802A1B8
-    .word sub_802A210
-    .word sub_802A37C
-    .word sub_802A42C
+    .word func_080297A0
+    .word func_08024DF8
+    .word func_08029804
+    .word func_08029854
+    .word func_08030370
+    .word func_080298C4
+    .word func_08029928
+    .word func_08024DF8
+    .word func_08029990
+    .word func_08029A50
+    .word func_08029B5C
+    .word func_08024DF8
+    .word func_08029C00
+    .word func_08024EA8
+    .word func_08030370
+    .word func_080298D8
+    .word func_08029C8C
+    .word func_08029D50
+    .word func_08030370
+    .word func_08024DF8
+    .word func_08029DAC
+    .word func_08029DF0
+    .word func_08024DF8
+    .word func_08029E48
+    .word func_08030370
+    .word func_08029E80
+    .word func_08029EC8
+    .word func_08024DF8
+    .word func_08029F20
+    .word func_080298D8
+    .word func_08029FEC
+    .word func_0802A13C
+    .word func_08024DF8
+    .word func_0802A1B8
+    .word func_0802A210
+    .word func_0802A37C
+    .word func_0802A42C
 
 
     .align 2
@@ -2596,273 +2596,273 @@ Unk_0817EA50:
     .align 2
     .global Unk_0817EA58
 Unk_0817EA58:
-    .word sub_802A6F8
-    .word sub_802A740
-    .word sub_802A78C
-    .word sub_8024DF8
-    .word sub_802A7F0
-    .word sub_802A840
+    .word func_0802A6F8
+    .word func_0802A740
+    .word func_0802A78C
+    .word func_08024DF8
+    .word func_0802A7F0
+    .word func_0802A840
 
 
     .align 2
     .global Unk_0817EA70
 Unk_0817EA70:
-    .word sub_802A93C
-    .word sub_802A98C
-    .word sub_8024DF8
-    .word sub_802AADC
-    .word sub_8030370
-    .word sub_802AC28
-    .word sub_8024DF8
-    .word sub_802AC98
-    .word sub_8024DF8
-    .word sub_802AD88
-    .word sub_8024DF8
-    .word sub_802ADFC
-    .word sub_8024DF8
-    .word sub_802AE5C
-    .word sub_802AE9C
-    .word sub_802AED8
-    .word sub_802AF68
-    .word sub_8030370
-    .word sub_802AFC8
-    .word sub_8030370
-    .word sub_802B000
-    .word sub_8030370
-    .word sub_802B044
-    .word sub_8024F28
-    .word sub_802B154
-    .word sub_8024DF8
-    .word sub_802B2C0
-    .word sub_8030370
-    .word sub_802B31C
-    .word sub_802B360
+    .word func_0802A93C
+    .word func_0802A98C
+    .word func_08024DF8
+    .word func_0802AADC
+    .word func_08030370
+    .word func_0802AC28
+    .word func_08024DF8
+    .word func_0802AC98
+    .word func_08024DF8
+    .word func_0802AD88
+    .word func_08024DF8
+    .word func_0802ADFC
+    .word func_08024DF8
+    .word func_0802AE5C
+    .word func_0802AE9C
+    .word func_0802AED8
+    .word func_0802AF68
+    .word func_08030370
+    .word func_0802AFC8
+    .word func_08030370
+    .word func_0802B000
+    .word func_08030370
+    .word func_0802B044
+    .word func_08024F28
+    .word func_0802B154
+    .word func_08024DF8
+    .word func_0802B2C0
+    .word func_08030370
+    .word func_0802B31C
+    .word func_0802B360
 
 
     .align 2
     .global Unk_0817EAE8
 Unk_0817EAE8:
-    .word sub_8030370
-    .word sub_8024DF8
-    .word sub_802B3E8
-    .word sub_802B428
-    .word sub_8024DF8
-    .word sub_802B47C
-    .word sub_802B51C
-    .word sub_8024DF8
-    .word sub_802B5A4
-    .word sub_8024DF8
-    .word sub_802B5F8
-    .word sub_8030370
-    .word sub_802B678
-    .word sub_802B6B4
+    .word func_08030370
+    .word func_08024DF8
+    .word func_0802B3E8
+    .word func_0802B428
+    .word func_08024DF8
+    .word func_0802B47C
+    .word func_0802B51C
+    .word func_08024DF8
+    .word func_0802B5A4
+    .word func_08024DF8
+    .word func_0802B5F8
+    .word func_08030370
+    .word func_0802B678
+    .word func_0802B6B4
 
 
     .align 2
     .global Unk_0817EB20
 Unk_0817EB20:
-    .word sub_8030370
-    .word sub_802B760
-    .word sub_8030370
-    .word sub_802B7D8
-    .word sub_8029804
-    .word sub_8029854
-    .word sub_8030370
-    .word sub_80298C4
-    .word sub_8029928
-    .word sub_8024DF8
-    .word sub_8029990
-    .word sub_802B83C
-    .word sub_8030370
-    .word sub_802B8D8
-    .word sub_8024DF8
-    .word sub_802BA20
-    .word sub_8030370
-    .word sub_80298D8
-    .word sub_8029C8C
-    .word sub_8029D50
-    .word sub_8030370
-    .word sub_8029DAC
-    .word sub_8029DF0
-    .word sub_8024DF8
-    .word sub_8029E48
-    .word sub_8030370
-    .word sub_8029E80
-    .word sub_8029EC8
-    .word sub_8024EA8
-    .word sub_8029F20
-    .word sub_8030370
-    .word sub_80298D8
-    .word sub_8029FEC
-    .word sub_802A13C
-    .word sub_8024DF8
-    .word sub_802BAA4
-    .word sub_802BAFC
-    .word sub_802BC90
-    .word sub_802BD90
-    .word sub_8030370
-    .word sub_802BDE4
-    .word sub_8030370
-    .word sub_802BE28
-    .word sub_8024DF8
-    .word sub_802BE7C
-    .word sub_8030370
-    .word sub_802B31C
-    .word sub_802BEF4
+    .word func_08030370
+    .word func_0802B760
+    .word func_08030370
+    .word func_0802B7D8
+    .word func_08029804
+    .word func_08029854
+    .word func_08030370
+    .word func_080298C4
+    .word func_08029928
+    .word func_08024DF8
+    .word func_08029990
+    .word func_0802B83C
+    .word func_08030370
+    .word func_0802B8D8
+    .word func_08024DF8
+    .word func_0802BA20
+    .word func_08030370
+    .word func_080298D8
+    .word func_08029C8C
+    .word func_08029D50
+    .word func_08030370
+    .word func_08029DAC
+    .word func_08029DF0
+    .word func_08024DF8
+    .word func_08029E48
+    .word func_08030370
+    .word func_08029E80
+    .word func_08029EC8
+    .word func_08024EA8
+    .word func_08029F20
+    .word func_08030370
+    .word func_080298D8
+    .word func_08029FEC
+    .word func_0802A13C
+    .word func_08024DF8
+    .word func_0802BAA4
+    .word func_0802BAFC
+    .word func_0802BC90
+    .word func_0802BD90
+    .word func_08030370
+    .word func_0802BDE4
+    .word func_08030370
+    .word func_0802BE28
+    .word func_08024DF8
+    .word func_0802BE7C
+    .word func_08030370
+    .word func_0802B31C
+    .word func_0802BEF4
 
 
     .align 2
     .global Unk_0817EBE0
 Unk_0817EBE0:
-    .word sub_802BFAC
-    .word sub_802C000
+    .word func_0802BFAC
+    .word func_0802C000
 
 
     .align 2
     .global Unk_0817EBE8
 Unk_0817EBE8:
-    .word sub_8030370
-    .word sub_802B31C
-    .word sub_802C07C
+    .word func_08030370
+    .word func_0802B31C
+    .word func_0802C07C
 
 
     .align 2
     .global Unk_0817EBF4
 Unk_0817EBF4:
-    .word sub_802C108
-    .word sub_8030370
-    .word sub_8029804
-    .word sub_802C13C
-    .word sub_8030370
-    .word sub_80298C4
-    .word sub_8029928
-    .word sub_8024DF8
-    .word sub_8029990
-    .word sub_802C1A0
-    .word sub_8030370
-    .word sub_802C23C
-    .word sub_8024DF8
-    .word sub_802C358
-    .word sub_8024DF8
-    .word sub_80298D8
-    .word sub_802C3CC
-    .word sub_802C458
-    .word sub_8030370
-    .word sub_8030370
-    .word sub_802C49C
-    .word sub_8024DF8
-    .word sub_802C544
-    .word sub_8024DF8
-    .word sub_802C5E0
-    .word sub_8024DF8
-    .word sub_8029DAC
-    .word sub_8024DF8
-    .word sub_802C658
-    .word sub_8029DF0
-    .word sub_8030370
-    .word sub_8024DF8
-    .word sub_8030370
-    .word sub_802C6CC
-    .word sub_802C714
-    .word sub_802C764
-    .word sub_8024DF8
-    .word sub_80298D8
-    .word sub_802C7CC
-    .word sub_802C920
-    .word sub_802CAD8
-    .word sub_8030370
-    .word sub_8030370
+    .word func_0802C108
+    .word func_08030370
+    .word func_08029804
+    .word func_0802C13C
+    .word func_08030370
+    .word func_080298C4
+    .word func_08029928
+    .word func_08024DF8
+    .word func_08029990
+    .word func_0802C1A0
+    .word func_08030370
+    .word func_0802C23C
+    .word func_08024DF8
+    .word func_0802C358
+    .word func_08024DF8
+    .word func_080298D8
+    .word func_0802C3CC
+    .word func_0802C458
+    .word func_08030370
+    .word func_08030370
+    .word func_0802C49C
+    .word func_08024DF8
+    .word func_0802C544
+    .word func_08024DF8
+    .word func_0802C5E0
+    .word func_08024DF8
+    .word func_08029DAC
+    .word func_08024DF8
+    .word func_0802C658
+    .word func_08029DF0
+    .word func_08030370
+    .word func_08024DF8
+    .word func_08030370
+    .word func_0802C6CC
+    .word func_0802C714
+    .word func_0802C764
+    .word func_08024DF8
+    .word func_080298D8
+    .word func_0802C7CC
+    .word func_0802C920
+    .word func_0802CAD8
+    .word func_08030370
+    .word func_08030370
 
 
     .align 2
     .global Unk_0817ECA0
 Unk_0817ECA0:
-    .word sub_802DA10
-    .word sub_802DA44
-    .word sub_802DA88
-    .word sub_802DAA4
-    .word sub_802DABC
-    .word sub_802DAF4
-    .word sub_802DB34
-    .word sub_802DB9C
-    .word sub_802DBB0
-    .word sub_802DBC4
-    .word sub_802DC24
-    .word sub_802DC8C
-    .word sub_802DCD8
-    .word sub_802DD48
-    .word sub_802D9DC
-    .word sub_802DDB0
-    .word sub_802DE94
-    .word sub_802DEA8
-    .word sub_802DF08
-    .word sub_802DF1C
-    .word sub_802DF34
-    .word sub_802DF48
+    .word func_0802DA10
+    .word func_0802DA44
+    .word func_0802DA88
+    .word func_0802DAA4
+    .word func_0802DABC
+    .word func_0802DAF4
+    .word func_0802DB34
+    .word func_0802DB9C
+    .word func_0802DBB0
+    .word func_0802DBC4
+    .word func_0802DC24
+    .word func_0802DC8C
+    .word func_0802DCD8
+    .word func_0802DD48
+    .word func_0802D9DC
+    .word func_0802DDB0
+    .word func_0802DE94
+    .word func_0802DEA8
+    .word func_0802DF08
+    .word func_0802DF1C
+    .word func_0802DF34
+    .word func_0802DF48
 
 
     .align 2
     .global Unk_0817ECF8
 Unk_0817ECF8:
-    .word sub_802DFE0
-    .word sub_802E020
-    .word sub_802E054
-    .word sub_802E088
-    .word sub_802E0BC
-    .word sub_802E0F0
-    .word sub_802E188
-    .word sub_802E1F4
-    .word sub_802E238
-    .word sub_802E270
-    .word sub_802E2A8
-    .word sub_802DF5C
-    .word sub_802E2E0
-    .word sub_802E314
-    .word sub_802E354
-    .word sub_802DFA0
-    .word sub_802E1C4
-    .word sub_802E384
-    .word sub_802E428
-    .word sub_802E454
+    .word func_0802DFE0
+    .word func_0802E020
+    .word func_0802E054
+    .word func_0802E088
+    .word func_0802E0BC
+    .word func_0802E0F0
+    .word func_0802E188
+    .word func_0802E1F4
+    .word func_0802E238
+    .word func_0802E270
+    .word func_0802E2A8
+    .word func_0802DF5C
+    .word func_0802E2E0
+    .word func_0802E314
+    .word func_0802E354
+    .word func_0802DFA0
+    .word func_0802E1C4
+    .word func_0802E384
+    .word func_0802E428
+    .word func_0802E454
 
 
     .align 2
     .global Unk_0817ED48
 Unk_0817ED48:
     .word 0
-    .word sub_802E5BC
+    .word func_0802E5BC
     .word 0xFA
-    .word sub_802E6C4
+    .word func_0802E6C4
     .word 0x100
-    .word sub_802E974
+    .word func_0802E974
     .word 0x104
-    .word sub_802EC14
+    .word func_0802EC14
     .word 0x102
-    .word sub_802EC58
+    .word func_0802EC58
     .word 0x101
-    .word sub_802EDD8
+    .word func_0802EDD8
     .word 0xCD
-    .word sub_802EE20
+    .word func_0802EE20
     .word 0x1C5
-    .word sub_802EF18
+    .word func_0802EF18
     .word 0xEB
-    .word sub_802F020
+    .word func_0802F020
     .word 0x114
-    .word sub_802F06C
+    .word func_0802F06C
     .word 0x11C
-    .word sub_802F0B4
+    .word func_0802F0B4
     .word 0x1B5
-    .word sub_802F110
+    .word func_0802F110
     .word 0x182
-    .word sub_802F2AC
+    .word func_0802F2AC
     .word 0xFE
-    .word sub_802F388
+    .word func_0802F388
     .word 0x116
-    .word sub_802F504
+    .word func_0802F504
     .word 0x1A8
-    .word sub_802F550
+    .word func_0802F550
     .word 0xFF
-    .word sub_802F5B8
+    .word func_0802F5B8
     .word 0x8000
     .word 0
 
@@ -2870,21 +2870,21 @@ Unk_0817ED48:
     .global Unk_0817EDD8
 Unk_0817EDD8:
     .word 0x978C0C58
-    .word sub_802E710
+    .word func_0802E710
     .word 0x97AC0C78
-    .word sub_802E724
+    .word func_0802E724
     .word 0x97AC0C58
-    .word sub_802E738
+    .word func_0802E738
     .word 0x979C0C88
-    .word sub_802E74C
+    .word func_0802E74C
     .word 0x97BC0C68
-    .word sub_802E760
+    .word func_0802E760
     .word 0x978C0C78
-    .word sub_802E774
+    .word func_0802E774
     .word 0x979C0C48
-    .word sub_802E788
+    .word func_0802E788
     .word 0x977C0C68
-    .word sub_802E79C
+    .word func_0802E79C
     .word 0x8000
     .word 0
 
@@ -2892,19 +2892,19 @@ Unk_0817EDD8:
     .global Unk_0817EE20
 Unk_0817EE20:
     .word 0x888C1B28
-    .word sub_802E9AC
+    .word func_0802E9AC
     .word 0x888C1BD8
-    .word sub_802E9C0
+    .word func_0802E9C0
     .word 0x87AC1B28
-    .word sub_802E9D4
+    .word func_0802E9D4
     .word 0x87AC1B68
-    .word sub_802E9E8
+    .word func_0802E9E8
     .word 0x87AC1BA8
-    .word sub_802E9FC
+    .word func_0802E9FC
     .word 0x87AC1C28
-    .word sub_802EA10
+    .word func_0802EA10
     .word 0x87AC1CA8
-    .word sub_802EA24
+    .word func_0802EA24
     .word 0x8000
     .word 0
 
@@ -2912,17 +2912,17 @@ Unk_0817EE20:
     .global Unk_0817EE60
 Unk_0817EE60:
     .word 0
-    .word sub_802F688
+    .word func_0802F688
     .word 0x1CA
-    .word sub_802F6A0
+    .word func_0802F6A0
     .word 0x1C5
-    .word sub_802F7E0
+    .word func_0802F7E0
     .word 0x1A8
-    .word sub_802F97C
+    .word func_0802F97C
     .word 0x11C
-    .word sub_802FA50
+    .word func_0802FA50
     .word 0x169
-    .word sub_802FAC0
+    .word func_0802FAC0
     .word 0x8000
     .word 0
     .word 0x4210000
@@ -2942,378 +2942,378 @@ Unk_0817EEB8:
     .global Unk_0817F2B8
 Unk_0817F2B8:
     .word 0x1B3
-    .word sub_8030440
+    .word func_08030440
     .word 0x10D
-    .word sub_8030428
+    .word func_08030428
     .word 0x10E
-    .word sub_8030428
+    .word func_08030428
     .word 0x10F
-    .word sub_8030428
+    .word func_08030428
     .word 0x1E6
-    .word sub_8030474
+    .word func_08030474
     .word 0x1A0
-    .word sub_80304A8
+    .word func_080304A8
     .word 0x14E
-    .word sub_80304F4
+    .word func_080304F4
     .word 0x19C
-    .word sub_8030530
+    .word func_08030530
     .word 0x8000
     .word 0
 
     .align 2
     .global Unk_0817F300
 Unk_0817F300:
-    .word sub_8035B6C
-    .word sub_8030578
-    .word sub_80308E0
-    .word sub_8030AC8
-    .word sub_8030B14
-    .word sub_80310F0
-    .word sub_80316A8
-    .word sub_8031920
-    .word sub_8031A2C
-    .word sub_8031C3C
-    .word sub_8031C70
-    .word sub_8031D50
-    .word sub_80320A8
-    .word sub_8032180
-    .word sub_8032430
-    .word sub_803273C
-    .word sub_80328D0
-    .word sub_80329C4
-    .word sub_8032A08
-    .word sub_8032E54
-    .word sub_8033768
-    .word sub_8033A68
-    .word sub_8033BC4
-    .word sub_8033D9C
-    .word sub_8033EA8
-    .word sub_8034194
-    .word sub_80342C8
-    .word sub_80344D4
-    .word sub_80346B8
+    .word func_08035B6C
+    .word func_08030578
+    .word func_080308E0
+    .word func_08030AC8
+    .word func_08030B14
+    .word func_080310F0
+    .word func_080316A8
+    .word func_08031920
+    .word func_08031A2C
+    .word func_08031C3C
+    .word func_08031C70
+    .word func_08031D50
+    .word func_080320A8
+    .word func_08032180
+    .word func_08032430
+    .word func_0803273C
+    .word func_080328D0
+    .word func_080329C4
+    .word func_08032A08
+    .word func_08032E54
+    .word func_08033768
+    .word func_08033A68
+    .word func_08033BC4
+    .word func_08033D9C
+    .word func_08033EA8
+    .word func_08034194
+    .word func_080342C8
+    .word func_080344D4
+    .word func_080346B8
 
 
     .align 2
     .global Unk_0817F374
 Unk_0817F374:
-    .word sub_80305B4
-    .word sub_8030638
-    .word sub_8030728
-    .word sub_8030788
-    .word sub_80307C4
-    .word sub_803080C
-    .word sub_8030858
+    .word func_080305B4
+    .word func_08030638
+    .word func_08030728
+    .word func_08030788
+    .word func_080307C4
+    .word func_0803080C
+    .word func_08030858
 
 
     .align 2
     .global Unk_0817F390
 Unk_0817F390:
-    .word sub_803091C
-    .word sub_8030970
-    .word sub_8030990
-    .word sub_80309DC
-    .word sub_8030A38
+    .word func_0803091C
+    .word func_08030970
+    .word func_08030990
+    .word func_080309DC
+    .word func_08030A38
 
 
     .align 2
     .global Unk_0817F3A4
 Unk_0817F3A4:
-    .word sub_8030B50
-    .word sub_8030BC8
-    .word sub_8035B6C
-    .word sub_8030C08
-    .word sub_8030C70
-    .word sub_8030D14
-    .word sub_8030D88
-    .word sub_8030E30
-    .word sub_8030EAC
-    .word sub_8030F78
-    .word sub_8030FE4
-    .word sub_8031020
-    .word sub_80310AC
+    .word func_08030B50
+    .word func_08030BC8
+    .word func_08035B6C
+    .word func_08030C08
+    .word func_08030C70
+    .word func_08030D14
+    .word func_08030D88
+    .word func_08030E30
+    .word func_08030EAC
+    .word func_08030F78
+    .word func_08030FE4
+    .word func_08031020
+    .word func_080310AC
 
 
     .align 2
     .global Unk_0817F3D8
 Unk_0817F3D8:
-    .word sub_8031130
-    .word sub_8031184
-    .word sub_803122C
-    .word sub_80312B0
-    .word sub_8031354
-    .word sub_80313D4
-    .word sub_8031524
-    .word sub_8031604
-    .word sub_8031674
+    .word func_08031130
+    .word func_08031184
+    .word func_0803122C
+    .word func_080312B0
+    .word func_08031354
+    .word func_080313D4
+    .word func_08031524
+    .word func_08031604
+    .word func_08031674
 
 
     .align 2
     .global Unk_0817F3FC
 Unk_0817F3FC:
-    .word sub_80316E4
-    .word sub_8031738
-    .word sub_8035B6C
-    .word sub_80317AC
-    .word sub_803180C
-    .word sub_80318A8
+    .word func_080316E4
+    .word func_08031738
+    .word func_08035B6C
+    .word func_080317AC
+    .word func_0803180C
+    .word func_080318A8
 
 
     .align 2
     .global Unk_0817F414
 Unk_0817F414:
-    .word sub_803195C
-    .word sub_80319A4
-    .word sub_80319A4
-    .word sub_80319A4
-    .word sub_80319DC
+    .word func_0803195C
+    .word func_080319A4
+    .word func_080319A4
+    .word func_080319A4
+    .word func_080319DC
 
 
     .align 2
     .global Unk_0817F428
 Unk_0817F428:
-    .word sub_8031A5C
-    .word sub_8031A9C
-    .word sub_8031B4C
-    .word sub_8031B9C
-    .word sub_8031BF0
+    .word func_08031A5C
+    .word func_08031A9C
+    .word func_08031B4C
+    .word func_08031B9C
+    .word func_08031BF0
 
 
     .align 2
     .global Unk_0817F43C
 Unk_0817F43C:
-    .word sub_8031CAC
-    .word sub_8031D04
+    .word func_08031CAC
+    .word func_08031D04
 
 
     .align 2
     .global Unk_0817F444
 Unk_0817F444:
-    .word sub_8031D8C
-    .word sub_8031DC8
-    .word sub_8031E70
-    .word sub_8031F10
-    .word sub_8035B6C
-    .word sub_8032024
-    .word sub_801DF1C
+    .word func_08031D8C
+    .word func_08031DC8
+    .word func_08031E70
+    .word func_08031F10
+    .word func_08035B6C
+    .word func_08032024
+    .word func_0801DF1C
 
 
     .align 2
     .global Unk_0817F460
 Unk_0817F460:
-    .word sub_8035B6C
-    .word sub_80320D8
-    .word sub_8032128
+    .word func_08035B6C
+    .word func_080320D8
+    .word func_08032128
 
 
     .align 2
     .global Unk_0817F46C
 Unk_0817F46C:
-    .word sub_80321B0
-    .word sub_80321EC
-    .word sub_80322A0
-    .word sub_80322F8
-    .word sub_8032344
-    .word sub_803239C
+    .word func_080321B0
+    .word func_080321EC
+    .word func_080322A0
+    .word func_080322F8
+    .word func_08032344
+    .word func_0803239C
 
 
     .align 2
     .global Unk_0817F484
 Unk_0817F484:
-    .word sub_803246C
-    .word sub_80324F8
-    .word sub_8032534
-    .word sub_803259C
-    .word sub_8032608
-    .word sub_8032668
-    .word sub_80326A4
-    .word sub_8032724
+    .word func_0803246C
+    .word func_080324F8
+    .word func_08032534
+    .word func_0803259C
+    .word func_08032608
+    .word func_08032668
+    .word func_080326A4
+    .word func_08032724
 
 
     .align 2
     .global Unk_0817F4A4
 Unk_0817F4A4:
-    .word sub_8032778
-    .word sub_80327B4
-    .word sub_8032804
-    .word sub_8032830
-    .word sub_8032878
+    .word func_08032778
+    .word func_080327B4
+    .word func_08032804
+    .word func_08032830
+    .word func_08032878
 
 
     .align 2
     .global Unk_0817F4B8
 Unk_0817F4B8:
-    .word sub_803290C
-    .word sub_803294C
-    .word sub_803299C
+    .word func_0803290C
+    .word func_0803294C
+    .word func_0803299C
 
 
     .align 2
     .global Unk_0817F4C4
 Unk_0817F4C4:
-    .word sub_8032A5C
-    .word sub_8032A94
-    .word sub_8032B30
-    .word sub_8035B6C
-    .word sub_8032C1C
-    .word sub_8032C90
-    .word sub_8032D18
-    .word sub_8032D44
-    .word sub_8032DE8
+    .word func_08032A5C
+    .word func_08032A94
+    .word func_08032B30
+    .word func_08035B6C
+    .word func_08032C1C
+    .word func_08032C90
+    .word func_08032D18
+    .word func_08032D44
+    .word func_08032DE8
 
 
     .align 2
     .global Unk_0817F4E8
 Unk_0817F4E8:
-    .word sub_8032F50
-    .word sub_8032FA4
-    .word sub_8033080
-    .word sub_80330B8
-    .word sub_8033158
-    .word sub_8033208
-    .word sub_8033280
-    .word sub_80332DC
-    .word sub_8033398
-    .word sub_803347C
-    .word sub_80333F8
-    .word sub_8033510
-    .word sub_80333F8
-    .word sub_803347C
-    .word sub_8033510
-    .word sub_803347C
-    .word sub_80335A4
-    .word sub_8033644
-    .word sub_80336A8
-    .word sub_8033700
+    .word func_08032F50
+    .word func_08032FA4
+    .word func_08033080
+    .word func_080330B8
+    .word func_08033158
+    .word func_08033208
+    .word func_08033280
+    .word func_080332DC
+    .word func_08033398
+    .word func_0803347C
+    .word func_080333F8
+    .word func_08033510
+    .word func_080333F8
+    .word func_0803347C
+    .word func_08033510
+    .word func_0803347C
+    .word func_080335A4
+    .word func_08033644
+    .word func_080336A8
+    .word func_08033700
 
 
     .align 2
     .global Unk_0817F538
 Unk_0817F538:
-    .word sub_80337FC
-    .word sub_803389C
-    .word sub_8033940
-    .word sub_8033964
-    .word sub_8033984
-    .word sub_80339A8
-    .word sub_80339C8
-    .word sub_8033A14
-    .word sub_8033A2C
+    .word func_080337FC
+    .word func_0803389C
+    .word func_08033940
+    .word func_08033964
+    .word func_08033984
+    .word func_080339A8
+    .word func_080339C8
+    .word func_08033A14
+    .word func_08033A2C
 
 
     .align 2
     .global Unk_0817F55C
 Unk_0817F55C:
-    .word sub_8033AA4
-    .word sub_8033B10
-    .word sub_8033B88
+    .word func_08033AA4
+    .word func_08033B10
+    .word func_08033B88
 
 
     .align 2
     .global Unk_0817F568
 Unk_0817F568:
-    .word sub_8033C00
-    .word sub_8033C44
-    .word sub_8033C9C
-    .word sub_8033CE4
-    .word sub_8033D34
+    .word func_08033C00
+    .word func_08033C44
+    .word func_08033C9C
+    .word func_08033CE4
+    .word func_08033D34
 
 
     .align 2
     .global Unk_0817F57C
 Unk_0817F57C:
-    .word sub_8033DD8
-    .word sub_8033E1C
-    .word sub_8033E6C
+    .word func_08033DD8
+    .word func_08033E1C
+    .word func_08033E6C
 
 
     .align 2
     .global Unk_0817F588
 Unk_0817F588:
-    .word sub_8033EE4
-    .word sub_8033F2C
-    .word sub_8035B6C
-    .word sub_8033FD4
-    .word sub_803401C
-    .word sub_8034084
+    .word func_08033EE4
+    .word func_08033F2C
+    .word func_08035B6C
+    .word func_08033FD4
+    .word func_0803401C
+    .word func_08034084
 
 
     .align 2
     .global Unk_0817F5A0
 Unk_0817F5A0:
-    .word sub_80341D0
-    .word sub_803421C
-    .word sub_803428C
+    .word func_080341D0
+    .word func_0803421C
+    .word func_0803428C
 
 
     .align 2
     .global Unk_0817F5AC
 Unk_0817F5AC:
-    .word sub_8034304
-    .word sub_8034350
-    .word sub_80343B4
-    .word sub_8034428
-    .word sub_8034498
+    .word func_08034304
+    .word func_08034350
+    .word func_080343B4
+    .word func_08034428
+    .word func_08034498
 
 
     .align 2
     .global Unk_0817F5C0
 Unk_0817F5C0:
-    .word sub_8034510
-    .word sub_8034560
-    .word sub_803459C
-    .word sub_803460C
-    .word sub_803467C
+    .word func_08034510
+    .word func_08034560
+    .word func_0803459C
+    .word func_0803460C
+    .word func_0803467C
 
 
     .align 2
     .global Unk_0817F5D4
 Unk_0817F5D4:
-    .word sub_80346F4
-    .word sub_8034738
-    .word sub_803479C
-    .word sub_8034808
-    .word sub_8034858
-    .word sub_80348BC
-    .word sub_803491C
-    .word sub_8034980
-    .word sub_80349EC
-    .word sub_8034A64
-    .word sub_8034AE8
-    .word sub_8034B98
-    .word sub_8034C7C
-    .word sub_8034CBC
-    .word sub_8034CFC
-    .word sub_8034D68
-    .word sub_8034E04
-    .word sub_8034E58
-    .word sub_8034F44
-    .word sub_8034FEC
+    .word func_080346F4
+    .word func_08034738
+    .word func_0803479C
+    .word func_08034808
+    .word func_08034858
+    .word func_080348BC
+    .word func_0803491C
+    .word func_08034980
+    .word func_080349EC
+    .word func_08034A64
+    .word func_08034AE8
+    .word func_08034B98
+    .word func_08034C7C
+    .word func_08034CBC
+    .word func_08034CFC
+    .word func_08034D68
+    .word func_08034E04
+    .word func_08034E58
+    .word func_08034F44
+    .word func_08034FEC
 
 
     .align 2
     .global Unk_0817F624
 Unk_0817F624:
-    .word sub_803506C
-    .word sub_80350CC
-    .word sub_8035128
-    .word sub_8035218
-    .word sub_803526C
-    .word sub_803528C
-    .word sub_80352D4
-    .word sub_80352F4
-    .word sub_8035338
-    .word sub_803538C
-    .word sub_8035100
+    .word func_0803506C
+    .word func_080350CC
+    .word func_08035128
+    .word func_08035218
+    .word func_0803526C
+    .word func_0803528C
+    .word func_080352D4
+    .word func_080352F4
+    .word func_08035338
+    .word func_0803538C
+    .word func_08035100
 
 
     .align 2
     .global Unk_0817F650
 Unk_0817F650:
     .word 0x198
-    .word sub_8035404
+    .word func_08035404
     .word 0x19C
-    .word sub_80354B4
+    .word func_080354B4
     .word 0x8000
     .word 0
 
@@ -3321,9 +3321,9 @@ Unk_0817F650:
     .global Unk_0817F668
 Unk_0817F668:
     .word 0x188
-    .word sub_8035598
+    .word func_08035598
     .word 0x1B3
-    .word sub_8035684
+    .word func_08035684
     .word 0x8000
     .word 0
 
@@ -3338,135 +3338,135 @@ Unk_0817F690:
     .align 2
     .global Unk_0817FAB0
 Unk_0817FAB0:
-    .word sub_8035D3C
-    .word sub_8036E90
-    .word sub_8037098
-    .word sub_8037570
-    .word sub_80378F8
-    .word sub_8037A80
-    .word sub_8037C00
-    .word sub_8037F24
-    .word sub_8038158
-    .word sub_80382FC
+    .word func_08035D3C
+    .word func_08036E90
+    .word func_08037098
+    .word func_08037570
+    .word func_080378F8
+    .word func_08037A80
+    .word func_08037C00
+    .word func_08037F24
+    .word func_08038158
+    .word func_080382FC
 
 
     .align 2
     .global Unk_0817FAD8
 Unk_0817FAD8:
-    .word sub_8035D6C
-    .word sub_8035E54
-    .word sub_8035F38
-    .word sub_8035FD0
-    .word sub_80360A4
-    .word sub_80360E8
-    .word sub_80360E8
-    .word sub_803611C
-    .word sub_8036180
-    .word sub_803638C
-    .word sub_8036944
-    .word sub_803699C
-    .word sub_8036A04
-    .word sub_8036A9C
-    .word sub_8036B1C
-    .word sub_8036C18
-    .word sub_8036C98
-    .word sub_8036CD4
-    .word sub_8036D30
-    .word sub_8036DEC
-    .word sub_8036E44
+    .word func_08035D6C
+    .word func_08035E54
+    .word func_08035F38
+    .word func_08035FD0
+    .word func_080360A4
+    .word func_080360E8
+    .word func_080360E8
+    .word func_0803611C
+    .word func_08036180
+    .word func_0803638C
+    .word func_08036944
+    .word func_0803699C
+    .word func_08036A04
+    .word func_08036A9C
+    .word func_08036B1C
+    .word func_08036C18
+    .word func_08036C98
+    .word func_08036CD4
+    .word func_08036D30
+    .word func_08036DEC
+    .word func_08036E44
 
 
     .align 2
     .global Unk_0817FB2C
 Unk_0817FB2C:
-    .word sub_8036EC0
-    .word sub_8035EEC
-    .word sub_8036F60
-    .word sub_8036FF4
-    .word sub_8037048
+    .word func_08036EC0
+    .word func_08035EEC
+    .word func_08036F60
+    .word func_08036FF4
+    .word func_08037048
 
 
     .align 2
     .global Unk_0817FB40
 Unk_0817FB40:
-    .word sub_80370C8
-    .word sub_8037198
-    .word sub_8037218
-    .word sub_80372A8
-    .word sub_8037310
-    .word sub_80373E0
-    .word sub_8037440
-    .word sub_8037528
+    .word func_080370C8
+    .word func_08037198
+    .word func_08037218
+    .word func_080372A8
+    .word func_08037310
+    .word func_080373E0
+    .word func_08037440
+    .word func_08037528
 
 
     .align 2
     .global Unk_0817FB60
 Unk_0817FB60:
-    .word sub_80375A0
-    .word sub_8037610
-    .word sub_80376BC
-    .word sub_80376F4
-    .word sub_803773C
-    .word sub_803778C
-    .word sub_80377D4
-    .word sub_8037848
-    .word sub_80378B0
+    .word func_080375A0
+    .word func_08037610
+    .word func_080376BC
+    .word func_080376F4
+    .word func_0803773C
+    .word func_0803778C
+    .word func_080377D4
+    .word func_08037848
+    .word func_080378B0
 
 
     .align 2
     .global Unk_0817FB84
 Unk_0817FB84:
-    .word sub_8037928
-    .word sub_8037984
-    .word sub_80379E8
-    .word sub_8037A38
+    .word func_08037928
+    .word func_08037984
+    .word func_080379E8
+    .word func_08037A38
 
 
     .align 2
     .global Unk_0817FB94
 Unk_0817FB94:
-    .word sub_8037AB0
-    .word sub_8037AD0
-    .word sub_8038A9C
-    .word sub_8037B44
-    .word sub_8038A9C
-    .word sub_8037AF8
-    .word sub_8038A9C
-    .word sub_8037B74
-    .word sub_8037BB8
+    .word func_08037AB0
+    .word func_08037AD0
+    .word func_08038A9C
+    .word func_08037B44
+    .word func_08038A9C
+    .word func_08037AF8
+    .word func_08038A9C
+    .word func_08037B74
+    .word func_08037BB8
 
 
     .align 2
     .global Unk_0817FBB8
 Unk_0817FBB8:
-    .word sub_8037C30
-    .word sub_8037CB0
-    .word sub_8037D30
-    .word sub_8037D80
-    .word sub_8037DC8
-    .word sub_8037E10
-    .word sub_8037E94
-    .word sub_8037EDC
+    .word func_08037C30
+    .word func_08037CB0
+    .word func_08037D30
+    .word func_08037D80
+    .word func_08037DC8
+    .word func_08037E10
+    .word func_08037E94
+    .word func_08037EDC
 
 
     .align 2
     .global Unk_0817FBD8
 Unk_0817FBD8:
-    .word sub_8037F54
-    .word sub_8037F98
-    .word sub_8038004
-    .word sub_8038080
-    .word sub_80380C8
-    .word sub_8038110
+    .word func_08037F54
+    .word func_08037F98
+    .word func_08038004
+    .word func_08038080
+    .word func_080380C8
+    .word func_08038110
 
 
     .align 2
     .global Unk_0817FBF0
 Unk_0817FBF0:
-    .word sub_8038188
-    .word sub_80381F8
-    .word sub_803824C
-    .word sub_80382B8
+    .word func_08038188
+    .word func_080381F8
+    .word func_0803824C
+    .word func_080382B8
 
 
     .global Unk_0817FC00
@@ -3612,538 +3612,538 @@ Unk_0817FE92:
     .align 2
     .global Unk_0817FE9C
 Unk_0817FE9C:
-    .word sub_8038B4C
-    .word sub_8038B58
-    .word sub_8038C44
-    .word sub_8039108
-    .word sub_80395F0
-    .word sub_8039924
-    .word sub_8039A38
-    .word sub_8039D90
-    .word sub_803A0A0
-    .word sub_803A1C0
-    .word sub_803A394
-    .word sub_803A418
-    .word sub_803A688
-    .word sub_803AAE0
-    .word sub_803B064
-    .word sub_803B0B8
-    .word sub_803B2B8
-    .word sub_803B554
-    .word sub_803B680
-    .word sub_803B7A0
-    .word sub_803B810
-    .word sub_803B928
-    .word sub_803B968
-    .word sub_803BAD0
-    .word sub_803BF64
-    .word sub_803C0F0
-    .word sub_803C50C
-    .word sub_803C8FC
-    .word sub_803CF2C
-    .word sub_803D54C
-    .word sub_803D6FC
-    .word sub_803D794
-    .word sub_803D8B4
-    .word sub_802CE60
-    .word sub_803D8C0
-    .word sub_803DDBC
-    .word sub_803DEBC
-    .word sub_803DF00
-    .word sub_803DFA4
+    .word func_08038B4C
+    .word func_08038B58
+    .word func_08038C44
+    .word func_08039108
+    .word func_080395F0
+    .word func_08039924
+    .word func_08039A38
+    .word func_08039D90
+    .word func_0803A0A0
+    .word func_0803A1C0
+    .word func_0803A394
+    .word func_0803A418
+    .word func_0803A688
+    .word func_0803AAE0
+    .word func_0803B064
+    .word func_0803B0B8
+    .word func_0803B2B8
+    .word func_0803B554
+    .word func_0803B680
+    .word func_0803B7A0
+    .word func_0803B810
+    .word func_0803B928
+    .word func_0803B968
+    .word func_0803BAD0
+    .word func_0803BF64
+    .word func_0803C0F0
+    .word func_0803C50C
+    .word func_0803C8FC
+    .word func_0803CF2C
+    .word func_0803D54C
+    .word func_0803D6FC
+    .word func_0803D794
+    .word func_0803D8B4
+    .word func_0802CE60
+    .word func_0803D8C0
+    .word func_0803DDBC
+    .word func_0803DEBC
+    .word func_0803DF00
+    .word func_0803DFA4
 
 
     .align 2
     .global Unk_0817FF38
 Unk_0817FF38:
-    .word sub_803DFB0
-    .word sub_803DFC4
-    .word sub_803DFDC
-    .word sub_803E008
-    .word sub_803E03C
-    .word sub_803E050
-    .word sub_803E078
-    .word sub_803E0B0
-    .word sub_803E0E8
-    .word sub_803E13C
-    .word sub_803E154
-    .word sub_803E18C
-    .word sub_803E1A0
-    .word sub_803E1B8
-    .word sub_803E1F0
-    .word sub_803E254
-    .word sub_803E2B8
-    .word sub_803E324
-    .word sub_803E390
-    .word sub_803E3B4
-    .word sub_803E3CC
-    .word sub_803E410
-    .word sub_803E428
-    .word sub_803E490
-    .word sub_803E4C4
-    .word sub_803E528
-    .word sub_803E564
-    .word sub_803E58C
-    .word sub_802DB34
-    .word sub_803E5F0
+    .word func_0803DFB0
+    .word func_0803DFC4
+    .word func_0803DFDC
+    .word func_0803E008
+    .word func_0803E03C
+    .word func_0803E050
+    .word func_0803E078
+    .word func_0803E0B0
+    .word func_0803E0E8
+    .word func_0803E13C
+    .word func_0803E154
+    .word func_0803E18C
+    .word func_0803E1A0
+    .word func_0803E1B8
+    .word func_0803E1F0
+    .word func_0803E254
+    .word func_0803E2B8
+    .word func_0803E324
+    .word func_0803E390
+    .word func_0803E3B4
+    .word func_0803E3CC
+    .word func_0803E410
+    .word func_0803E428
+    .word func_0803E490
+    .word func_0803E4C4
+    .word func_0803E528
+    .word func_0803E564
+    .word func_0803E58C
+    .word func_0802DB34
+    .word func_0803E5F0
 
 
     .align 2
     .global Unk_0817FFB0
 Unk_0817FFB0:
-    .word sub_803E684
-    .word sub_803E698
-    .word sub_803E758
-    .word sub_803E788
-    .word sub_803E7CC
-    .word sub_803E830
-    .word sub_803E864
-    .word sub_803E8B0
-    .word sub_803E8E8
-    .word sub_803E93C
-    .word sub_803E984
-    .word sub_803EA40
-    .word sub_803EA6C
-    .word sub_803EA94
-    .word sub_803EAC4
-    .word sub_803EAF8
-    .word sub_803EB54
-    .word sub_803EBD8
-    .word sub_803EC18
-    .word sub_803EC78
-    .word sub_803ECA8
-    .word sub_803ECD8
-    .word sub_803EDA8
-    .word sub_803EE28
-    .word sub_803EE7C
-    .word sub_803EEC8
-    .word sub_803F000
-    .word sub_803F0FC
-    .word sub_803F240
-    .word sub_803F268
-    .word sub_803F288
-    .word sub_803F2CC
-    .word sub_803F2FC
-    .word sub_803F340
-    .word sub_803F41C
-    .word sub_803F438
-    .word sub_803F474
-    .word sub_803F550
-    .word sub_803F5A8
-    .word sub_803F5C8
-    .word sub_803F694
-    .word sub_803F6D0
-    .word sub_803F7A4
-    .word sub_803F7F4
-    .word sub_803F8C0
-    .word sub_803F948
-    .word sub_803F98C
-    .word sub_803F9D0
-    .word sub_803FA68
-    .word sub_803FAF0
-    .word sub_803FB60
-    .word sub_803FBE0
-    .word sub_803FC1C
-    .word sub_803FC4C
-    .word sub_803FD34
-    .word sub_803FE40
-    .word sub_803FECC
-    .word sub_803FFA4
-    .word sub_803FFE0
-    .word sub_8040024
-    .word sub_804008C
-    .word sub_80400C8
-    .word sub_8040110
-    .word sub_8040148
-    .word sub_8040188
-    .word sub_8040240
-    .word sub_8040278
-    .word sub_80402BC
-    .word sub_8040300
-    .word sub_8040318
-    .word sub_8040330
-    .word sub_804038C
-    .word sub_802E384
-    .word sub_801D5BC
-    .word sub_802E238
-    .word sub_802E454
-    .word sub_80403CC
-    .word sub_802E2E0
-    .word sub_802DFE0
-    .word sub_802E1C4
-    .word sub_80404BC
+    .word func_0803E684
+    .word func_0803E698
+    .word func_0803E758
+    .word func_0803E788
+    .word func_0803E7CC
+    .word func_0803E830
+    .word func_0803E864
+    .word func_0803E8B0
+    .word func_0803E8E8
+    .word func_0803E93C
+    .word func_0803E984
+    .word func_0803EA40
+    .word func_0803EA6C
+    .word func_0803EA94
+    .word func_0803EAC4
+    .word func_0803EAF8
+    .word func_0803EB54
+    .word func_0803EBD8
+    .word func_0803EC18
+    .word func_0803EC78
+    .word func_0803ECA8
+    .word func_0803ECD8
+    .word func_0803EDA8
+    .word func_0803EE28
+    .word func_0803EE7C
+    .word func_0803EEC8
+    .word func_0803F000
+    .word func_0803F0FC
+    .word func_0803F240
+    .word func_0803F268
+    .word func_0803F288
+    .word func_0803F2CC
+    .word func_0803F2FC
+    .word func_0803F340
+    .word func_0803F41C
+    .word func_0803F438
+    .word func_0803F474
+    .word func_0803F550
+    .word func_0803F5A8
+    .word func_0803F5C8
+    .word func_0803F694
+    .word func_0803F6D0
+    .word func_0803F7A4
+    .word func_0803F7F4
+    .word func_0803F8C0
+    .word func_0803F948
+    .word func_0803F98C
+    .word func_0803F9D0
+    .word func_0803FA68
+    .word func_0803FAF0
+    .word func_0803FB60
+    .word func_0803FBE0
+    .word func_0803FC1C
+    .word func_0803FC4C
+    .word func_0803FD34
+    .word func_0803FE40
+    .word func_0803FECC
+    .word func_0803FFA4
+    .word func_0803FFE0
+    .word func_08040024
+    .word func_0804008C
+    .word func_080400C8
+    .word func_08040110
+    .word func_08040148
+    .word func_08040188
+    .word func_08040240
+    .word func_08040278
+    .word func_080402BC
+    .word func_08040300
+    .word func_08040318
+    .word func_08040330
+    .word func_0804038C
+    .word func_0802E384
+    .word func_0801D5BC
+    .word func_0802E238
+    .word func_0802E454
+    .word func_080403CC
+    .word func_0802E2E0
+    .word func_0802DFE0
+    .word func_0802E1C4
+    .word func_080404BC
 
 
     .align 2
     .global Unk_081800F4
 Unk_081800F4:
-    .word sub_8038C6C
-    .word sub_8038CB4
-    .word sub_8038E98
-    .word sub_8039074
+    .word func_08038C6C
+    .word func_08038CB4
+    .word func_08038E98
+    .word func_08039074
 
 
     .align 2
     .global Unk_08180104
 Unk_08180104:
-    .word sub_8039130
-    .word sub_803913C
-    .word sub_8039184
-    .word sub_8039264
-    .word sub_80392B4
-    .word sub_8039364
-    .word sub_8039410
-    .word sub_80394A8
-    .word sub_8039500
+    .word func_08039130
+    .word func_0803913C
+    .word func_08039184
+    .word func_08039264
+    .word func_080392B4
+    .word func_08039364
+    .word func_08039410
+    .word func_080394A8
+    .word func_08039500
 
 
     .align 2
     .global Unk_08180128
 Unk_08180128:
-    .word sub_8039618
-    .word sub_8039650
-    .word sub_8039760
-    .word sub_80397D8
-    .word sub_80397E8
-    .word sub_80398F8
+    .word func_08039618
+    .word func_08039650
+    .word func_08039760
+    .word func_080397D8
+    .word func_080397E8
+    .word func_080398F8
 
 
     .align 2
     .global Unk_08180140
 Unk_08180140:
-    .word sub_8039A60
-    .word sub_8039AC8
-    .word sub_8039B84
-    .word sub_8039BFC
+    .word func_08039A60
+    .word func_08039AC8
+    .word func_08039B84
+    .word func_08039BFC
 
 
     .align 2
     .global Unk_08180150
 Unk_08180150:
-    .word sub_8039DB8
-    .word sub_8039E98
-    .word sub_8039EA4
-    .word sub_8039EF8
-    .word sub_8039E98
-    .word sub_8039F6C
-    .word sub_8039FF4
-    .word sub_803A040
-    .word sub_803A04C
+    .word func_08039DB8
+    .word func_08039E98
+    .word func_08039EA4
+    .word func_08039EF8
+    .word func_08039E98
+    .word func_08039F6C
+    .word func_08039FF4
+    .word func_0803A040
+    .word func_0803A04C
 
 
     .align 2
     .global Unk_08180174
 Unk_08180174:
-    .word sub_803A440
-    .word sub_803A47C
-    .word sub_803A4B0
-    .word sub_803A4BC
-    .word sub_803A4C8
-    .word sub_803A5E0
-    .word sub_803A5EC
-    .word sub_803A654
+    .word func_0803A440
+    .word func_0803A47C
+    .word func_0803A4B0
+    .word func_0803A4BC
+    .word func_0803A4C8
+    .word func_0803A5E0
+    .word func_0803A5EC
+    .word func_0803A654
 
 
     .align 2
     .global Unk_08180194
 Unk_08180194:
-    .word sub_803A6B0
-    .word sub_803A84C
-    .word sub_803A8AC
-    .word sub_803A918
-    .word sub_803A964
-    .word sub_803A99C
-    .word sub_803AA10
-    .word sub_803AA7C
+    .word func_0803A6B0
+    .word func_0803A84C
+    .word func_0803A8AC
+    .word func_0803A918
+    .word func_0803A964
+    .word func_0803A99C
+    .word func_0803AA10
+    .word func_0803AA7C
 
 
     .align 2
     .global Unk_081801B4
 Unk_081801B4:
-    .word sub_803AB08
-    .word sub_803AC68
-    .word sub_803AD70
-    .word sub_803ADA8
-    .word sub_803AE24
-    .word sub_803AE6C
-    .word sub_803AEBC
-    .word sub_803AEF8
-    .word sub_803AF5C
-    .word sub_803AFF0
+    .word func_0803AB08
+    .word func_0803AC68
+    .word func_0803AD70
+    .word func_0803ADA8
+    .word func_0803AE24
+    .word func_0803AE6C
+    .word func_0803AEBC
+    .word func_0803AEF8
+    .word func_0803AF5C
+    .word func_0803AFF0
 
 
     .align 2
     .global Unk_081801DC
 Unk_081801DC:
-    .word sub_803B0E0
-    .word sub_803B1E4
-    .word sub_803B244
-    .word sub_803B250
-    .word sub_803B288
+    .word func_0803B0E0
+    .word func_0803B1E4
+    .word func_0803B244
+    .word func_0803B250
+    .word func_0803B288
 
 
     .align 2
     .global Unk_081801F0
 Unk_081801F0:
-    .word sub_803B2E0
-    .word sub_803B390
-    .word sub_803B3CC
-    .word sub_803B444
-    .word sub_803B4C8
-    .word sub_803B520
+    .word func_0803B2E0
+    .word func_0803B390
+    .word func_0803B3CC
+    .word func_0803B444
+    .word func_0803B4C8
+    .word func_0803B520
 
 
     .align 2
     .global Unk_08180208
 Unk_08180208:
-    .word sub_803B6A8
-    .word sub_803B6F0
-    .word sub_803B73C
+    .word func_0803B6A8
+    .word func_0803B6F0
+    .word func_0803B73C
 
 
     .align 2
     .global Unk_08180214
 Unk_08180214:
-    .word sub_803B7C8
-    .word sub_803B6F0
-    .word sub_803B73C
+    .word func_0803B7C8
+    .word func_0803B6F0
+    .word func_0803B73C
 
 
     .align 2
     .global Unk_08180220
 Unk_08180220:
-    .word sub_803B838
-    .word sub_803B844
-    .word sub_803B838
-    .word sub_803B8F4
+    .word func_0803B838
+    .word func_0803B844
+    .word func_0803B838
+    .word func_0803B8F4
 
 
     .align 2
     .global Unk_08180230
 Unk_08180230:
-    .word sub_803B950
-    .word sub_803B95C
+    .word func_0803B950
+    .word func_0803B95C
 
 
     .align 2
     .global Unk_08180238
 Unk_08180238:
-    .word sub_803B990
-    .word sub_803B9F0
-    .word sub_803BA50
+    .word func_0803B990
+    .word func_0803B9F0
+    .word func_0803BA50
 
 
     .align 2
     .global Unk_08180244
 Unk_08180244:
-    .word sub_803BAF8
-    .word sub_803BB64
-    .word sub_803BC18
-    .word sub_803BC74
-    .word sub_803BCB0
-    .word sub_803BD20
-    .word sub_803BDA8
-    .word sub_803BDFC
-    .word sub_803BE68
-    .word sub_803BE74
-    .word sub_803BEB8
+    .word func_0803BAF8
+    .word func_0803BB64
+    .word func_0803BC18
+    .word func_0803BC74
+    .word func_0803BCB0
+    .word func_0803BD20
+    .word func_0803BDA8
+    .word func_0803BDFC
+    .word func_0803BE68
+    .word func_0803BE74
+    .word func_0803BEB8
 
 
     .align 2
     .global Unk_08180270
 Unk_08180270:
-    .word sub_803BF8C
-    .word sub_803BFF0
-    .word sub_803C044
-    .word sub_803C050
-    .word sub_803BFF0
-    .word sub_803C09C
-    .word sub_803C0A8
+    .word func_0803BF8C
+    .word func_0803BFF0
+    .word func_0803C044
+    .word func_0803C050
+    .word func_0803BFF0
+    .word func_0803C09C
+    .word func_0803C0A8
 
 
     .align 2
     .global Unk_0818028C
 Unk_0818028C:
-    .word sub_803C118
-    .word sub_803C1D4
-    .word sub_803C208
-    .word sub_803C214
-    .word sub_803C208
-    .word sub_8024DF8
-    .word sub_803C260
-    .word sub_803C208
-    .word sub_803C2CC
-    .word sub_803C208
-    .word sub_8024DF8
-    .word sub_803C368
-    .word sub_803C3C0
+    .word func_0803C118
+    .word func_0803C1D4
+    .word func_0803C208
+    .word func_0803C214
+    .word func_0803C208
+    .word func_08024DF8
+    .word func_0803C260
+    .word func_0803C208
+    .word func_0803C2CC
+    .word func_0803C208
+    .word func_08024DF8
+    .word func_0803C368
+    .word func_0803C3C0
 
 
     .align 2
     .global Unk_081802C0
 Unk_081802C0:
-    .word sub_803C534
-    .word sub_803C594
-    .word sub_803C5EC
-    .word sub_803C7FC
-    .word sub_803C684
-    .word sub_803C708
-    .word sub_8024DF8
-    .word sub_803C778
-    .word sub_803C7FC
-    .word sub_803C808
+    .word func_0803C534
+    .word func_0803C594
+    .word func_0803C5EC
+    .word func_0803C7FC
+    .word func_0803C684
+    .word func_0803C708
+    .word func_08024DF8
+    .word func_0803C778
+    .word func_0803C7FC
+    .word func_0803C808
 
 
     .align 2
     .global Unk_081802E8
 Unk_081802E8:
-    .word sub_803C924
-    .word sub_803C978
-    .word sub_803C9FC
-    .word sub_803CAE0
-    .word sub_803CBA0
-    .word sub_803CC24
-    .word sub_803CC80
-    .word sub_803CCB8
-    .word sub_803CD0C
-    .word sub_803CD74
-    .word sub_803CDD8
-    .word sub_803CE34
-    .word sub_803CE8C
-    .word sub_803CE98
-    .word sub_803CECC
-    .word sub_803CED8
-    .word sub_803CF20
+    .word func_0803C924
+    .word func_0803C978
+    .word func_0803C9FC
+    .word func_0803CAE0
+    .word func_0803CBA0
+    .word func_0803CC24
+    .word func_0803CC80
+    .word func_0803CCB8
+    .word func_0803CD0C
+    .word func_0803CD74
+    .word func_0803CDD8
+    .word func_0803CE34
+    .word func_0803CE8C
+    .word func_0803CE98
+    .word func_0803CECC
+    .word func_0803CED8
+    .word func_0803CF20
 
 
     .align 2
     .global Unk_0818032C
 Unk_0818032C:
-    .word sub_803CF54
-    .word sub_803CF9C
-    .word sub_803D038
-    .word sub_803D0FC
-    .word sub_803D1B0
-    .word sub_803D278
-    .word sub_803D2D4
-    .word sub_803D3C8
-    .word sub_803D438
-    .word sub_803D474
-    .word sub_803D480
-    .word sub_803D4BC
-    .word sub_803D4C8
-    .word sub_803D508
-    .word sub_803D514
+    .word func_0803CF54
+    .word func_0803CF9C
+    .word func_0803D038
+    .word func_0803D0FC
+    .word func_0803D1B0
+    .word func_0803D278
+    .word func_0803D2D4
+    .word func_0803D3C8
+    .word func_0803D438
+    .word func_0803D474
+    .word func_0803D480
+    .word func_0803D4BC
+    .word func_0803D4C8
+    .word func_0803D508
+    .word func_0803D514
 
 
     .align 2
     .global Unk_08180368
 Unk_08180368:
-    .word sub_803D8E8
-    .word sub_803D948
-    .word sub_803DA1C
-    .word sub_803DA28
-    .word sub_803DBE0
-    .word sub_803DBEC
+    .word func_0803D8E8
+    .word func_0803D948
+    .word func_0803DA1C
+    .word func_0803DA28
+    .word func_0803DBE0
+    .word func_0803DBEC
 
 
     .align 2
     .global Unk_08180380
 Unk_08180380:
     .word 0
-    .word sub_8040754
+    .word func_08040754
     .word 0xB5
-    .word sub_80407BC
+    .word func_080407BC
     .word 0xB6
-    .word sub_8040818
+    .word func_08040818
     .word 0xB7
-    .word sub_8040874
+    .word func_08040874
     .word 0xB8
-    .word sub_80408D0
+    .word func_080408D0
     .word 0xB2
-    .word sub_804092C
+    .word func_0804092C
     .word 0xB4
-    .word sub_8040BF4
+    .word func_08040BF4
     .word 0xB3
-    .word sub_8040C48
+    .word func_08040C48
     .word 0x80
-    .word sub_8040C84
+    .word func_08040C84
     .word 0x88
-    .word sub_8040F3C
+    .word func_08040F3C
     .word 0xA1
-    .word sub_8040FB4
+    .word func_08040FB4
     .word 0xA9
-    .word sub_8041018
+    .word func_08041018
     .word 2
-    .word sub_80410F4
+    .word func_080410F4
     .word 0xC7
-    .word sub_8041188
+    .word func_08041188
     .word 0xFA
-    .word sub_80411E4
+    .word func_080411E4
     .word 0x101
-    .word sub_8041364
+    .word func_08041364
     .word 0x103
-    .word sub_80413C0
+    .word func_080413C0
     .word 0x11F
-    .word sub_804141C
+    .word func_0804141C
     .word 0xAA
-    .word sub_8041460
+    .word func_08041460
     .word 0x1D2
-    .word sub_804150C
+    .word func_0804150C
     .word 0xC1
-    .word sub_8041568
+    .word func_08041568
     .word 0x188
-    .word sub_8041594
+    .word func_08041594
     .word 0x1A0
-    .word sub_80417AC
+    .word func_080417AC
     .word 0x1AA
-    .word sub_8041808
+    .word func_08041808
     .word 0x1AB
-    .word sub_8041864
+    .word func_08041864
     .word 0x1AC
-    .word sub_80418C0
+    .word func_080418C0
     .word 0x1AE
-    .word sub_804191C
+    .word func_0804191C
     .word 0x1AF
-    .word sub_8041978
+    .word func_08041978
     .word 0x1B0
-    .word sub_80419D4
+    .word func_080419D4
     .word 0x194
-    .word sub_8041A30
+    .word func_08041A30
     .word 0x195
-    .word sub_8041A5C
+    .word func_08041A5C
     .word 0x19A
-    .word sub_8041A88
+    .word func_08041A88
     .word 0x19B
-    .word sub_8041B88
+    .word func_08041B88
     .word 0x19C
-    .word sub_8041BB4
+    .word func_08041BB4
     .word 0x19F
-    .word sub_8041C30
+    .word func_08041C30
     .word 0xCE
-    .word sub_8041D30
+    .word func_08041D30
     .word 0x9A
-    .word sub_8041F08
+    .word func_08041F08
     .word 0x1DB
-    .word sub_8041FBC
+    .word func_08041FBC
     .word 0x1B3
-    .word sub_8042034
+    .word func_08042034
     .word 0x1B1
-    .word sub_8042090
+    .word func_08042090
     .word 0x1B2
-    .word sub_804212C
+    .word func_0804212C
     .word 0x1ED
-    .word sub_80421FC
+    .word func_080421FC
     .word 0xEF
-    .word sub_8042258
+    .word func_08042258
     .word 0x1EA
-    .word sub_80422F0
+    .word func_080422F0
     .word 0x1EB
-    .word sub_804234C
+    .word func_0804234C
     .word 0x1EC
-    .word sub_80423A8
+    .word func_080423A8
     .word 0x1A8
-    .word sub_8042404
+    .word func_08042404
     .word 0x8000
     .word 0
 
@@ -4151,57 +4151,57 @@ Unk_08180380:
     .global Unk_08180500
 Unk_08180500:
     .word 0
-    .word sub_80426A8
+    .word func_080426A8
     .word 0xD
-    .word sub_8042704
+    .word func_08042704
     .word 0x36
-    .word sub_8042798
+    .word func_08042798
     .word 0x84
-    .word sub_80428DC
+    .word func_080428DC
     .word 0x9A
-    .word sub_8042918
+    .word func_08042918
     .word 0xCC
-    .word sub_8042994
+    .word func_08042994
     .word 0x126
-    .word sub_8042C44
+    .word func_08042C44
     .word 0x7C
-    .word sub_8042CBC
+    .word func_08042CBC
     .word 0x14
-    .word sub_8042D50
+    .word func_08042D50
     .word 0x16A
-    .word sub_8042D80
+    .word func_08042D80
     .word 0x10D
-    .word sub_8042DBC
+    .word func_08042DBC
     .word 0x10E
-    .word sub_8042DF8
+    .word func_08042DF8
     .word 0x10F
-    .word sub_8042E30
+    .word func_08042E30
     .word 0x165
-    .word sub_8042E6C
+    .word func_08042E6C
     .word 0x1C0
-    .word sub_8042F0C
+    .word func_08042F0C
     .word 0x119
-    .word sub_8042F3C
+    .word func_08042F3C
     .word 0x11E
-    .word sub_8042FD0
+    .word func_08042FD0
     .word 0x194
-    .word sub_8043008
+    .word func_08043008
     .word 0x19F
-    .word sub_8043044
+    .word func_08043044
     .word 0x190
-    .word sub_8043080
+    .word func_08043080
     .word 0x105
-    .word sub_80430BC
+    .word func_080430BC
     .word 0x1A8
-    .word sub_80430F8
+    .word func_080430F8
     .word 0xFE
-    .word sub_8043204
+    .word func_08043204
     .word 0x1DA
-    .word sub_804328C
+    .word func_0804328C
     .word 0x1DC
-    .word sub_8043310
+    .word func_08043310
     .word 0x1DD
-    .word sub_804338C
+    .word func_0804338C
     .word 0x8000
     .word 0
 
@@ -4209,25 +4209,25 @@ Unk_08180500:
     .global Unk_081805D8
 Unk_081805D8:
     .word 0
-    .word sub_8043550
+    .word func_08043550
     .word 0xFD
-    .word sub_8043568
+    .word func_08043568
     .word 0x1BE
-    .word sub_804359C
+    .word func_0804359C
     .word 0xAA
-    .word sub_80435FC
+    .word func_080435FC
     .word 0x10D
-    .word sub_804367C
+    .word func_0804367C
     .word 0x10E
-    .word sub_80436BC
+    .word func_080436BC
     .word 0x10F
-    .word sub_80436FC
+    .word func_080436FC
     .word 0x1A4
-    .word sub_8043758
+    .word func_08043758
     .word 0x1A7
-    .word sub_8043768
+    .word func_08043768
     .word 0xFA
-    .word sub_80437AC
+    .word func_080437AC
     .word 0x8000
     .word 0
 
@@ -4375,32 +4375,32 @@ Unk_08180CCF:
     .align 2
     .global Unk_08180CD8
 Unk_08180CD8:
-    .word sub_80482D8
-    .word sub_8048338
-    .word sub_8048398
-    .word sub_80483FC
-    .word sub_8048460
-    .word sub_80484C4
-    .word sub_8048528
-    .word sub_804858C
-    .word sub_80485F0
-    .word sub_8048654
-    .word sub_80486B8
-    .word sub_804871C
+    .word func_080482D8
+    .word func_08048338
+    .word func_08048398
+    .word func_080483FC
+    .word func_08048460
+    .word func_080484C4
+    .word func_08048528
+    .word func_0804858C
+    .word func_080485F0
+    .word func_08048654
+    .word func_080486B8
+    .word func_0804871C
 
 
     .align 2
     .global Unk_08180D08
 Unk_08180D08:
-    .word sub_8049EB4
-    .word sub_8049F5C
-    .word sub_8049FC4
-    .word sub_804A070
-    .word sub_804A0FC
-    .word sub_804A178
-    .word sub_804A1E0
-    .word sub_804A2CC
-    .word sub_804A320
+    .word func_08049EB4
+    .word func_08049F5C
+    .word func_08049FC4
+    .word func_0804A070
+    .word func_0804A0FC
+    .word func_0804A178
+    .word func_0804A1E0
+    .word func_0804A2CC
+    .word func_0804A320
 
 
     .align 2
@@ -4433,514 +4433,514 @@ Unk_08180D35:
     .align 2
     .global Unk_08180D40
 Unk_08180D40:
-    .word sub_804A94C
-    .word sub_804A958
-    .word sub_804A964
-    .word sub_804A970
-    .word sub_804A97C
-    .word sub_804A9A0
-    .word sub_804A9AC
+    .word func_0804A94C
+    .word func_0804A958
+    .word func_0804A964
+    .word func_0804A970
+    .word func_0804A97C
+    .word func_0804A9A0
+    .word func_0804A9AC
 
 
     .align 2
     .global Unk_08180D5C
 Unk_08180D5C:
-    .word sub_804B2F0
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B35C
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B59C
-    .word sub_804B578
-    .word sub_804B5C0
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B5E4
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B608
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B608
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B59C
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B59C
-    .word sub_804B314
-    .word sub_804B62C
-    .word sub_804B62C
-    .word sub_804B62C
-    .word sub_804B62C
-    .word sub_804B62C
-    .word sub_804B62C
-    .word sub_804B62C
-    .word sub_804B3DC
-    .word sub_804B444
-    .word sub_804B554
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B650
-    .word sub_804B650
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B39C
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B534
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B2F0
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B4A8
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B534
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B674
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B554
-    .word sub_804B698
-    .word sub_804B554
-    .word sub_804B698
-    .word sub_804B698
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B59C
-    .word sub_804B578
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B314
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B578
-    .word sub_804B698
-    .word sub_804B578
-    .word sub_804B578
+    .word func_0804B2F0
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B35C
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B59C
+    .word func_0804B578
+    .word func_0804B5C0
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B5E4
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B608
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B608
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B59C
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B59C
+    .word func_0804B314
+    .word func_0804B62C
+    .word func_0804B62C
+    .word func_0804B62C
+    .word func_0804B62C
+    .word func_0804B62C
+    .word func_0804B62C
+    .word func_0804B62C
+    .word func_0804B3DC
+    .word func_0804B444
+    .word func_0804B554
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B650
+    .word func_0804B650
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B39C
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B534
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B2F0
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B4A8
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B534
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B674
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B554
+    .word func_0804B698
+    .word func_0804B554
+    .word func_0804B698
+    .word func_0804B698
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B59C
+    .word func_0804B578
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B314
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B578
+    .word func_0804B698
+    .word func_0804B578
+    .word func_0804B578
 
 
     .global Unk_0818151C
@@ -4958,52 +4958,52 @@ Unk_0818174C:
     .align 2
     .global Unk_08181760
 Unk_08181760:
-    .word sub_804DC7C
-    .word sub_804E0CC
-    .word sub_805329C
-    .word sub_8054324
-    .word sub_80543C8
-    .word sub_80545B8
-    .word sub_8054898
-    .word sub_8054FC8
+    .word func_0804DC7C
+    .word func_0804E0CC
+    .word func_0805329C
+    .word func_08054324
+    .word func_080543C8
+    .word func_080545B8
+    .word func_08054898
+    .word func_08054FC8
 
 
     .align 2
     .global Unk_08181780
 Unk_08181780:
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_8055368
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80552EC
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80554A0
-    .word sub_8055540
-    .word sub_80555FC
-    .word sub_8055610
-    .word sub_8055624
-    .word sub_8055638
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_805564C
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_08055368
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080552EC
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080554A0
+    .word func_08055540
+    .word func_080555FC
+    .word func_08055610
+    .word func_08055624
+    .word func_08055638
+    .word func_080553C0
+    .word func_080553C0
+    .word func_0805564C
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080552EC
     .word 0
     .word 0
     .word 0
@@ -5019,23 +5019,23 @@ Unk_08181780:
     .word 0
     .word 0
     .word 0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80556F4
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80553C0
-    .word sub_80552EC
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080556F4
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080553C0
+    .word func_080552EC
     .word 0
     .word 0
     .word 0
@@ -5055,334 +5055,334 @@ Unk_08181780:
     .align 2
     .global Unk_081818C0
 Unk_081818C0:
-    .word sub_804E184
-    .word sub_804E3D4
-    .word sub_804E6A4
-    .word sub_8050EC8
-    .word sub_8051970
-    .word sub_80519AC
-    .word sub_8051F28
-    .word sub_8052058
-    .word sub_805218C
-    .word sub_80522DC
-    .word sub_8052444
-    .word sub_80528BC
-    .word sub_8052E44
-    .word sub_8052F8C
-    .word sub_805306C
-    .word sub_8053250
+    .word func_0804E184
+    .word func_0804E3D4
+    .word func_0804E6A4
+    .word func_08050EC8
+    .word func_08051970
+    .word func_080519AC
+    .word func_08051F28
+    .word func_08052058
+    .word func_0805218C
+    .word func_080522DC
+    .word func_08052444
+    .word func_080528BC
+    .word func_08052E44
+    .word func_08052F8C
+    .word func_0805306C
+    .word func_08053250
 
 
     .align 2
     .global Unk_08181900
 Unk_08181900:
-    .word sub_805339C
-    .word sub_8053E48
-    .word sub_8053F00
-    .word sub_8053F68
-    .word sub_8054164
-    .word sub_8054190
+    .word func_0805339C
+    .word func_08053E48
+    .word func_08053F00
+    .word func_08053F68
+    .word func_08054164
+    .word func_08054190
 
 
     .align 2
     .global Unk_08181918
 Unk_08181918:
-    .word sub_805446C
-    .word sub_8054520
-    .word sub_8054570
+    .word func_0805446C
+    .word func_08054520
+    .word func_08054570
 
 
     .align 2
     .global Unk_08181924
 Unk_08181924:
-    .word sub_8054624
-    .word sub_8054704
-    .word sub_8054818
+    .word func_08054624
+    .word func_08054704
+    .word func_08054818
 
 
     .align 2
     .global Unk_08181930
 Unk_08181930:
-    .word sub_805491C
-    .word sub_8054994
-    .word sub_8054A64
-    .word sub_8054BF0
-    .word sub_8054CE8
-    .word sub_8054DB8
-    .word sub_8054DFC
-    .word sub_8054ECC
+    .word func_0805491C
+    .word func_08054994
+    .word func_08054A64
+    .word func_08054BF0
+    .word func_08054CE8
+    .word func_08054DB8
+    .word func_08054DFC
+    .word func_08054ECC
 
 
     .align 2
     .global Unk_08181950
 Unk_08181950:
-    .word sub_8055054
-    .word sub_80550A4
-    .word sub_805510C
+    .word func_08055054
+    .word func_080550A4
+    .word func_0805510C
 
 
     .align 2
     .global Unk_0818195C
 Unk_0818195C:
-    .word sub_8056128
-    .word sub_8056170
-    .word sub_80561B8
-    .word sub_8056200
+    .word func_08056128
+    .word func_08056170
+    .word func_080561B8
+    .word func_08056200
 
 
     .align 2
     .global Unk_0818196C
 Unk_0818196C:
-    .word sub_8052E7C
-    .word sub_8052EF0
-    .word sub_8052F4C
+    .word func_08052E7C
+    .word func_08052EF0
+    .word func_08052F4C
 
 
     .align 2
     .global Unk_08181978
 Unk_08181978:
-    .word sub_8051F60
-    .word sub_8051FA4
-    .word sub_8051FF0
+    .word func_08051F60
+    .word func_08051FA4
+    .word func_08051FF0
 
 
     .align 2
     .global Unk_08181984
 Unk_08181984:
-    .word sub_8052090
-    .word sub_80520D4
-    .word sub_8052124
+    .word func_08052090
+    .word func_080520D4
+    .word func_08052124
 
 
     .align 2
     .global Unk_08181990
 Unk_08181990:
-    .word sub_80521C4
-    .word sub_805224C
+    .word func_080521C4
+    .word func_0805224C
 
 
     .align 2
     .global Unk_08181998
 Unk_08181998:
-    .word sub_80533F8
-    .word sub_80534E4
-    .word sub_8053528
-    .word sub_805356C
-    .word sub_80535B0
-    .word sub_805363C
-    .word sub_8053700
-    .word sub_805378C
-    .word sub_80538A4
-    .word sub_80539C8
-    .word sub_8053A74
-    .word sub_8053C14
-    .word sub_8053CE4
-    .word sub_8053D04
-    .word sub_8053D24
-    .word sub_8053D44
+    .word func_080533F8
+    .word func_080534E4
+    .word func_08053528
+    .word func_0805356C
+    .word func_080535B0
+    .word func_0805363C
+    .word func_08053700
+    .word func_0805378C
+    .word func_080538A4
+    .word func_080539C8
+    .word func_08053A74
+    .word func_08053C14
+    .word func_08053CE4
+    .word func_08053D04
+    .word func_08053D24
+    .word func_08053D44
 
 
     .align 2
     .global Unk_081819D8
 Unk_081819D8:
-    .word sub_8053AB0
-    .word sub_8053B0C
-    .word sub_8053B44
-    .word sub_8053B54
-    .word sub_8053BD4
-    .word sub_8053BE4
-    .word sub_8053BF4
-    .word sub_8053C04
+    .word func_08053AB0
+    .word func_08053B0C
+    .word func_08053B44
+    .word func_08053B54
+    .word func_08053BD4
+    .word func_08053BE4
+    .word func_08053BF4
+    .word func_08053C04
 
 
     .align 2
     .global Unk_081819F8
 Unk_081819F8:
-    .word sub_80541C8
-    .word sub_8054210
-    .word sub_80542DC
+    .word func_080541C8
+    .word func_08054210
+    .word func_080542DC
 
 
     .align 2
     .global Unk_08181A04
 Unk_08181A04:
-    .word sub_804E6D4
-    .word sub_804EEB0
-    .word sub_804F0D4
-    .word sub_804FB68
-    .word sub_804FFA8
-    .word sub_80505D8
-    .word sub_80507C0
-    .word sub_8050E88
-    .word sub_8050E98
-    .word sub_8050EA8
-    .word sub_8050EB8
+    .word func_0804E6D4
+    .word func_0804EEB0
+    .word func_0804F0D4
+    .word func_0804FB68
+    .word func_0804FFA8
+    .word func_080505D8
+    .word func_080507C0
+    .word func_08050E88
+    .word func_08050E98
+    .word func_08050EA8
+    .word func_08050EB8
 
 
     .align 2
     .global Unk_08181A30
 Unk_08181A30:
-    .word sub_804E708
-    .word sub_804E764
-    .word sub_804E808
-    .word sub_804EDF0
-    .word sub_804EE38
-    .word sub_804EE80
+    .word func_0804E708
+    .word func_0804E764
+    .word func_0804E808
+    .word func_0804EDF0
+    .word func_0804EE38
+    .word func_0804EE80
 
 
     .align 2
     .global Unk_08181A48
 Unk_08181A48:
-    .word sub_804EEE4
-    .word sub_804EF14
-    .word sub_804EF54
-    .word sub_804F06C
-    .word sub_804F0A4
+    .word func_0804EEE4
+    .word func_0804EF14
+    .word func_0804EF54
+    .word func_0804F06C
+    .word func_0804F0A4
 
 
     .align 2
     .global Unk_08181A5C
 Unk_08181A5C:
-    .word sub_804F108
-    .word sub_804F1E4
-    .word sub_804F3A4
-    .word sub_804F4C8
-    .word sub_804F590
-    .word sub_804F654
-    .word sub_804F694
-    .word sub_804F8DC
-    .word sub_804F910
-    .word sub_804F944
-    .word sub_804F98C
-    .word sub_804F9F8
-    .word sub_804FADC
+    .word func_0804F108
+    .word func_0804F1E4
+    .word func_0804F3A4
+    .word func_0804F4C8
+    .word func_0804F590
+    .word func_0804F654
+    .word func_0804F694
+    .word func_0804F8DC
+    .word func_0804F910
+    .word func_0804F944
+    .word func_0804F98C
+    .word func_0804F9F8
+    .word func_0804FADC
 
 
     .align 2
     .global Unk_08181A90
 Unk_08181A90:
-    .word sub_804FB9C
-    .word sub_804FBF4
-    .word sub_804FE94
-    .word sub_804FECC
-    .word sub_804FEFC
+    .word func_0804FB9C
+    .word func_0804FBF4
+    .word func_0804FE94
+    .word func_0804FECC
+    .word func_0804FEFC
 
 
     .align 2
     .global Unk_08181AA4
 Unk_08181AA4:
-    .word sub_8052DAC
-    .word sub_8052DC4
-    .word sub_8052DD8
-    .word sub_8052DF4
-    .word sub_8052E10
-    .word sub_8052E28
+    .word func_08052DAC
+    .word func_08052DC4
+    .word func_08052DD8
+    .word func_08052DF4
+    .word func_08052E10
+    .word func_08052E28
 
 
     .align 2
     .global Unk_08181ABC
 Unk_08181ABC:
-    .word sub_80528F4
-    .word sub_8052D50
-    .word sub_8052AC4
-    .word sub_8052B50
-    .word sub_8052B94
+    .word func_080528F4
+    .word func_08052D50
+    .word func_08052AC4
+    .word func_08052B50
+    .word func_08052B94
 
 
     .align 2
     .global Unk_08181AD0
 Unk_08181AD0:
-    .word sub_804FFDC
-    .word sub_8050054
-    .word sub_80500A0
-    .word sub_80500EC
-    .word sub_8050210
-    .word sub_80502A4
-    .word sub_80502EC
-    .word sub_80503B0
-    .word sub_8050450
-    .word sub_8050490
+    .word func_0804FFDC
+    .word func_08050054
+    .word func_080500A0
+    .word func_080500EC
+    .word func_08050210
+    .word func_080502A4
+    .word func_080502EC
+    .word func_080503B0
+    .word func_08050450
+    .word func_08050490
 
 
     .align 2
     .global Unk_08181AF8
 Unk_08181AF8:
-    .word sub_805068C
-    .word sub_80506E4
-    .word sub_805073C
+    .word func_0805068C
+    .word func_080506E4
+    .word func_0805073C
 
 
     .align 2
     .global Unk_08181B04
 Unk_08181B04:
-    .word sub_80507F4
-    .word sub_8050854
-    .word sub_805090C
-    .word sub_8050ACC
-    .word sub_8050B10
-    .word sub_8050B40
-    .word sub_8050B68
+    .word func_080507F4
+    .word func_08050854
+    .word func_0805090C
+    .word func_08050ACC
+    .word func_08050B10
+    .word func_08050B40
+    .word func_08050B68
 
 
     .align 2
     .global Unk_08181B20
 Unk_08181B20:
-    .word sub_80519E4
-    .word sub_8051AD0
-    .word sub_8051BD8
-    .word sub_8051C74
-    .word sub_8051D2C
-    .word sub_8051DAC
-    .word sub_8051E5C
+    .word func_080519E4
+    .word func_08051AD0
+    .word func_08051BD8
+    .word func_08051C74
+    .word func_08051D2C
+    .word func_08051DAC
+    .word func_08051E5C
 
 
     .align 2
     .global Unk_08181B3C
 Unk_08181B3C:
-    .word sub_80530A4
-    .word sub_8053134
-    .word sub_80531F0
+    .word func_080530A4
+    .word func_08053134
+    .word func_080531F0
 
 
     .align 2
     .global Unk_08181B48
 Unk_08181B48:
-    .word sub_8052FC4
-    .word sub_8053008
+    .word func_08052FC4
+    .word func_08053008
 
 
     .align 2
     .global Unk_08181B50
 Unk_08181B50:
-    .word sub_8052314
-    .word sub_8052344
-    .word sub_80523CC
+    .word func_08052314
+    .word func_08052344
+    .word func_080523CC
 
 
     .align 2
     .global Unk_08181B5C
 Unk_08181B5C:
-    .word sub_805247C
-    .word sub_80524F0
-    .word sub_80525AC
-    .word sub_80524F0
-    .word sub_80526D4
+    .word func_0805247C
+    .word func_080524F0
+    .word func_080525AC
+    .word func_080524F0
+    .word func_080526D4
 
 
     .align 2
     .global Unk_08181B70
 Unk_08181B70:
-    .word sub_8057E18
-    .word sub_8058388
-    .word sub_8057FA8
-    .word sub_805806C
-    .word sub_80581D0
-    .word sub_8058388
-    .word sub_80582E4
-    .word sub_8058348
-    .word sub_8058358
-    .word sub_8058368
-    .word sub_8058378
+    .word func_08057E18
+    .word func_08058388
+    .word func_08057FA8
+    .word func_0805806C
+    .word func_080581D0
+    .word func_08058388
+    .word func_080582E4
+    .word func_08058348
+    .word func_08058358
+    .word func_08058368
+    .word func_08058378
 
 
     .global Unk_08181B9C
@@ -5419,150 +5419,150 @@ Unk_08181CC0:
     .align 2
     .global Unk_08181D20
 Unk_08181D20:
-    .word sub_8051908
-    .word sub_805184C
-    .word sub_8050F3C
-    .word sub_8050F80
-    .word sub_8051018
-    .word sub_8051144
-    .word sub_80512BC
-    .word sub_8051474
-    .word sub_8051510
-    .word sub_805155C
-    .word sub_80515DC
-    .word sub_8051638
-    .word sub_8051694
-    .word sub_80516FC
+    .word func_08051908
+    .word func_0805184C
+    .word func_08050F3C
+    .word func_08050F80
+    .word func_08051018
+    .word func_08051144
+    .word func_080512BC
+    .word func_08051474
+    .word func_08051510
+    .word func_0805155C
+    .word func_080515DC
+    .word func_08051638
+    .word func_08051694
+    .word func_080516FC
 
     .align 2
     .global Unk_08181D58
 Unk_08181D58:
-    .word sub_805A088
-    .word sub_805A100
-    .word sub_805A1BC
-    .word sub_805A204
-    .word sub_805A288
-    .word sub_805A2DC
-    .word sub_805A358
-    .word sub_805A3CC
-    .word sub_805A43C
-    .word sub_805A494
-    .word sub_805A4D8
-    .word sub_805A550
-    .word sub_805A5A4
-    .word sub_805A6A4
-    .word sub_805A6E0
-    .word sub_805A71C
-    .word sub_805A800
-    .word sub_805A8D0
-    .word sub_805A8DC
-    .word sub_805A8E8
-    .word sub_805A930
-    .word sub_805A980
-    .word sub_805AA94
-    .word sub_805AB84
-    .word sub_805ACF8
-    .word sub_805AE0C
-    .word sub_805AF20
+    .word func_0805A088
+    .word func_0805A100
+    .word func_0805A1BC
+    .word func_0805A204
+    .word func_0805A288
+    .word func_0805A2DC
+    .word func_0805A358
+    .word func_0805A3CC
+    .word func_0805A43C
+    .word func_0805A494
+    .word func_0805A4D8
+    .word func_0805A550
+    .word func_0805A5A4
+    .word func_0805A6A4
+    .word func_0805A6E0
+    .word func_0805A71C
+    .word func_0805A800
+    .word func_0805A8D0
+    .word func_0805A8DC
+    .word func_0805A8E8
+    .word func_0805A930
+    .word func_0805A980
+    .word func_0805AA94
+    .word func_0805AB84
+    .word func_0805ACF8
+    .word func_0805AE0C
+    .word func_0805AF20
 
     .align 2
     .global Unk_08181DC4
 Unk_08181DC4:
-    .word sub_805B4B4
-    .word sub_805B570
-    .word sub_805B590
-    .word sub_805B5C8
-    .word sub_805B5E8
-    .word sub_805B630
-    .word sub_805B6A0
-    .word sub_805B754
-    .word sub_805B78C
-    .word sub_805B804
-    .word sub_805B858
-    .word sub_805B86C
-    .word sub_805B89C
-    .word sub_805B914
-    .word sub_805B968
-    .word sub_805B97C
-    .word sub_805B9F4
-    .word sub_805BA94
-    .word sub_805BAEC
-    .word sub_805BB18
-    .word sub_805BB7C
-    .word sub_805BBB0
-    .word sub_805BBE4
-    .word sub_805BC2C
-    .word sub_805BC74
-    .word sub_805BD18
-    .word sub_805BD8C
-    .word sub_805BE50
-    .word sub_805BE94
-    .word sub_805BECC
-    .word sub_805BF08
-    .word sub_805BF44
-    .word sub_805BD60
-    .word sub_805BF80
-    .word sub_805BFB4
-    .word sub_805BFE8
-    .word sub_805C014
-    .word sub_805C040
-    .word sub_805C08C
-    .word sub_805C168
-    .word sub_805C1AC
-    .word sub_805C1D8
-    .word sub_805C234
-    .word sub_805C284
-    .word sub_805C2C4
-    .word sub_805C310
-    .word sub_805C35C
-    .word sub_805C4F0
-    .word sub_805C57C
-    .word sub_805C63C
-    .word sub_805C6D4
-    .word sub_805C754
-    .word sub_805C79C
-    .word sub_805C83C
-    .word sub_805C87C
-    .word sub_805C8C8
-    .word sub_805C914
-    .word sub_805C950
-    .word sub_805C99C
-    .word sub_805C66C
-    .word sub_805C9E4
-    .word sub_805CA2C
-    .word sub_805CA70
-    .word sub_805CAB8
-    .word sub_805CB04
-    .word sub_805CB34
-    .word sub_805CB60
-    .word sub_805CBAC
-    .word sub_805CC10
-    .word sub_805CC64
-    .word sub_805CCB0
-    .word sub_805CD1C
-    .word sub_805CD64
-    .word sub_805CE94
-    .word sub_805CEE0
-    .word sub_805CF2C
-    .word sub_805D014
-    .word sub_805D05C
-    .word sub_805D0A8
-    .word sub_805D0F4
-    .word sub_805D140
-    .word sub_805D198
-    .word sub_805D1DC
-    .word sub_805D224
-    .word sub_805D394
-    .word sub_805D53C
-    .word sub_805D588
-    .word sub_805D628
-    .word sub_805D658
-    .word sub_805B494
-    .word sub_805D6C4
-    .word sub_805D6F8
-    .word sub_805D74C
-    .word sub_805D780
-    .word sub_805D7AC
+    .word func_0805B4B4
+    .word func_0805B570
+    .word func_0805B590
+    .word func_0805B5C8
+    .word func_0805B5E8
+    .word func_0805B630
+    .word func_0805B6A0
+    .word func_0805B754
+    .word func_0805B78C
+    .word func_0805B804
+    .word func_0805B858
+    .word func_0805B86C
+    .word func_0805B89C
+    .word func_0805B914
+    .word func_0805B968
+    .word func_0805B97C
+    .word func_0805B9F4
+    .word func_0805BA94
+    .word func_0805BAEC
+    .word func_0805BB18
+    .word func_0805BB7C
+    .word func_0805BBB0
+    .word func_0805BBE4
+    .word func_0805BC2C
+    .word func_0805BC74
+    .word func_0805BD18
+    .word func_0805BD8C
+    .word func_0805BE50
+    .word func_0805BE94
+    .word func_0805BECC
+    .word func_0805BF08
+    .word func_0805BF44
+    .word func_0805BD60
+    .word func_0805BF80
+    .word func_0805BFB4
+    .word func_0805BFE8
+    .word func_0805C014
+    .word func_0805C040
+    .word func_0805C08C
+    .word func_0805C168
+    .word func_0805C1AC
+    .word func_0805C1D8
+    .word func_0805C234
+    .word func_0805C284
+    .word func_0805C2C4
+    .word func_0805C310
+    .word func_0805C35C
+    .word func_0805C4F0
+    .word func_0805C57C
+    .word func_0805C63C
+    .word func_0805C6D4
+    .word func_0805C754
+    .word func_0805C79C
+    .word func_0805C83C
+    .word func_0805C87C
+    .word func_0805C8C8
+    .word func_0805C914
+    .word func_0805C950
+    .word func_0805C99C
+    .word func_0805C66C
+    .word func_0805C9E4
+    .word func_0805CA2C
+    .word func_0805CA70
+    .word func_0805CAB8
+    .word func_0805CB04
+    .word func_0805CB34
+    .word func_0805CB60
+    .word func_0805CBAC
+    .word func_0805CC10
+    .word func_0805CC64
+    .word func_0805CCB0
+    .word func_0805CD1C
+    .word func_0805CD64
+    .word func_0805CE94
+    .word func_0805CEE0
+    .word func_0805CF2C
+    .word func_0805D014
+    .word func_0805D05C
+    .word func_0805D0A8
+    .word func_0805D0F4
+    .word func_0805D140
+    .word func_0805D198
+    .word func_0805D1DC
+    .word func_0805D224
+    .word func_0805D394
+    .word func_0805D53C
+    .word func_0805D588
+    .word func_0805D628
+    .word func_0805D658
+    .word func_0805B494
+    .word func_0805D6C4
+    .word func_0805D6F8
+    .word func_0805D74C
+    .word func_0805D780
+    .word func_0805D7AC
 
     .align 2
     .global Unk_08181F40
@@ -5572,36 +5572,36 @@ Unk_08181F40:
     .align 2
     .global Unk_08181F44
 Unk_08181F44:
-    .word sub_805E2D0
-    .word sub_805E338
-    .word sub_805E354
-    .word sub_805E370
-    .word sub_805E384
-    .word sub_805E370
-    .word sub_805E3EC
-    .word sub_805E370
-    .word sub_805E470
-    .word sub_805E48C
+    .word func_0805E2D0
+    .word func_0805E338
+    .word func_0805E354
+    .word func_0805E370
+    .word func_0805E384
+    .word func_0805E370
+    .word func_0805E3EC
+    .word func_0805E370
+    .word func_0805E470
+    .word func_0805E48C
 
     .align 2
     .global Unk_08181F6C
 Unk_08181F6C:
-    .word sub_805E920
-    .word sub_805E984
-    .word sub_805E99C
-    .word sub_805E9B4
-    .word sub_805E9E4
-    .word sub_805E9E4
-    .word sub_805E9FC
-    .word sub_805EA58
-    .word sub_805EA58
-    .word sub_805EA58
-    .word sub_805EA70
-    .word sub_805EA94
-    .word sub_805EB60
-    .word sub_805EAE8
-    .word sub_805EB00
-    .word sub_805EB24
+    .word func_0805E920
+    .word func_0805E984
+    .word func_0805E99C
+    .word func_0805E9B4
+    .word func_0805E9E4
+    .word func_0805E9E4
+    .word func_0805E9FC
+    .word func_0805EA58
+    .word func_0805EA58
+    .word func_0805EA58
+    .word func_0805EA70
+    .word func_0805EA94
+    .word func_0805EB60
+    .word func_0805EAE8
+    .word func_0805EB00
+    .word func_0805EB24
 
     .global Unk_08181FAC
 Unk_08181FAC:
@@ -5639,193 +5639,193 @@ Unk_0818202C: @BUG: Written to from 0805EF28
     .align 2
     .global Unk_08182030
 Unk_08182030:
-    .word sub_805DBD0
-    .word sub_805DD3C
-    .word sub_805DD0C
+    .word func_0805DBD0
+    .word func_0805DD3C
+    .word func_0805DD0C
 
     .align 2
     .global Unk_0818203C
 Unk_0818203C:
-    .word sub_8060C1C
-    .word sub_8060C2C
-    .word sub_8060C6C
-    .word sub_8060C2C
-    .word sub_8060D04
-    .word sub_8060C2C
-    .word sub_8060D8C
-    .word sub_8060C1C
-    .word sub_8060C1C
-    .word sub_8060C2C
-    .word sub_8060C1C
-    .word sub_8060C1C
-    .word sub_8060C1C
-    .word sub_8060C1C
-    .word sub_8060C1C
-    .word sub_8060C2C
-    .word sub_8060C2C
-    .word sub_8060C1C
-    .word sub_8060C1C
+    .word func_08060C1C
+    .word func_08060C2C
+    .word func_08060C6C
+    .word func_08060C2C
+    .word func_08060D04
+    .word func_08060C2C
+    .word func_08060D8C
+    .word func_08060C1C
+    .word func_08060C1C
+    .word func_08060C2C
+    .word func_08060C1C
+    .word func_08060C1C
+    .word func_08060C1C
+    .word func_08060C1C
+    .word func_08060C1C
+    .word func_08060C2C
+    .word func_08060C2C
+    .word func_08060C1C
+    .word func_08060C1C
 
     .align 2
     .global Unk_08182088
 Unk_08182088:
-    .word sub_8060EEC
-    .word sub_8060F28
-    .word sub_8060F28
-    .word sub_8060F28
-    .word sub_8060F38
-    .word sub_8060F94
-    .word sub_8060F38
-    .word sub_8060F38
-    .word sub_8060EEC
-    .word sub_8060F38
-    .word sub_8060F38
-    .word sub_8060F38
-    .word sub_8060F48
-    .word sub_8060F38
-    .word sub_8060F28
-    .word sub_8060F28
-    .word sub_8060F28
-    .word sub_8060EEC
-    .word sub_8060EEC
+    .word func_08060EEC
+    .word func_08060F28
+    .word func_08060F28
+    .word func_08060F28
+    .word func_08060F38
+    .word func_08060F94
+    .word func_08060F38
+    .word func_08060F38
+    .word func_08060EEC
+    .word func_08060F38
+    .word func_08060F38
+    .word func_08060F38
+    .word func_08060F48
+    .word func_08060F38
+    .word func_08060F28
+    .word func_08060F28
+    .word func_08060F28
+    .word func_08060EEC
+    .word func_08060EEC
 
     .align 2
     .global Unk_081820D4
 Unk_081820D4:
-    .word sub_80610C0
-    .word sub_80610D0
-    .word sub_80610E0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_8061114
-    .word sub_80610C0
-    .word sub_80610C0
-    .word sub_80610C0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610D0
-    .word sub_80610C0
-    .word sub_80610C0
+    .word func_080610C0
+    .word func_080610D0
+    .word func_080610E0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_08061114
+    .word func_080610C0
+    .word func_080610C0
+    .word func_080610C0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610D0
+    .word func_080610C0
+    .word func_080610C0
 
     .align 2
     .global Unk_08182120
 Unk_08182120:
-    .word sub_8061234
-    .word sub_8061270
-    .word sub_8061280
-    .word sub_80612CC
-    .word sub_8061270
-    .word sub_80612DC
-    .word sub_8061328
-    .word sub_8061374
-    .word sub_80612CC
-    .word sub_80612CC
-    .word sub_80612CC
-    .word sub_80612CC
-    .word sub_80612CC
-    .word sub_80612CC
-    .word sub_8061234
-    .word sub_80612CC
-    .word sub_8061270
-    .word sub_8061234
-    .word sub_80613B0
+    .word func_08061234
+    .word func_08061270
+    .word func_08061280
+    .word func_080612CC
+    .word func_08061270
+    .word func_080612DC
+    .word func_08061328
+    .word func_08061374
+    .word func_080612CC
+    .word func_080612CC
+    .word func_080612CC
+    .word func_080612CC
+    .word func_080612CC
+    .word func_080612CC
+    .word func_08061234
+    .word func_080612CC
+    .word func_08061270
+    .word func_08061234
+    .word func_080613B0
 
     .align 2
     .global Unk_0818216C
 Unk_0818216C:
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DF8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
-    .word sub_8060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DF8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
+    .word func_08060DE8
 
     .align 2
     .global Unk_081821B8
 Unk_081821B8:
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FF0
-    .word sub_8061038
-    .word sub_806107C
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
-    .word sub_8060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FF0
+    .word func_08061038
+    .word func_0806107C
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
+    .word func_08060FE0
 
     .align 2
     .global Unk_08182204
 Unk_08182204:
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061158
-    .word sub_80611A0
-    .word sub_80611F0
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
-    .word sub_8061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061158
+    .word func_080611A0
+    .word func_080611F0
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
+    .word func_08061148
 
     .align 2
     .global Unk_08182250
 Unk_08182250:
-    .word sub_8061418
-    .word sub_8061418
-    .word sub_8061418
-    .word sub_8061428
-    .word sub_8061418
-    .word sub_8061418
-    .word sub_8061418
-    .word sub_806143C
-    .word sub_8061538
-    .word sub_80615A4
-    .word sub_8061418
-    .word sub_8061418
-    .word sub_8061610
-    .word sub_8061610
-    .word sub_8061610
-    .word sub_8061610
-    .word sub_8061418
-    .word sub_8061418
-    .word sub_8061418
+    .word func_08061418
+    .word func_08061418
+    .word func_08061418
+    .word func_08061428
+    .word func_08061418
+    .word func_08061418
+    .word func_08061418
+    .word func_0806143C
+    .word func_08061538
+    .word func_080615A4
+    .word func_08061418
+    .word func_08061418
+    .word func_08061610
+    .word func_08061610
+    .word func_08061610
+    .word func_08061610
+    .word func_08061418
+    .word func_08061418
+    .word func_08061418
 
     .align 2
     .global Unk_0818229C
@@ -5998,524 +5998,524 @@ Unk_081825BC:
     .align 2
     .global Unk_081825C4
 Unk_081825C4:
-    .word sub_806929C
-    .word sub_80694E8
-    .word sub_8069528
-    .word sub_8069588
-    .word sub_8069588
-    .word sub_80695B0
-    .word sub_80695B0
-    .word sub_80695EC
-    .word sub_8069604
-    .word sub_80695EC
-    .word sub_8069620
-    .word sub_8069640
-    .word sub_80695EC
-    .word sub_806965C
-    .word sub_8069674
-    .word sub_8069694
-    .word sub_80696B4
-    .word sub_80696CC
-    .word sub_8069730
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_806975C
-    .word sub_8069730
-    .word sub_8069730
-    .word sub_8069768
-    .word sub_8069774
-    .word sub_8069774
-    .word sub_8069774
-    .word sub_8069774
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_80697BC
-    .word sub_806979C
-    .word sub_80697BC
-    .word sub_806979C
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_80697E0
-    .word sub_80695EC
-    .word sub_80697BC
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_8069800
-    .word sub_8069884
-    .word sub_8069884
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_806989C
-    .word sub_806965C
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069730
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_806979C
-    .word sub_80698BC
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_80695B0
-    .word sub_8069750
-    .word sub_80698D8
-    .word sub_80698F8
-    .word sub_8069910
-    .word sub_8069750
-    .word sub_8069730
-    .word sub_80697E0
-    .word sub_8069930
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_80695EC
-    .word sub_8069958
-    .word sub_8069970
-    .word sub_8069970
-    .word sub_8069970
-    .word sub_8069970
-    .word sub_80698F8
-    .word sub_8069750
-    .word sub_80698F8
-    .word sub_80698F8
-    .word sub_8069988
-    .word sub_8069730
-    .word sub_8069750
-    .word sub_80699A8
-    .word sub_80699C8
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_8069A04
-    .word sub_8069884
-    .word sub_80696B4
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069604
-    .word sub_8069750
-    .word sub_8069A24
-    .word sub_80697E0
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_806965C
-    .word sub_8069A54
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069A84
-    .word sub_8069A9C
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069A9C
-    .word sub_8069ACC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069AF4
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069B0C
-    .word sub_8069B2C
-    .word sub_8069A24
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069ACC
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_8069B6C
-    .word sub_8069B8C
-    .word sub_8069BC4
-    .word sub_8069750
-    .word sub_8069BE4
-    .word sub_8069750
-    .word sub_8069C04
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069C24
-    .word sub_8069674
-    .word sub_8069AF4
-    .word sub_8069C54
-    .word sub_8069AF4
-    .word sub_8069A54
-    .word sub_8069C7C
-    .word sub_8069730
-    .word sub_8069AF4
-    .word sub_8069AF4
-    .word sub_8069750
-    .word sub_8069CA8
-    .word sub_8069CC8
-    .word sub_80695EC
-    .word sub_8069CE0
-    .word sub_8069ACC
-    .word sub_8069CFC
-    .word sub_8069ACC
-    .word sub_8069ACC
-    .word sub_8069970
-    .word sub_8069750
-    .word sub_80696B4
-    .word sub_8069D2C
-    .word sub_8069674
-    .word sub_8069674
-    .word sub_8069674
-    .word sub_8069674
-    .word sub_8069674
-    .word sub_8069674
-    .word sub_8069674
-    .word sub_8069D54
-    .word sub_8069CE0
-    .word sub_8069910
-    .word sub_806989C
-    .word sub_8069AF4
-    .word sub_8069D7C
-    .word sub_8069D7C
-    .word sub_8069DA0
-    .word sub_8069DB8
-    .word sub_8069DF8
-    .word sub_8069DF8
-    .word sub_8069DF8
-    .word sub_8069DF8
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069E18
-    .word sub_8069750
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_806979C
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069E30
-    .word sub_8069750
-    .word sub_8069E60
-    .word sub_8069E78
-    .word sub_8069EA4
-    .word sub_8069750
-    .word sub_8069910
-    .word sub_8069EC4
-    .word sub_8069EEC
-    .word sub_8069B4C
-    .word sub_8069750
-    .word sub_806989C
-    .word sub_8069750
-    .word sub_8069F04
-    .word sub_8069750
-    .word sub_8069674
-    .word sub_8069730
-    .word sub_8069750
-    .word sub_8069B6C
-    .word sub_8069F20
-    .word sub_8069F20
-    .word sub_8069F20
-    .word sub_8069750
-    .word sub_8069CC8
-    .word sub_8069CC8
-    .word sub_8069CC8
-    .word sub_8069CC8
-    .word sub_8069C24
-    .word sub_8069C24
-    .word sub_8069C24
-    .word sub_8069C24
-    .word sub_8069774
-    .word sub_8069970
-    .word sub_8069F58
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069F88
-    .word sub_8069750
-    .word sub_80697E0
-    .word sub_806979C
-    .word sub_8069750
-    .word sub_806979C
-    .word sub_8069750
-    .word sub_806979C
-    .word sub_8069750
-    .word sub_806979C
-    .word sub_8069750
-    .word sub_8069FB4
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_80695EC
-    .word sub_80697BC
-    .word sub_80695EC
-    .word sub_8069FD0
-    .word sub_80695EC
-    .word sub_80697BC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_806A000
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069694
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_806A018
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_806A030
-    .word sub_8069774
-    .word sub_806A054
-    .word sub_80695EC
-    .word sub_80697BC
-    .word sub_80695EC
-    .word sub_80697BC
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069958
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_8069774
-    .word sub_80695EC
-    .word sub_80697BC
-    .word sub_80697BC
-    .word sub_80697BC
-    .word sub_80697BC
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069774
-    .word sub_8069774
-    .word sub_806A078
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069958
-    .word sub_8069750
-    .word sub_8069958
-    .word sub_8069588
-    .word sub_8069B4C
-    .word sub_806A0A4
-    .word sub_806A0E4
-    .word sub_8069750
-    .word sub_806A0FC
-    .word sub_806A11C
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_806A134
-    .word sub_8069ACC
-    .word sub_8069674
-    .word sub_8069730
-    .word sub_8069730
-    .word sub_806A14C
-    .word sub_8069C24
-    .word sub_8069C24
-    .word sub_8069750
-    .word sub_8069EEC
-    .word sub_806A16C
-    .word sub_8069730
-    .word sub_8069B4C
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069B4C
-    .word sub_806A1B4
-    .word sub_8069AF4
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_806A1E4
-    .word sub_806A1FC
-    .word sub_806A230
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_8069A24
-    .word sub_8069750
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_806A270
-    .word sub_806A2A4
-    .word sub_8069B4C
-    .word sub_806A14C
-    .word sub_80698F8
-    .word sub_806A2C0
-    .word sub_8069AF4
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_806A2D8
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_806A320
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069ACC
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_80698F8
-    .word sub_806A14C
-    .word sub_80698F8
-    .word sub_80698F8
-    .word sub_8069750
-    .word sub_8069750
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_806979C
-    .word sub_80695EC
-    .word sub_80695EC
-    .word sub_8069774
-    .word sub_8069774
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_8069B4C
-    .word sub_806A350
-    .word sub_806A14C
-    .word sub_806A14C
+    .word func_0806929C
+    .word func_080694E8
+    .word func_08069528
+    .word func_08069588
+    .word func_08069588
+    .word func_080695B0
+    .word func_080695B0
+    .word func_080695EC
+    .word func_08069604
+    .word func_080695EC
+    .word func_08069620
+    .word func_08069640
+    .word func_080695EC
+    .word func_0806965C
+    .word func_08069674
+    .word func_08069694
+    .word func_080696B4
+    .word func_080696CC
+    .word func_08069730
+    .word func_08069750
+    .word func_080695EC
+    .word func_0806975C
+    .word func_08069730
+    .word func_08069730
+    .word func_08069768
+    .word func_08069774
+    .word func_08069774
+    .word func_08069774
+    .word func_08069774
+    .word func_0806979C
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_0806979C
+    .word func_080697BC
+    .word func_0806979C
+    .word func_080697BC
+    .word func_0806979C
+    .word func_0806979C
+    .word func_080695EC
+    .word func_080697E0
+    .word func_080695EC
+    .word func_080697BC
+    .word func_080695EC
+    .word func_0806979C
+    .word func_080695EC
+    .word func_080695EC
+    .word func_0806979C
+    .word func_08069800
+    .word func_08069884
+    .word func_08069884
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_0806979C
+    .word func_0806979C
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_08069750
+    .word func_0806989C
+    .word func_0806965C
+    .word func_08069750
+    .word func_08069750
+    .word func_08069730
+    .word func_08069750
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_08069750
+    .word func_080695EC
+    .word func_08069750
+    .word func_080695EC
+    .word func_0806979C
+    .word func_0806979C
+    .word func_080698BC
+    .word func_08069750
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069774
+    .word func_080695B0
+    .word func_08069750
+    .word func_080698D8
+    .word func_080698F8
+    .word func_08069910
+    .word func_08069750
+    .word func_08069730
+    .word func_080697E0
+    .word func_08069930
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_080695EC
+    .word func_08069958
+    .word func_08069970
+    .word func_08069970
+    .word func_08069970
+    .word func_08069970
+    .word func_080698F8
+    .word func_08069750
+    .word func_080698F8
+    .word func_080698F8
+    .word func_08069988
+    .word func_08069730
+    .word func_08069750
+    .word func_080699A8
+    .word func_080699C8
+    .word func_08069774
+    .word func_08069750
+    .word func_0806979C
+    .word func_080695EC
+    .word func_08069A04
+    .word func_08069884
+    .word func_080696B4
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069604
+    .word func_08069750
+    .word func_08069A24
+    .word func_080697E0
+    .word func_080695EC
+    .word func_08069750
+    .word func_0806965C
+    .word func_08069A54
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069A84
+    .word func_08069A9C
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069A9C
+    .word func_08069ACC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069AF4
+    .word func_08069750
+    .word func_08069750
+    .word func_08069B0C
+    .word func_08069B2C
+    .word func_08069A24
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069ACC
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_08069B6C
+    .word func_08069B8C
+    .word func_08069BC4
+    .word func_08069750
+    .word func_08069BE4
+    .word func_08069750
+    .word func_08069C04
+    .word func_08069750
+    .word func_08069750
+    .word func_08069C24
+    .word func_08069674
+    .word func_08069AF4
+    .word func_08069C54
+    .word func_08069AF4
+    .word func_08069A54
+    .word func_08069C7C
+    .word func_08069730
+    .word func_08069AF4
+    .word func_08069AF4
+    .word func_08069750
+    .word func_08069CA8
+    .word func_08069CC8
+    .word func_080695EC
+    .word func_08069CE0
+    .word func_08069ACC
+    .word func_08069CFC
+    .word func_08069ACC
+    .word func_08069ACC
+    .word func_08069970
+    .word func_08069750
+    .word func_080696B4
+    .word func_08069D2C
+    .word func_08069674
+    .word func_08069674
+    .word func_08069674
+    .word func_08069674
+    .word func_08069674
+    .word func_08069674
+    .word func_08069674
+    .word func_08069D54
+    .word func_08069CE0
+    .word func_08069910
+    .word func_0806989C
+    .word func_08069AF4
+    .word func_08069D7C
+    .word func_08069D7C
+    .word func_08069DA0
+    .word func_08069DB8
+    .word func_08069DF8
+    .word func_08069DF8
+    .word func_08069DF8
+    .word func_08069DF8
+    .word func_08069750
+    .word func_08069750
+    .word func_08069E18
+    .word func_08069750
+    .word func_0806979C
+    .word func_080695EC
+    .word func_0806979C
+    .word func_080695EC
+    .word func_0806979C
+    .word func_0806979C
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069E30
+    .word func_08069750
+    .word func_08069E60
+    .word func_08069E78
+    .word func_08069EA4
+    .word func_08069750
+    .word func_08069910
+    .word func_08069EC4
+    .word func_08069EEC
+    .word func_08069B4C
+    .word func_08069750
+    .word func_0806989C
+    .word func_08069750
+    .word func_08069F04
+    .word func_08069750
+    .word func_08069674
+    .word func_08069730
+    .word func_08069750
+    .word func_08069B6C
+    .word func_08069F20
+    .word func_08069F20
+    .word func_08069F20
+    .word func_08069750
+    .word func_08069CC8
+    .word func_08069CC8
+    .word func_08069CC8
+    .word func_08069CC8
+    .word func_08069C24
+    .word func_08069C24
+    .word func_08069C24
+    .word func_08069C24
+    .word func_08069774
+    .word func_08069970
+    .word func_08069F58
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069F88
+    .word func_08069750
+    .word func_080697E0
+    .word func_0806979C
+    .word func_08069750
+    .word func_0806979C
+    .word func_08069750
+    .word func_0806979C
+    .word func_08069750
+    .word func_0806979C
+    .word func_08069750
+    .word func_08069FB4
+    .word func_080695EC
+    .word func_08069750
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069774
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069774
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069774
+    .word func_080695EC
+    .word func_080697BC
+    .word func_080695EC
+    .word func_08069FD0
+    .word func_080695EC
+    .word func_080697BC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069774
+    .word func_0806A000
+    .word func_08069750
+    .word func_08069774
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069694
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_0806A018
+    .word func_08069750
+    .word func_08069750
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_0806A030
+    .word func_08069774
+    .word func_0806A054
+    .word func_080695EC
+    .word func_080697BC
+    .word func_080695EC
+    .word func_080697BC
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069958
+    .word func_080695EC
+    .word func_08069774
+    .word func_08069774
+    .word func_080695EC
+    .word func_080697BC
+    .word func_080697BC
+    .word func_080697BC
+    .word func_080697BC
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069774
+    .word func_08069774
+    .word func_0806A078
+    .word func_08069750
+    .word func_08069750
+    .word func_08069958
+    .word func_08069750
+    .word func_08069958
+    .word func_08069588
+    .word func_08069B4C
+    .word func_0806A0A4
+    .word func_0806A0E4
+    .word func_08069750
+    .word func_0806A0FC
+    .word func_0806A11C
+    .word func_08069750
+    .word func_08069750
+    .word func_0806A134
+    .word func_08069ACC
+    .word func_08069674
+    .word func_08069730
+    .word func_08069730
+    .word func_0806A14C
+    .word func_08069C24
+    .word func_08069C24
+    .word func_08069750
+    .word func_08069EEC
+    .word func_0806A16C
+    .word func_08069730
+    .word func_08069B4C
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069B4C
+    .word func_0806A1B4
+    .word func_08069AF4
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_0806A1E4
+    .word func_0806A1FC
+    .word func_0806A230
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_08069A24
+    .word func_08069750
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_0806A270
+    .word func_0806A2A4
+    .word func_08069B4C
+    .word func_0806A14C
+    .word func_080698F8
+    .word func_0806A2C0
+    .word func_08069AF4
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_080695EC
+    .word func_0806A2D8
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069750
+    .word func_080695EC
+    .word func_08069750
+    .word func_08069750
+    .word func_0806A320
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069ACC
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_08069750
+    .word func_080698F8
+    .word func_0806A14C
+    .word func_080698F8
+    .word func_080698F8
+    .word func_08069750
+    .word func_08069750
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_0806979C
+    .word func_080695EC
+    .word func_080695EC
+    .word func_08069774
+    .word func_08069774
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_08069B4C
+    .word func_0806A350
+    .word func_0806A14C
+    .word func_0806A14C
 
     .align 2
     .global Unk_08182D84
 Unk_08182D84:
-    .word sub_80692FC
-    .word sub_806937C
-    .word sub_806939C
-    .word sub_80693C4
-    .word sub_8069464
-    .word sub_8069470
-    .word sub_80694C8
+    .word func_080692FC
+    .word func_0806937C
+    .word func_0806939C
+    .word func_080693C4
+    .word func_08069464
+    .word func_08069470
+    .word func_080694C8
 
     .align 2
     .global Unk_08182DA0
 Unk_08182DA0:
-    .word sub_806AEE0
-    .word sub_806AFEC
-    .word sub_806B008
-    .word sub_806B174
-    .word sub_806B1EC
-    .word sub_806B208
-    .word sub_806B248
+    .word func_0806AEE0
+    .word func_0806AFEC
+    .word func_0806B008
+    .word func_0806B174
+    .word func_0806B1EC
+    .word func_0806B208
+    .word func_0806B248
 
     .global Unk_08182DBC
 Unk_08182DBC:
@@ -6528,63 +6528,63 @@ Unk_08182DCA:
     .align 2
     .global Unk_08182DD8
 Unk_08182DD8:
-    .word sub_806BF6C
-    .word sub_806C160
-    .word sub_806C2BC
-    .word sub_806C424
-    .word sub_806C594
-    .word sub_806C720
-    .word sub_806C87C
+    .word func_0806BF6C
+    .word func_0806C160
+    .word func_0806C2BC
+    .word func_0806C424
+    .word func_0806C594
+    .word func_0806C720
+    .word func_0806C87C
 
     .align 2
     .global Unk_08182DF4
 Unk_08182DF4:
-    .word sub_806BF9C
-    .word sub_806C004
-    .word sub_806C0B8
-    .word sub_806C154
+    .word func_0806BF9C
+    .word func_0806C004
+    .word func_0806C0B8
+    .word func_0806C154
 
     .align 2
     .global Unk_08182E04
 Unk_08182E04:
-    .word sub_806C190
-    .word sub_806C1F4
-    .word sub_806C2B0
+    .word func_0806C190
+    .word func_0806C1F4
+    .word func_0806C2B0
 
     .align 2
     .global Unk_08182E10
 Unk_08182E10:
-    .word sub_806C2EC
-    .word sub_806C374
-    .word sub_806C418
+    .word func_0806C2EC
+    .word func_0806C374
+    .word func_0806C418
 
     .align 2
     .global Unk_08182E1C
 Unk_08182E1C:
-    .word sub_806C454
-    .word sub_806C4BC
-    .word sub_806C588
+    .word func_0806C454
+    .word func_0806C4BC
+    .word func_0806C588
 
     .align 2
     .global Unk_08182E28
 Unk_08182E28:
-    .word sub_806C5C4
-    .word sub_806C638
-    .word sub_806C714
+    .word func_0806C5C4
+    .word func_0806C638
+    .word func_0806C714
 
     .align 2
     .global Unk_08182E34
 Unk_08182E34:
-    .word sub_806C750
-    .word sub_806C7B8
-    .word sub_806C870
+    .word func_0806C750
+    .word func_0806C7B8
+    .word func_0806C870
 
     .align 2
     .global Unk_08182E40
 Unk_08182E40:
-    .word sub_806C8AC
-    .word sub_806C914
-    .word sub_806C9B8
+    .word func_0806C8AC
+    .word func_0806C914
+    .word func_0806C9B8
 
     .global Unk_08182E4C
 Unk_08182E4C:
@@ -6609,17 +6609,17 @@ Unk_08182EA8:
     .align 2
     .global Unk_08182EB0
 Unk_08182EB0:
-    .word sub_806CE94
-    .word sub_806CF88
-    .word sub_806D480
-    .word sub_806D21C
+    .word func_0806CE94
+    .word func_0806CF88
+    .word func_0806D480
+    .word func_0806D21C
 
     .align 2
     .global Unk_08182EC0
 Unk_08182EC0:
-    .word sub_806D028
-    .word sub_806D0AC
-    .word sub_806D20C
+    .word func_0806D028
+    .word func_0806D0AC
+    .word func_0806D20C
 
     .global Unk_08182ECC
 Unk_08182ECC:
@@ -6628,81 +6628,81 @@ Unk_08182ECC:
     .align 2
     .global Unk_08182F4C
 Unk_08182F4C:
-    .word sub_806D2A4
-    .word sub_806D350
-    .word sub_806D420
+    .word func_0806D2A4
+    .word func_0806D350
+    .word func_0806D420
 
     .align 2
     .global Unk_08182F58
 Unk_08182F58:
-    .word sub_806E8F0
-    .word sub_806E930
-    .word sub_806E970
-    .word sub_806E9B4
-    .word sub_806EA40
-    .word sub_806EAC8
-    .word sub_806EB3C
-    .word sub_806EBAC
-    .word sub_806EBF0
-    .word sub_806EC04
-    .word sub_806EC90
-    .word sub_806ECEC
-    .word sub_806ED50
-    .word sub_806EDB4
-    .word sub_806EDF0
-    .word sub_806EE04
-    .word sub_806EE18
-    .word sub_806EE78
-    .word sub_806EEC0
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
-    .word sub_806EF0C
+    .word func_0806E8F0
+    .word func_0806E930
+    .word func_0806E970
+    .word func_0806E9B4
+    .word func_0806EA40
+    .word func_0806EAC8
+    .word func_0806EB3C
+    .word func_0806EBAC
+    .word func_0806EBF0
+    .word func_0806EC04
+    .word func_0806EC90
+    .word func_0806ECEC
+    .word func_0806ED50
+    .word func_0806EDB4
+    .word func_0806EDF0
+    .word func_0806EE04
+    .word func_0806EE18
+    .word func_0806EE78
+    .word func_0806EEC0
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
+    .word func_0806EF0C
 
     .align 2
     .global Unk_08182FD8
 Unk_08182FD8:
-    .word sub_806F128
-    .word sub_806F188
-    .word sub_806F1E8
-    .word sub_806F24C
-    .word sub_806F300
-    .word sub_806F3A4
-    .word sub_806F434
-    .word sub_806F4C4
-    .word sub_806F528
-    .word sub_806FA44
-    .word sub_806F640
-    .word sub_806F6E0
-    .word sub_806F764
-    .word sub_806F7E8
-    .word sub_806F8D8
-    .word sub_806F95C
-    .word sub_806F99C
-    .word sub_806F9FC
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA44
-    .word sub_806FA64
+    .word func_0806F128
+    .word func_0806F188
+    .word func_0806F1E8
+    .word func_0806F24C
+    .word func_0806F300
+    .word func_0806F3A4
+    .word func_0806F434
+    .word func_0806F4C4
+    .word func_0806F528
+    .word func_0806FA44
+    .word func_0806F640
+    .word func_0806F6E0
+    .word func_0806F764
+    .word func_0806F7E8
+    .word func_0806F8D8
+    .word func_0806F95C
+    .word func_0806F99C
+    .word func_0806F9FC
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA44
+    .word func_0806FA64
 
     .align 2
     .global Unk_08183058
@@ -6712,90 +6712,90 @@ Unk_08183058:
     .align 2
     .global Unk_08183060
 Unk_08183060:
-    .word sub_8071230
-    .word sub_8071384
-    .word sub_80714A0
-    .word sub_8071534
-    .word sub_8071534
-    .word sub_8071688
-    .word sub_8071740
-    .word sub_80717C0
-    .word sub_8071830
-    .word sub_80718C0
-    .word sub_807192C
-    .word sub_8071998
+    .word func_08071230
+    .word func_08071384
+    .word func_080714A0
+    .word func_08071534
+    .word func_08071534
+    .word func_08071688
+    .word func_08071740
+    .word func_080717C0
+    .word func_08071830
+    .word func_080718C0
+    .word func_0807192C
+    .word func_08071998
 
     .align 2
     .global Unk_08183090
 Unk_08183090:
-    .word sub_8079A78
-    .word sub_8079AC0
-    .word sub_8079AF8
+    .word func_08079A78
+    .word func_08079AC0
+    .word func_08079AF8
 
     .align 2
     .global Unk_0818309C
 Unk_0818309C:
-    .word sub_8076A90
-    .word sub_8076ACC
-    .word sub_8076B70
-    .word sub_8076C6C
-    .word sub_8076D30
+    .word func_08076A90
+    .word func_08076ACC
+    .word func_08076B70
+    .word func_08076C6C
+    .word func_08076D30
 
     .align 2
     .global Unk_081830B0
 Unk_081830B0:
-    .word sub_807646C
-    .word sub_80764E0
-    .word sub_807666C
-    .word sub_8076684
-    .word sub_807669C
+    .word func_0807646C
+    .word func_080764E0
+    .word func_0807666C
+    .word func_08076684
+    .word func_0807669C
 
     .align 2
     .global Unk_081830C4
 Unk_081830C4:
-    .word sub_8074360
-    .word sub_807481C
-    .word sub_8076F30
-    .word sub_8074420
-    .word sub_80744A0
-    .word sub_8074540
-    .word sub_8074608
-    .word sub_80746D4
+    .word func_08074360
+    .word func_0807481C
+    .word func_08076F30
+    .word func_08074420
+    .word func_080744A0
+    .word func_08074540
+    .word func_08074608
+    .word func_080746D4
 
     .align 2
     .global Unk_081830E4
 Unk_081830E4:
-    .word sub_8074854
-    .word sub_8074A3C
-    .word sub_8074CF8
-    .word sub_8074DB0
-    .word sub_8076400
-    .word sub_8076438
-    .word sub_8076A58
-    .word sub_8076E50
-    .word sub_8076E60
-    .word sub_8077C48
-    .word sub_8076E74
+    .word func_08074854
+    .word func_08074A3C
+    .word func_08074CF8
+    .word func_08074DB0
+    .word func_08076400
+    .word func_08076438
+    .word func_08076A58
+    .word func_08076E50
+    .word func_08076E60
+    .word func_08077C48
+    .word func_08076E74
 
     .align 2
     .global Unk_08183110
 Unk_08183110:
-    .word sub_8077DF4
-    .word sub_8077F0C
-    .word sub_80780A8
-    .word sub_80781FC
-    .word sub_8078398
+    .word func_08077DF4
+    .word func_08077F0C
+    .word func_080780A8
+    .word func_080781FC
+    .word func_08078398
 
     .align 2
     .global Unk_08183124
 Unk_08183124:
-    .word sub_8077318
-    .word sub_8077330
-    .word sub_8077348
-    .word sub_8077360
-    .word sub_8077378
-    .word sub_8077390
-    .word sub_80773A8
+    .word func_08077318
+    .word func_08077330
+    .word func_08077348
+    .word func_08077360
+    .word func_08077378
+    .word func_08077390
+    .word func_080773A8
 
     .include "text/multiple/title_menu.inc"
 
@@ -6835,140 +6835,140 @@ Unk_08183608:
     .align 2
     .global Unk_08183610
 Unk_08183610:
-    .word sub_8075FBC
-    .word sub_8076078
-    .word sub_80761E4
+    .word func_08075FBC
+    .word func_08076078
+    .word func_080761E4
 
     .align 2
     .global Unk_0818361C
 Unk_0818361C:
-    .word sub_8074E58
-    .word sub_8075084
-    .word sub_8075148
-    .word sub_807537C
-    .word sub_80757C8
-    .word sub_807582C
-    .word sub_8075A10
-    .word sub_8075D04
-    .word sub_80762D0
-    .word sub_807631C
-    .word sub_80763E0
-    .word sub_80763F0
+    .word func_08074E58
+    .word func_08075084
+    .word func_08075148
+    .word func_0807537C
+    .word func_080757C8
+    .word func_0807582C
+    .word func_08075A10
+    .word func_08075D04
+    .word func_080762D0
+    .word func_0807631C
+    .word func_080763E0
+    .word func_080763F0
 
     .align 2
     .global Unk_0818364C
 Unk_0818364C:
-    .word sub_807A140
-    .word sub_807A140
-    .word sub_807A1AC
-    .word sub_807A20C
-    .word sub_807A140
-    .word sub_807A33C
-    .word sub_807A370
-    .word sub_807A3A4
-    .word sub_807A140
-    .word sub_807A140
+    .word func_0807A140
+    .word func_0807A140
+    .word func_0807A1AC
+    .word func_0807A20C
+    .word func_0807A140
+    .word func_0807A33C
+    .word func_0807A370
+    .word func_0807A3A4
+    .word func_0807A140
+    .word func_0807A140
 
     .align 2
     .global Unk_08183674
 Unk_08183674:
-    .word sub_807B364
-    .word sub_807A400
-    .word sub_807AF44
-    .word sub_807A490
-    .word sub_807A4E4
-    .word sub_807A508
-    .word sub_807A55C
-    .word sub_8083544
-    .word sub_807A5A8
-    .word sub_807A684
-    .word sub_807A280
-    .word sub_807A708
-    .word sub_807A7E8
-    .word sub_807A8EC
-    .word sub_807A97C
-    .word sub_807A9B0
+    .word func_0807B364
+    .word func_0807A400
+    .word func_0807AF44
+    .word func_0807A490
+    .word func_0807A4E4
+    .word func_0807A508
+    .word func_0807A55C
+    .word func_08083544
+    .word func_0807A5A8
+    .word func_0807A684
+    .word func_0807A280
+    .word func_0807A708
+    .word func_0807A7E8
+    .word func_0807A8EC
+    .word func_0807A97C
+    .word func_0807A9B0
 
     .align 2
     .global Unk_081836B4
 Unk_081836B4:
-    .word sub_807A140
-    .word sub_807A140
-    .word sub_807A1AC
-    .word sub_807AA38
-    .word sub_807A140
-    .word sub_807A33C
-    .word sub_807A370
-    .word sub_807A3A4
-    .word sub_807AAD8
-    .word sub_807AB3C
-    .word sub_807AC58
+    .word func_0807A140
+    .word func_0807A140
+    .word func_0807A1AC
+    .word func_0807AA38
+    .word func_0807A140
+    .word func_0807A33C
+    .word func_0807A370
+    .word func_0807A3A4
+    .word func_0807AAD8
+    .word func_0807AB3C
+    .word func_0807AC58
 
     .align 2
     .global Unk_081836E0
 Unk_081836E0:
-    .word sub_807A140
-    .word sub_807A140
-    .word sub_807A1AC
-    .word sub_807A370
-    .word sub_807A140
-    .word sub_807A33C
-    .word sub_807A370
-    .word sub_807A3A4
-    .word sub_807ADB0
+    .word func_0807A140
+    .word func_0807A140
+    .word func_0807A1AC
+    .word func_0807A370
+    .word func_0807A140
+    .word func_0807A33C
+    .word func_0807A370
+    .word func_0807A3A4
+    .word func_0807ADB0
 
     .align 2
     .global Unk_08183704
 Unk_08183704:
-    .word sub_807A140
-    .word sub_807A140
-    .word sub_807A1AC
-    .word sub_807A370
-    .word sub_807A140
-    .word sub_807A33C
-    .word sub_807A370
-    .word sub_807A3A4
-    .word sub_807ACA4
-    .word sub_807ACA4
-    .word sub_807ACA4
-    .word sub_807ACA4
-    .word sub_807ACA4
-    .word sub_807ACA4
-    .word sub_807AD48
-    .word sub_807AD7C
+    .word func_0807A140
+    .word func_0807A140
+    .word func_0807A1AC
+    .word func_0807A370
+    .word func_0807A140
+    .word func_0807A33C
+    .word func_0807A370
+    .word func_0807A3A4
+    .word func_0807ACA4
+    .word func_0807ACA4
+    .word func_0807ACA4
+    .word func_0807ACA4
+    .word func_0807ACA4
+    .word func_0807ACA4
+    .word func_0807AD48
+    .word func_0807AD7C
 
     .align 2
     .global Unk_08183744
 Unk_08183744:
-    .word sub_807AE30
-    .word sub_807AF08
-    .word sub_807AF44
-    .word sub_807A490
-    .word sub_807AF80
-    .word sub_807AFBC
-    .word sub_807AFF8
+    .word func_0807AE30
+    .word func_0807AF08
+    .word func_0807AF44
+    .word func_0807A490
+    .word func_0807AF80
+    .word func_0807AFBC
+    .word func_0807AFF8
 
     .align 2
     .global Unk_08183760
 Unk_08183760:
-    .word sub_807B034
+    .word func_0807B034
 
     .align 2
     .global Unk_08183764
 Unk_08183764:
-    .word sub_807B1C0
+    .word func_0807B1C0
 
     .align 2
     .global Unk_08183768
 Unk_08183768:
-    .word sub_807B364
-    .word sub_807B398
+    .word func_0807B364
+    .word func_0807B398
 
     .align 2
     .global Unk_08183770
 Unk_08183770:
-    .word sub_807B450
-    .word sub_807B4C8
+    .word func_0807B450
+    .word func_0807B4C8
 
 
     .align 2
@@ -7474,10 +7474,10 @@ Unk_08183778:
     .align 2
     .global Unk_08183F38
 Unk_08183F38:
-    .word sub_807C7C4
-    .word sub_807C858
-    .word sub_807C8EC
-    .word sub_807C980
+    .word func_0807C7C4
+    .word func_0807C858
+    .word func_0807C8EC
+    .word func_0807C980
 
 
     .global Unk_08183F48
@@ -7486,17 +7486,17 @@ Unk_08183F48:
 
     .global Unk_08183F64
 Unk_08183F64:
-    .word sub_807DC78
-    .word sub_807DC90
+    .word func_0807DC78
+    .word func_0807DC90
 
 
     .align 2
     .global Unk_08183F6C
 Unk_08183F6C:
-    .word sub_807DD80
-    .word sub_807DD80
-    .word sub_807DD98
-    .word sub_807DDB0
+    .word func_0807DD80
+    .word func_0807DD80
+    .word func_0807DD98
+    .word func_0807DDB0
 
 
     .global Unk_08183F7C
@@ -7530,10 +7530,10 @@ Unk_08184074:
     .align 2
     .global Unk_0818407C
 Unk_0818407C:
-    .word sub_807E674
-    .word sub_807E674
-    .word sub_807E674
-    .word sub_807E674
+    .word func_0807E674
+    .word func_0807E674
+    .word func_0807E674
+    .word func_0807E674
 
 
     .global Unk_0818408C
@@ -7558,22 +7558,22 @@ Unk_0818408C:
     .align 2
     .global Unk_0818409C
 Unk_0818409C:
-    .word sub_807F0B0
-    .word sub_807F0C4
-    .word sub_807F0F4
-    .word sub_807F13C
-    .word sub_807F15C
-    .word sub_807F18C
-    .word sub_807F1AC
-    .word sub_807F1F4
-    .word sub_807F208
-    .word sub_807F21C
-    .word sub_807F0B0
-    .word sub_807F0B0
-    .word sub_807F23C
-    .word sub_807F0B0
-    .word sub_807F0B0
-    .word sub_807F250
+    .word func_0807F0B0
+    .word func_0807F0C4
+    .word func_0807F0F4
+    .word func_0807F13C
+    .word func_0807F15C
+    .word func_0807F18C
+    .word func_0807F1AC
+    .word func_0807F1F4
+    .word func_0807F208
+    .word func_0807F21C
+    .word func_0807F0B0
+    .word func_0807F0B0
+    .word func_0807F23C
+    .word func_0807F0B0
+    .word func_0807F0B0
+    .word func_0807F250
 
 
     .global Unk_081840DC
@@ -7583,37 +7583,37 @@ Unk_081840DC:
     .align 2
     .global Unk_08184104
 Unk_08184104:
-    .word sub_80815C0
-    .word sub_8081644
-    .word sub_8081644
-    .word sub_8081644
-    .word sub_8081644
-    .word sub_808165C
-    .word sub_8081724
-    .word sub_8081774
-    .word sub_8081790
-    .word sub_808182C
-    .word sub_8081848
-    .word sub_8081944
-    .word sub_8081980
-    .word sub_808199C
-    .word sub_80819D8
-    .word sub_8081A50
-    .word sub_8081A6C
-    .word sub_8081A88
-    .word sub_8081AC4
-    .word sub_8081AE0
-    .word sub_8081AFC
-    .word sub_8081B18
-    .word sub_8081B34
-    .word sub_8081B50
-    .word sub_8081BB4
-    .word sub_8081644
-    .word sub_8081BD0
-    .word sub_8081BEC
-    .word sub_8081C30
-    .word sub_8081CF4
-    .word sub_8081D14
+    .word func_080815C0
+    .word func_08081644
+    .word func_08081644
+    .word func_08081644
+    .word func_08081644
+    .word func_0808165C
+    .word func_08081724
+    .word func_08081774
+    .word func_08081790
+    .word func_0808182C
+    .word func_08081848
+    .word func_08081944
+    .word func_08081980
+    .word func_0808199C
+    .word func_080819D8
+    .word func_08081A50
+    .word func_08081A6C
+    .word func_08081A88
+    .word func_08081AC4
+    .word func_08081AE0
+    .word func_08081AFC
+    .word func_08081B18
+    .word func_08081B34
+    .word func_08081B50
+    .word func_08081BB4
+    .word func_08081644
+    .word func_08081BD0
+    .word func_08081BEC
+    .word func_08081C30
+    .word func_08081CF4
+    .word func_08081D14
 
     .global Unk_08184180
 Unk_08184180:
@@ -7621,146 +7621,146 @@ Unk_08184180:
 
     .global Unk_081841A0
 Unk_081841A0:
-    .word sub_8082360
-    .word sub_8082360
-    .word sub_8082360
-    .word sub_80823A4
+    .word func_08082360
+    .word func_08082360
+    .word func_08082360
+    .word func_080823A4
 
     .global Unk_081841B0
 Unk_081841B0:
-    .word sub_8082680
-    .word sub_8082800
-    .word sub_8082840
-    .word sub_80828A8
-    .word sub_808291C
-    .word sub_8082800
-    .word sub_80829D4
+    .word func_08082680
+    .word func_08082800
+    .word func_08082840
+    .word func_080828A8
+    .word func_0808291C
+    .word func_08082800
+    .word func_080829D4
 
     .global Unk_081841CC
 Unk_081841CC:
-    .word sub_8082A48
-    .word sub_8082A48
-    .word sub_8082A48
+    .word func_08082A48
+    .word func_08082A48
+    .word func_08082A48
 
     .global Unk_081841D8
 Unk_081841D8:
-    .word sub_8082A8C
-    .word sub_8082AB8
-    .word sub_8082AD0
-    .word sub_8082AE8
-    .word sub_8082B00
+    .word func_08082A8C
+    .word func_08082AB8
+    .word func_08082AD0
+    .word func_08082AE8
+    .word func_08082B00
 
     .global Unk_081841EC
 Unk_081841EC:
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082BD0
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082BD0
 
     .global Unk_08184204
 Unk_08184204:
-    .word sub_8082C3C
-    .word sub_8082C68
-    .word sub_8082C80
-    .word sub_8082C98
-    .word sub_8082CB0
+    .word func_08082C3C
+    .word func_08082C68
+    .word func_08082C80
+    .word func_08082C98
+    .word func_08082CB0
 
     .global Unk_08184218
 Unk_08184218:
-    .word sub_8082CDC
+    .word func_08082CDC
 
     .global Unk_0818421C
 Unk_0818421C:
-    .word sub_8082D28
+    .word func_08082D28
 
     .global Unk_08184220
 Unk_08184220:
-    .word sub_8082D54
-    .word sub_8082DE0
-    .word sub_8082E2C
-    .word sub_8082E2C
-    .word sub_8082E2C
+    .word func_08082D54
+    .word func_08082DE0
+    .word func_08082E2C
+    .word func_08082E2C
+    .word func_08082E2C
 
     .global Unk_08184234
 Unk_08184234:
-    .word sub_8082F20
-    .word sub_8082F68
-    .word sub_8082FC4
-    .word sub_8082FC4
-    .word sub_8082FC4
+    .word func_08082F20
+    .word func_08082F68
+    .word func_08082FC4
+    .word func_08082FC4
+    .word func_08082FC4
 
     .global Unk_08184248
 Unk_08184248:
-    .word sub_8082FF0
-    .word sub_8083120
+    .word func_08082FF0
+    .word func_08083120
 
     .global Unk_08184250
 Unk_08184250:
-    .word sub_8083200
-    .word sub_8082CDC
-    .word sub_8083234
-    .word sub_8083234
-    .word sub_8083234
-    .word sub_8083278
+    .word func_08083200
+    .word func_08082CDC
+    .word func_08083234
+    .word func_08083234
+    .word func_08083234
+    .word func_08083278
 
     .global Unk_08184268
 Unk_08184268:
-    .word sub_8083278
-    .word sub_8083348
-    .word sub_80833C0
-    .word sub_8083278
-    .word sub_8083348
-    .word sub_8083420
+    .word func_08083278
+    .word func_08083348
+    .word func_080833C0
+    .word func_08083278
+    .word func_08083348
+    .word func_08083420
 
     .global Unk_08184280
 Unk_08184280:
-    .word sub_8083478
-    .word sub_80834B4
-    .word sub_8083544
-    .word sub_8083594
+    .word func_08083478
+    .word func_080834B4
+    .word func_08083544
+    .word func_08083594
 
     .global Unk_08184290
 Unk_08184290:
-    .word sub_8082BD0
-    .word sub_808362C
+    .word func_08082BD0
+    .word func_0808362C
 
     .global Unk_08184298
 Unk_08184298:
-    .word sub_80836F4
-    .word sub_80837FC
-    .word sub_80838E4
+    .word func_080836F4
+    .word func_080837FC
+    .word func_080838E4
 
     .global Unk_081842A4
 Unk_081842A4:
-    .word sub_8083910
-    .word sub_8083998
-    .word sub_80839E0
+    .word func_08083910
+    .word func_08083998
+    .word func_080839E0
 
     .global Unk_081842B0
 Unk_081842B0:
-    .word sub_8083A28
-    .word sub_8083AC0
+    .word func_08083A28
+    .word func_08083AC0
 
     .global Unk_081842B8
 Unk_081842B8:
-    .word sub_8083B6C
-    .word sub_8083BC4
-    .word sub_8083C08
-    .word sub_8083C70
-    .word sub_8083CB4
-    .word sub_8083CB4
-    .word sub_8083F84
+    .word func_08083B6C
+    .word func_08083BC4
+    .word func_08083C08
+    .word func_08083C70
+    .word func_08083CB4
+    .word func_08083CB4
+    .word func_08083F84
 
     .global Unk_081842D4
 Unk_081842D4:
-    .word sub_8083FC8
-    .word sub_808400C
-    .word sub_8084140
-    .word sub_8084234
-    .word sub_8084264
-    .word sub_8083278
+    .word func_08083FC8
+    .word func_0808400C
+    .word func_08084140
+    .word func_08084234
+    .word func_08084264
+    .word func_08083278
 
     .global Unk_081842EC
 Unk_081842EC:
@@ -8284,53 +8284,53 @@ Unk_08184B20:
     .align 2
     .global Unk_08184B30
 Unk_08184B30:
-    .word sub_8085F40
-    .word sub_808600C
-    .word sub_80861E4
+    .word func_08085F40
+    .word func_0808600C
+    .word func_080861E4
 
     .align 2
     .global Unk_08184B3C
 Unk_08184B3C:
-    .word sub_8085D28
-    .word sub_8085E6C
+    .word func_08085D28
+    .word func_08085E6C
 
     .align 2
     .global Unk_08184B44
 Unk_08184B44:
-    .word sub_8086F20
-    .word sub_8086F74
-    .word sub_8086F84
-    .word sub_8086FA8
-    .word sub_8086FA8
-    .word sub_8086FA8
-    .word sub_8086FD4
-    .word sub_8087040
-    .word sub_8087064
-    .word sub_808715C
-    .word sub_8087188
-    .word sub_80871A0
-    .word sub_80871BC
-    .word sub_80871F4
-    .word sub_808720C
-    .word sub_8087250
-    .word sub_808727C
-    .word sub_80872C8
-    .word sub_80872E0
-    .word sub_8087314
-    .word sub_808732C
-    .word sub_8087348
-    .word sub_8087364
-    .word sub_808737C
-    .word sub_8087398
-    .word sub_80873D8
-    .word sub_8087418
-    .word sub_8087448
-    .word sub_8087494
-    .word sub_80874D0
-    .word sub_8087524
-    .word sub_8087568
-    .word sub_8087580
-    .word sub_8087598
+    .word func_08086F20
+    .word func_08086F74
+    .word func_08086F84
+    .word func_08086FA8
+    .word func_08086FA8
+    .word func_08086FA8
+    .word func_08086FD4
+    .word func_08087040
+    .word func_08087064
+    .word func_0808715C
+    .word func_08087188
+    .word func_080871A0
+    .word func_080871BC
+    .word func_080871F4
+    .word func_0808720C
+    .word func_08087250
+    .word func_0808727C
+    .word func_080872C8
+    .word func_080872E0
+    .word func_08087314
+    .word func_0808732C
+    .word func_08087348
+    .word func_08087364
+    .word func_0808737C
+    .word func_08087398
+    .word func_080873D8
+    .word func_08087418
+    .word func_08087448
+    .word func_08087494
+    .word func_080874D0
+    .word func_08087524
+    .word func_08087568
+    .word func_08087580
+    .word func_08087598
 
     .global Unk_08184BCC
 Unk_08184BCC:
@@ -8339,104 +8339,104 @@ Unk_08184BCC:
     .align 2
     .global Unk_08184BEC
 Unk_08184BEC:
-    .word sub_808820C
-    .word sub_8088258
-    .word sub_80882A8
-    .word sub_808831C
-    .word sub_8088388
-    .word sub_80883F4
-    .word sub_808843C
-    .word sub_8088488
-    .word sub_80884D4
-    .word sub_8088520
-    .word sub_8088538
-    .word sub_8088550
-    .word sub_80885B8
-    .word sub_8088618
-    .word sub_80886CC
-    .word sub_8088780
-    .word sub_8088834
-    .word sub_80888B8
-    .word sub_8088964
-    .word sub_80889E4
-    .word sub_8088A44
-    .word sub_8088AA4
-    .word sub_8088B04
-    .word sub_8088B64
-    .word sub_8088BD8
-    .word sub_8088C58
-    .word sub_8088D18
-    .word sub_8088D70
-    .word sub_8088D8C
-    .word sub_8088DA8
-    .word sub_8088DC4
-    .word sub_8088DE0
-    .word sub_8088DFC
-    .word sub_8088E18
-    .word sub_8088E48
-    .word sub_8088E68
-    .word sub_8088E88
-    .word sub_8088EB0
-    .word sub_8088ED0
-    .word sub_8088F28
-    .word sub_8088F80
-    .word sub_8088FD8
-    .word sub_8089030
-    .word sub_8089088
-    .word sub_80890E0
-    .word sub_808917C
-    .word sub_8089204
-    .word sub_8089264
-    .word sub_8089284
-    .word sub_80892E4
-    .word sub_8089344
-    .word sub_80893A4
-    .word sub_8089404
+    .word func_0808820C
+    .word func_08088258
+    .word func_080882A8
+    .word func_0808831C
+    .word func_08088388
+    .word func_080883F4
+    .word func_0808843C
+    .word func_08088488
+    .word func_080884D4
+    .word func_08088520
+    .word func_08088538
+    .word func_08088550
+    .word func_080885B8
+    .word func_08088618
+    .word func_080886CC
+    .word func_08088780
+    .word func_08088834
+    .word func_080888B8
+    .word func_08088964
+    .word func_080889E4
+    .word func_08088A44
+    .word func_08088AA4
+    .word func_08088B04
+    .word func_08088B64
+    .word func_08088BD8
+    .word func_08088C58
+    .word func_08088D18
+    .word func_08088D70
+    .word func_08088D8C
+    .word func_08088DA8
+    .word func_08088DC4
+    .word func_08088DE0
+    .word func_08088DFC
+    .word func_08088E18
+    .word func_08088E48
+    .word func_08088E68
+    .word func_08088E88
+    .word func_08088EB0
+    .word func_08088ED0
+    .word func_08088F28
+    .word func_08088F80
+    .word func_08088FD8
+    .word func_08089030
+    .word func_08089088
+    .word func_080890E0
+    .word func_0808917C
+    .word func_08089204
+    .word func_08089264
+    .word func_08089284
+    .word func_080892E4
+    .word func_08089344
+    .word func_080893A4
+    .word func_08089404
 
 
     .align 2
     .global Unk_08184CC0
 Unk_08184CC0:
-    .word sub_808AD10
-    .word sub_808AD64
-    .word sub_808ADB4
-    .word sub_808ADF4
-    .word sub_808AE2C
-    .word sub_808AE64
-    .word sub_808AEAC
-    .word sub_808AEF4
-    .word sub_808AF04
-    .word sub_808AF80
-    .word sub_808AFC8
-    .word sub_808B008
-    .word sub_808B050
-    .word sub_808B0A4
-    .word sub_808B0E4
-    .word sub_808B120
-    .word sub_808B170
-    .word sub_808B1C0
-    .word sub_808B214
-    .word sub_808B264
-    .word sub_808B2B4
-    .word sub_808B2EC
-    .word sub_808B33C
-    .word sub_808B414
-    .word sub_808B464
-    .word sub_808B4B4
-    .word sub_808B51C
-    .word sub_808B588
-    .word sub_808B5D8
-    .word sub_808B628
-    .word sub_808B6A0
-    .word sub_808B6F0
-    .word sub_808B744
-    .word sub_808B794
-    .word sub_808B7E4
-    .word sub_808B834
-    .word sub_808B884
-    .word sub_808B8CC
-    .word sub_808B918
-    .word sub_808B95C
+    .word func_0808AD10
+    .word func_0808AD64
+    .word func_0808ADB4
+    .word func_0808ADF4
+    .word func_0808AE2C
+    .word func_0808AE64
+    .word func_0808AEAC
+    .word func_0808AEF4
+    .word func_0808AF04
+    .word func_0808AF80
+    .word func_0808AFC8
+    .word func_0808B008
+    .word func_0808B050
+    .word func_0808B0A4
+    .word func_0808B0E4
+    .word func_0808B120
+    .word func_0808B170
+    .word func_0808B1C0
+    .word func_0808B214
+    .word func_0808B264
+    .word func_0808B2B4
+    .word func_0808B2EC
+    .word func_0808B33C
+    .word func_0808B414
+    .word func_0808B464
+    .word func_0808B4B4
+    .word func_0808B51C
+    .word func_0808B588
+    .word func_0808B5D8
+    .word func_0808B628
+    .word func_0808B6A0
+    .word func_0808B6F0
+    .word func_0808B744
+    .word func_0808B794
+    .word func_0808B7E4
+    .word func_0808B834
+    .word func_0808B884
+    .word func_0808B8CC
+    .word func_0808B918
+    .word func_0808B95C
 
 
     .global Unk_08184D60
@@ -8458,19 +8458,19 @@ Unk_08184DA8:
     .align 2
     .global Unk_08184DB8
 Unk_08184DB8:
-    .word sub_808CC68
-    .word sub_808CC80
-    .word sub_808CD64
-    .word sub_808CD80
+    .word func_0808CC68
+    .word func_0808CC80
+    .word func_0808CD64
+    .word func_0808CD80
 
 
     .align 2
     .global Unk_08184DC8
 Unk_08184DC8:
-    .word sub_808D2E4
-    .word sub_808D314
-    .word sub_808D344
-    .word sub_808D374
+    .word func_0808D2E4
+    .word func_0808D314
+    .word func_0808D344
+    .word func_0808D374
 
 
     .global Unk_08184DD8
@@ -8496,117 +8496,117 @@ Unk_08184E46:
     .align 2
     .global Unk_08184E60
 Unk_08184E60:
-    .word sub_808DE1C
-    .word sub_808DE84
-    .word sub_808DFA8
-    .word sub_808E06C
-    .word sub_808E150
-    .word sub_808E240
+    .word func_0808DE1C
+    .word func_0808DE84
+    .word func_0808DFA8
+    .word func_0808E06C
+    .word func_0808E150
+    .word func_0808E240
 
 
     .align 2
     .global Unk_08184E78
 Unk_08184E78:
-    .word sub_809118C
-    .word sub_8091240
+    .word func_0809118C
+    .word func_08091240
 
 
     .align 2
     .global Unk_08184E80
 Unk_08184E80:
-    .word sub_808D754
-    .word sub_808D754
-    .word sub_808D754
-    .word sub_808D754
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D89C
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D830
-    .word sub_808D8D8
-    .word sub_808DA20
-    .word sub_808DA5C
-    .word sub_808DB28
-    .word sub_808DB9C
-    .word sub_808DBD8
-    .word sub_808DC24
-    .word sub_808DDF0
-    .word sub_808E42C
-    .word sub_808E454
-    .word sub_808E5F4
-    .word sub_808E648
-    .word sub_808EA5C
-    .word sub_808EA90
-    .word sub_808EB10
-    .word sub_808EB3C
-    .word sub_808EC98
-    .word sub_808ED20
-    .word sub_808EE24
-    .word sub_808EE24
-    .word sub_808EE24
-    .word sub_808EEA8
-    .word sub_808EF1C
-    .word sub_808DBD8
-    .word sub_808DBD8
-    .word sub_808F008
+    .word func_0808D754
+    .word func_0808D754
+    .word func_0808D754
+    .word func_0808D754
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D89C
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D830
+    .word func_0808D8D8
+    .word func_0808DA20
+    .word func_0808DA5C
+    .word func_0808DB28
+    .word func_0808DB9C
+    .word func_0808DBD8
+    .word func_0808DC24
+    .word func_0808DDF0
+    .word func_0808E42C
+    .word func_0808E454
+    .word func_0808E5F4
+    .word func_0808E648
+    .word func_0808EA5C
+    .word func_0808EA90
+    .word func_0808EB10
+    .word func_0808EB3C
+    .word func_0808EC98
+    .word func_0808ED20
+    .word func_0808EE24
+    .word func_0808EE24
+    .word func_0808EE24
+    .word func_0808EEA8
+    .word func_0808EF1C
+    .word func_0808DBD8
+    .word func_0808DBD8
+    .word func_0808F008
 
 
     .align 2
     .global Unk_08184F2C
 Unk_08184F2C:
-    .word sub_808DC6C
-    .word sub_808DCBC
-    .word sub_808DD14
-    .word sub_808DD6C
-    .word sub_808DDC4
+    .word func_0808DC6C
+    .word func_0808DCBC
+    .word func_0808DD14
+    .word func_0808DD6C
+    .word func_0808DDC4
 
 
     .align 2
     .global Unk_08184F40
 Unk_08184F40:
-    .word sub_808E690
-    .word sub_808E7E4
-    .word sub_808E850
-    .word sub_808E8A0
-    .word sub_808E970
-    .word sub_808E9FC
+    .word func_0808E690
+    .word func_0808E7E4
+    .word func_0808E850
+    .word func_0808E8A0
+    .word func_0808E970
+    .word func_0808E9FC
 
 
     .align 2
     .global Unk_08184F58
 Unk_08184F58:
-    .word sub_8091D70
-    .word sub_8091DBC
-    .word sub_8091E08
-    .word sub_8091E3C
-    .word sub_8091E7C
+    .word func_08091D70
+    .word func_08091DBC
+    .word func_08091E08
+    .word func_08091E3C
+    .word func_08091E7C
 
 
     .align 2
     .global Unk_08184F6C
 Unk_08184F6C:
-    .word sub_8091B40
-    .word sub_8091B68
-    .word sub_8091BCC
-    .word sub_8091BF4
-    .word sub_8091BF4
+    .word func_08091B40
+    .word func_08091B68
+    .word func_08091BCC
+    .word func_08091BF4
+    .word func_08091BF4
 
 
     .align 2
     .global Unk_08184F80
 Unk_08184F80:
-    .word sub_809206C
-    .word sub_80920C8
-    .word sub_8092124
-    .word sub_8092180
+    .word func_0809206C
+    .word func_080920C8
+    .word func_08092124
+    .word func_08092180
 
 
     .global Unk_08184F90
@@ -8668,31 +8668,31 @@ Unk_08185884:
     .align 2
     .global Unk_081858A4
 Unk_081858A4:
-    .word sub_8092C9C
-    .word sub_8092F70
-    .word sub_8093264
-    .word sub_8093628
-    .word sub_8093F5C
-    .word sub_8093F6C
-    .word sub_80942A0
-    .word sub_8094504
-    .word sub_80945E4
-    .word sub_80948E0
-    .word sub_8094B74
-    .word sub_80954FC
-    .word sub_8095D40
-    .word sub_80964A4
-    .word sub_8096804
-    .word sub_809692C
-    .word sub_8096964
-    .word sub_8096A10
-    .word sub_8096C44
-    .word sub_8096E18
-    .word sub_8096ED4
-    .word sub_8097218
-    .word sub_8097254
-    .word sub_8097784
-    .word sub_8097C20
+    .word func_08092C9C
+    .word func_08092F70
+    .word func_08093264
+    .word func_08093628
+    .word func_08093F5C
+    .word func_08093F6C
+    .word func_080942A0
+    .word func_08094504
+    .word func_080945E4
+    .word func_080948E0
+    .word func_08094B74
+    .word func_080954FC
+    .word func_08095D40
+    .word func_080964A4
+    .word func_08096804
+    .word func_0809692C
+    .word func_08096964
+    .word func_08096A10
+    .word func_08096C44
+    .word func_08096E18
+    .word func_08096ED4
+    .word func_08097218
+    .word func_08097254
+    .word func_08097784
+    .word func_08097C20
 
 
     .global Unk_08185908
@@ -8702,42 +8702,42 @@ Unk_08185908:
     .align 2
     .global Unk_0818591C
 Unk_0818591C:
-    .word sub_80989E0
-    .word sub_8098A6C
-    .word sub_8098AE0
-    .word sub_8098B54
-    .word sub_8098BBC
-    .word sub_8098C9C
-    .word sub_8098D40
-    .word sub_8098DA0
-    .word sub_8098EE8
-    .word sub_8098F18
-    .word sub_8098F7C
-    .word sub_8098FAC
-    .word sub_8098FEC
-    .word sub_809902C
-    .word sub_809904C
-    .word sub_8099104
-    .word sub_8099190
-    .word sub_8099294
-    .word sub_8099320
-    .word sub_8099410
-    .word sub_80994F0
-    .word sub_8099590
-    .word sub_80995EC
-    .word sub_8099604
-    .word sub_8099650
-    .word sub_8099754
-    .word sub_80997D8
+    .word func_080989E0
+    .word func_08098A6C
+    .word func_08098AE0
+    .word func_08098B54
+    .word func_08098BBC
+    .word func_08098C9C
+    .word func_08098D40
+    .word func_08098DA0
+    .word func_08098EE8
+    .word func_08098F18
+    .word func_08098F7C
+    .word func_08098FAC
+    .word func_08098FEC
+    .word func_0809902C
+    .word func_0809904C
+    .word func_08099104
+    .word func_08099190
+    .word func_08099294
+    .word func_08099320
+    .word func_08099410
+    .word func_080994F0
+    .word func_08099590
+    .word func_080995EC
+    .word func_08099604
+    .word func_08099650
+    .word func_08099754
+    .word func_080997D8
 
 
     .align 2
     .global Unk_08185988
 Unk_08185988:
-    .word sub_809AF44
-    .word sub_809AF84
-    .word sub_809AFA0
-    .word sub_809AFD0
+    .word func_0809AF44
+    .word func_0809AF84
+    .word func_0809AFA0
+    .word func_0809AFD0
 
 
     .global Unk_08185998
@@ -8759,97 +8759,97 @@ Unk_081859E3:
     .align 2
     .global Unk_081859E8
 Unk_081859E8:
-    .word sub_809BF9C
-    .word sub_809BFC0
-    .word sub_809BFE4
-    .word sub_809C008
-    .word sub_809C02C
-    .word sub_809C050
-    .word sub_809C074
+    .word func_0809BF9C
+    .word func_0809BFC0
+    .word func_0809BFE4
+    .word func_0809C008
+    .word func_0809C02C
+    .word func_0809C050
+    .word func_0809C074
 
     .align 2
     .global Unk_08185A04
 Unk_08185A04:
-    .word sub_807D618
-    .word sub_809CD28
+    .word func_0807D618
+    .word func_0809CD28
 
     .align 2
     .global Unk_08185A0C
 Unk_08185A0C:
-    .word sub_807B89C
-    .word sub_809CDF4
+    .word func_0807B89C
+    .word func_0809CDF4
 
     .align 2
     .global Unk_08185A14
 Unk_08185A14:
-    .word sub_807D618
-    .word sub_809CD28
+    .word func_0807D618
+    .word func_0809CD28
 
     .align 2
     .global Unk_08185A1C
 Unk_08185A1C:
-    .word sub_809CF24
-    .word sub_809CFB0
+    .word func_0809CF24
+    .word func_0809CFB0
 
     .align 2
     .global Unk_08185A24
 Unk_08185A24:
-    .word sub_809CFCC
-    .word sub_809D134
+    .word func_0809CFCC
+    .word func_0809D134
 
     .align 2
     .global Unk_08185A2C
 Unk_08185A2C:
-    .word sub_809D020
-    .word sub_809D090
+    .word func_0809D020
+    .word func_0809D090
 
     .align 2
     .global Unk_08185A34
 Unk_08185A34:
-    .word sub_809CF24
-    .word sub_809CFB0
+    .word func_0809CF24
+    .word func_0809CFB0
 
     .align 2
     .global Unk_08185A3C
 Unk_08185A3C:
-    .word sub_809CF24
-    .word sub_809CFB0
+    .word func_0809CF24
+    .word func_0809CFB0
 
     .align 2
     .global Unk_08185A44
 Unk_08185A44:
-    .word sub_809D150
-    .word sub_809CFB0
+    .word func_0809D150
+    .word func_0809CFB0
 
     .align 2
     .global Unk_08185A4C
 Unk_08185A4C:
-    .word sub_809D1DC
-    .word sub_809D46C
+    .word func_0809D1DC
+    .word func_0809D46C
 
     .align 2
     .global Unk_08185A54
 Unk_08185A54:
-    .word sub_809D4F8
-    .word sub_809D5E8
+    .word func_0809D4F8
+    .word func_0809D5E8
 
     .align 2
     .global Unk_08185A5C
 Unk_08185A5C:
-    .word sub_809CEB0
-    .word sub_809CE80
+    .word func_0809CEB0
+    .word func_0809CE80
 
     .align 2
     .global Unk_08185A64
 Unk_08185A64:
-    .word sub_809D2D4
-    .word sub_809D444
+    .word func_0809D2D4
+    .word func_0809D444
 
     .align 2
     .global Unk_08185A6C
 Unk_08185A6C:
-    .word sub_809D648
-    .word sub_809D72C
+    .word func_0809D648
+    .word func_0809D72C
 
     .align 2
     .global Unk_08185A74
@@ -8951,146 +8951,146 @@ Unk_08185A74:
 
     .global Unk_08185BEC
 Unk_08185BEC:
-    .word sub_8082360
-    .word sub_8082360
-    .word sub_8082360
-    .word sub_80823A4
+    .word func_08082360
+    .word func_08082360
+    .word func_08082360
+    .word func_080823A4
 
     .global Unk_08185BFC
 Unk_08185BFC:
-    .word sub_8082680
-    .word sub_8082800
-    .word sub_8082840
-    .word sub_80828A8
-    .word sub_808291C
-    .word sub_8082800
-    .word sub_80829D4
+    .word func_08082680
+    .word func_08082800
+    .word func_08082840
+    .word func_080828A8
+    .word func_0808291C
+    .word func_08082800
+    .word func_080829D4
 
     .global Unk_08185C18
 Unk_08185C18:
-    .word sub_8082A48
-    .word sub_8082A48
-    .word sub_8082A48
+    .word func_08082A48
+    .word func_08082A48
+    .word func_08082A48
 
     .global Unk_08185C24
 Unk_08185C24:
-    .word sub_8082A8C
-    .word sub_8082AB8
-    .word sub_8082AD0
-    .word sub_8082AE8
-    .word sub_8082B00
+    .word func_08082A8C
+    .word func_08082AB8
+    .word func_08082AD0
+    .word func_08082AE8
+    .word func_08082B00
 
     .global Unk_08185C38
 Unk_08185C38:
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082B7C
-    .word sub_8082BD0
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082B7C
+    .word func_08082BD0
 
     .global Unk_08185C50
 Unk_08185C50:
-    .word sub_8082C3C
-    .word sub_8082C68
-    .word sub_8082C80
-    .word sub_8082C98
-    .word sub_8082CB0
+    .word func_08082C3C
+    .word func_08082C68
+    .word func_08082C80
+    .word func_08082C98
+    .word func_08082CB0
 
     .global Unk_08185C64
 Unk_08185C64:
-    .word sub_8082CDC
+    .word func_08082CDC
 
     .global Unk_08185C68
 Unk_08185C68:
-    .word sub_8082D28
+    .word func_08082D28
 
     .global Unk_08185C6C
 Unk_08185C6C:
-    .word sub_8082D54
-    .word sub_8082DE0
-    .word sub_8082E2C
-    .word sub_8082E2C
-    .word sub_8082E2C
+    .word func_08082D54
+    .word func_08082DE0
+    .word func_08082E2C
+    .word func_08082E2C
+    .word func_08082E2C
 
     .global Unk_08185C80
 Unk_08185C80:
-    .word sub_8082F20
-    .word sub_8082F68
-    .word sub_8082FC4
-    .word sub_8082FC4
-    .word sub_8082FC4
+    .word func_08082F20
+    .word func_08082F68
+    .word func_08082FC4
+    .word func_08082FC4
+    .word func_08082FC4
 
     .global Unk_08185C94
 Unk_08185C94:
-    .word sub_8082FF0
-    .word sub_8083120
+    .word func_08082FF0
+    .word func_08083120
 
     .global Unk_08185C9C
 Unk_08185C9C:
-    .word sub_8083200
-    .word sub_8082CDC
-    .word sub_8083234
-    .word sub_8083234
-    .word sub_8083234
-    .word sub_8083278
+    .word func_08083200
+    .word func_08082CDC
+    .word func_08083234
+    .word func_08083234
+    .word func_08083234
+    .word func_08083278
 
     .global Unk_08185CB4
 Unk_08185CB4:
-    .word sub_8083278
-    .word sub_8083348
-    .word sub_80833C0
-    .word sub_8083278
-    .word sub_8083348
-    .word sub_8083420
+    .word func_08083278
+    .word func_08083348
+    .word func_080833C0
+    .word func_08083278
+    .word func_08083348
+    .word func_08083420
 
     .global Unk_08185CCC
 Unk_08185CCC:
-    .word sub_8083478
-    .word sub_80834B4
-    .word sub_8083544
-    .word sub_8083594
+    .word func_08083478
+    .word func_080834B4
+    .word func_08083544
+    .word func_08083594
 
     .global Unk_08185CDC
 Unk_08185CDC:
-    .word sub_8082BD0
-    .word sub_808362C
+    .word func_08082BD0
+    .word func_0808362C
 
     .global Unk_08185CE4
 Unk_08185CE4:
-    .word sub_80836F4
-    .word sub_80837FC
-    .word sub_80838E4
+    .word func_080836F4
+    .word func_080837FC
+    .word func_080838E4
 
     .global Unk_08185CF0
 Unk_08185CF0:
-    .word sub_8083910
-    .word sub_8083998
-    .word sub_80839E0
+    .word func_08083910
+    .word func_08083998
+    .word func_080839E0
 
     .global Unk_08185CFC
 Unk_08185CFC:
-    .word sub_8083A28
-    .word sub_8083AC0
+    .word func_08083A28
+    .word func_08083AC0
 
     .global Unk_08185D04
 Unk_08185D04:
-    .word sub_8083B6C
-    .word sub_8083BC4
-    .word sub_8083C08
-    .word sub_8083C70
-    .word sub_8083CB4
-    .word sub_8083CB4
-    .word sub_8083F84
+    .word func_08083B6C
+    .word func_08083BC4
+    .word func_08083C08
+    .word func_08083C70
+    .word func_08083CB4
+    .word func_08083CB4
+    .word func_08083F84
 
     .global Unk_08185D20
 Unk_08185D20:
-    .word sub_8083FC8
-    .word sub_808400C
-    .word sub_8084140
-    .word sub_8084234
-    .word sub_8084264
-    .word sub_8083278
+    .word func_08083FC8
+    .word func_0808400C
+    .word func_08084140
+    .word func_08084234
+    .word func_08084264
+    .word func_08083278
     .word Unk_08185BEC
     .word Unk_08185BFC
     .word Unk_08185BFC
@@ -9595,15 +9595,15 @@ Unk_081864F8:
     .align 2
     .global Unk_08186504
 Unk_08186504:
-    .word sub_809DD8C
-    .word sub_809DD58
-    .word sub_809DD58
-    .word sub_809DD24
-    .word sub_809DCCC
-    .word sub_809DC54
-    .word sub_809DBDC
-    .word sub_809DB5C
-    .word sub_809DAB8
+    .word func_0809DD8C
+    .word func_0809DD58
+    .word func_0809DD58
+    .word func_0809DD24
+    .word func_0809DCCC
+    .word func_0809DC54
+    .word func_0809DBDC
+    .word func_0809DB5C
+    .word func_0809DAB8
 
 
     .global Unk_08186528
@@ -9617,706 +9617,706 @@ Unk_08186532:
     .align 2
     .global Unk_0818653C
 Unk_0818653C:
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809EE10
-    .word sub_809EE6C
-    .word sub_809EEC8
-    .word sub_809EF0C
-    .word sub_809EF94
-    .word sub_809EFFC
-    .word sub_809F040
-    .word sub_809F0BC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809FBBC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809F138
-    .word sub_809ECCC
-    .word sub_809EEC8
-    .word sub_809F1F8
-    .word sub_809F280
-    .word sub_809ECCC
-    .word sub_809F2C4
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809FA78
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809F7A4
-    .word sub_809F83C
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809F0BC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809F8D4
-    .word sub_809F960
-    .word sub_809F9EC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809FB00
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809EE10
-    .word sub_809EEC8
-    .word sub_809F198
-    .word sub_809F37C
-    .word sub_809F424
-    .word sub_809F4CC
-    .word sub_809F574
-    .word sub_809F614
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809EEC8
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809EE6C
-    .word sub_809ECCC
-    .word sub_809F614
-    .word sub_809ECCC
-    .word sub_809F688
-    .word sub_809EF50
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
-    .word sub_809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809EE10
+    .word func_0809EE6C
+    .word func_0809EEC8
+    .word func_0809EF0C
+    .word func_0809EF94
+    .word func_0809EFFC
+    .word func_0809F040
+    .word func_0809F0BC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809FBBC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809F138
+    .word func_0809ECCC
+    .word func_0809EEC8
+    .word func_0809F1F8
+    .word func_0809F280
+    .word func_0809ECCC
+    .word func_0809F2C4
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809FA78
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809F7A4
+    .word func_0809F83C
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809F0BC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809F8D4
+    .word func_0809F960
+    .word func_0809F9EC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809FB00
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809EE10
+    .word func_0809EEC8
+    .word func_0809F198
+    .word func_0809F37C
+    .word func_0809F424
+    .word func_0809F4CC
+    .word func_0809F574
+    .word func_0809F614
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809EEC8
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809EE6C
+    .word func_0809ECCC
+    .word func_0809F614
+    .word func_0809ECCC
+    .word func_0809F688
+    .word func_0809EF50
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
+    .word func_0809ECCC
 
 
     .align 2
     .global Unk_0818673C
 Unk_0818673C:
-    .word sub_809FCF0
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FED8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF38
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FFA8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FFFC
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0020
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FFFC
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0144
-    .word sub_80A0244
-    .word sub_80A0244
-    .word sub_80A0244
-    .word sub_80A0244
-    .word sub_80A0244
-    .word sub_80A0244
-    .word sub_80A0244
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0328
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A03B4
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FF60
-    .word sub_809FF60
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_80A0504
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0578
-    .word sub_809FEC8
-    .word sub_80A0610
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0674
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_80A0610
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A06F4
-    .word sub_80A06F4
-    .word sub_80A06F4
-    .word sub_80A06F4
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A06F4
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0750
-    .word sub_809FEC8
-    .word sub_80A08A0
-    .word sub_809FEC8
-    .word sub_80A08B0
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A08C0
-    .word sub_80A09C0
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FF60
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_80A09D0
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_80A0A34
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FEC8
-    .word sub_809FF60
-    .word sub_809FEC8
-    .word sub_809FEC8
+    .word func_0809FCF0
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FED8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF38
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FFA8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FFFC
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0020
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FFFC
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0144
+    .word func_080A0244
+    .word func_080A0244
+    .word func_080A0244
+    .word func_080A0244
+    .word func_080A0244
+    .word func_080A0244
+    .word func_080A0244
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0328
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A03B4
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FF60
+    .word func_0809FF60
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_080A0504
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0578
+    .word func_0809FEC8
+    .word func_080A0610
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0674
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0610
+    .word func_080A0610
+    .word func_080A0610
+    .word func_080A0610
+    .word func_080A0610
+    .word func_080A0610
+    .word func_080A0610
+    .word func_080A0610
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A06F4
+    .word func_080A06F4
+    .word func_080A06F4
+    .word func_080A06F4
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A06F4
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0750
+    .word func_0809FEC8
+    .word func_080A08A0
+    .word func_0809FEC8
+    .word func_080A08B0
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A08C0
+    .word func_080A09C0
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FF60
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_080A09D0
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_080A0A34
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FEC8
+    .word func_0809FF60
+    .word func_0809FEC8
+    .word func_0809FEC8
 
 
     .align 2
     .global Unk_08186EFC
 Unk_08186EFC:
-    .word sub_809FD24
-    .word sub_809FD90
-    .word sub_809FDD0
-    .word sub_809FE38
+    .word func_0809FD24
+    .word func_0809FD90
+    .word func_0809FDD0
+    .word func_0809FE38
 
 
     .align 2
     .global Unk_08186F0C
 Unk_08186F0C:
-    .word sub_80A20A8
-    .word sub_80A20A8
-    .word sub_80A23DC
-    .word sub_80A227C
-    .word sub_80A227C
-    .word sub_80A20A8
-    .word sub_80A20A8
-    .word sub_80A24E0
-    .word sub_80A20A8
-    .word sub_80A24E0
-    .word sub_80A20A8
-    .word sub_80A20A8
-    .word sub_80A20A8
-    .word sub_80A1634
-    .word sub_80A1634
-    .word sub_80A2780
-    .word sub_80A2780
-    .word sub_80A263C
-    .word sub_80A263C
-    .word sub_80A263C
-    .word sub_80A1BB0
-    .word sub_80A1BB0
-    .word sub_80A18B4
-    .word sub_80A18B4
-    .word sub_80A227C
-    .word sub_80A1E1C
+    .word func_080A20A8
+    .word func_080A20A8
+    .word func_080A23DC
+    .word func_080A227C
+    .word func_080A227C
+    .word func_080A20A8
+    .word func_080A20A8
+    .word func_080A24E0
+    .word func_080A20A8
+    .word func_080A24E0
+    .word func_080A20A8
+    .word func_080A20A8
+    .word func_080A20A8
+    .word func_080A1634
+    .word func_080A1634
+    .word func_080A2780
+    .word func_080A2780
+    .word func_080A263C
+    .word func_080A263C
+    .word func_080A263C
+    .word func_080A1BB0
+    .word func_080A1BB0
+    .word func_080A18B4
+    .word func_080A18B4
+    .word func_080A227C
+    .word func_080A1E1C
 
 
     .align 2
     .global Unk_08186F74
 Unk_08186F74:
-    .word sub_80A0F54
-    .word sub_80A0EFC
-    .word sub_80A0F94
-    .word sub_80A12CC
-    .word sub_80A1278
-    .word sub_80A1314
-    .word sub_80A13F4
-    .word sub_80A14E4
-    .word sub_80A0E8C
-    .word sub_80A14E4
-    .word sub_80A0E8C
-    .word sub_80A0E10
-    .word sub_80A0E10
-    .word sub_80A1544
-    .word sub_80A15AC
-    .word sub_80A14C8
-    .word sub_80A14AC
-    .word sub_80A0FC8
-    .word sub_80A10C8
-    .word sub_80A11C0
-    .word sub_80A0D48
-    .word sub_80A0BD4
-    .word sub_80A0DC8
-    .word sub_80A0C40
-    .word sub_80A2798
-    .word sub_80A0D84
+    .word func_080A0F54
+    .word func_080A0EFC
+    .word func_080A0F94
+    .word func_080A12CC
+    .word func_080A1278
+    .word func_080A1314
+    .word func_080A13F4
+    .word func_080A14E4
+    .word func_080A0E8C
+    .word func_080A14E4
+    .word func_080A0E8C
+    .word func_080A0E10
+    .word func_080A0E10
+    .word func_080A1544
+    .word func_080A15AC
+    .word func_080A14C8
+    .word func_080A14AC
+    .word func_080A0FC8
+    .word func_080A10C8
+    .word func_080A11C0
+    .word func_080A0D48
+    .word func_080A0BD4
+    .word func_080A0DC8
+    .word func_080A0C40
+    .word func_080A2798
+    .word func_080A0D84
 
 
     .global Unk_08186FDC
@@ -10386,175 +10386,175 @@ Unk_081874A8:
     .align 2
     .global Unk_081874D8
 Unk_081874D8:
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7A10
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7ADC
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7A10
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7ADC
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
 
 
     .align 2
     .global Unk_08187620
 Unk_08187620:
-    .word sub_80A7BB0
-    .word sub_80A7BB0
-    .word sub_80A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
+    .word func_080A7BB0
 
 
     .align 2
     .global Unk_0818762C
 Unk_0818762C:
-    .word sub_80A7C30
-    .word sub_80A7C54
-    .word sub_80A7C78
-    .word sub_80A7CB4
-    .word sub_80A7D04
-    .word sub_80A7D30
-    .word sub_80A7D54
-    .word sub_80A7D98
-    .word sub_80A7DD4
-    .word sub_80A7EA0
-    .word sub_80A7F30
-    .word sub_80A7F78
-    .word sub_80A7FBC
-    .word sub_80A7FBC
-    .word sub_80A7FBC
-    .word sub_80A7FBC
-    .word sub_80A7FE0
-    .word sub_80A8028
-    .word sub_80A8090
-    .word sub_80A80C0
-    .word sub_80A8108
-    .word sub_80A818C
-    .word sub_80A8228
-    .word sub_80A8294
-    .word sub_80A8300
-    .word sub_80A832C
-    .word sub_80A839C
-    .word sub_80A8458
-    .word sub_80A84A0
-    .word sub_80A852C
-    .word sub_80A85C0
-    .word sub_80A8608
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A87A8
-    .word sub_80A864C
-    .word sub_80A86C0
-    .word sub_80A8734
-    .word sub_80A87A8
-    .word sub_80A87D4
-    .word sub_80A881C
-    .word sub_80A884C
-    .word sub_80A8884
-    .word sub_80A88B4
-    .word sub_80A88B4
-    .word sub_80A88E4
-    .word sub_80A8960
-    .word sub_80A89C0
-    .word sub_80A8A74
-    .word sub_80A8B28
-    .word sub_80A8B70
-    .word sub_80A8BC0
-    .word sub_80A8C10
+    .word func_080A7C30
+    .word func_080A7C54
+    .word func_080A7C78
+    .word func_080A7CB4
+    .word func_080A7D04
+    .word func_080A7D30
+    .word func_080A7D54
+    .word func_080A7D98
+    .word func_080A7DD4
+    .word func_080A7EA0
+    .word func_080A7F30
+    .word func_080A7F78
+    .word func_080A7FBC
+    .word func_080A7FBC
+    .word func_080A7FBC
+    .word func_080A7FBC
+    .word func_080A7FE0
+    .word func_080A8028
+    .word func_080A8090
+    .word func_080A80C0
+    .word func_080A8108
+    .word func_080A818C
+    .word func_080A8228
+    .word func_080A8294
+    .word func_080A8300
+    .word func_080A832C
+    .word func_080A839C
+    .word func_080A8458
+    .word func_080A84A0
+    .word func_080A852C
+    .word func_080A85C0
+    .word func_080A8608
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A87A8
+    .word func_080A864C
+    .word func_080A86C0
+    .word func_080A8734
+    .word func_080A87A8
+    .word func_080A87D4
+    .word func_080A881C
+    .word func_080A884C
+    .word func_080A8884
+    .word func_080A88B4
+    .word func_080A88B4
+    .word func_080A88E4
+    .word func_080A8960
+    .word func_080A89C0
+    .word func_080A8A74
+    .word func_080A8B28
+    .word func_080A8B70
+    .word func_080A8BC0
+    .word func_080A8C10
 
 
     .align 2
     .global Unk_08187734
 Unk_08187734:
-    .word sub_80A8C58
-    .word sub_80A8CA4
-    .word sub_80A8CD0
+    .word func_080A8C58
+    .word func_080A8CA4
+    .word func_080A8CD0
 
 
     .global Unk_08187740
@@ -11023,21 +11023,21 @@ Unk_08187FB4:
     .align 2
     .global Unk_08187FC0
 Unk_08187FC0:
-    .word sub_80ABC8C
-    .word sub_80ABD04
-    .word sub_80ABD84
-    .word sub_80ABE90
+    .word func_080ABC8C
+    .word func_080ABD04
+    .word func_080ABD84
+    .word func_080ABE90
 
 
     .align 2
     .global Unk_08187FD0
 Unk_08187FD0:
-    .word sub_80AC190
-    .word sub_80AC1A8
-    .word sub_80AC1D4
-    .word sub_80AC200
-    .word sub_80AC22C
-    .word sub_80AC258
+    .word func_080AC190
+    .word func_080AC1A8
+    .word func_080AC1D4
+    .word func_080AC200
+    .word func_080AC22C
+    .word func_080AC258
 
 
     .global Unk_08187FE8
@@ -11125,18 +11125,18 @@ Unk_08188360:
     .align 2
     .global Unk_081889A8
 Unk_081889A8:
-    .word sub_80AC4D0
-    .word sub_80AC360
-    .word sub_80AC2EC
-    .word sub_80AC2C8
-    .word sub_80AC2EC
+    .word func_080AC4D0
+    .word func_080AC360
+    .word func_080AC2EC
+    .word func_080AC2C8
+    .word func_080AC2EC
 
 
     .align 2
     .global Unk_081889BC
 Unk_081889BC:
-    .word sub_80ACF08
-    .word sub_80ACE70
+    .word func_080ACF08
+    .word func_080ACE70
 
 
     .align 2
@@ -11150,50 +11150,50 @@ Unk_081889C4:
     .align 2
     .global Unk_081889CC
 Unk_081889CC:
-    .word sub_80AD574
-    .word sub_80AD2D4
-    .word sub_80AD0D0
+    .word func_080AD574
+    .word func_080AD2D4
+    .word func_080AD0D0
 
 
     .align 2
     .global Unk_081889D8
 Unk_081889D8:
-    .word sub_80AD80C
-    .word sub_80AD76C
-    .word sub_80AD694
+    .word func_080AD80C
+    .word func_080AD76C
+    .word func_080AD694
 
 
     .align 2
     .global Unk_081889E4
 Unk_081889E4:
-    .word sub_80ADB40
-    .word sub_80AD9D0
+    .word func_080ADB40
+    .word func_080AD9D0
 
 
     .align 2
     .global Unk_081889EC
 Unk_081889EC:
-    .word sub_80AE038
-    .word sub_80ADC78
-    .word sub_80ADC68
-    .word sub_80ADC34
-    .word sub_80AD92C
+    .word func_080AE038
+    .word func_080ADC78
+    .word func_080ADC68
+    .word func_080ADC34
+    .word func_080AD92C
 
 
     .align 2
     .global Unk_08188A00
 Unk_08188A00:
-    .word sub_80AE308
-    .word sub_80AE1FC
-    .word sub_80AE1C4
-    .word sub_80AE188
+    .word func_080AE308
+    .word func_080AE1FC
+    .word func_080AE1C4
+    .word func_080AE188
 
 
     .align 2
     .global Unk_08188A10
 Unk_08188A10:
-    .word sub_80AE41C
-    .word sub_80AE4B4
+    .word func_080AE41C
+    .word func_080AE4B4
 
 
     .global Unk_08188A18
@@ -11211,9 +11211,9 @@ Unk_08188AD8:
     .align 2
     .global Unk_08188AE8
 Unk_08188AE8:
-    .word sub_80AEAB0
-    .word sub_80AE870
-    .word sub_80AE6E4
+    .word func_080AEAB0
+    .word func_080AE870
+    .word func_080AE6E4
 
 
     .align 2
@@ -11226,46 +11226,46 @@ Unk_08188AF4:
     .align 2
     .global Unk_08188B00
 Unk_08188B00:
-    .word sub_80AEAB0
-    .word sub_80AE870
-    .word sub_80AFD24
-    .word sub_80AFC80
-    .word sub_80AF6EC
-    .word sub_80AF5F4
-    .word sub_80AF3F4
-    .word sub_80AF3A8
+    .word func_080AEAB0
+    .word func_080AE870
+    .word func_080AFD24
+    .word func_080AFC80
+    .word func_080AF6EC
+    .word func_080AF5F4
+    .word func_080AF3F4
+    .word func_080AF3A8
 
 
     .align 2
     .global Unk_08188B20
 Unk_08188B20:
-    .word sub_80AFF24
-    .word sub_80AFEA0
+    .word func_080AFF24
+    .word func_080AFEA0
 
 
     .align 2
     .global Unk_08188B28
 Unk_08188B28:
-    .word sub_80B057C
-    .word sub_80B02A4
-    .word sub_80B0130
+    .word func_080B057C
+    .word func_080B02A4
+    .word func_080B0130
 
 
     .align 2
     .global Unk_08188B34
 Unk_08188B34:
-    .word sub_80B0CA0
-    .word sub_80B09F4
-    .word sub_80B0888
+    .word func_080B0CA0
+    .word func_080B09F4
+    .word func_080B0888
 
 
     .align 2
     .global Unk_08188B40
 Unk_08188B40:
-    .word sub_80B0E38
-    .word sub_80B0D78
-    .word sub_80B0D44
-    .word sub_80B0604
+    .word func_080B0E38
+    .word func_080B0D78
+    .word func_080B0D44
+    .word func_080B0604
 
 
     .global Unk_08188B50
@@ -11275,24 +11275,24 @@ Unk_08188B50:
     .align 2
     .global Unk_08188B68
 Unk_08188B68:
-    .word sub_80B1114
-    .word sub_80B0F2C
+    .word func_080B1114
+    .word func_080B0F2C
 
 
     .align 2
     .global Unk_08188B70
 Unk_08188B70:
-    .word sub_80B14B4
-    .word sub_80B12CC
+    .word func_080B14B4
+    .word func_080B12CC
 
 
     .align 2
     .global Unk_08188B78
 Unk_08188B78:
-    .word sub_80B0E38
-    .word sub_80B0D78
-    .word sub_80B1638
-    .word sub_80B1298
+    .word func_080B0E38
+    .word func_080B0D78
+    .word func_080B1638
+    .word func_080B1298
 
 
     .global Unk_08188B88
@@ -11331,47 +11331,47 @@ Unk_08188C06:
     .align 2
     .global Unk_08188C0C
 Unk_08188C0C:
-    .word sub_80B2040
-    .word sub_80B2020
-    .word sub_80B1CC4
-    .word sub_80B1C44
-    .word sub_80B1C30
-    .word sub_80B1AE0
-    .word sub_80B207C
-    .word sub_80B2060
+    .word func_080B2040
+    .word func_080B2020
+    .word func_080B1CC4
+    .word func_080B1C44
+    .word func_080B1C30
+    .word func_080B1AE0
+    .word func_080B207C
+    .word func_080B2060
 
 
     .align 2
     .global Unk_08188C2C
 Unk_08188C2C:
-    .word sub_80B2450
-    .word sub_80B2370
-    .word sub_80B21FC
-    .word sub_80B2190
-    .word sub_80B2100
+    .word func_080B2450
+    .word func_080B2370
+    .word func_080B21FC
+    .word func_080B2190
+    .word func_080B2100
 
 
     .align 2
     .global Unk_08188C40
 Unk_08188C40:
-    .word sub_80AC510
-    .word sub_80AC510
-    .word sub_80ACFA0
-    .word sub_80AD5CC
-    .word sub_80AE11C
-    .word sub_80AE160
-    .word sub_80AE170
-    .word sub_80AE348
-    .word sub_80AE54C
-    .word sub_80AEAE4
-    .word sub_80AE11C
-    .word sub_80AFE54
-    .word sub_80AFE90
-    .word sub_80AFFFC
-    .word sub_80B0EA4
-    .word sub_80B166C
-    .word sub_80B20A4
-    .word sub_80B260C
+    .word func_080AC510
+    .word func_080AC510
+    .word func_080ACFA0
+    .word func_080AD5CC
+    .word func_080AE11C
+    .word func_080AE160
+    .word func_080AE170
+    .word func_080AE348
+    .word func_080AE54C
+    .word func_080AEAE4
+    .word func_080AE11C
+    .word func_080AFE54
+    .word func_080AFE90
+    .word func_080AFFFC
+    .word func_080B0EA4
+    .word func_080B166C
+    .word func_080B20A4
+    .word func_080B260C
 
     .global Unk_08188C88
 Unk_08188C88:
@@ -30124,40 +30124,40 @@ Unk_0820B3D3:
     .align 2
     .global Unk_0820BBCC
 Unk_0820BBCC:
-    .word sub_80BB090
-    .word sub_80BB13C
-    .word sub_80BB288
-    .word sub_80BB354
-    .word sub_80BB488
-    .word sub_80BB574
+    .word func_080BB090
+    .word func_080BB13C
+    .word func_080BB288
+    .word func_080BB354
+    .word func_080BB488
+    .word func_080BB574
 
 
     .global Unk_0820BBE4
 Unk_0820BBE4:
     .word 0
-    .word sub_80B3D74
+    .word func_080B3D74
     .word 0
-    .word sub_80B3FCC
-    .word sub_80B41D8
-    .word sub_80B4330
-    .word sub_80B43AC
-    .word sub_80B4B44
-    .word sub_80B4B78
-    .word sub_80B501C
-    .word sub_80B5940
-    .word sub_80B5D10
-    .word sub_80B66D4
-    .word sub_80B6814
-    .word sub_80B6A44
-    .word sub_80B6B94
-    .word sub_80B8A64
-    .word sub_80BAB14
-    .word sub_80BAFC0
-    .word sub_80BB008
-    .word sub_80BB01C
-    .word sub_80BB918
-    .word sub_80BBBC8
-    .word sub_80BE888
+    .word func_080B3FCC
+    .word func_080B41D8
+    .word func_080B4330
+    .word func_080B43AC
+    .word func_080B4B44
+    .word func_080B4B78
+    .word func_080B501C
+    .word func_080B5940
+    .word func_080B5D10
+    .word func_080B66D4
+    .word func_080B6814
+    .word func_080B6A44
+    .word func_080B6B94
+    .word func_080B8A64
+    .word func_080BAB14
+    .word func_080BAFC0
+    .word func_080BB008
+    .word func_080BB01C
+    .word func_080BB918
+    .word func_080BBBC8
+    .word func_080BE888
 
     .global Unk_0820BC44
 Unk_0820BC44:
@@ -30173,10 +30173,10 @@ Unk_0820BC58:
 
     .global Unk_0820BC60
 Unk_0820BC60:
-    .word sub_80B4B04
-    .word sub_80B4A30
-    .word sub_80B49B8
-    .word sub_80B482C
+    .word func_080B4B04
+    .word func_080B4A30
+    .word func_080B49B8
+    .word func_080B482C
 
 
     .global Unk_0820BC70
@@ -30189,70 +30189,70 @@ Unk_0820BE5F:
 
     .global Unk_0820BE68
 Unk_0820BE68:
-    .word sub_80B50D4
-    .word sub_80B5178
-    .word sub_80B51DC
-    .word sub_80B5274
-    .word sub_80B5574
-    .word sub_80B56B0
-    .word sub_80B57B0
-    .word sub_80B5810
-    .word sub_80B58C4
+    .word func_080B50D4
+    .word func_080B5178
+    .word func_080B51DC
+    .word func_080B5274
+    .word func_080B5574
+    .word func_080B56B0
+    .word func_080B57B0
+    .word func_080B5810
+    .word func_080B58C4
 
 
     .global Unk_0820BE8C
 Unk_0820BE8C:
-    .word sub_80B5988
-    .word sub_80B5ABC
-    .word sub_80B5BF0
+    .word func_080B5988
+    .word func_080B5ABC
+    .word func_080B5BF0
 
 
     .global Unk_0820BE98
 Unk_0820BE98:
-    .word sub_80B6578
-    .word sub_80B87D4
-    .word sub_80B654C
-    .word sub_80B64D4
-    .word sub_80B6498
-    .word sub_80B6358
+    .word func_080B6578
+    .word func_080B87D4
+    .word func_080B654C
+    .word func_080B64D4
+    .word func_080B6498
+    .word func_080B6358
 
 
     .global Unk_0820BEB0
 Unk_0820BEB0:
-    .word sub_80B67D8
-    .word sub_80B6738
-    .word sub_80B6708
+    .word func_080B67D8
+    .word func_080B6738
+    .word func_080B6708
 
 
     .global Unk_0820BEBC
 Unk_0820BEBC:
-    .word sub_80B6E10
-    .word sub_80B6E54
-    .word sub_80B6E8C
-    .word sub_80B6EB4
-    .word sub_80B6EDC
-    .word sub_80B6EDC
+    .word func_080B6E10
+    .word func_080B6E54
+    .word func_080B6E8C
+    .word func_080B6EB4
+    .word func_080B6EDC
+    .word func_080B6EDC
 
 
     .global Unk_0820BED4
 Unk_0820BED4:
-    .word sub_80B78E8
-    .word sub_80B7B10
-    .word sub_80B7BF0
-    .word sub_80B7CD0
-    .word sub_80B7DB0
-    .word sub_80B7E84
+    .word func_080B78E8
+    .word func_080B7B10
+    .word func_080B7BF0
+    .word func_080B7CD0
+    .word func_080B7DB0
+    .word func_080B7E84
 
 
     .global Unk_0820BEEC
 Unk_0820BEEC:
-    .word sub_80B8908
-    .word sub_80B87D4
-    .word sub_80B8768
-    .word sub_80B8624
-    .word sub_80B8590
-    .word sub_80B83BC
-    .word sub_80B7F80
+    .word func_080B8908
+    .word func_080B87D4
+    .word func_080B8768
+    .word func_080B8624
+    .word func_080B8590
+    .word func_080B83BC
+    .word func_080B7F80
 
 
     .global Unk_0820BF08
@@ -30269,29 +30269,29 @@ Unk_0820BF19:
 
     .global Unk_0820BF28
 Unk_0820BF28:
-    .word sub_80B8D60
-    .word sub_80B928C
-    .word sub_80B93E4
-    .word sub_80BA1EC
-    .word sub_80BA400
-    .word sub_80BA5F0
-    .word sub_80BA710
-    .word sub_80BA7D8
-    .word sub_80BA85C
-    .word sub_80BAA68
+    .word func_080B8D60
+    .word func_080B928C
+    .word func_080B93E4
+    .word func_080BA1EC
+    .word func_080BA400
+    .word func_080BA5F0
+    .word func_080BA710
+    .word func_080BA7D8
+    .word func_080BA85C
+    .word func_080BAA68
 
 
     .global Unk_0820BF50
 Unk_0820BF50:
-    .word sub_80BAE4C
-    .word sub_80BABB8
+    .word func_080BAE4C
+    .word func_080BABB8
 
 
     .global Unk_0820BF58
 Unk_0820BF58:
-    .word sub_80BBB28
-    .word sub_80BBAE0
-    .word sub_80BB968
+    .word func_080BBB28
+    .word func_080BBAE0
+    .word func_080BB968
 
 
     .global Unk_0820BF64
@@ -30318,11 +30318,11 @@ Unk_0820BFE0:
 
     .global Unk_0820BFEC
 Unk_0820BFEC:
-    .word sub_80BE75C
-    .word sub_80BE0A8
-    .word sub_80BE2E4
-    .word sub_80BE520
-    .word sub_80BE074
+    .word func_080BE75C
+    .word func_080BE0A8
+    .word func_080BE2E4
+    .word func_080BE520
+    .word func_080BE074
 
 
     .global Unk_0820C000
@@ -30629,162 +30629,162 @@ Unk_08215B18:
     .align 2
     .global Unk_08215E98
 Unk_08215E98:
-    .word sub_80BEF44
-    .word sub_80BF154
-    .word sub_80BF60C
-    .word sub_80BFC2C
-    .word sub_80BFE34
-    .word sub_80BFE4C
-    .word sub_80BFE64
-    .word sub_80BFE7C
-    .word sub_80BFE94
-    .word sub_80BFEAC
-    .word sub_80BFEC4
-    .word sub_80BFEDC
-    .word sub_80BFEFC
-    .word sub_80BFF14
-    .word sub_80C0060
-    .word sub_80C0080
-    .word sub_80C0098
-    .word sub_80C00B0
-    .word sub_80C00C8
-    .word sub_80C00E0
-    .word sub_80C00F8
-    .word sub_80C0110
-    .word sub_80C021C
-    .word sub_80C033C
+    .word func_080BEF44
+    .word func_080BF154
+    .word func_080BF60C
+    .word func_080BFC2C
+    .word func_080BFE34
+    .word func_080BFE4C
+    .word func_080BFE64
+    .word func_080BFE7C
+    .word func_080BFE94
+    .word func_080BFEAC
+    .word func_080BFEC4
+    .word func_080BFEDC
+    .word func_080BFEFC
+    .word func_080BFF14
+    .word func_080C0060
+    .word func_080C0080
+    .word func_080C0098
+    .word func_080C00B0
+    .word func_080C00C8
+    .word func_080C00E0
+    .word func_080C00F8
+    .word func_080C0110
+    .word func_080C021C
+    .word func_080C033C
 
     .align 2
     .global Unk_08215EF8
 Unk_08215EF8:
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C16CC
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1588
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C16CC
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C16CC
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C16CC
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C184C
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1700
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C16CC
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1864
-    .word sub_80C187C
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1894
-    .word sub_80C1940
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1698
-    .word sub_80C1698
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
-    .word sub_80C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C16CC
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1588
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C16CC
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C16CC
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C16CC
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C184C
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1700
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C16CC
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1864
+    .word func_080C187C
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1894
+    .word func_080C1940
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1698
+    .word func_080C1698
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
+    .word func_080C1680
 
 
     .global Unk_082160F8
@@ -31205,180 +31205,180 @@ Unk_08217626:
     .align 2
     .global Unk_08217630
 Unk_08217630:
-    .word sub_80DB9D4
-    .word sub_80DBD3C
-    .word sub_80DBD64
-    .word sub_80DBDC4
-    .word sub_80DBE10
-    .word sub_80DBEEC
-    .word sub_80DBF70
-    .word sub_80DBFC0
-    .word sub_80DC068
-    .word sub_80DC15C
-    .word sub_80DC178
-    .word sub_80DC194
-    .word sub_80DC1B0
-    .word sub_80DC294
-    .word sub_80DC2B0
-    .word sub_80DC2CC
-    .word sub_80DC350
-    .word sub_80DC3A8
-    .word sub_80DC474
-    .word sub_80DC490
-    .word sub_80DC560
-    .word sub_80DC5B0
-    .word sub_80DC5E0
-    .word sub_80DC5FC
-    .word sub_80DC664
-    .word sub_80DC6EC
-    .word sub_80DC708
-    .word sub_80DC724
-    .word sub_80DC798
-    .word sub_80DC860
-    .word sub_80DC908
-    .word sub_80DCA18
-    .word sub_80DCB18
-    .word sub_80DCB34
-    .word sub_80DCB50
-    .word sub_80DCBC0
-    .word sub_80DCBDC
-    .word sub_80DCBF8
-    .word sub_80DCCC8
-    .word sub_80DCDB8
-    .word sub_80DCE54
-    .word sub_80DCE70
-    .word sub_80DCF1C
-    .word sub_80DCF38
-    .word sub_80DCF54
-    .word sub_80DCF70
-    .word sub_80DCF98
-    .word sub_80DD000
-    .word sub_80DD058
-    .word sub_80DD074
-    .word sub_80DD0E0
-    .word sub_80DD1F0
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DD074
-    .word sub_80DC724
-    .word sub_80DD3A8
-    .word sub_80DD3F8
-    .word sub_80DD460
-    .word sub_80DD47C
-    .word sub_80DD498
-    .word sub_80DD4B4
-    .word sub_80DD560
-    .word sub_80DD5A0
-    .word sub_80DD5A0
-    .word sub_80DD5FC
-    .word sub_80DD65C
-    .word sub_80DD678
-    .word sub_80DD694
-    .word sub_80DD6B0
-    .word sub_80DD6CC
-    .word sub_80DD6E8
-    .word sub_80DD704
-    .word sub_80DD720
-    .word sub_80DD73C
+    .word func_080DB9D4
+    .word func_080DBD3C
+    .word func_080DBD64
+    .word func_080DBDC4
+    .word func_080DBE10
+    .word func_080DBEEC
+    .word func_080DBF70
+    .word func_080DBFC0
+    .word func_080DC068
+    .word func_080DC15C
+    .word func_080DC178
+    .word func_080DC194
+    .word func_080DC1B0
+    .word func_080DC294
+    .word func_080DC2B0
+    .word func_080DC2CC
+    .word func_080DC350
+    .word func_080DC3A8
+    .word func_080DC474
+    .word func_080DC490
+    .word func_080DC560
+    .word func_080DC5B0
+    .word func_080DC5E0
+    .word func_080DC5FC
+    .word func_080DC664
+    .word func_080DC6EC
+    .word func_080DC708
+    .word func_080DC724
+    .word func_080DC798
+    .word func_080DC860
+    .word func_080DC908
+    .word func_080DCA18
+    .word func_080DCB18
+    .word func_080DCB34
+    .word func_080DCB50
+    .word func_080DCBC0
+    .word func_080DCBDC
+    .word func_080DCBF8
+    .word func_080DCCC8
+    .word func_080DCDB8
+    .word func_080DCE54
+    .word func_080DCE70
+    .word func_080DCF1C
+    .word func_080DCF38
+    .word func_080DCF54
+    .word func_080DCF70
+    .word func_080DCF98
+    .word func_080DD000
+    .word func_080DD058
+    .word func_080DD074
+    .word func_080DD0E0
+    .word func_080DD1F0
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DD074
+    .word func_080DC724
+    .word func_080DD3A8
+    .word func_080DD3F8
+    .word func_080DD460
+    .word func_080DD47C
+    .word func_080DD498
+    .word func_080DD4B4
+    .word func_080DD560
+    .word func_080DD5A0
+    .word func_080DD5A0
+    .word func_080DD5FC
+    .word func_080DD65C
+    .word func_080DD678
+    .word func_080DD694
+    .word func_080DD6B0
+    .word func_080DD6CC
+    .word func_080DD6E8
+    .word func_080DD704
+    .word func_080DD720
+    .word func_080DD73C
 
     .align 2
     .global Unk_08217770
 Unk_08217770:
-    .word sub_80DD780
-    .word sub_80DD7B8
-    .word sub_80DD7CC
-    .word sub_80DD824
-    .word sub_80DD874
-    .word sub_80DD9CC
-    .word sub_80DD9E0
-    .word sub_80DD9F4
-    .word sub_80DDB08
-    .word sub_80DDB1C
-    .word sub_80DDB30
-    .word sub_80DDB44
-    .word sub_80DDB58
-    .word sub_80DDB78
-    .word sub_80DDB8C
-    .word sub_80DDBA0
-    .word sub_80DDC0C
-    .word sub_80DDC20
-    .word sub_80DDD7C
-    .word sub_80DDD90
-    .word sub_80DDE58
-    .word sub_80DDE6C
-    .word sub_80DDE84
-    .word sub_80DDE98
-    .word sub_80DDF0C
-    .word sub_80DDF24
-    .word sub_80DE01C
-    .word sub_80DE030
-    .word sub_80DE044
-    .word sub_80DE058
-    .word sub_80DE0F0
-    .word sub_80DE104
-    .word sub_80DE118
-    .word sub_80DE12C
-    .word sub_80DE140
-    .word sub_80DE15C
-    .word sub_80DE170
-    .word sub_80DE184
-    .word sub_80DE1EC
-    .word sub_80DE254
-    .word sub_80DE268
-    .word sub_80DE27C
-    .word sub_80DE290
-    .word sub_80DE2A4
-    .word sub_80DE2B8
-    .word sub_80DE2CC
-    .word sub_80DE2E0
-    .word sub_80DE2F8
-    .word sub_80DE30C
-    .word sub_80DE328
-    .word sub_80DE34C
-    .word sub_80DE360
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE37C
-    .word sub_80DE420
-    .word sub_80DE434
-    .word sub_80DE448
-    .word sub_80DE45C
-    .word sub_80DE470
-    .word sub_80DE484
-    .word sub_80DE498
-    .word sub_80DE508
-    .word sub_80DE51C
-    .word sub_80DE530
-    .word sub_80DE544
-    .word sub_80DE56C
-    .word sub_80DE580
-    .word sub_80DE594
-    .word sub_80DE5A8
-    .word sub_80DE5BC
-    .word sub_80DE5D0
-    .word sub_80DE5E4
-    .word sub_80DE5F8
-    .word sub_80DE60C
+    .word func_080DD780
+    .word func_080DD7B8
+    .word func_080DD7CC
+    .word func_080DD824
+    .word func_080DD874
+    .word func_080DD9CC
+    .word func_080DD9E0
+    .word func_080DD9F4
+    .word func_080DDB08
+    .word func_080DDB1C
+    .word func_080DDB30
+    .word func_080DDB44
+    .word func_080DDB58
+    .word func_080DDB78
+    .word func_080DDB8C
+    .word func_080DDBA0
+    .word func_080DDC0C
+    .word func_080DDC20
+    .word func_080DDD7C
+    .word func_080DDD90
+    .word func_080DDE58
+    .word func_080DDE6C
+    .word func_080DDE84
+    .word func_080DDE98
+    .word func_080DDF0C
+    .word func_080DDF24
+    .word func_080DE01C
+    .word func_080DE030
+    .word func_080DE044
+    .word func_080DE058
+    .word func_080DE0F0
+    .word func_080DE104
+    .word func_080DE118
+    .word func_080DE12C
+    .word func_080DE140
+    .word func_080DE15C
+    .word func_080DE170
+    .word func_080DE184
+    .word func_080DE1EC
+    .word func_080DE254
+    .word func_080DE268
+    .word func_080DE27C
+    .word func_080DE290
+    .word func_080DE2A4
+    .word func_080DE2B8
+    .word func_080DE2CC
+    .word func_080DE2E0
+    .word func_080DE2F8
+    .word func_080DE30C
+    .word func_080DE328
+    .word func_080DE34C
+    .word func_080DE360
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE37C
+    .word func_080DE420
+    .word func_080DE434
+    .word func_080DE448
+    .word func_080DE45C
+    .word func_080DE470
+    .word func_080DE484
+    .word func_080DE498
+    .word func_080DE508
+    .word func_080DE51C
+    .word func_080DE530
+    .word func_080DE544
+    .word func_080DE56C
+    .word func_080DE580
+    .word func_080DE594
+    .word func_080DE5A8
+    .word func_080DE5BC
+    .word func_080DE5D0
+    .word func_080DE5E4
+    .word func_080DE5F8
+    .word func_080DE60C
 
     .align 2
     .global Unk_082178B0
 Unk_082178B0:
-    .word sub_80DBA30
-    .word sub_80DBB04
-    .word sub_80DBB84
-    .word sub_80DBBA4
-    .word sub_80DBBE8
-    .word sub_80DBD18
+    .word func_080DBA30
+    .word func_080DBB04
+    .word func_080DBB84
+    .word func_080DBBA4
+    .word func_080DBBE8
+    .word func_080DBD18
 
 
     .global Unk_082178C8
@@ -31954,20 +31954,20 @@ Unk_082191A4:
     .align 2
     .global Unk_082191B8
 Unk_082191B8:
-    .word sub_81140A0
-    .word sub_81141C4
+    .word func_081140A0
+    .word func_081141C4
 
     .align 2
     .global Unk_082191C0
 Unk_082191C0:
-    .word sub_8114228
-    .word sub_8114294
+    .word func_08114228
+    .word func_08114294
 
     .align 2
     .global Unk_082191C8
 Unk_082191C8:
-    .word sub_8114CCC
-    .word sub_8114E00
+    .word func_08114CCC
+    .word func_08114E00
 
     .align 2
     .global Unk_082191D0
@@ -31979,51 +31979,51 @@ Unk_082191D0:
     .align 2
     .global Unk_082191DC
 Unk_082191DC:
-    .word sub_8115FF8
-    .word sub_811611C
-    .word sub_8116164
-    .word sub_8116370
-    .word sub_8116450
-    .word sub_8116494
-    .word sub_8116450
-    .word sub_81165D0
-    .word sub_8116714
-    .word sub_81167E4
-    .word sub_8116934
-    .word sub_8116450
-    .word sub_8116994
-    .word sub_8116A54
-    .word sub_8116B44
-    .word sub_8116B84
-    .word sub_8116BCC
-    .word sub_8116C14
-    .word sub_8116D64
+    .word func_08115FF8
+    .word func_0811611C
+    .word func_08116164
+    .word func_08116370
+    .word func_08116450
+    .word func_08116494
+    .word func_08116450
+    .word func_081165D0
+    .word func_08116714
+    .word func_081167E4
+    .word func_08116934
+    .word func_08116450
+    .word func_08116994
+    .word func_08116A54
+    .word func_08116B44
+    .word func_08116B84
+    .word func_08116BCC
+    .word func_08116C14
+    .word func_08116D64
 
     .align 2
     .global Unk_08219228
 Unk_08219228:
-    .word sub_8113FAC
-    .word sub_8114204
-    .word sub_811443C
-    .word sub_8114494
-    .word sub_811455C
-    .word sub_811465C
-    .word sub_81147C0
-    .word sub_81148D0
-    .word sub_81149FC
-    .word sub_811516C
-    .word sub_81151A4
-    .word sub_81152C8
-    .word sub_8115564
-    .word sub_8115720
-    .word sub_8115844
-    .word sub_8115948
-    .word sub_8115980
-    .word sub_8115AA4
-    .word sub_8115D9C
-    .word sub_8116DDC
-    .word sub_8116E00
-    .word sub_8116F10
+    .word func_08113FAC
+    .word func_08114204
+    .word func_0811443C
+    .word func_08114494
+    .word func_0811455C
+    .word func_0811465C
+    .word func_081147C0
+    .word func_081148D0
+    .word func_081149FC
+    .word func_0811516C
+    .word func_081151A4
+    .word func_081152C8
+    .word func_08115564
+    .word func_08115720
+    .word func_08115844
+    .word func_08115948
+    .word func_08115980
+    .word func_08115AA4
+    .word func_08115D9C
+    .word func_08116DDC
+    .word func_08116E00
+    .word func_08116F10
 
 
     .global Unk_08219280

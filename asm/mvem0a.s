@@ -41,7 +41,7 @@ _080FF5BC: @ jump table
 	.4byte _080FF634 @ case 16
 _080FF600:
 	ldr r0, [r7]
-	bl sub_80FC73C
+	bl func_080FC73C
 	b _080FF65C
 _080FF608:
 	ldr r0, [r7]
@@ -49,19 +49,19 @@ _080FF608:
 	b _080FF65C
 _080FF610:
 	ldr r0, [r7]
-	bl sub_80FCF6C
+	bl func_080FCF6C
 	b _080FF65C
 _080FF618:
 	ldr r0, [r7]
-	bl sub_80FD0A4
+	bl func_080FD0A4
 	b _080FF65C
 _080FF620:
 	ldr r0, [r7]
-	bl sub_80FD624
+	bl func_080FD624
 	b _080FF65C
 _080FF628:
 	ldr r0, [r7]
-	bl sub_80D80B0
+	bl func_080D80B0
 	b _080FF65C
 _080FF630:
 	b _080FF65C
@@ -69,7 +69,7 @@ _080FF632:
 	b _080FF65C
 _080FF634:
 	ldr r0, [r7]
-	bl sub_80D8F8C
+	bl func_080D8F8C
 	b _080FF65C
 _080FF63C:
 	ldr r0, _080FF654
@@ -87,7 +87,7 @@ _080FF654: .4byte Unk_0812DBEC
 _080FF658: .4byte Unk_0812DC0C
 _080FF65C:
 	ldr r0, [r7]
-	bl sub_80D7D08
+	bl func_080D7D08
 	add sp, #4
 	pop {r4, r7}
 	pop {r0}
@@ -135,23 +135,23 @@ _080FF6A4: @ jump table
 	.4byte _080FF6E8 @ case 8
 _080FF6C8:
 	ldr r0, [r7]
-	bl sub_80FF718
+	bl func_080FF718
 	b _080FF710
 _080FF6D0:
 	ldr r0, [r7]
-	bl sub_80FF730
+	bl func_080FF730
 	b _080FF710
 _080FF6D8:
 	ldr r0, [r7]
-	bl sub_80FF774
+	bl func_080FF774
 	b _080FF710
 _080FF6E0:
 	ldr r0, [r7]
-	bl sub_80FF83C
+	bl func_080FF83C
 	b _080FF710
 _080FF6E8:
 	ldr r0, [r7]
-	bl sub_80FF884
+	bl func_080FF884
 	b _080FF710
 _080FF6F0:
 	ldr r0, _080FF708
@@ -173,36 +173,36 @@ _080FF710:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80FF718
-sub_80FF718: @ 0x080FF718
+	THUMB_FUNC_START func_080FF718
+func_080FF718: @ 0x080FF718
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0E50
+	bl func_080D0E50
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80FF730
-sub_80FF730: @ 0x080FF730
+	THUMB_FUNC_START func_080FF730
+func_080FF730: @ 0x080FF730
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_81011D4
+	bl func_081011D4
 	ldr r0, [r7]
-	bl sub_81012B8
+	bl func_081012B8
 	adds r1, r7, #4
 	strh r0, [r1]
 	adds r0, r7, #4
 	ldrh r1, [r0]
 	ldr r0, [r7]
-	bl sub_806251C
+	bl func_0806251C
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x4d
@@ -221,14 +221,14 @@ sub_80FF730: @ 0x080FF730
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80FF774
-sub_80FF774: @ 0x080FF774
+	THUMB_FUNC_START func_080FF774
+func_080FF774: @ 0x080FF774
 	push {r4, r7, lr}
 	sub sp, #0xc
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0E50
+	bl func_080D0E50
 	ldr r1, [r7]
 	adds r0, r1, #0
 	adds r2, r1, #0
@@ -273,7 +273,7 @@ _080FF7BA:
 	adds r4, r7, #0
 	adds r4, #8
 	ldr r0, [r7]
-	bl sub_8101224
+	bl func_08101224
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -284,7 +284,7 @@ _080FF7BA:
 	adds r0, #8
 	ldrh r1, [r0]
 	ldr r0, [r7]
-	bl sub_80E684C
+	bl func_080E684C
 	ldr r0, [r7]
 	ldr r1, [r0, #0x74]
 	str r1, [r7, #4]
@@ -307,15 +307,15 @@ _080FF7BA:
 	adds r1, r2, #0
 	strb r1, [r0]
 	ldr r0, [r7]
-	bl sub_80FF82C
+	bl func_080FF82C
 _080FF824:
 	add sp, #0xc
 	pop {r4, r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80FF82C
-sub_80FF82C: @ 0x080FF82C
+	THUMB_FUNC_START func_080FF82C
+func_080FF82C: @ 0x080FF82C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -325,14 +325,14 @@ sub_80FF82C: @ 0x080FF82C
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80FF83C
-sub_80FF83C: @ 0x080FF83C
+	THUMB_FUNC_START func_080FF83C
+func_080FF83C: @ 0x080FF83C
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0ECC
+	bl func_080D0ECC
 	ldr r0, [r7]
 	ldr r1, [r0, #0x74]
 	str r1, [r7, #4]
@@ -344,7 +344,7 @@ sub_80FF83C: @ 0x080FF83C
 	b _080FF87A
 _080FF85C:
 	ldr r0, [r7]
-	bl sub_80E7C04
+	bl func_080E7C04
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x4d
@@ -364,8 +364,8 @@ _080FF87A:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80FF884
-sub_80FF884: @ 0x080FF884
+	THUMB_FUNC_START func_080FF884
+func_080FF884: @ 0x080FF884
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -383,7 +383,7 @@ sub_80FF884: @ 0x080FF884
 _080FF8A0:
 	ldr r0, [r7]
 	movs r1, #0
-	bl sub_80DA4E0
+	bl func_080DA4E0
 _080FF8A8:
 	add sp, #8
 	pop {r7}

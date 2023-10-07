@@ -58,47 +58,47 @@ _080EBDB4: @ jump table
 	.4byte _080EBE58 @ case 20
 _080EBE08:
 	ldr r0, [r7]
-	bl sub_80EBAEC
+	bl func_080EBAEC
 	b _080EBE80
 _080EBE10:
 	ldr r0, [r7]
-	bl sub_80EBA24
+	bl func_080EBA24
 	b _080EBE80
 _080EBE18:
 	ldr r0, [r7]
-	bl sub_80EBAEC
+	bl func_080EBAEC
 	b _080EBE80
 _080EBE20:
 	ldr r0, [r7]
-	bl sub_80EBA24
+	bl func_080EBA24
 	b _080EBE80
 _080EBE28:
 	ldr r0, [r7]
-	bl sub_80EBB38
+	bl func_080EBB38
 	b _080EBE80
 _080EBE30:
 	ldr r0, [r7]
-	bl sub_80EBB38
+	bl func_080EBB38
 	b _080EBE80
 _080EBE38:
 	ldr r0, [r7]
-	bl sub_80EBAEC
+	bl func_080EBAEC
 	b _080EBE80
 _080EBE40:
 	ldr r0, [r7]
-	bl sub_80EBB10
+	bl func_080EBB10
 	b _080EBE80
 _080EBE48:
 	ldr r0, [r7]
-	bl sub_80EBB38
+	bl func_080EBB38
 	b _080EBE80
 _080EBE50:
 	ldr r0, [r7]
-	bl sub_80EBAEC
+	bl func_080EBAEC
 	b _080EBE80
 _080EBE58:
 	ldr r0, [r7]
-	bl sub_80EBAEC
+	bl func_080EBAEC
 	b _080EBE80
 _080EBE60:
 	ldr r0, _080EBE78
@@ -143,7 +143,7 @@ _080EBEA6:
 	b _080EBEC4
 _080EBEAC:
 	ldr r0, [r7]
-	bl sub_80EBC70
+	bl func_080EBC70
 	b _080EBEE4
 _080EBEB4:
 	ldr r0, [r7]
@@ -151,7 +151,7 @@ _080EBEB4:
 	b _080EBEE4
 _080EBEBC:
 	ldr r0, [r7]
-	bl sub_80EB9EC
+	bl func_080EB9EC
 	b _080EBEE4
 _080EBEC4:
 	ldr r0, _080EBEDC
@@ -177,7 +177,7 @@ _080EBEE4:
 	cmp r1, #0x11
 	beq _080EBEFA
 	ldr r0, [r7]
-	bl sub_8067ED4
+	bl func_08067ED4
 _080EBEFA:
 	add sp, #4
 	pop {r4, r7}

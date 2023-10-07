@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_8062334
-sub_8062334: @ 0x08062334
+	THUMB_FUNC_START func_08062334
+func_08062334: @ 0x08062334
 	push {r4, r7, lr}
 	sub sp, #0x24
 	mov r7, sp
@@ -127,8 +127,8 @@ _08062424:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_806242C
-sub_806242C: @ 0x0806242C
+	THUMB_FUNC_START func_0806242C
+func_0806242C: @ 0x0806242C
 	push {r4, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -238,7 +238,7 @@ sub_806242C: @ 0x0806242C
 	ldr r0, [r7]
 	ldrh r1, [r0, #0x22]
 	ldr r0, [r7]
-	bl sub_80626D4
+	bl func_080626D4
 	add sp, #0x10
 	pop {r4, r7}
 	pop {r0}
@@ -247,8 +247,8 @@ sub_806242C: @ 0x0806242C
 _08062514: .4byte Unk_082BAAF4
 _08062518: .4byte Unk_030023CC
 
-	THUMB_FUNC_START sub_806251C
-sub_806251C: @ 0x0806251C
+	THUMB_FUNC_START func_0806251C
+func_0806251C: @ 0x0806251C
 	push {r4, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -339,7 +339,7 @@ sub_806251C: @ 0x0806251C
 	ldr r0, [r7]
 	ldrh r1, [r0, #0x22]
 	ldr r0, [r7]
-	bl sub_80626D4
+	bl func_080626D4
 	add sp, #0x10
 	pop {r4, r7}
 	pop {r0}
@@ -348,8 +348,8 @@ sub_806251C: @ 0x0806251C
 _080625DC: .4byte Unk_082BAAF4
 _080625E0: .4byte Unk_030023CC
 
-	THUMB_FUNC_START sub_80625E4
-sub_80625E4: @ 0x080625E4
+	THUMB_FUNC_START func_080625E4
+func_080625E4: @ 0x080625E4
 	push {r4, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -443,7 +443,7 @@ sub_80625E4: @ 0x080625E4
 	adds r0, #8
 	ldrh r1, [r0]
 	ldr r0, [r7]
-	bl sub_80626D4
+	bl func_080626D4
 	ldr r0, [r7]
 	adds r1, r7, #0
 	adds r1, #8
@@ -463,15 +463,15 @@ _080626C0: .4byte Unk_030023CC
 _080626C4:
 	ldr r0, [r7]
 	movs r1, #0
-	bl sub_80628F0
+	bl func_080628F0
 _080626CC:
 	add sp, #0x10
 	pop {r4, r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80626D4
-sub_80626D4: @ 0x080626D4
+	THUMB_FUNC_START func_080626D4
+func_080626D4: @ 0x080626D4
 	push {r4, r7, lr}
 	sub sp, #0x1c
 	mov r7, sp
@@ -740,8 +740,8 @@ _080628E4: .4byte Unk_082AA83C
 _080628E8: .4byte Unk_082A5D70
 _080628EC: .4byte Unk_030023CC
 
-	THUMB_FUNC_START sub_80628F0
-sub_80628F0: @ 0x080628F0
+	THUMB_FUNC_START func_080628F0
+func_080628F0: @ 0x080628F0
 	push {r4, r7, lr}
 	sub sp, #0x1c
 	mov r7, sp

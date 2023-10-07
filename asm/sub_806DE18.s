@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_806DE18
-sub_806DE18: @ 0x0806DE18
+	THUMB_FUNC_START func_0806DE18
+func_0806DE18: @ 0x0806DE18
 	push {r4, r7, lr}
 	sub sp, #0xc
 	mov r7, sp

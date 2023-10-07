@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_8059A30
-sub_8059A30: @ 0x08059A30
+	THUMB_FUNC_START func_08059A30
+func_08059A30: @ 0x08059A30
 	push {r7, lr}
 	sub sp, #0x34
 	mov r7, sp
@@ -114,14 +114,14 @@ _08059AF0:
 	strh r2, [r0, #0x2a]
 _08059B0E:
 	ldr r0, [r7]
-	bl sub_8059BF4
+	bl func_08059BF4
 	add sp, #0x34
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8059B1C
-sub_8059B1C: @ 0x08059B1C
+	THUMB_FUNC_START func_08059B1C
+func_08059B1C: @ 0x08059B1C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -143,7 +143,7 @@ _08059B2E:
 	ldr r2, _08059B50
 	adds r1, r0, r2
 	adds r0, r1, #0
-	bl sub_8059B5C
+	bl func_08059B5C
 	ldr r0, [r7]
 	adds r1, r0, #1
 	str r1, [r7]
@@ -156,8 +156,8 @@ _08059B54:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8059B5C
-sub_8059B5C: @ 0x08059B5C
+	THUMB_FUNC_START func_08059B5C
+func_08059B5C: @ 0x08059B5C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -186,15 +186,15 @@ sub_8059B5C: @ 0x08059B5C
 	cmp r0, #3
 	bhi _08059B98
 	ldr r0, [r7]
-	bl sub_8059CC4
+	bl func_08059CC4
 _08059B98:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8059BA0
-sub_8059BA0: @ 0x08059BA0
+	THUMB_FUNC_START func_08059BA0
+func_08059BA0: @ 0x08059BA0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -206,17 +206,17 @@ sub_8059BA0: @ 0x08059BA0
 	cmp r0, #3
 	bhi _08059BC0
 	ldr r0, [r7]
-	bl sub_8059CC4
+	bl func_08059CC4
 	ldr r0, [r7]
-	bl sub_804CE88
+	bl func_0804CE88
 _08059BC0:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8059BC8
-sub_8059BC8: @ 0x08059BC8
+	THUMB_FUNC_START func_08059BC8
+func_08059BC8: @ 0x08059BC8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -228,10 +228,10 @@ sub_8059BC8: @ 0x08059BC8
 	cmp r0, #3
 	bhi _08059BEA
 	ldr r0, [r7]
-	bl sub_8059CC4
+	bl func_08059CC4
 	ldr r0, [r7]
 	movs r1, #1
-	bl sub_804CF38
+	bl func_0804CF38
 _08059BEA:
 	add sp, #4
 	pop {r7}
@@ -239,8 +239,8 @@ _08059BEA:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8059BF4
-sub_8059BF4: @ 0x08059BF4
+	THUMB_FUNC_START func_08059BF4
+func_08059BF4: @ 0x08059BF4
 	push {r4, r5, r7, lr}
 	sub sp, #0xc
 	mov r7, sp

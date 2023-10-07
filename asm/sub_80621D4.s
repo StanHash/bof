@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_80621D4
-sub_80621D4: @ 0x080621D4
+	THUMB_FUNC_START func_080621D4
+func_080621D4: @ 0x080621D4
 	push {r4, r7, lr}
 	sub sp, #0x2c
 	mov r7, sp
@@ -73,8 +73,8 @@ _08062250:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8062258
-sub_8062258: @ 0x08062258
+	THUMB_FUNC_START func_08062258
+func_08062258: @ 0x08062258
 	push {r4, r7, lr}
 	sub sp, #0x28
 	mov r7, sp
@@ -150,8 +150,8 @@ _080622E4:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80622EC
-sub_80622EC: @ 0x080622EC
+	THUMB_FUNC_START func_080622EC
+func_080622EC: @ 0x080622EC
 	push {r4, r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -177,7 +177,7 @@ sub_80622EC: @ 0x080622EC
 	adds r0, r7, #4
 	ldrh r1, [r0]
 	ldr r0, [r7]
-	bl sub_8062334
+	bl func_08062334
 	movs r0, #0
 	b _0806232C
 	.align 2, 0

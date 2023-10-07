@@ -41,27 +41,27 @@ _08100718: @ jump table
 	.4byte _08100790 @ case 16
 _0810075C:
 	ldr r0, [r7]
-	bl sub_80FC73C
+	bl func_080FC73C
 	b _081007B8
 _08100764:
 	ldr r0, [r7]
-	bl sub_81007C8
+	bl func_081007C8
 	b _081007B8
 _0810076C:
 	ldr r0, [r7]
-	bl sub_80FCF6C
+	bl func_080FCF6C
 	b _081007B8
 _08100774:
 	ldr r0, [r7]
-	bl sub_80FD0A4
+	bl func_080FD0A4
 	b _081007B8
 _0810077C:
 	ldr r0, [r7]
-	bl sub_80FD624
+	bl func_080FD624
 	b _081007B8
 _08100784:
 	ldr r0, [r7]
-	bl sub_80D80B0
+	bl func_080D80B0
 	b _081007B8
 _0810078C:
 	b _081007B8
@@ -69,7 +69,7 @@ _0810078E:
 	b _081007B8
 _08100790:
 	ldr r0, [r7]
-	bl sub_80D8F8C
+	bl func_080D8F8C
 	b _081007B8
 _08100798:
 	ldr r0, _081007B0
@@ -87,15 +87,15 @@ _081007B0: .4byte Unk_0812DD2C
 _081007B4: .4byte Unk_0812DD4C
 _081007B8:
 	ldr r0, [r7]
-	bl sub_80D7D08
+	bl func_080D7D08
 	add sp, #4
 	pop {r4, r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_81007C8
-sub_81007C8: @ 0x081007C8
+	THUMB_FUNC_START func_081007C8
+func_081007C8: @ 0x081007C8
 	push {r4, r7, lr}
 	sub sp, #0x10
 	mov r7, sp

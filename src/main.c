@@ -17,17 +17,17 @@ void AgbMain(void)
     DmaFill32(3, 0, MEM_EWRAM, MEM_EWRAM_SIZE);
     DmaFill32(3, 0, MEM_IWRAM, MEM_IWRAM_SIZE - 0x200);
 
-    sub_8000274(&Unk_03002410);
-    sub_8000570(sub_800198C, &Unk_03002410, CONSTANT_SLOT_AUTO);
-    sub_8000570(sub_8002500, &Unk_03002410, 3u);
+    func_08000274(&Unk_03002410);
+    func_08000570(func_0800198C, &Unk_03002410, CONSTANT_SLOT_AUTO);
+    func_08000570(func_08002500, &Unk_03002410, 3u);
 
     IntrInit();
     m4aSoundInit();
 
-    sub_80004B0(&Unk_03002410);
+    func_080004B0(&Unk_03002410);
 }
 
-void sub_8000274(struct UnkSt_03002410 * unk)
+void func_08000274(struct UnkSt_03002410 * unk)
 {
     fu8 i;
     fu8 j;
@@ -46,7 +46,7 @@ void sub_8000274(struct UnkSt_03002410 * unk)
     }
 }
 
-void sub_8000314(u32 arg_0)
+void func_08000314(u32 arg_0)
 {
     Task * var_04;
     Task * var_08;
@@ -105,17 +105,17 @@ void sub_8000314(u32 arg_0)
             }
         }
 
-        sub_80018D0();
+        func_080018D0();
         ReadKeys(&Unk_03002410);
     }
 }
 
-void sub_8000470(fu8 arg_0)
+void func_08000470(fu8 arg_0)
 {
     (Unk_03002410.tasks + Unk_03002410.unk_01)->params[2] = arg_0;
 }
 
-void sub_80004B0(struct UnkSt_03002410 * unk)
+void func_080004B0(struct UnkSt_03002410 * unk)
 {
     Task * var_04;
 
@@ -135,12 +135,12 @@ void sub_80004B0(struct UnkSt_03002410 * unk)
             }
         }
 
-        sub_80018D0();
+        func_080018D0();
         ReadKeys(unk);
     }
 }
 
-Task * sub_8000570(TaskFunc * func, struct UnkSt_03002410 * unk, fu8 slot)
+Task * func_08000570(TaskFunc * func, struct UnkSt_03002410 * unk, fu8 slot)
 {
     fu8 dummy;
     fu8 slot_real;
@@ -148,7 +148,7 @@ Task * sub_8000570(TaskFunc * func, struct UnkSt_03002410 * unk, fu8 slot)
     if (slot != CONSTANT_SLOT_AUTO)
         slot_real = slot;
     else
-        slot_real = sub_8000640(unk);
+        slot_real = func_08000640(unk);
 
     unk->tasks[slot_real].params[0] = ENUM_TASK_00_3;
     unk->tasks[slot_real].params[2] = 0;
@@ -159,7 +159,7 @@ Task * sub_8000570(TaskFunc * func, struct UnkSt_03002410 * unk, fu8 slot)
     return unk->tasks + slot_real;
 }
 
-u32 sub_8000640(struct UnkSt_03002410 * a1)
+u32 func_08000640(struct UnkSt_03002410 * a1)
 {
     fu8 slot;
 
@@ -210,6 +210,6 @@ void ReadKeys(struct UnkSt_03002410 * a1)
     }
 }
 
-void sub_80007B8()
+void func_080007B8(void)
 {
 }

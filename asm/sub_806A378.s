@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_806A378
-sub_806A378: @ 0x0806A378
+	THUMB_FUNC_START func_0806A378
+func_0806A378: @ 0x0806A378
 	push {r7, lr}
 	sub sp, #0x40
 	mov r7, sp
@@ -90,7 +90,7 @@ _0806A434: .4byte Unk_03005620
 _0806A438: .4byte Unk_03003238
 _0806A43C: .4byte Unk_03005C40
 _0806A440:
-	bl sub_806AB18
+	bl func_0806AB18
 	b _0806A8E8
 _0806A446:
 	.byte 0x0B, 0xE0
@@ -102,7 +102,7 @@ _0806A448:
 	ands r0, r2
 	cmp r0, #0
 	beq _0806A460
-	bl sub_806ABD8
+	bl func_0806ABD8
 	b _0806A8E8
 	.align 2, 0
 _0806A45C: .4byte Unk_030023C4
@@ -173,12 +173,12 @@ _0806A4E0:
 	ldr r0, _0806A4EC
 	movs r1, #0x17
 	strh r1, [r0]
-	bl sub_806A8F0
+	bl func_0806A8F0
 	b _0806A8E8
 	.align 2, 0
 _0806A4EC: .4byte Unk_03002594
 _0806A4F0:
-	bl sub_806A964
+	bl func_0806A964
 	b _0806A8E8
 _0806A4F6:
 	ldr r0, _0806A554
@@ -281,7 +281,7 @@ _0806A5D4: .4byte 0x0000C087
 _0806A5D8: .4byte DispCnt
 _0806A5DC: .4byte 0x00001401
 _0806A5E0:
-	bl sub_806A8F0
+	bl func_0806A8F0
 	ldr r0, _0806A608
 	ldr r1, _0806A608
 	ldrh r2, [r1]
@@ -637,15 +637,15 @@ _0806A8D8: .4byte 0x0000C087
 _0806A8DC: .4byte DispCnt
 _0806A8E0: .4byte 0x00001401
 _0806A8E4:
-	bl sub_806A8F0
+	bl func_0806A8F0
 _0806A8E8:
 	add sp, #0x40
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_806A8F0
-sub_806A8F0: @ 0x0806A8F0
+	THUMB_FUNC_START func_0806A8F0
+func_0806A8F0: @ 0x0806A8F0
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _0806A934
@@ -695,8 +695,8 @@ _0806A958: .4byte Bg3Cnt
 _0806A95C: .4byte 0x00004207
 _0806A960: .4byte DispCnt
 
-	THUMB_FUNC_START sub_806A964
-sub_806A964: @ 0x0806A964
+	THUMB_FUNC_START func_0806A964
+func_0806A964: @ 0x0806A964
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _0806A9AC
@@ -747,8 +747,8 @@ _0806A9D4: .4byte 0x00001008
 _0806A9D8: .4byte Unk_03005BA4
 _0806A9DC: .4byte Unk_03002594
 
-	THUMB_FUNC_START sub_806A9E0
-sub_806A9E0: @ 0x0806A9E0
+	THUMB_FUNC_START func_0806A9E0
+func_0806A9E0: @ 0x0806A9E0
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _0806A9F8

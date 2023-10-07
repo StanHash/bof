@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_806AEE0
-sub_806AEE0: @ 0x0806AEE0
+	THUMB_FUNC_START func_0806AEE0
+func_0806AEE0: @ 0x0806AEE0
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -23,7 +23,7 @@ sub_806AEE0: @ 0x0806AEE0
 	adds r0, r7, #0
 	ldrh r1, [r0]
 	adds r0, r1, #0
-	bl sub_806ADD4
+	bl func_0806ADD4
 	b _0806AFD6
 	.align 2, 0
 _0806AF10: .4byte Unk_081266DC
@@ -73,7 +73,7 @@ _0806AF5A:
 	adds r0, r7, #0
 	ldrh r1, [r0]
 	adds r0, r1, #0
-	bl sub_806ADD4
+	bl func_0806ADD4
 	b _0806AFBE
 _0806AF6E:
 	movs r0, #0x3f
@@ -98,7 +98,7 @@ _0806AF8C:
 	ldr r2, _0806AFB0
 	adds r1, r2, #0
 	strh r1, [r0]
-	bl sub_806B420
+	bl func_0806B420
 	b _0806AFBE
 	.align 2, 0
 _0806AFA4: .4byte Unk_03005BB8
@@ -109,7 +109,7 @@ _0806AFB4:
 	adds r0, r7, #0
 	ldrh r1, [r0]
 	adds r0, r1, #0
-	bl sub_806ADD4
+	bl func_0806ADD4
 _0806AFBE:
 	b _0806AFD6
 _0806AFC0:
@@ -122,7 +122,7 @@ _0806AFC0:
 	lsls r2, r2, #6
 	adds r1, r2, #0
 	strh r1, [r0]
-	bl sub_806B420
+	bl func_0806B420
 _0806AFD6:
 	add sp, #0xc
 	pop {r7}
@@ -133,8 +133,8 @@ _0806AFE0: .4byte Unk_03005BA8
 _0806AFE4: .4byte 0x00007F01
 _0806AFE8: .4byte Unk_03005BAC
 
-	THUMB_FUNC_START sub_806AFEC
-sub_806AFEC: @ 0x0806AFEC
+	THUMB_FUNC_START func_0806AFEC
+func_0806AFEC: @ 0x0806AFEC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -143,7 +143,7 @@ sub_806AFEC: @ 0x0806AFEC
 	adds r0, r7, #0
 	ldrh r1, [r0]
 	adds r0, r1, #0
-	bl sub_806ADD4
+	bl func_0806ADD4
 	add sp, #4
 	pop {r7}
 	pop {r0}

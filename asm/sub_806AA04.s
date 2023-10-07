@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_806AA04
-sub_806AA04: @ 0x0806AA04
+	THUMB_FUNC_START func_0806AA04
+func_0806AA04: @ 0x0806AA04
 	push {r4, r5, r7, lr}
 	sub sp, #0x18
 	mov r7, sp
@@ -151,8 +151,8 @@ _0806AB10:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_806AB18
-sub_806AB18: @ 0x0806AB18
+	THUMB_FUNC_START func_0806AB18
+func_0806AB18: @ 0x0806AB18
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _0806AB9C
@@ -236,8 +236,8 @@ _0806ABCC: .4byte BlendCnt
 _0806ABD0: .4byte 0x00003E41
 _0806ABD4: .4byte BlendAlpha
 
-	THUMB_FUNC_START sub_806ABD8
-sub_806ABD8: @ 0x0806ABD8
+	THUMB_FUNC_START func_0806ABD8
+func_0806ABD8: @ 0x0806ABD8
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _0806AC0C
@@ -275,8 +275,8 @@ _0806AC24: .4byte 0x0000400F
 _0806AC28: .4byte Bg3Cnt
 _0806AC2C: .4byte 0x00004207
 
-	THUMB_FUNC_START sub_806AC30
-sub_806AC30: @ 0x0806AC30
+	THUMB_FUNC_START func_0806AC30
+func_0806AC30: @ 0x0806AC30
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -314,7 +314,7 @@ sub_806AC30: @ 0x0806AC30
 	ldrh r1, [r2]
 	ldr r3, _0806ACD4
 	ldrh r2, [r3]
-	bl sub_806B480
+	bl func_0806B480
 	ldr r1, _0806ACCC
 	ldr r0, _0806ACCC
 	ldr r1, _0806ACCC
@@ -357,8 +357,8 @@ _0806ACD0: .4byte Unk_03005BB8
 _0806ACD4: .4byte Unk_03005BA8
 _0806ACD8: .4byte Unk_0300517C
 
-	THUMB_FUNC_START sub_806ACDC
-sub_806ACDC: @ 0x0806ACDC
+	THUMB_FUNC_START func_0806ACDC
+func_0806ACDC: @ 0x0806ACDC
 	push {r7, lr}
 	mov r7, sp
 	ldr r1, _0806AD18
@@ -367,7 +367,7 @@ sub_806ACDC: @ 0x0806ACDC
 	ldrh r1, [r2]
 	ldr r3, _0806AD20
 	ldrh r2, [r3]
-	bl sub_806B480
+	bl func_0806B480
 	ldr r1, _0806AD18
 	ldr r0, _0806AD18
 	ldr r1, _0806AD18
@@ -395,8 +395,8 @@ _0806AD1C: .4byte Unk_03005BB8
 _0806AD20: .4byte Unk_03005BA8
 _0806AD24: .4byte Unk_0300517C
 
-	THUMB_FUNC_START sub_806AD28
-sub_806AD28: @ 0x0806AD28
+	THUMB_FUNC_START func_0806AD28
+func_0806AD28: @ 0x0806AD28
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -441,7 +441,7 @@ sub_806AD28: @ 0x0806AD28
 	adds r0, r7, #0
 	ldrh r1, [r0]
 	adds r0, r1, #0
-	bl sub_806ADD4
+	bl func_0806ADD4
 	b _0806ADC2
 	.align 2, 0
 _0806AD88: .4byte Unk_03005BB4

@@ -41,7 +41,7 @@ _08100DF8: @ jump table
 	.4byte _08100E70 @ case 16
 _08100E3C:
 	ldr r0, [r7]
-	bl sub_80FC73C
+	bl func_080FC73C
 	b _08100E98
 _08100E44:
 	ldr r0, [r7]
@@ -49,19 +49,19 @@ _08100E44:
 	b _08100E98
 _08100E4C:
 	ldr r0, [r7]
-	bl sub_8101194
+	bl func_08101194
 	b _08100E98
 _08100E54:
 	ldr r0, [r7]
-	bl sub_80FD0A4
+	bl func_080FD0A4
 	b _08100E98
 _08100E5C:
 	ldr r0, [r7]
-	bl sub_80FD624
+	bl func_080FD624
 	b _08100E98
 _08100E64:
 	ldr r0, [r7]
-	bl sub_80D80B0
+	bl func_080D80B0
 	b _08100E98
 _08100E6C:
 	b _08100E98
@@ -69,7 +69,7 @@ _08100E6E:
 	b _08100E98
 _08100E70:
 	ldr r0, [r7]
-	bl sub_80D8F8C
+	bl func_080D8F8C
 	b _08100E98
 _08100E78:
 	ldr r0, _08100E90
@@ -87,7 +87,7 @@ _08100E90: .4byte Unk_0812DDDC
 _08100E94: .4byte Unk_0812DDFC
 _08100E98:
 	ldr r0, [r7]
-	bl sub_80D7D08
+	bl func_080D7D08
 	add sp, #4
 	pop {r4, r7}
 	pop {r0}
@@ -135,23 +135,23 @@ _08100EE0: @ jump table
 	.4byte _08100F24 @ case 8
 _08100F04:
 	ldr r0, [r7]
-	bl sub_8101080
+	bl func_08101080
 	b _08100F4C
 _08100F0C:
 	ldr r0, [r7]
-	bl sub_8100F54
+	bl func_08100F54
 	b _08100F4C
 _08100F14:
 	ldr r0, [r7]
-	bl sub_8100FEC
+	bl func_08100FEC
 	b _08100F4C
 _08100F1C:
 	ldr r0, [r7]
-	bl sub_8101098
+	bl func_08101098
 	b _08100F4C
 _08100F24:
 	ldr r0, [r7]
-	bl sub_8101110
+	bl func_08101110
 	b _08100F4C
 _08100F2C:
 	ldr r0, _08100F44
@@ -173,14 +173,14 @@ _08100F4C:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8100F54
-sub_8100F54: @ 0x08100F54
+	THUMB_FUNC_START func_08100F54
+func_08100F54: @ 0x08100F54
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0F2C
+	bl func_080D0F2C
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #0
@@ -194,7 +194,7 @@ _08100F6C:
 	ldr r0, [r7]
 	movs r2, #8
 	movs r3, #0xc
-	bl sub_80631B8
+	bl func_080631B8
 	adds r0, r7, #4
 	ldr r2, [r7]
 	adds r1, r2, #0
@@ -226,9 +226,9 @@ _08100F6C:
 	strh r2, [r0, #0x38]
 	ldr r0, [r7]
 	movs r1, #2
-	bl sub_806251C
+	bl func_0806251C
 	ldr r0, [r7]
-	bl sub_80DA014
+	bl func_080DA014
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x4d
@@ -242,21 +242,21 @@ _08100F6C:
 	adds r2, r1, #0
 	strb r2, [r0]
 	ldr r0, [r7]
-	bl sub_8100FEC
+	bl func_08100FEC
 _08100FE4:
 	add sp, #0xc
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8100FEC
-sub_8100FEC: @ 0x08100FEC
+	THUMB_FUNC_START func_08100FEC
+func_08100FEC: @ 0x08100FEC
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8062F7C
+	bl func_08062F7C
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x70
@@ -272,7 +272,7 @@ sub_8100FEC: @ 0x08100FEC
 	ldr r0, [r7]
 	movs r2, #8
 	movs r3, #0xc
-	bl sub_80631B8
+	bl func_080631B8
 	adds r0, r7, #4
 	ldr r2, [r7]
 	adds r1, r2, #0
@@ -314,37 +314,37 @@ sub_8100FEC: @ 0x08100FEC
 	strb r2, [r0]
 	ldr r0, [r7]
 	movs r1, #4
-	bl sub_806251C
+	bl func_0806251C
 _08101072:
 	ldr r0, [r7]
-	bl sub_8101080
+	bl func_08101080
 	add sp, #0xc
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8101080
-sub_8101080: @ 0x08101080
+	THUMB_FUNC_START func_08101080
+func_08101080: @ 0x08101080
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0E50
+	bl func_080D0E50
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8101098
-sub_8101098: @ 0x08101098
+	THUMB_FUNC_START func_08101098
+func_08101098: @ 0x08101098
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80E7C04
+	bl func_080E7C04
 	adds r0, r7, #4
 	ldr r2, [r7]
 	adds r1, r2, #0
@@ -392,20 +392,20 @@ sub_8101098: @ 0x08101098
 	adds r2, r1, #0
 	strb r2, [r0]
 	ldr r0, [r7]
-	bl sub_8101080
+	bl func_08101080
 	add sp, #8
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8101110
-sub_8101110: @ 0x08101110
+	THUMB_FUNC_START func_08101110
+func_08101110: @ 0x08101110
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0F2C
+	bl func_080D0F2C
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #0
@@ -459,7 +459,7 @@ _08101128:
 	strh r1, [r0, #0x2c]
 	ldr r0, [r7]
 	movs r1, #0
-	bl sub_80DA4E0
+	bl func_080DA4E0
 _0810118A:
 	add sp, #8
 	pop {r7}
@@ -467,8 +467,8 @@ _0810118A:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8101194
-sub_8101194: @ 0x08101194
+	THUMB_FUNC_START func_08101194
+func_08101194: @ 0x08101194
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -482,10 +482,10 @@ sub_8101194: @ 0x08101194
 	ldr r0, [r7]
 	movs r1, #4
 	movs r2, #8
-	bl sub_806242C
+	bl func_0806242C
 _081011B2:
 	ldr r0, [r7]
-	bl sub_80FCF6C
+	bl func_080FCF6C
 	ldr r1, [r7]
 	adds r0, r1, #0
 	adds r1, #0x4c
@@ -494,21 +494,21 @@ _081011B2:
 	beq _081011CC
 	ldr r0, [r7]
 	movs r1, #0
-	bl sub_806251C
+	bl func_0806251C
 _081011CC:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_81011D4
-sub_81011D4: @ 0x081011D4
+	THUMB_FUNC_START func_081011D4
+func_081011D4: @ 0x081011D4
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101424
+	bl func_08101424
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	str r0, [r7, #8]
@@ -543,14 +543,14 @@ _0810121C:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_8101224
-sub_8101224: @ 0x08101224
+	THUMB_FUNC_START func_08101224
+func_08101224: @ 0x08101224
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101424
+	bl func_08101424
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	str r0, [r7, #8]
@@ -586,14 +586,14 @@ _0810126C:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_8101274
-sub_8101274: @ 0x08101274
+	THUMB_FUNC_START func_08101274
+func_08101274: @ 0x08101274
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101424
+	bl func_08101424
 	adds r1, r7, #4
 	strh r0, [r1]
 	ldr r0, _081012AC
@@ -622,14 +622,14 @@ _081012B0:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_81012B8
-sub_81012B8: @ 0x081012B8
+	THUMB_FUNC_START func_081012B8
+func_081012B8: @ 0x081012B8
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101424
+	bl func_08101424
 	adds r1, r7, #4
 	strh r0, [r1]
 	ldr r0, _081012F0
@@ -659,14 +659,14 @@ _081012F4:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_81012FC
-sub_81012FC: @ 0x081012FC
+	THUMB_FUNC_START func_081012FC
+func_081012FC: @ 0x081012FC
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101458
+	bl func_08101458
 	adds r1, r7, #6
 	strh r0, [r1]
 	adds r0, r7, #4
@@ -702,15 +702,15 @@ _08101344:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_810134C
-sub_810134C: @ 0x0810134C
+	THUMB_FUNC_START func_0810134C
+func_0810134C: @ 0x0810134C
 	push {r4, r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	adds r4, r7, #4
 	ldr r0, [r7]
-	bl sub_8101458
+	bl func_08101458
 	ldr r2, [r7]
 	adds r1, r2, #0
 	adds r2, #0xe1
@@ -744,14 +744,14 @@ sub_810134C: @ 0x0810134C
 	.align 2, 0
 _08101398: .4byte Unk_0839A96C
 
-	THUMB_FUNC_START sub_810139C
-sub_810139C: @ 0x0810139C
+	THUMB_FUNC_START func_0810139C
+func_0810139C: @ 0x0810139C
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101458
+	bl func_08101458
 	adds r1, r7, #4
 	strh r0, [r1]
 	ldr r0, _081013D4
@@ -780,14 +780,14 @@ _081013D8:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_81013E0
-sub_81013E0: @ 0x081013E0
+	THUMB_FUNC_START func_081013E0
+func_081013E0: @ 0x081013E0
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_8101458
+	bl func_08101458
 	adds r1, r7, #4
 	strh r0, [r1]
 	ldr r0, _08101418
@@ -817,8 +817,8 @@ _0810141C:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_8101424
-sub_8101424: @ 0x08101424
+	THUMB_FUNC_START func_08101424
+func_08101424: @ 0x08101424
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -846,8 +846,8 @@ _08101450:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_8101458
-sub_8101458: @ 0x08101458
+	THUMB_FUNC_START func_08101458
+func_08101458: @ 0x08101458
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -893,11 +893,11 @@ _081014A8:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_81014B0
-sub_81014B0: @ 0x081014B0
+	THUMB_FUNC_START func_081014B0
+func_081014B0: @ 0x081014B0
 	push {r7, lr}
 	mov r7, sp
-	bl sub_8044B28
+	bl func_08044B28
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #2
@@ -941,8 +941,8 @@ _0810150C:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8101514
-sub_8101514: @ 0x08101514
+	THUMB_FUNC_START func_08101514
+func_08101514: @ 0x08101514
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -974,7 +974,7 @@ sub_8101514: @ 0x08101514
 	adds r2, r1, #0
 	strb r2, [r0]
 	ldr r0, [r7]
-	bl sub_810164C
+	bl func_0810164C
 	b _081015FE
 _08101558:
 	ldr r1, [r7]
@@ -1054,12 +1054,12 @@ _08101598:
 	cmp r0, #0
 	beq _081015F6
 	ldr r0, [r7]
-	bl sub_81016E0
+	bl func_081016E0
 	b _081015FE
 _081015F6:
 	ldr r0, [r7]
 	movs r1, #0
-	bl sub_810A904
+	bl func_0810A904
 _081015FE:
 	add sp, #4
 	pop {r7}
@@ -1067,8 +1067,8 @@ _081015FE:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8101608
-sub_8101608: @ 0x08101608
+	THUMB_FUNC_START func_08101608
+func_08101608: @ 0x08101608
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -1084,7 +1084,7 @@ sub_8101608: @ 0x08101608
 	cmp r1, #1
 	bne _0810162C
 	ldr r0, [r7]
-	bl sub_8101668
+	bl func_08101668
 	b _08101642
 _0810162C:
 	adds r0, r7, #4
@@ -1092,11 +1092,11 @@ _0810162C:
 	cmp r1, #2
 	bne _0810163C
 	ldr r0, [r7]
-	bl sub_810169C
+	bl func_0810169C
 	b _08101642
 _0810163C:
 	ldr r0, [r7]
-	bl sub_810164C
+	bl func_0810164C
 _08101642:
 	add sp, #8
 	pop {r7}
@@ -1104,102 +1104,102 @@ _08101642:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_810164C
-sub_810164C: @ 0x0810164C
+	THUMB_FUNC_START func_0810164C
+func_0810164C: @ 0x0810164C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	movs r0, #5
-	bl sub_8062094
+	bl func_08062094
 	ldr r0, [r7]
-	bl sub_8101DBC
+	bl func_08101DBC
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8101668
-sub_8101668: @ 0x08101668
+	THUMB_FUNC_START func_08101668
+func_08101668: @ 0x08101668
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0F4C
+	bl func_080D0F4C
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #0
 	beq _08101686
 	ldr r0, [r7]
-	bl sub_81016C8
+	bl func_081016C8
 	b _08101694
 _08101686:
 	ldr r0, [r7]
 	movs r1, #0x2c
-	bl sub_80E6B90
+	bl func_080E6B90
 	ldr r0, [r7]
-	bl sub_8101DBC
+	bl func_08101DBC
 _08101694:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_810169C
-sub_810169C: @ 0x0810169C
+	THUMB_FUNC_START func_0810169C
+func_0810169C: @ 0x0810169C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0F4C
+	bl func_080D0F4C
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #0
 	bne _081016BA
 	ldr r0, [r7]
-	bl sub_81016E0
+	bl func_081016E0
 	b _081016C0
 _081016BA:
 	ldr r0, [r7]
-	bl sub_81016C8
+	bl func_081016C8
 _081016C0:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_81016C8
-sub_81016C8: @ 0x081016C8
+	THUMB_FUNC_START func_081016C8
+func_081016C8: @ 0x081016C8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_81039A4
+	bl func_081039A4
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_81016E0
-sub_81016E0: @ 0x081016E0
+	THUMB_FUNC_START func_081016E0
+func_081016E0: @ 0x081016E0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_81028F0
+	bl func_081028F0
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_81016F8
-sub_81016F8: @ 0x081016F8
+	THUMB_FUNC_START func_081016F8
+func_081016F8: @ 0x081016F8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1211,11 +1211,11 @@ sub_81016F8: @ 0x081016F8
 	cmp r0, #0
 	bne _08101714
 	ldr r0, [r7]
-	bl sub_810164C
+	bl func_0810164C
 	b _0810171A
 _08101714:
 	ldr r0, [r7]
-	bl sub_8101724
+	bl func_08101724
 _0810171A:
 	add sp, #4
 	pop {r7}
@@ -1223,8 +1223,8 @@ _0810171A:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8101724
-sub_8101724: @ 0x08101724
+	THUMB_FUNC_START func_08101724
+func_08101724: @ 0x08101724
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1236,14 +1236,14 @@ sub_8101724: @ 0x08101724
 	cmp r0, #0
 	beq _08101740
 	ldr r0, [r7]
-	bl sub_8101758
+	bl func_08101758
 	b _0810174E
 _08101740:
 	ldr r0, [r7]
 	movs r1, #0x10
-	bl sub_810A8AC
+	bl func_0810A8AC
 	ldr r0, [r7]
-	bl sub_8103960
+	bl func_08103960
 _0810174E:
 	add sp, #4
 	pop {r7}
@@ -1251,24 +1251,24 @@ _0810174E:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_8101758
-sub_8101758: @ 0x08101758
+	THUMB_FUNC_START func_08101758
+func_08101758: @ 0x08101758
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
-	bl sub_80D0F4C
+	bl func_080D0F4C
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #0
 	beq _08101776
 	ldr r0, [r7]
-	bl sub_81039A4
+	bl func_081039A4
 	b _0810177C
 _08101776:
 	ldr r0, [r7]
-	bl sub_8108BDC
+	bl func_08108BDC
 _0810177C:
 	add sp, #4
 	pop {r7}

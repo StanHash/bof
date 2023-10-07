@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_8044D30
-sub_8044D30: @ 0x08044D30
+	THUMB_FUNC_START func_08044D30
+func_08044D30: @ 0x08044D30
 	push {r7, lr}
 	sub sp, #0x24
 	mov r7, sp
@@ -99,13 +99,13 @@ _08044DBE:
 	adds r1, r0, #0
 	adds r1, #0xa0
 	adds r0, r1, #0
-	bl sub_8045738
+	bl func_08045738
 	ldr r1, _08044E6C
 	adds r0, r1, #0
 	adds r1, #0xa4
 	ldrh r2, [r1]
 	adds r0, r2, #0
-	bl sub_806A378
+	bl func_0806A378
 	ldr r1, [r7]
 	adds r0, r1, #0
 	adds r1, #0xa2
@@ -116,7 +116,7 @@ _08044DBE:
 	ldr r1, _08044E74
 	ldr r2, [r1]
 	adds r1, r2, #0
-	bl sub_8045804
+	bl func_08045804
 	ldr r1, [r7]
 	adds r0, r1, #0
 	adds r1, #0xa2
@@ -127,7 +127,7 @@ _08044DBE:
 	ldr r2, [r7]
 	adds r1, r2, #0
 	adds r1, #0x50
-	bl sub_8045804
+	bl func_08045804
 	ldr r0, _08044E78
 	movs r1, #0
 	strh r1, [r0]
@@ -165,7 +165,7 @@ _08044E80:
 	ldr r1, _08044EA0
 	ldr r2, [r1]
 	adds r1, r2, #0
-	bl sub_8044BE0
+	bl func_08044BE0
 	adds r1, r7, #4
 	adds r0, r7, #4
 	adds r1, r7, #4
@@ -198,7 +198,7 @@ _08044EA4:
 	adds r2, #8
 	adds r0, r1, #0
 	adds r1, r2, #0
-	bl sub_80616FC
+	bl func_080616FC
 _08044ED2:
 	add sp, #0x24
 	pop {r7}
@@ -210,8 +210,8 @@ _08044EE0: .4byte Unk_03005350
 _08044EE4: .4byte Unk_03005198
 _08044EE8: .4byte Unk_03005620
 
-	THUMB_FUNC_START sub_8044EEC
-sub_8044EEC: @ 0x08044EEC
+	THUMB_FUNC_START func_08044EEC
+func_08044EEC: @ 0x08044EEC
 	push {r4, r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -231,14 +231,14 @@ sub_8044EEC: @ 0x08044EEC
 	ldr r2, _08045080
 	ldr r3, _08045084
 	movs r1, #0x60
-	bl sub_8045C14
+	bl func_08045C14
 	ldr r1, [r7]
 	adds r0, r1, #0
 	adds r1, #0xab
 	ldrb r0, [r1]
 	ldr r1, _08045088
 	ldr r2, _0804508C
-	bl sub_80458FC
+	bl func_080458FC
 	ldr r0, _08045090
 	movs r1, #7
 	strh r1, [r0]
@@ -263,8 +263,8 @@ _08044F48:
 	beq _08044F6C
 	ldr r1, _080450A8
 	adds r0, r1, #0
-	bl sub_8044D30
-	bl sub_80986C4
+	bl func_08044D30
+	bl func_080986C4
 	ldr r0, _0804507C
 	movs r2, #0xa8
 	lsls r2, r2, #5
@@ -297,7 +297,7 @@ _08044F86:
 	adds r2, #0xa0
 	ldr r4, _080450BC
 	ldr r3, [r4]
-	bl sub_8045434
+	bl func_08045434
 	ldr r1, [r7]
 	adds r0, r1, #0
 	adds r0, #0xa0
@@ -306,15 +306,15 @@ _08044F86:
 	ldr r3, [r7]
 	adds r2, r3, #0
 	adds r2, #0x50
-	bl sub_80455A8
+	bl func_080455A8
 	ldr r0, _080450BC
 	ldr r1, [r0]
 	ldr r2, _080450C0
 	adds r0, r1, #0
 	adds r1, r2, #0
-	bl sub_8048DD0
+	bl func_08048DD0
 	movs r0, #1
-	bl sub_8000314
+	bl func_08000314
 	ldr r0, _080450C4
 	ldr r1, _080450C4
 	ldrb r2, [r1]
@@ -328,7 +328,7 @@ _08044F86:
 	adds r1, #0xa4
 	ldrh r2, [r1]
 	adds r0, r2, #0
-	bl sub_80618F8
+	bl func_080618F8
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0xff
@@ -336,7 +336,7 @@ _08044F86:
 	ldr r0, _080450BC
 	ldr r1, [r0]
 	adds r0, r1, #0
-	bl sub_8046D60
+	bl func_08046D60
 	ldr r0, _080450C8
 	ldr r1, _080450CC
 	ldrh r2, [r1]
@@ -359,7 +359,7 @@ _08044F86:
 	adds r1, r0, #0
 	adds r1, #0x50
 	adds r0, r1, #0
-	bl sub_8046D60
+	bl func_08046D60
 _08045024:
 	ldr r1, _08045070
 	ldr r0, [r1]
@@ -369,7 +369,7 @@ _08045024:
 	adds r1, r2, #0
 	bl draw_part_of_map
 	movs r0, #0
-	bl sub_804608C
+	bl func_0804608C
 _0804503A:
 	ldr r0, _0804507C
 	movs r2, #0xf0

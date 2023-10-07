@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_80DB8F0
-sub_80DB8F0: @ 0x080DB8F0
+	THUMB_FUNC_START func_080DB8F0
+func_080DB8F0: @ 0x080DB8F0
 	push {r4, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -60,7 +60,7 @@ sub_80DB8F0: @ 0x080DB8F0
 	adds r0, r0, r2
 	ldrb r1, [r0]
 	ldr r0, [r7]
-	bl sub_806251C
+	bl func_0806251C
 	add sp, #0x10
 	pop {r4, r7}
 	pop {r0}
@@ -68,8 +68,8 @@ sub_80DB8F0: @ 0x080DB8F0
 	.align 2, 0
 _080DB970: .4byte Unk_0812BF54
 
-	THUMB_FUNC_START sub_80DB974
-sub_80DB974: @ 0x080DB974
+	THUMB_FUNC_START func_080DB974
+func_080DB974: @ 0x080DB974
 	push {r7, lr}
 	mov r7, sp
 	ldr r1, _080DB98C
@@ -77,15 +77,15 @@ sub_80DB974: @ 0x080DB974
 	adds r1, #0x5b
 	ldrb r2, [r1]
 	adds r0, r2, #0
-	bl sub_80051D0
+	bl func_080051D0
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 _080DB98C: .4byte Unk_03006B10
 
-	THUMB_FUNC_START sub_80DB990
-sub_80DB990: @ 0x080DB990
+	THUMB_FUNC_START func_080DB990
+func_080DB990: @ 0x080DB990
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _080DB9C0
@@ -118,8 +118,8 @@ _080DB9CC:
 	bx r1
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DB9D4
-sub_80DB9D4: @ 0x080DB9D4
+	THUMB_FUNC_START func_080DB9D4
+func_080DB9D4: @ 0x080DB9D4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -166,8 +166,8 @@ _080DBA24: .4byte Unk_030055D0
 _080DBA28: .4byte Unk_082178B0
 _080DBA2C: .4byte Unk_03006B10
 
-	THUMB_FUNC_START sub_80DBA30
-sub_80DBA30: @ 0x080DBA30
+	THUMB_FUNC_START func_080DBA30
+func_080DBA30: @ 0x080DBA30
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -251,12 +251,12 @@ _080DBA74:
 	cmp r0, #0
 	beq _080DBADE
 	movs r0, #7
-	bl sub_805A054
+	bl func_0805A054
 _080DBADE:
 	ldr r0, _080DBB00
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -268,8 +268,8 @@ _080DBAF8: .4byte 0x00004A9C
 _080DBAFC: .4byte 0x000002B9
 _080DBB00: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBB04
-sub_80DBB04: @ 0x080DBB04
+	THUMB_FUNC_START func_080DBB04
+func_080DBB04: @ 0x080DBB04
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -308,7 +308,7 @@ sub_80DBB04: @ 0x080DBB04
 	lsls r1, r1, #1
 	ldr r2, _080DBB68
 	movs r0, #0x65
-	bl sub_80DE620
+	bl func_080DE620
 	b _080DBB76
 	.align 2, 0
 _080DBB5C: .4byte Unk_030055D0
@@ -319,7 +319,7 @@ _080DBB6C:
 	ldr r0, _080DBB80
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DBB76:
 	add sp, #4
 	pop {r7}
@@ -328,8 +328,8 @@ _080DBB76:
 	.align 2, 0
 _080DBB80: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBB84
-sub_80DBB84: @ 0x080DBB84
+	THUMB_FUNC_START func_080DBB84
+func_080DBB84: @ 0x080DBB84
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -338,7 +338,7 @@ sub_80DBB84: @ 0x080DBB84
 	ldr r0, _080DBBA0
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -346,8 +346,8 @@ sub_80DBB84: @ 0x080DBB84
 	.align 2, 0
 _080DBBA0: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBBA4
-sub_80DBBA4: @ 0x080DBBA4
+	THUMB_FUNC_START func_080DBBA4
+func_080DBBA4: @ 0x080DBBA4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -371,7 +371,7 @@ _080DBBCE:
 	ldr r0, _080DBBE4
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -380,8 +380,8 @@ _080DBBCE:
 _080DBBE0: .4byte Unk_03003110
 _080DBBE4: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBBE8
-sub_80DBBE8: @ 0x080DBBE8
+	THUMB_FUNC_START func_080DBBE8
+func_080DBBE8: @ 0x080DBBE8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -436,7 +436,7 @@ _080DBC02:
 	movs r1, #0xbc
 	lsls r1, r1, #1
 	ldr r2, _080DBC70
-	bl sub_80DE620
+	bl func_080DE620
 	b _080DBC7E
 	.align 2, 0
 _080DBC5C: .4byte SavedGameState
@@ -449,7 +449,7 @@ _080DBC74:
 	ldr r0, _080DBC80
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DBC7E:
 	b _080DBCEE
 	.align 2, 0
@@ -476,7 +476,7 @@ _080DBC84:
 	movs r1, #0xbc
 	lsls r1, r1, #1
 	ldr r2, _080DBCC4
-	bl sub_80DE620
+	bl func_080DE620
 	b _080DBCEE
 	.align 2, 0
 _080DBCB8: .4byte SavedGameState
@@ -501,7 +501,7 @@ _080DBCC8:
 	lsls r0, r0, #1
 	ldr r1, _080DBCF8
 	ldr r2, _080DBCFC
-	bl sub_80DE620
+	bl func_080DE620
 _080DBCEE:
 	b _080DBD0A
 	.align 2, 0
@@ -513,7 +513,7 @@ _080DBD00:
 	ldr r0, _080DBD14
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DBD0A:
 	add sp, #4
 	pop {r7}
@@ -522,8 +522,8 @@ _080DBD0A:
 	.align 2, 0
 _080DBD14: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBD18
-sub_80DBD18: @ 0x080DBD18
+	THUMB_FUNC_START func_080DBD18
+func_080DBD18: @ 0x080DBD18
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -534,15 +534,15 @@ sub_80DBD18: @ 0x080DBD18
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBB84
+	bl func_080DBB84
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DBD3C
-sub_80DBD3C: @ 0x080DBD3C
+	THUMB_FUNC_START func_080DBD3C
+func_080DBD3C: @ 0x080DBD3C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -555,7 +555,7 @@ sub_80DBD3C: @ 0x080DBD3C
 	ldr r0, _080DBD60
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DBD58:
 	add sp, #4
 	pop {r7}
@@ -564,8 +564,8 @@ _080DBD58:
 	.align 2, 0
 _080DBD60: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBD64
-sub_80DBD64: @ 0x080DBD64
+	THUMB_FUNC_START func_080DBD64
+func_080DBD64: @ 0x080DBD64
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -578,7 +578,7 @@ sub_80DBD64: @ 0x080DBD64
 	ldr r0, _080DBD84
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DBDB0
 	.align 2, 0
 _080DBD84: .4byte Unk_03005324
@@ -613,8 +613,8 @@ _080DBDB8: .4byte SavedGameState
 _080DBDBC: .4byte 0x00000978
 _080DBDC0: .4byte 0x0000527C
 
-	THUMB_FUNC_START sub_80DBDC4
-sub_80DBDC4: @ 0x080DBDC4
+	THUMB_FUNC_START func_080DBDC4
+func_080DBDC4: @ 0x080DBDC4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -641,7 +641,7 @@ sub_80DBDC4: @ 0x080DBDC4
 	adds r2, r1, #0
 	strh r2, [r0, #0xa]
 	movs r0, #0
-	bl sub_8057014
+	bl func_08057014
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -651,8 +651,8 @@ _080DBE04: .4byte SavedGameState
 _080DBE08: .4byte 0x00001198
 _080DBE0C: .4byte 0x00004C2C
 
-	THUMB_FUNC_START sub_80DBE10
-sub_80DBE10: @ 0x080DBE10
+	THUMB_FUNC_START func_080DBE10
+func_080DBE10: @ 0x080DBE10
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -700,7 +700,7 @@ sub_80DBE10: @ 0x080DBE10
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #1
-	bl sub_805B358
+	bl func_0805B358
 	ldr r0, _080DBEA8
 	ldr r2, _080DBEA8
 	adds r1, r2, #0
@@ -721,7 +721,7 @@ sub_80DBE10: @ 0x080DBE10
 	ldr r0, _080DBEAC
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DBED8
 	.align 2, 0
 _080DBEA0: .4byte SavedGameState
@@ -759,8 +759,8 @@ _080DBEE0: .4byte SavedGameState
 _080DBEE4: .4byte 0x00000EA8
 _080DBEE8: .4byte 0x0000FD9C
 
-	THUMB_FUNC_START sub_80DBEEC
-sub_80DBEEC: @ 0x080DBEEC
+	THUMB_FUNC_START func_080DBEEC
+func_080DBEEC: @ 0x080DBEEC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -790,7 +790,7 @@ sub_80DBEEC: @ 0x080DBEEC
 	ldr r0, _080DBF30
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DBF5C
 	.align 2, 0
 _080DBF2C: .4byte Unk_030037E0
@@ -826,8 +826,8 @@ _080DBF64: .4byte SavedGameState
 _080DBF68: .4byte 0x00001988
 _080DBF6C: .4byte 0x0000568C
 
-	THUMB_FUNC_START sub_80DBF70
-sub_80DBF70: @ 0x080DBF70
+	THUMB_FUNC_START func_080DBF70
+func_080DBF70: @ 0x080DBF70
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -857,7 +857,7 @@ sub_80DBF70: @ 0x080DBF70
 	ldr r0, _080DBFBC
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DBFAE:
 	add sp, #4
 	pop {r7}
@@ -867,8 +867,8 @@ _080DBFAE:
 _080DBFB8: .4byte Unk_030037E0
 _080DBFBC: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DBFC0
-sub_80DBFC0: @ 0x080DBFC0
+	THUMB_FUNC_START func_080DBFC0
+func_080DBFC0: @ 0x080DBFC0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -914,7 +914,7 @@ sub_80DBFC0: @ 0x080DBFC0
 	ldr r0, _080DC028
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC054
 	.align 2, 0
 _080DC020: .4byte Unk_030037E0
@@ -951,8 +951,8 @@ _080DC05C: .4byte SavedGameState
 _080DC060: .4byte 0x00000EA8
 _080DC064: .4byte 0x0000FD7C
 
-	THUMB_FUNC_START sub_80DC068
-sub_80DC068: @ 0x080DC068
+	THUMB_FUNC_START func_080DC068
+func_080DC068: @ 0x080DC068
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1012,12 +1012,12 @@ sub_80DC068: @ 0x080DC068
 	cmp r0, #0
 	beq _080DC0E4
 	movs r0, #7
-	bl sub_805A054
+	bl func_0805A054
 _080DC0E4:
 	ldr r0, _080DC100
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC144
 	.align 2, 0
 _080DC0F0: .4byte SavedGameState
@@ -1068,8 +1068,8 @@ _080DC150: .4byte 0x000010F8
 _080DC154: .4byte 0x00004BCC
 _080DC158: .4byte 0x000002AD
 
-	THUMB_FUNC_START sub_80DC15C
-sub_80DC15C: @ 0x080DC15C
+	THUMB_FUNC_START func_080DC15C
+func_080DC15C: @ 0x080DC15C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1078,14 +1078,14 @@ sub_80DC15C: @ 0x080DC15C
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC178
-sub_80DC178: @ 0x080DC178
+	THUMB_FUNC_START func_080DC178
+func_080DC178: @ 0x080DC178
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1094,14 +1094,14 @@ sub_80DC178: @ 0x080DC178
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC194
-sub_80DC194: @ 0x080DC194
+	THUMB_FUNC_START func_080DC194
+func_080DC194: @ 0x080DC194
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1110,21 +1110,21 @@ sub_80DC194: @ 0x080DC194
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC1B0
-sub_80DC1B0: @ 0x080DC1B0
+	THUMB_FUNC_START func_080DC1B0
+func_080DC1B0: @ 0x080DC1B0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #3
-	bl sub_805A054
+	bl func_0805A054
 	ldr r0, _080DC280
 	ldr r2, _080DC280
 	adds r1, r2, #0
@@ -1227,8 +1227,8 @@ _080DC288: .4byte 0x00001768
 _080DC28C: .4byte 0x0000474C
 _080DC290: .4byte Unk_03003110
 
-	THUMB_FUNC_START sub_80DC294
-sub_80DC294: @ 0x080DC294
+	THUMB_FUNC_START func_080DC294
+func_080DC294: @ 0x080DC294
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1237,14 +1237,14 @@ sub_80DC294: @ 0x080DC294
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC2B0
-sub_80DC2B0: @ 0x080DC2B0
+	THUMB_FUNC_START func_080DC2B0
+func_080DC2B0: @ 0x080DC2B0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1253,14 +1253,14 @@ sub_80DC2B0: @ 0x080DC2B0
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC2CC
-sub_80DC2CC: @ 0x080DC2CC
+	THUMB_FUNC_START func_080DC2CC
+func_080DC2CC: @ 0x080DC2CC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1290,7 +1290,7 @@ sub_80DC2CC: @ 0x080DC2CC
 	ldr r0, _080DC310
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC33C
 	.align 2, 0
 _080DC30C: .4byte Unk_030037E0
@@ -1326,8 +1326,8 @@ _080DC344: .4byte SavedGameState
 _080DC348: .4byte 0x00000D88
 _080DC34C: .4byte 0x0000FDCC
 
-	THUMB_FUNC_START sub_80DC350
-sub_80DC350: @ 0x080DC350
+	THUMB_FUNC_START func_080DC350
+func_080DC350: @ 0x080DC350
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1357,7 +1357,7 @@ sub_80DC350: @ 0x080DC350
 	ldr r0, _080DC394
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC39E
 	.align 2, 0
 _080DC390: .4byte Unk_030037E0
@@ -1372,8 +1372,8 @@ _080DC39E:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DC3A8
-sub_80DC3A8: @ 0x080DC3A8
+	THUMB_FUNC_START func_080DC3A8
+func_080DC3A8: @ 0x080DC3A8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1413,7 +1413,7 @@ sub_80DC3A8: @ 0x080DC3A8
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #1
-	bl sub_805B358
+	bl func_0805B358
 	ldr r0, _080DC430
 	ldr r2, _080DC430
 	adds r1, r2, #0
@@ -1434,7 +1434,7 @@ sub_80DC3A8: @ 0x080DC3A8
 	ldr r0, _080DC434
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC460
 	.align 2, 0
 _080DC428: .4byte SavedGameState
@@ -1472,8 +1472,8 @@ _080DC468: .4byte SavedGameState
 _080DC46C: .4byte 0x00000D98
 _080DC470: .4byte 0x0000FD9C
 
-	THUMB_FUNC_START sub_80DC474
-sub_80DC474: @ 0x080DC474
+	THUMB_FUNC_START func_080DC474
+func_080DC474: @ 0x080DC474
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1482,14 +1482,14 @@ sub_80DC474: @ 0x080DC474
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC490
-sub_80DC490: @ 0x080DC490
+	THUMB_FUNC_START func_080DC490
+func_080DC490: @ 0x080DC490
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1578,7 +1578,7 @@ _080DC4D8:
 	ldr r0, _080DC55C
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DC548:
 	add sp, #4
 	pop {r7}
@@ -1590,8 +1590,8 @@ _080DC554: .4byte 0x0000A1FC
 _080DC558: .4byte 0x000002B9
 _080DC55C: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DC560
-sub_80DC560: @ 0x080DC560
+	THUMB_FUNC_START func_080DC560
+func_080DC560: @ 0x080DC560
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1604,7 +1604,7 @@ sub_80DC560: @ 0x080DC560
 	ldr r0, _080DC580
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC5A4
 	.align 2, 0
 _080DC580: .4byte Unk_03005324
@@ -1633,8 +1633,8 @@ _080DC5A4:
 	.align 2, 0
 _080DC5AC: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DC5B0
-sub_80DC5B0: @ 0x080DC5B0
+	THUMB_FUNC_START func_080DC5B0
+func_080DC5B0: @ 0x080DC5B0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1649,7 +1649,7 @@ sub_80DC5B0: @ 0x080DC5B0
 	ldr r0, _080DC5DC
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DC5D2:
 	add sp, #4
 	pop {r7}
@@ -1658,8 +1658,8 @@ _080DC5D2:
 	.align 2, 0
 _080DC5DC: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DC5E0
-sub_80DC5E0: @ 0x080DC5E0
+	THUMB_FUNC_START func_080DC5E0
+func_080DC5E0: @ 0x080DC5E0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1668,14 +1668,14 @@ sub_80DC5E0: @ 0x080DC5E0
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC5FC
-sub_80DC5FC: @ 0x080DC5FC
+	THUMB_FUNC_START func_080DC5FC
+func_080DC5FC: @ 0x080DC5FC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1688,7 +1688,7 @@ sub_80DC5FC: @ 0x080DC5FC
 	ldr r0, _080DC61C
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC64E
 	.align 2, 0
 _080DC61C: .4byte Unk_03005324
@@ -1725,8 +1725,8 @@ _080DC658: .4byte SavedGameState
 _080DC65C: .4byte 0x00000D98
 _080DC660: .4byte 0x00005C8C
 
-	THUMB_FUNC_START sub_80DC664
-sub_80DC664: @ 0x080DC664
+	THUMB_FUNC_START func_080DC664
+func_080DC664: @ 0x080DC664
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1739,7 +1739,7 @@ sub_80DC664: @ 0x080DC664
 	ldr r0, _080DC684
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC6D4
 	.align 2, 0
 _080DC684: .4byte Unk_03005324
@@ -1793,8 +1793,8 @@ _080DC6E0: .4byte SavedGameState
 _080DC6E4: .4byte 0x00001038
 _080DC6E8: .4byte 0x000059BC
 
-	THUMB_FUNC_START sub_80DC6EC
-sub_80DC6EC: @ 0x080DC6EC
+	THUMB_FUNC_START func_080DC6EC
+func_080DC6EC: @ 0x080DC6EC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1803,14 +1803,14 @@ sub_80DC6EC: @ 0x080DC6EC
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC708
-sub_80DC708: @ 0x080DC708
+	THUMB_FUNC_START func_080DC708
+func_080DC708: @ 0x080DC708
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1819,14 +1819,14 @@ sub_80DC708: @ 0x080DC708
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DC724
-sub_80DC724: @ 0x080DC724
+	THUMB_FUNC_START func_080DC724
+func_080DC724: @ 0x080DC724
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1872,7 +1872,7 @@ sub_80DC724: @ 0x080DC724
 	ldr r0, _080DC794
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DC782:
 	add sp, #4
 	pop {r7}
@@ -1883,8 +1883,8 @@ _080DC78C: .4byte Unk_030055D0
 _080DC790: .4byte Unk_030037E0
 _080DC794: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DC798
-sub_80DC798: @ 0x080DC798
+	THUMB_FUNC_START func_080DC798
+func_080DC798: @ 0x080DC798
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -1962,7 +1962,7 @@ sub_80DC798: @ 0x080DC798
 	ldr r0, _080DC84C
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC856
 	.align 2, 0
 _080DC838: .4byte SavedGameState
@@ -1981,8 +1981,8 @@ _080DC856:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DC860
-sub_80DC860: @ 0x080DC860
+	THUMB_FUNC_START func_080DC860
+func_080DC860: @ 0x080DC860
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2028,7 +2028,7 @@ sub_80DC860: @ 0x080DC860
 	ldr r0, _080DC8C8
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DC8F4
 	.align 2, 0
 _080DC8C0: .4byte Unk_030037E0
@@ -2065,8 +2065,8 @@ _080DC8FC: .4byte SavedGameState
 _080DC900: .4byte 0x00000C78
 _080DC904: .4byte 0x000097CC
 
-	THUMB_FUNC_START sub_80DC908
-sub_80DC908: @ 0x080DC908
+	THUMB_FUNC_START func_080DC908
+func_080DC908: @ 0x080DC908
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2140,7 +2140,7 @@ sub_80DC908: @ 0x080DC908
 	ldr r0, _080DC9B4
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DCA00
 	.align 2, 0
 _080DC9A0: .4byte Unk_030037E0
@@ -2197,8 +2197,8 @@ _080DCA0C: .4byte Unk_030037E0+1*0x124
 _080DCA10: .4byte Unk_030037E0+2*0x124
 _080DCA14: .4byte Unk_030037E0+3*0x124
 
-	THUMB_FUNC_START sub_80DCA18
-sub_80DCA18: @ 0x080DCA18
+	THUMB_FUNC_START func_080DCA18
+func_080DCA18: @ 0x080DCA18
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2263,7 +2263,7 @@ sub_80DCA18: @ 0x080DCA18
 	ldr r0, _080DCAB4
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DCB04
 	.align 2, 0
 _080DCAA0: .4byte Unk_030037E0
@@ -2320,8 +2320,8 @@ _080DCB0C: .4byte SavedGameState
 _080DCB10: .4byte 0x000037AC
 _080DCB14: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DCB18
-sub_80DCB18: @ 0x080DCB18
+	THUMB_FUNC_START func_080DCB18
+func_080DCB18: @ 0x080DCB18
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2330,14 +2330,14 @@ sub_80DCB18: @ 0x080DCB18
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCB34
-sub_80DCB34: @ 0x080DCB34
+	THUMB_FUNC_START func_080DCB34
+func_080DCB34: @ 0x080DCB34
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2346,14 +2346,14 @@ sub_80DCB34: @ 0x080DCB34
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCB50
-sub_80DCB50: @ 0x080DCB50
+	THUMB_FUNC_START func_080DCB50
+func_080DCB50: @ 0x080DCB50
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2386,7 +2386,7 @@ sub_80DCB50: @ 0x080DCB50
 	ldr r1, _080DCBA0
 	adds r0, r1, #0
 	bl ClearFlag_08002724
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DCBB4
 	.align 2, 0
 _080DCB98: .4byte Unk_030037E0
@@ -2409,8 +2409,8 @@ _080DCBB4:
 	.align 2, 0
 _080DCBBC: .4byte Unk_03004148
 
-	THUMB_FUNC_START sub_80DCBC0
-sub_80DCBC0: @ 0x080DCBC0
+	THUMB_FUNC_START func_080DCBC0
+func_080DCBC0: @ 0x080DCBC0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2419,14 +2419,14 @@ sub_80DCBC0: @ 0x080DCBC0
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCBDC
-sub_80DCBDC: @ 0x080DCBDC
+	THUMB_FUNC_START func_080DCBDC
+func_080DCBDC: @ 0x080DCBDC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2435,14 +2435,14 @@ sub_80DCBDC: @ 0x080DCBDC
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCBF8
-sub_80DCBF8: @ 0x080DCBF8
+	THUMB_FUNC_START func_080DCBF8
+func_080DCBF8: @ 0x080DCBF8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2505,7 +2505,7 @@ sub_80DCBF8: @ 0x080DCBF8
 	ldr r0, _080DCC88
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DCCB6
 	.align 2, 0
 _080DCC7C: .4byte SavedGameState
@@ -2543,8 +2543,8 @@ _080DCCB6:
 _080DCCC0: .4byte SavedGameState
 _080DCCC4: .4byte 0x0000A23C
 
-	THUMB_FUNC_START sub_80DCCC8
-sub_80DCCC8: @ 0x080DCCC8
+	THUMB_FUNC_START func_080DCCC8
+func_080DCCC8: @ 0x080DCCC8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2607,7 +2607,7 @@ sub_80DCCC8: @ 0x080DCCC8
 	ldr r0, _080DCD58
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DCD9E
 	.align 2, 0
 _080DCD4C: .4byte SavedGameState
@@ -2659,8 +2659,8 @@ _080DCDAC: .4byte 0x00000AA8
 _080DCDB0: .4byte 0x00003E5C
 _080DCDB4: .4byte 0x000002AD
 
-	THUMB_FUNC_START sub_80DCDB8
-sub_80DCDB8: @ 0x080DCDB8
+	THUMB_FUNC_START func_080DCDB8
+func_080DCDB8: @ 0x080DCDB8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2723,7 +2723,7 @@ sub_80DCDB8: @ 0x080DCDB8
 	ldr r0, _080DCE50
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DCE3A:
 	add sp, #4
 	pop {r7}
@@ -2735,8 +2735,8 @@ _080DCE48: .4byte 0x0000A1FC
 _080DCE4C: .4byte 0x000002B9
 _080DCE50: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DCE54
-sub_80DCE54: @ 0x080DCE54
+	THUMB_FUNC_START func_080DCE54
+func_080DCE54: @ 0x080DCE54
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2745,14 +2745,14 @@ sub_80DCE54: @ 0x080DCE54
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCE70
-sub_80DCE70: @ 0x080DCE70
+	THUMB_FUNC_START func_080DCE70
+func_080DCE70: @ 0x080DCE70
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2829,7 +2829,7 @@ _080DCEE0:
 	ldr r0, _080DCF18
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DCF0C:
 	add sp, #4
 	pop {r7}
@@ -2839,8 +2839,8 @@ _080DCF0C:
 _080DCF14: .4byte Unk_030037E0
 _080DCF18: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DCF1C
-sub_80DCF1C: @ 0x080DCF1C
+	THUMB_FUNC_START func_080DCF1C
+func_080DCF1C: @ 0x080DCF1C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2849,14 +2849,14 @@ sub_80DCF1C: @ 0x080DCF1C
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCF38
-sub_80DCF38: @ 0x080DCF38
+	THUMB_FUNC_START func_080DCF38
+func_080DCF38: @ 0x080DCF38
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2865,14 +2865,14 @@ sub_80DCF38: @ 0x080DCF38
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCF54
-sub_80DCF54: @ 0x080DCF54
+	THUMB_FUNC_START func_080DCF54
+func_080DCF54: @ 0x080DCF54
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2881,14 +2881,14 @@ sub_80DCF54: @ 0x080DCF54
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DCF70
-sub_80DCF70: @ 0x080DCF70
+	THUMB_FUNC_START func_080DCF70
+func_080DCF70: @ 0x080DCF70
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2901,7 +2901,7 @@ sub_80DCF70: @ 0x080DCF70
 	ldr r0, _080DCF94
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DCF8C:
 	add sp, #4
 	pop {r7}
@@ -2910,8 +2910,8 @@ _080DCF8C:
 	.align 2, 0
 _080DCF94: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DCF98
-sub_80DCF98: @ 0x080DCF98
+	THUMB_FUNC_START func_080DCF98
+func_080DCF98: @ 0x080DCF98
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2924,7 +2924,7 @@ sub_80DCF98: @ 0x080DCF98
 	ldr r0, _080DCFB8
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DCFEA
 	.align 2, 0
 _080DCFB8: .4byte Unk_03005324
@@ -2961,8 +2961,8 @@ _080DCFF4: .4byte SavedGameState
 _080DCFF8: .4byte 0x00001678
 _080DCFFC: .4byte 0x0000676C
 
-	THUMB_FUNC_START sub_80DD000
-sub_80DD000: @ 0x080DD000
+	THUMB_FUNC_START func_080DD000
+func_080DD000: @ 0x080DD000
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -2992,7 +2992,7 @@ sub_80DD000: @ 0x080DD000
 	ldr r0, _080DD044
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DD04E
 	.align 2, 0
 _080DD040: .4byte Unk_030037E0
@@ -3007,8 +3007,8 @@ _080DD04E:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD058
-sub_80DD058: @ 0x080DD058
+	THUMB_FUNC_START func_080DD058
+func_080DD058: @ 0x080DD058
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3017,14 +3017,14 @@ sub_80DD058: @ 0x080DD058
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DCB50
+	bl func_080DCB50
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD074
-sub_80DD074: @ 0x080DD074
+	THUMB_FUNC_START func_080DD074
+func_080DD074: @ 0x080DD074
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3069,7 +3069,7 @@ _080DD0A4:
 	ldr r0, _080DD0DC
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DD0D0:
 	add sp, #4
 	pop {r7}
@@ -3079,8 +3079,8 @@ _080DD0D0:
 _080DD0D8: .4byte Unk_030037E0
 _080DD0DC: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DD0E0
-sub_80DD0E0: @ 0x080DD0E0
+	THUMB_FUNC_START func_080DD0E0
+func_080DD0E0: @ 0x080DD0E0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3204,7 +3204,7 @@ _080DD1B4:
 	ldr r0, _080DD1EC
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 _080DD1E0:
 	add sp, #4
 	pop {r7}
@@ -3214,8 +3214,8 @@ _080DD1E0:
 _080DD1E8: .4byte Unk_030037E0
 _080DD1EC: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DD1F0
-sub_80DD1F0: @ 0x080DD1F0
+	THUMB_FUNC_START func_080DD1F0
+func_080DD1F0: @ 0x080DD1F0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3247,7 +3247,7 @@ sub_80DD1F0: @ 0x080DD1F0
 	ldr r0, _080DD23C
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DD2CE
 	.align 2, 0
 _080DD238: .4byte Unk_030037E0
@@ -3338,8 +3338,8 @@ _080DD2E8: .4byte Unk_030055D0
 _080DD2EC: .4byte 0x000002AD
 _080DD2F0: .4byte Unk_03004148
 
-	THUMB_FUNC_START sub_80DD2F4
-sub_80DD2F4: @ 0x080DD2F4
+	THUMB_FUNC_START func_080DD2F4
+func_080DD2F4: @ 0x080DD2F4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3351,8 +3351,8 @@ sub_80DD2F4: @ 0x080DD2F4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD308
-sub_80DD308: @ 0x080DD308
+	THUMB_FUNC_START func_080DD308
+func_080DD308: @ 0x080DD308
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3364,8 +3364,8 @@ sub_80DD308: @ 0x080DD308
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD31C
-sub_80DD31C: @ 0x080DD31C
+	THUMB_FUNC_START func_080DD31C
+func_080DD31C: @ 0x080DD31C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3377,8 +3377,8 @@ sub_80DD31C: @ 0x080DD31C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD330
-sub_80DD330: @ 0x080DD330
+	THUMB_FUNC_START func_080DD330
+func_080DD330: @ 0x080DD330
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3390,8 +3390,8 @@ sub_80DD330: @ 0x080DD330
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD344
-sub_80DD344: @ 0x080DD344
+	THUMB_FUNC_START func_080DD344
+func_080DD344: @ 0x080DD344
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3403,8 +3403,8 @@ sub_80DD344: @ 0x080DD344
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD358
-sub_80DD358: @ 0x080DD358
+	THUMB_FUNC_START func_080DD358
+func_080DD358: @ 0x080DD358
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3416,8 +3416,8 @@ sub_80DD358: @ 0x080DD358
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD36C
-sub_80DD36C: @ 0x080DD36C
+	THUMB_FUNC_START func_080DD36C
+func_080DD36C: @ 0x080DD36C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3429,8 +3429,8 @@ sub_80DD36C: @ 0x080DD36C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD380
-sub_80DD380: @ 0x080DD380
+	THUMB_FUNC_START func_080DD380
+func_080DD380: @ 0x080DD380
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3442,8 +3442,8 @@ sub_80DD380: @ 0x080DD380
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD394
-sub_80DD394: @ 0x080DD394
+	THUMB_FUNC_START func_080DD394
+func_080DD394: @ 0x080DD394
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3455,8 +3455,8 @@ sub_80DD394: @ 0x080DD394
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD3A8
-sub_80DD3A8: @ 0x080DD3A8
+	THUMB_FUNC_START func_080DD3A8
+func_080DD3A8: @ 0x080DD3A8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3487,7 +3487,7 @@ sub_80DD3A8: @ 0x080DD3A8
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBBE8
+	bl func_080DBBE8
 _080DD3EA:
 	add sp, #4
 	pop {r7}
@@ -3496,8 +3496,8 @@ _080DD3EA:
 	.align 2, 0
 _080DD3F4: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DD3F8
-sub_80DD3F8: @ 0x080DD3F8
+	THUMB_FUNC_START func_080DD3F8
+func_080DD3F8: @ 0x080DD3F8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3505,7 +3505,7 @@ sub_80DD3F8: @ 0x080DD3F8
 	strb r0, [r1]
 	ldr r1, _080DD430
 	adds r0, r1, #0
-	bl sub_8065B6C
+	bl func_08065B6C
 	ldr r1, _080DD434
 	adds r0, r1, #0
 	adds r1, #0x5b
@@ -3550,8 +3550,8 @@ _080DD454:
 	.align 2, 0
 _080DD45C: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DD460
-sub_80DD460: @ 0x080DD460
+	THUMB_FUNC_START func_080DD460
+func_080DD460: @ 0x080DD460
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3560,14 +3560,14 @@ sub_80DD460: @ 0x080DD460
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DD3F8
+	bl func_080DD3F8
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD47C
-sub_80DD47C: @ 0x080DD47C
+	THUMB_FUNC_START func_080DD47C
+func_080DD47C: @ 0x080DD47C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3576,14 +3576,14 @@ sub_80DD47C: @ 0x080DD47C
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DD3F8
+	bl func_080DD3F8
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD498
-sub_80DD498: @ 0x080DD498
+	THUMB_FUNC_START func_080DD498
+func_080DD498: @ 0x080DD498
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3592,14 +3592,14 @@ sub_80DD498: @ 0x080DD498
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD4B4
-sub_80DD4B4: @ 0x080DD4B4
+	THUMB_FUNC_START func_080DD4B4
+func_080DD4B4: @ 0x080DD4B4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3648,7 +3648,7 @@ _080DD50E:
 	ldr r0, _080DD520
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	b _080DD54E
 	.align 2, 0
 _080DD51C: .4byte Unk_030055D0
@@ -3684,8 +3684,8 @@ _080DD54E:
 _080DD558: .4byte SavedGameState
 _080DD55C: .4byte 0x00008B6C
 
-	THUMB_FUNC_START sub_80DD560
-sub_80DD560: @ 0x080DD560
+	THUMB_FUNC_START func_080DD560
+func_080DD560: @ 0x080DD560
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3710,7 +3710,7 @@ sub_80DD560: @ 0x080DD560
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBBE8
+	bl func_080DBBE8
 _080DD594:
 	add sp, #4
 	pop {r7}
@@ -3719,8 +3719,8 @@ _080DD594:
 	.align 2, 0
 _080DD59C: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DD5A0
-sub_80DD5A0: @ 0x080DD5A0
+	THUMB_FUNC_START func_080DD5A0
+func_080DD5A0: @ 0x080DD5A0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3749,7 +3749,7 @@ sub_80DD5A0: @ 0x080DD5A0
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBBE8
+	bl func_080DBBE8
 _080DD5DC:
 	add sp, #4
 	pop {r7}
@@ -3758,8 +3758,8 @@ _080DD5DC:
 	.align 2, 0
 _080DD5E4: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DD5E8
-sub_80DD5E8: @ 0x080DD5E8
+	THUMB_FUNC_START func_080DD5E8
+func_080DD5E8: @ 0x080DD5E8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3771,8 +3771,8 @@ sub_80DD5E8: @ 0x080DD5E8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD5FC
-sub_80DD5FC: @ 0x080DD5FC
+	THUMB_FUNC_START func_080DD5FC
+func_080DD5FC: @ 0x080DD5FC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3821,8 +3821,8 @@ _080DD628:
 _080DD654: .4byte Unk_030051B0
 _080DD658: .4byte Unk_03003110
 
-	THUMB_FUNC_START sub_80DD65C
-sub_80DD65C: @ 0x080DD65C
+	THUMB_FUNC_START func_080DD65C
+func_080DD65C: @ 0x080DD65C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3831,14 +3831,14 @@ sub_80DD65C: @ 0x080DD65C
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD678
-sub_80DD678: @ 0x080DD678
+	THUMB_FUNC_START func_080DD678
+func_080DD678: @ 0x080DD678
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3847,14 +3847,14 @@ sub_80DD678: @ 0x080DD678
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD694
-sub_80DD694: @ 0x080DD694
+	THUMB_FUNC_START func_080DD694
+func_080DD694: @ 0x080DD694
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3863,14 +3863,14 @@ sub_80DD694: @ 0x080DD694
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD6B0
-sub_80DD6B0: @ 0x080DD6B0
+	THUMB_FUNC_START func_080DD6B0
+func_080DD6B0: @ 0x080DD6B0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3879,14 +3879,14 @@ sub_80DD6B0: @ 0x080DD6B0
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD6CC
-sub_80DD6CC: @ 0x080DD6CC
+	THUMB_FUNC_START func_080DD6CC
+func_080DD6CC: @ 0x080DD6CC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3895,14 +3895,14 @@ sub_80DD6CC: @ 0x080DD6CC
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD6E8
-sub_80DD6E8: @ 0x080DD6E8
+	THUMB_FUNC_START func_080DD6E8
+func_080DD6E8: @ 0x080DD6E8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3911,14 +3911,14 @@ sub_80DD6E8: @ 0x080DD6E8
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD704
-sub_80DD704: @ 0x080DD704
+	THUMB_FUNC_START func_080DD704
+func_080DD704: @ 0x080DD704
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3927,14 +3927,14 @@ sub_80DD704: @ 0x080DD704
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD720
-sub_80DD720: @ 0x080DD720
+	THUMB_FUNC_START func_080DD720
+func_080DD720: @ 0x080DD720
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3943,14 +3943,14 @@ sub_80DD720: @ 0x080DD720
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD73C
-sub_80DD73C: @ 0x080DD73C
+	THUMB_FUNC_START func_080DD73C
+func_080DD73C: @ 0x080DD73C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -3959,14 +3959,14 @@ sub_80DD73C: @ 0x080DD73C
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DBF70
+	bl func_080DBF70
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DD758
-sub_80DD758: @ 0x080DD758
+	THUMB_FUNC_START func_080DD758
+func_080DD758: @ 0x080DD758
 	push {r7, lr}
 	mov r7, sp
 	ldr r0, _080DD778
@@ -3985,8 +3985,8 @@ sub_80DD758: @ 0x080DD758
 _080DD778: .4byte Unk_08217770
 _080DD77C: .4byte Unk_03006B10
 
-	THUMB_FUNC_START sub_80DD780
-sub_80DD780: @ 0x080DD780
+	THUMB_FUNC_START func_080DD780
+func_080DD780: @ 0x080DD780
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4016,8 +4016,8 @@ _080DD7AC:
 	.align 2, 0
 _080DD7B4: .4byte DispCnt
 
-	THUMB_FUNC_START sub_80DD7B8
-sub_80DD7B8: @ 0x080DD7B8
+	THUMB_FUNC_START func_080DD7B8
+func_080DD7B8: @ 0x080DD7B8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4029,8 +4029,8 @@ sub_80DD7B8: @ 0x080DD7B8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD7CC
-sub_80DD7CC: @ 0x080DD7CC
+	THUMB_FUNC_START func_080DD7CC
+func_080DD7CC: @ 0x080DD7CC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4059,7 +4059,7 @@ sub_80DD7CC: @ 0x080DD7CC
 	ldr r1, _080DD818
 	adds r0, r1, #0
 	movs r1, #2
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	movs r0, #0x28
 	bl SetFlag_080025E8
 	add sp, #4
@@ -4071,8 +4071,8 @@ _080DD818: .4byte Unk_03004150
 _080DD81C: .4byte 0x00000988
 _080DD820: .4byte 0x0000525C
 
-	THUMB_FUNC_START sub_80DD824
-sub_80DD824: @ 0x080DD824
+	THUMB_FUNC_START func_080DD824
+func_080DD824: @ 0x080DD824
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4101,7 +4101,7 @@ sub_80DD824: @ 0x080DD824
 	ldr r1, _080DD868
 	adds r0, r1, #0
 	movs r1, #3
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4111,8 +4111,8 @@ _080DD868: .4byte Unk_03004150
 _080DD86C: .4byte 0x000011B8
 _080DD870: .4byte 0x00004C2C
 
-	THUMB_FUNC_START sub_80DD874
-sub_80DD874: @ 0x080DD874
+	THUMB_FUNC_START func_080DD874
+func_080DD874: @ 0x080DD874
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4236,21 +4236,21 @@ sub_80DD874: @ 0x080DD874
 	ldr r1, _080DD99C
 	adds r0, r1, #0
 	movs r1, #2
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	ldr r1, _080DD9AC
 	adds r0, r1, #0
 	movs r1, #0
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	ldr r1, _080DD9C0
 	adds r0, r1, #0
 	movs r1, #0
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	ldr r1, _080DD9C8
 	movs r0, #0x62
-	bl sub_80690A8
+	bl func_080690A8
 	ldr r1, _080DD9C8
 	movs r0, #0x70
-	bl sub_80690A8
+	bl func_080690A8
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4269,8 +4269,8 @@ _080DD9C0: .4byte Unk_03004350
 _080DD9C4: .4byte 0x0000FD9C
 _080DD9C8: .4byte 0x0000FFFF
 
-	THUMB_FUNC_START sub_80DD9CC
-sub_80DD9CC: @ 0x080DD9CC
+	THUMB_FUNC_START func_080DD9CC
+func_080DD9CC: @ 0x080DD9CC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4282,8 +4282,8 @@ sub_80DD9CC: @ 0x080DD9CC
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD9E0
-sub_80DD9E0: @ 0x080DD9E0
+	THUMB_FUNC_START func_080DD9E0
+func_080DD9E0: @ 0x080DD9E0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4295,8 +4295,8 @@ sub_80DD9E0: @ 0x080DD9E0
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DD9F4
-sub_80DD9F4: @ 0x080DD9F4
+	THUMB_FUNC_START func_080DD9F4
+func_080DD9F4: @ 0x080DD9F4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4403,10 +4403,10 @@ sub_80DD9F4: @ 0x080DD9F4
 	strb r2, [r0]
 	ldr r1, _080DDB04
 	movs r0, #0x62
-	bl sub_80690A8
+	bl func_080690A8
 	ldr r1, _080DDB04
 	movs r0, #0x69
-	bl sub_80690A8
+	bl func_080690A8
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4424,8 +4424,8 @@ _080DDAFC: .4byte 0x0000FD6C
 _080DDB00: .4byte Unk_030037E0
 _080DDB04: .4byte 0x0000FFFF
 
-	THUMB_FUNC_START sub_80DDB08
-sub_80DDB08: @ 0x080DDB08
+	THUMB_FUNC_START func_080DDB08
+func_080DDB08: @ 0x080DDB08
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4437,8 +4437,8 @@ sub_80DDB08: @ 0x080DDB08
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDB1C
-sub_80DDB1C: @ 0x080DDB1C
+	THUMB_FUNC_START func_080DDB1C
+func_080DDB1C: @ 0x080DDB1C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4450,8 +4450,8 @@ sub_80DDB1C: @ 0x080DDB1C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDB30
-sub_80DDB30: @ 0x080DDB30
+	THUMB_FUNC_START func_080DDB30
+func_080DDB30: @ 0x080DDB30
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4463,8 +4463,8 @@ sub_80DDB30: @ 0x080DDB30
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDB44
-sub_80DDB44: @ 0x080DDB44
+	THUMB_FUNC_START func_080DDB44
+func_080DDB44: @ 0x080DDB44
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4476,8 +4476,8 @@ sub_80DDB44: @ 0x080DDB44
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDB58
-sub_80DDB58: @ 0x080DDB58
+	THUMB_FUNC_START func_080DDB58
+func_080DDB58: @ 0x080DDB58
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4485,7 +4485,7 @@ sub_80DDB58: @ 0x080DDB58
 	strb r0, [r1]
 	ldr r1, _080DDB74
 	adds r0, r1, #0
-	bl sub_8070D28
+	bl func_08070D28
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4493,8 +4493,8 @@ sub_80DDB58: @ 0x080DDB58
 	.align 2, 0
 _080DDB74: .4byte Unk_030025A0
 
-	THUMB_FUNC_START sub_80DDB78
-sub_80DDB78: @ 0x080DDB78
+	THUMB_FUNC_START func_080DDB78
+func_080DDB78: @ 0x080DDB78
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4506,8 +4506,8 @@ sub_80DDB78: @ 0x080DDB78
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDB8C
-sub_80DDB8C: @ 0x080DDB8C
+	THUMB_FUNC_START func_080DDB8C
+func_080DDB8C: @ 0x080DDB8C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4519,8 +4519,8 @@ sub_80DDB8C: @ 0x080DDB8C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDBA0
-sub_80DDBA0: @ 0x080DDBA0
+	THUMB_FUNC_START func_080DDBA0
+func_080DDBA0: @ 0x080DDBA0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4572,8 +4572,8 @@ _080DDC00: .4byte Unk_030037E0+1*0x124
 _080DDC04: .4byte 0x00000D88
 _080DDC08: .4byte 0x0000FDDC
 
-	THUMB_FUNC_START sub_80DDC0C
-sub_80DDC0C: @ 0x080DDC0C
+	THUMB_FUNC_START func_080DDC0C
+func_080DDC0C: @ 0x080DDC0C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4585,8 +4585,8 @@ sub_80DDC0C: @ 0x080DDC0C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDC20
-sub_80DDC20: @ 0x080DDC20
+	THUMB_FUNC_START func_080DDC20
+func_080DDC20: @ 0x080DDC20
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4719,13 +4719,13 @@ sub_80DDC20: @ 0x080DDC20
 	ldr r1, _080DDD74
 	adds r0, r1, #0
 	movs r1, #0
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	ldr r1, _080DDD78
 	movs r0, #0x62
-	bl sub_80690A8
+	bl func_080690A8
 	ldr r1, _080DDD78
 	movs r0, #0x70
-	bl sub_80690A8
+	bl func_080690A8
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4746,8 +4746,8 @@ _080DDD70: .4byte Unk_030037E0
 _080DDD74: .4byte Unk_03004450
 _080DDD78: .4byte 0x0000FFFF
 
-	THUMB_FUNC_START sub_80DDD7C
-sub_80DDD7C: @ 0x080DDD7C
+	THUMB_FUNC_START func_080DDD7C
+func_080DDD7C: @ 0x080DDD7C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4759,8 +4759,8 @@ sub_80DDD7C: @ 0x080DDD7C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDD90
-sub_80DDD90: @ 0x080DDD90
+	THUMB_FUNC_START func_080DDD90
+func_080DDD90: @ 0x080DDD90
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4856,8 +4856,8 @@ _080DDE4C: .4byte Unk_030037E0+3*0x124
 _080DDE50: .4byte 0x00003E9C
 _080DDE54: .4byte 0x00003E8C
 
-	THUMB_FUNC_START sub_80DDE58
-sub_80DDE58: @ 0x080DDE58
+	THUMB_FUNC_START func_080DDE58
+func_080DDE58: @ 0x080DDE58
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4869,8 +4869,8 @@ sub_80DDE58: @ 0x080DDE58
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDE6C
-sub_80DDE6C: @ 0x080DDE6C
+	THUMB_FUNC_START func_080DDE6C
+func_080DDE6C: @ 0x080DDE6C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4883,8 +4883,8 @@ sub_80DDE6C: @ 0x080DDE6C
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DDE84
-sub_80DDE84: @ 0x080DDE84
+	THUMB_FUNC_START func_080DDE84
+func_080DDE84: @ 0x080DDE84
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4896,8 +4896,8 @@ sub_80DDE84: @ 0x080DDE84
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DDE98
-sub_80DDE98: @ 0x080DDE98
+	THUMB_FUNC_START func_080DDE98
+func_080DDE98: @ 0x080DDE98
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -4906,23 +4906,23 @@ sub_80DDE98: @ 0x080DDE98
 	ldr r0, _080DDEDC
 	ldr r1, _080DDEE0
 	ldr r2, _080DDEE4
-	bl sub_80DE69C
+	bl func_080DE69C
 	ldr r0, _080DDEE8
 	ldr r1, _080DDEEC
 	ldr r2, _080DDEF0
-	bl sub_80DE69C
+	bl func_080DE69C
 	ldr r0, _080DDEF4
 	ldr r1, _080DDEF8
 	ldr r2, _080DDEE4
-	bl sub_80DE69C
+	bl func_080DE69C
 	ldr r0, _080DDEFC
 	ldr r1, _080DDF00
 	ldr r2, _080DDF04
-	bl sub_80DE69C
+	bl func_080DE69C
 	ldr r0, _080DDF08
 	ldr r1, _080DDEF8
 	ldr r2, _080DDF04
-	bl sub_80DE69C
+	bl func_080DE69C
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4941,22 +4941,22 @@ _080DDF00: .4byte 0x00000D78
 _080DDF04: .4byte 0x00005C7C
 _080DDF08: .4byte Unk_03004350
 
-	THUMB_FUNC_START sub_80DDF0C
-sub_80DDF0C: @ 0x080DDF0C
+	THUMB_FUNC_START func_080DDF0C
+func_080DDF0C: @ 0x080DDF0C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x32
-	bl sub_8056FC8
+	bl func_08056FC8
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DDF24
-sub_80DDF24: @ 0x080DDF24
+	THUMB_FUNC_START func_080DDF24
+func_080DDF24: @ 0x080DDF24
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5038,17 +5038,17 @@ sub_80DDF24: @ 0x080DDF24
 	strh r2, [r0]
 	ldr r1, _080DE00C
 	adds r0, r1, #0
-	bl sub_8070CD4
+	bl func_08070CD4
 	ldr r1, _080DE010
 	adds r0, r1, #0
-	bl sub_8070CD4
+	bl func_08070CD4
 	ldr r1, _080DE014
 	adds r0, r1, #0
-	bl sub_8070CD4
+	bl func_08070CD4
 	ldr r1, _080DE018
 	adds r0, r1, #0
 	movs r1, #0
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -5067,8 +5067,8 @@ _080DE010: .4byte Unk_03004450
 _080DE014: .4byte Unk_030044D0
 _080DE018: .4byte Unk_030042D0
 
-	THUMB_FUNC_START sub_80DE01C
-sub_80DE01C: @ 0x080DE01C
+	THUMB_FUNC_START func_080DE01C
+func_080DE01C: @ 0x080DE01C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5080,8 +5080,8 @@ sub_80DE01C: @ 0x080DE01C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE030
-sub_80DE030: @ 0x080DE030
+	THUMB_FUNC_START func_080DE030
+func_080DE030: @ 0x080DE030
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5093,8 +5093,8 @@ sub_80DE030: @ 0x080DE030
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE044
-sub_80DE044: @ 0x080DE044
+	THUMB_FUNC_START func_080DE044
+func_080DE044: @ 0x080DE044
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5106,8 +5106,8 @@ sub_80DE044: @ 0x080DE044
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE058
-sub_80DE058: @ 0x080DE058
+	THUMB_FUNC_START func_080DE058
+func_080DE058: @ 0x080DE058
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5148,7 +5148,7 @@ sub_80DE058: @ 0x080DE058
 	ldr r1, _080DE0DC
 	adds r0, r1, #0
 	movs r1, #2
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	ldr r0, _080DE0EC
 	ldr r2, _080DE0EC
 	adds r1, r2, #0
@@ -5166,7 +5166,7 @@ sub_80DE058: @ 0x080DE058
 	adds r1, r2, #0
 	strb r1, [r0]
 	movs r0, #0x1e
-	bl sub_8056FC8
+	bl func_08056FC8
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -5178,8 +5178,8 @@ _080DE0E4: .4byte 0x0000979C
 _080DE0E8: .4byte Unk_03004150
 _080DE0EC: .4byte Unk_030055D0
 
-	THUMB_FUNC_START sub_80DE0F0
-sub_80DE0F0: @ 0x080DE0F0
+	THUMB_FUNC_START func_080DE0F0
+func_080DE0F0: @ 0x080DE0F0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5191,8 +5191,8 @@ sub_80DE0F0: @ 0x080DE0F0
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE104
-sub_80DE104: @ 0x080DE104
+	THUMB_FUNC_START func_080DE104
+func_080DE104: @ 0x080DE104
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5204,8 +5204,8 @@ sub_80DE104: @ 0x080DE104
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE118
-sub_80DE118: @ 0x080DE118
+	THUMB_FUNC_START func_080DE118
+func_080DE118: @ 0x080DE118
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5217,8 +5217,8 @@ sub_80DE118: @ 0x080DE118
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE12C
-sub_80DE12C: @ 0x080DE12C
+	THUMB_FUNC_START func_080DE12C
+func_080DE12C: @ 0x080DE12C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5230,8 +5230,8 @@ sub_80DE12C: @ 0x080DE12C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE140
-sub_80DE140: @ 0x080DE140
+	THUMB_FUNC_START func_080DE140
+func_080DE140: @ 0x080DE140
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5247,8 +5247,8 @@ sub_80DE140: @ 0x080DE140
 	.align 2, 0
 _080DE158: .4byte Unk_03005630
 
-	THUMB_FUNC_START sub_80DE15C
-sub_80DE15C: @ 0x080DE15C
+	THUMB_FUNC_START func_080DE15C
+func_080DE15C: @ 0x080DE15C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5260,8 +5260,8 @@ sub_80DE15C: @ 0x080DE15C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE170
-sub_80DE170: @ 0x080DE170
+	THUMB_FUNC_START func_080DE170
+func_080DE170: @ 0x080DE170
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5273,8 +5273,8 @@ sub_80DE170: @ 0x080DE170
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE184
-sub_80DE184: @ 0x080DE184
+	THUMB_FUNC_START func_080DE184
+func_080DE184: @ 0x080DE184
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5322,8 +5322,8 @@ _080DE1E0: .4byte 0x0000A25C
 _080DE1E4: .4byte Unk_030037E0+3*0x124
 _080DE1E8: .4byte 0x0000A26C
 
-	THUMB_FUNC_START sub_80DE1EC
-sub_80DE1EC: @ 0x080DE1EC
+	THUMB_FUNC_START func_080DE1EC
+func_080DE1EC: @ 0x080DE1EC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5371,8 +5371,8 @@ _080DE248: .4byte 0x00000A88
 _080DE24C: .4byte Unk_030037E0+3*0x124
 _080DE250: .4byte 0x00000A78
 
-	THUMB_FUNC_START sub_80DE254
-sub_80DE254: @ 0x080DE254
+	THUMB_FUNC_START func_080DE254
+func_080DE254: @ 0x080DE254
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5384,8 +5384,8 @@ sub_80DE254: @ 0x080DE254
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE268
-sub_80DE268: @ 0x080DE268
+	THUMB_FUNC_START func_080DE268
+func_080DE268: @ 0x080DE268
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5397,8 +5397,8 @@ sub_80DE268: @ 0x080DE268
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE27C
-sub_80DE27C: @ 0x080DE27C
+	THUMB_FUNC_START func_080DE27C
+func_080DE27C: @ 0x080DE27C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5410,8 +5410,8 @@ sub_80DE27C: @ 0x080DE27C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE290
-sub_80DE290: @ 0x080DE290
+	THUMB_FUNC_START func_080DE290
+func_080DE290: @ 0x080DE290
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5423,8 +5423,8 @@ sub_80DE290: @ 0x080DE290
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE2A4
-sub_80DE2A4: @ 0x080DE2A4
+	THUMB_FUNC_START func_080DE2A4
+func_080DE2A4: @ 0x080DE2A4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5436,8 +5436,8 @@ sub_80DE2A4: @ 0x080DE2A4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE2B8
-sub_80DE2B8: @ 0x080DE2B8
+	THUMB_FUNC_START func_080DE2B8
+func_080DE2B8: @ 0x080DE2B8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5449,8 +5449,8 @@ sub_80DE2B8: @ 0x080DE2B8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE2CC
-sub_80DE2CC: @ 0x080DE2CC
+	THUMB_FUNC_START func_080DE2CC
+func_080DE2CC: @ 0x080DE2CC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5462,22 +5462,22 @@ sub_80DE2CC: @ 0x080DE2CC
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE2E0
-sub_80DE2E0: @ 0x080DE2E0
+	THUMB_FUNC_START func_080DE2E0
+func_080DE2E0: @ 0x080DE2E0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x4c
-	bl sub_8056FC8
+	bl func_08056FC8
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DE2F8
-sub_80DE2F8: @ 0x080DE2F8
+	THUMB_FUNC_START func_080DE2F8
+func_080DE2F8: @ 0x080DE2F8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5489,8 +5489,8 @@ sub_80DE2F8: @ 0x080DE2F8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE30C
-sub_80DE30C: @ 0x080DE30C
+	THUMB_FUNC_START func_080DE30C
+func_080DE30C: @ 0x080DE30C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5506,8 +5506,8 @@ sub_80DE30C: @ 0x080DE30C
 	.align 2, 0
 _080DE324: .4byte Unk_03005630
 
-	THUMB_FUNC_START sub_80DE328
-sub_80DE328: @ 0x080DE328
+	THUMB_FUNC_START func_080DE328
+func_080DE328: @ 0x080DE328
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5518,15 +5518,15 @@ sub_80DE328: @ 0x080DE328
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_80DE37C
+	bl func_080DE37C
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE34C
-sub_80DE34C: @ 0x080DE34C
+	THUMB_FUNC_START func_080DE34C
+func_080DE34C: @ 0x080DE34C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5538,8 +5538,8 @@ sub_80DE34C: @ 0x080DE34C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE360
-sub_80DE360: @ 0x080DE360
+	THUMB_FUNC_START func_080DE360
+func_080DE360: @ 0x080DE360
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5555,22 +5555,22 @@ sub_80DE360: @ 0x080DE360
 	.align 2, 0
 _080DE378: .4byte Unk_03005630
 
-	THUMB_FUNC_START sub_80DE37C
-sub_80DE37C: @ 0x080DE37C
+	THUMB_FUNC_START func_080DE37C
+func_080DE37C: @ 0x080DE37C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x92
-	bl sub_8057014
+	bl func_08057014
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DE394
-sub_80DE394: @ 0x080DE394
+	THUMB_FUNC_START func_080DE394
+func_080DE394: @ 0x080DE394
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5582,8 +5582,8 @@ sub_80DE394: @ 0x080DE394
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE3A8
-sub_80DE3A8: @ 0x080DE3A8
+	THUMB_FUNC_START func_080DE3A8
+func_080DE3A8: @ 0x080DE3A8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5595,8 +5595,8 @@ sub_80DE3A8: @ 0x080DE3A8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE3BC
-sub_80DE3BC: @ 0x080DE3BC
+	THUMB_FUNC_START func_080DE3BC
+func_080DE3BC: @ 0x080DE3BC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5608,8 +5608,8 @@ sub_80DE3BC: @ 0x080DE3BC
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE3D0
-sub_80DE3D0: @ 0x080DE3D0
+	THUMB_FUNC_START func_080DE3D0
+func_080DE3D0: @ 0x080DE3D0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5621,8 +5621,8 @@ sub_80DE3D0: @ 0x080DE3D0
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE3E4
-sub_80DE3E4: @ 0x080DE3E4
+	THUMB_FUNC_START func_080DE3E4
+func_080DE3E4: @ 0x080DE3E4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5634,8 +5634,8 @@ sub_80DE3E4: @ 0x080DE3E4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE3F8
-sub_80DE3F8: @ 0x080DE3F8
+	THUMB_FUNC_START func_080DE3F8
+func_080DE3F8: @ 0x080DE3F8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5647,8 +5647,8 @@ sub_80DE3F8: @ 0x080DE3F8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE40C
-sub_80DE40C: @ 0x080DE40C
+	THUMB_FUNC_START func_080DE40C
+func_080DE40C: @ 0x080DE40C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5660,8 +5660,8 @@ sub_80DE40C: @ 0x080DE40C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE420
-sub_80DE420: @ 0x080DE420
+	THUMB_FUNC_START func_080DE420
+func_080DE420: @ 0x080DE420
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5673,8 +5673,8 @@ sub_80DE420: @ 0x080DE420
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE434
-sub_80DE434: @ 0x080DE434
+	THUMB_FUNC_START func_080DE434
+func_080DE434: @ 0x080DE434
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5686,8 +5686,8 @@ sub_80DE434: @ 0x080DE434
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE448
-sub_80DE448: @ 0x080DE448
+	THUMB_FUNC_START func_080DE448
+func_080DE448: @ 0x080DE448
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5699,8 +5699,8 @@ sub_80DE448: @ 0x080DE448
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE45C
-sub_80DE45C: @ 0x080DE45C
+	THUMB_FUNC_START func_080DE45C
+func_080DE45C: @ 0x080DE45C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5712,8 +5712,8 @@ sub_80DE45C: @ 0x080DE45C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE470
-sub_80DE470: @ 0x080DE470
+	THUMB_FUNC_START func_080DE470
+func_080DE470: @ 0x080DE470
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5725,8 +5725,8 @@ sub_80DE470: @ 0x080DE470
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE484
-sub_80DE484: @ 0x080DE484
+	THUMB_FUNC_START func_080DE484
+func_080DE484: @ 0x080DE484
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5738,8 +5738,8 @@ sub_80DE484: @ 0x080DE484
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE498
-sub_80DE498: @ 0x080DE498
+	THUMB_FUNC_START func_080DE498
+func_080DE498: @ 0x080DE498
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5780,7 +5780,7 @@ sub_80DE498: @ 0x080DE498
 	ldr r1, _080DE504
 	adds r0, r1, #0
 	movs r1, #2
-	bl sub_80DB8F0
+	bl func_080DB8F0
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -5792,8 +5792,8 @@ _080DE4FC: .4byte Unk_030037E0+2*0x124
 _080DE500: .4byte Unk_030037E0+3*0x124
 _080DE504: .4byte Unk_03004150
 
-	THUMB_FUNC_START sub_80DE508
-sub_80DE508: @ 0x080DE508
+	THUMB_FUNC_START func_080DE508
+func_080DE508: @ 0x080DE508
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5805,8 +5805,8 @@ sub_80DE508: @ 0x080DE508
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE51C
-sub_80DE51C: @ 0x080DE51C
+	THUMB_FUNC_START func_080DE51C
+func_080DE51C: @ 0x080DE51C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5818,8 +5818,8 @@ sub_80DE51C: @ 0x080DE51C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE530
-sub_80DE530: @ 0x080DE530
+	THUMB_FUNC_START func_080DE530
+func_080DE530: @ 0x080DE530
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5831,8 +5831,8 @@ sub_80DE530: @ 0x080DE530
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE544
-sub_80DE544: @ 0x080DE544
+	THUMB_FUNC_START func_080DE544
+func_080DE544: @ 0x080DE544
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5854,8 +5854,8 @@ _080DE55C:
 _080DE564: .4byte Unk_030051B0
 _080DE568: .4byte Unk_03002594
 
-	THUMB_FUNC_START sub_80DE56C
-sub_80DE56C: @ 0x080DE56C
+	THUMB_FUNC_START func_080DE56C
+func_080DE56C: @ 0x080DE56C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5867,8 +5867,8 @@ sub_80DE56C: @ 0x080DE56C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE580
-sub_80DE580: @ 0x080DE580
+	THUMB_FUNC_START func_080DE580
+func_080DE580: @ 0x080DE580
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5880,8 +5880,8 @@ sub_80DE580: @ 0x080DE580
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE594
-sub_80DE594: @ 0x080DE594
+	THUMB_FUNC_START func_080DE594
+func_080DE594: @ 0x080DE594
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5893,8 +5893,8 @@ sub_80DE594: @ 0x080DE594
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE5A8
-sub_80DE5A8: @ 0x080DE5A8
+	THUMB_FUNC_START func_080DE5A8
+func_080DE5A8: @ 0x080DE5A8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5906,8 +5906,8 @@ sub_80DE5A8: @ 0x080DE5A8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE5BC
-sub_80DE5BC: @ 0x080DE5BC
+	THUMB_FUNC_START func_080DE5BC
+func_080DE5BC: @ 0x080DE5BC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5919,8 +5919,8 @@ sub_80DE5BC: @ 0x080DE5BC
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE5D0
-sub_80DE5D0: @ 0x080DE5D0
+	THUMB_FUNC_START func_080DE5D0
+func_080DE5D0: @ 0x080DE5D0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5932,8 +5932,8 @@ sub_80DE5D0: @ 0x080DE5D0
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE5E4
-sub_80DE5E4: @ 0x080DE5E4
+	THUMB_FUNC_START func_080DE5E4
+func_080DE5E4: @ 0x080DE5E4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5945,8 +5945,8 @@ sub_80DE5E4: @ 0x080DE5E4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE5F8
-sub_80DE5F8: @ 0x080DE5F8
+	THUMB_FUNC_START func_080DE5F8
+func_080DE5F8: @ 0x080DE5F8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5958,8 +5958,8 @@ sub_80DE5F8: @ 0x080DE5F8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE60C
-sub_80DE60C: @ 0x080DE60C
+	THUMB_FUNC_START func_080DE60C
+func_080DE60C: @ 0x080DE60C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -5971,8 +5971,8 @@ sub_80DE60C: @ 0x080DE60C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE620
-sub_80DE620: @ 0x080DE620
+	THUMB_FUNC_START func_080DE620
+func_080DE620: @ 0x080DE620
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6024,7 +6024,7 @@ sub_80DE620: @ 0x080DE620
 	ldr r0, _080DE698
 	movs r1, #1
 	strb r1, [r0]
-	bl sub_80DB974
+	bl func_080DB974
 	add sp, #8
 	pop {r7}
 	pop {r0}
@@ -6033,8 +6033,8 @@ sub_80DE620: @ 0x080DE620
 _080DE694: .4byte SavedGameState
 _080DE698: .4byte Unk_03005324
 
-	THUMB_FUNC_START sub_80DE69C
-sub_80DE69C: @ 0x080DE69C
+	THUMB_FUNC_START func_080DE69C
+func_080DE69C: @ 0x080DE69C
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6067,7 +6067,7 @@ sub_80DE69C: @ 0x080DE69C
 	adds r1, r2, #0
 	strh r1, [r0, #6]
 	ldr r0, [r7]
-	bl sub_80DE6F4
+	bl func_080DE6F4
 	ldr r0, [r7]
 	ldr r1, _080DE6F0
 	str r1, [r0, #0x78]
@@ -6076,10 +6076,10 @@ sub_80DE69C: @ 0x080DE69C
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080DE6F0: .4byte sub_809AC10+1
+_080DE6F0: .4byte func_0809AC10+1
 
-	THUMB_FUNC_START sub_80DE6F4
-sub_80DE6F4: @ 0x080DE6F4
+	THUMB_FUNC_START func_080DE6F4
+func_080DE6F4: @ 0x080DE6F4
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6127,8 +6127,8 @@ sub_80DE6F4: @ 0x080DE6F4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE750
-sub_80DE750: @ 0x080DE750
+	THUMB_FUNC_START func_080DE750
+func_080DE750: @ 0x080DE750
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6232,7 +6232,7 @@ _080DE7D6:
 	adds r3, r1, #0
 	lsls r2, r3, #0x18
 	lsrs r1, r2, #0x18
-	bl sub_80E733C
+	bl func_080E733C
 	ldr r0, [r7, #4]
 	adds r1, r0, #0
 	adds r0, #0x4c
@@ -6323,8 +6323,8 @@ _080DE892:
 _080DE8CC: .4byte Unk_03006B10
 _080DE8D0: .4byte Unk_03006B78
 
-	THUMB_FUNC_START sub_80DE8D4
-sub_80DE8D4: @ 0x080DE8D4
+	THUMB_FUNC_START func_080DE8D4
+func_080DE8D4: @ 0x080DE8D4
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6336,8 +6336,8 @@ sub_80DE8D4: @ 0x080DE8D4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DE8E8
-sub_80DE8E8: @ 0x080DE8E8
+	THUMB_FUNC_START func_080DE8E8
+func_080DE8E8: @ 0x080DE8E8
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6350,7 +6350,7 @@ sub_80DE8E8: @ 0x080DE8E8
 	str r0, [r7]
 	movs r0, #6
 	ldr r1, [r7]
-	bl sub_80DE8D4
+	bl func_080DE8D4
 	ldr r0, [r7]
 	cmp r0, #0
 	beq _080DE910
@@ -6360,7 +6360,7 @@ sub_80DE8E8: @ 0x080DE8E8
 _080DE910:
 	movs r0, #4
 	ldr r1, [r7]
-	bl sub_80DE8D4
+	bl func_080DE8D4
 	ldr r0, [r7]
 	cmp r0, #0
 	beq _080DE924
@@ -6370,7 +6370,7 @@ _080DE910:
 _080DE924:
 	movs r0, #2
 	ldr r1, [r7]
-	bl sub_80DE8D4
+	bl func_080DE8D4
 	ldr r0, [r7]
 	cmp r0, #0
 	beq _080DE938
@@ -6380,7 +6380,7 @@ _080DE924:
 _080DE938:
 	movs r0, #0
 	ldr r1, [r7]
-	bl sub_80DE8D4
+	bl func_080DE8D4
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -6388,8 +6388,8 @@ _080DE938:
 	.align 2, 0
 _080DE948: .4byte Unk_03006B10
 
-	THUMB_FUNC_START sub_80DE94C
-sub_80DE94C: @ 0x080DE94C
+	THUMB_FUNC_START func_080DE94C
+func_080DE94C: @ 0x080DE94C
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6459,38 +6459,38 @@ _080DE9C4:
 	.align 2, 0
 _080DE9D4: .4byte Unk_030054F4
 
-	THUMB_FUNC_START sub_80DE9D8
-sub_80DE9D8: @ 0x080DE9D8
+	THUMB_FUNC_START func_080DE9D8
+func_080DE9D8: @ 0x080DE9D8
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #5
-	bl sub_80DEA30
+	bl func_080DEA30
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DE9E8
-sub_80DE9E8: @ 0x080DE9E8
+	THUMB_FUNC_START func_080DE9E8
+func_080DE9E8: @ 0x080DE9E8
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #6
-	bl sub_80DEA30
+	bl func_080DEA30
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DE9F8
-sub_80DE9F8: @ 0x080DE9F8
+	THUMB_FUNC_START func_080DE9F8
+func_080DE9F8: @ 0x080DE9F8
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0xe
-	bl sub_80DEA30
+	bl func_080DEA30
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DEA08
-sub_80DEA08: @ 0x080DEA08
+	THUMB_FUNC_START func_080DEA08
+func_080DEA08: @ 0x080DEA08
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6510,8 +6510,8 @@ sub_80DEA08: @ 0x080DEA08
 _080DEA28: .4byte 0x000005CC
 _080DEA2C: .4byte Unk_030054F4
 
-	THUMB_FUNC_START sub_80DEA30
-sub_80DEA30: @ 0x080DEA30
+	THUMB_FUNC_START func_080DEA30
+func_080DEA30: @ 0x080DEA30
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6521,28 +6521,28 @@ sub_80DEA30: @ 0x080DEA30
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DEA40
-sub_80DEA40: @ 0x080DEA40
+	THUMB_FUNC_START func_080DEA40
+func_080DEA40: @ 0x080DEA40
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #5
-	bl sub_80DEA60
+	bl func_080DEA60
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DEA50
-sub_80DEA50: @ 0x080DEA50
+	THUMB_FUNC_START func_080DEA50
+func_080DEA50: @ 0x080DEA50
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #6
-	bl sub_80DEA60
+	bl func_080DEA60
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DEA60
-sub_80DEA60: @ 0x080DEA60
+	THUMB_FUNC_START func_080DEA60
+func_080DEA60: @ 0x080DEA60
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6562,7 +6562,7 @@ sub_80DEA60: @ 0x080DEA60
 	str r0, [r7, #4]
 	ldr r1, [r7, #4]
 	adds r0, r1, #0
-	bl sub_80DEA08
+	bl func_080DEA08
 	add sp, #8
 	pop {r7}
 	pop {r0}
@@ -6571,8 +6571,8 @@ sub_80DEA60: @ 0x080DEA60
 _080DEA94: .4byte Unk_03006B10
 _080DEA98: .4byte Unk_030037E0
 
-	THUMB_FUNC_START sub_80DEA9C
-sub_80DEA9C: @ 0x080DEA9C
+	THUMB_FUNC_START func_080DEA9C
+func_080DEA9C: @ 0x080DEA9C
 	push {r7, lr}
 	mov r7, sp
 	pop {r7}
@@ -6580,8 +6580,8 @@ sub_80DEA9C: @ 0x080DEA9C
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DEAA8
-sub_80DEAA8: @ 0x080DEAA8
+	THUMB_FUNC_START func_080DEAA8
+func_080DEAA8: @ 0x080DEAA8
 	push {r7, lr}
 	mov r7, sp
 	pop {r7}
@@ -6589,8 +6589,8 @@ sub_80DEAA8: @ 0x080DEAA8
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DEAB4
-sub_80DEAB4: @ 0x080DEAB4
+	THUMB_FUNC_START func_080DEAB4
+func_080DEAB4: @ 0x080DEAB4
 	push {r7, lr}
 	mov r7, sp
 	pop {r7}
@@ -6598,8 +6598,8 @@ sub_80DEAB4: @ 0x080DEAB4
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DEAC0
-sub_80DEAC0: @ 0x080DEAC0
+	THUMB_FUNC_START func_080DEAC0
+func_080DEAC0: @ 0x080DEAC0
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6611,12 +6611,12 @@ sub_80DEAC0: @ 0x080DEAC0
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DEAD4
-sub_80DEAD4: @ 0x080DEAD4
+	THUMB_FUNC_START func_080DEAD4
+func_080DEAD4: @ 0x080DEAD4
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #2
-	bl sub_8062094
+	bl func_08062094
 	movs r0, #1
 	b _080DEAE2
 _080DEAE2:
@@ -6624,12 +6624,12 @@ _080DEAE2:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_80DEAE8
-sub_80DEAE8: @ 0x080DEAE8
+	THUMB_FUNC_START func_080DEAE8
+func_080DEAE8: @ 0x080DEAE8
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #3
-	bl sub_8062094
+	bl func_08062094
 	movs r0, #2
 	b _080DEAF6
 _080DEAF6:
@@ -6637,8 +6637,8 @@ _080DEAF6:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_80DEAFC
-sub_80DEAFC: @ 0x080DEAFC
+	THUMB_FUNC_START func_080DEAFC
+func_080DEAFC: @ 0x080DEAFC
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6665,7 +6665,7 @@ sub_80DEAFC: @ 0x080DEAFC
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _080DEB40
-	bl sub_80DEAD4
+	bl func_080DEAD4
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -6683,7 +6683,7 @@ _080DEB40:
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _080DEB60
-	bl sub_80DEAE8
+	bl func_080DEAE8
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -6705,8 +6705,8 @@ _080DEB72:
 	bx r1
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DEB7C
-sub_80DEB7C: @ 0x080DEB7C
+	THUMB_FUNC_START func_080DEB7C
+func_080DEB7C: @ 0x080DEB7C
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6747,7 +6747,7 @@ sub_80DEB7C: @ 0x080DEB7C
 	orrs r2, r1
 	adds r1, r2, #0
 	strb r1, [r0]
-	bl sub_80DE9D8
+	bl func_080DE9D8
 _080DEBD0:
 	b _080DEBF8
 	.align 2, 0
@@ -6767,15 +6767,15 @@ _080DEBD8:
 	ands r1, r2
 	adds r2, r1, #0
 	strb r2, [r0]
-	bl sub_80DE9E8
+	bl func_080DE9E8
 _080DEBF8:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DEC00
-sub_80DEC00: @ 0x080DEC00
+	THUMB_FUNC_START func_080DEC00
+func_080DEC00: @ 0x080DEC00
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6816,7 +6816,7 @@ sub_80DEC00: @ 0x080DEC00
 	orrs r2, r1
 	adds r1, r2, #0
 	strb r1, [r0]
-	bl sub_80DEA40
+	bl func_080DEA40
 _080DEC54:
 	b _080DEC7C
 	.align 2, 0
@@ -6836,15 +6836,15 @@ _080DEC5C:
 	ands r1, r2
 	adds r2, r1, #0
 	strb r2, [r0]
-	bl sub_80DEA50
+	bl func_080DEA50
 _080DEC7C:
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DEC84
-sub_80DEC84: @ 0x080DEC84
+	THUMB_FUNC_START func_080DEC84
+func_080DEC84: @ 0x080DEC84
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -6914,8 +6914,8 @@ _080DECE0:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DED08
-sub_80DED08: @ 0x080DED08
+	THUMB_FUNC_START func_080DED08
+func_080DED08: @ 0x080DED08
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -6932,8 +6932,8 @@ _080DED1A:
 	bx r1
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DED24
-sub_80DED24: @ 0x080DED24
+	THUMB_FUNC_START func_080DED24
+func_080DED24: @ 0x080DED24
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6945,8 +6945,8 @@ sub_80DED24: @ 0x080DED24
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DED38
-sub_80DED38: @ 0x080DED38
+	THUMB_FUNC_START func_080DED38
+func_080DED38: @ 0x080DED38
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -6958,14 +6958,14 @@ sub_80DED38: @ 0x080DED38
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DED4C
-sub_80DED4C: @ 0x080DED4C
+	THUMB_FUNC_START func_080DED4C
+func_080DED4C: @ 0x080DED4C
 	push {r4, r7, lr}
 	sub sp, #0xc
 	mov r7, sp
 	str r0, [r7]
 	adds r4, r7, #4
-	bl sub_80DEAFC
+	bl func_080DEAFC
 	adds r1, r0, #0
 	strb r1, [r4]
 	adds r0, r7, #4
@@ -6973,7 +6973,7 @@ sub_80DED4C: @ 0x080DED4C
 	cmp r1, #0
 	beq _080DED74
 	ldr r0, [r7]
-	bl sub_80DF230
+	bl func_080DF230
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
@@ -7134,12 +7134,12 @@ _080DEE98: .4byte Unk_030037E0
 _080DEE9C: .4byte Unk_030055D0
 _080DEEA0:
 	ldr r0, [r7]
-	bl sub_80DF230
+	bl func_080DF230
 	ldr r0, [r7]
 	ldr r1, [r7, #8]
 	str r1, [r0, #0x54]
 	movs r0, #1
-	bl sub_8062094
+	bl func_08062094
 	ldr r0, [r7]
 	ldrb r1, [r0, #0x12]
 	movs r2, #0
@@ -7180,7 +7180,7 @@ _080DEEA0:
 	cmp r1, #6
 	bne _080DEF06
 	ldr r0, [r7]
-	bl sub_80DF230
+	bl func_080DF230
 _080DEF06:
 	b _080DEF42
 _080DEF08:
@@ -7211,7 +7211,7 @@ _080DEF08:
 	strb r2, [r0]
 	ldr r1, [r7, #8]
 	ldr r0, [r7]
-	bl sub_80DF288
+	bl func_080DF288
 _080DEF42:
 	adds r0, r7, #4
 	movs r1, #4
@@ -7274,7 +7274,7 @@ _080DEFAC:
 	b _080DED94
 _080DEFB4:
 	ldr r0, [r7]
-	bl sub_80DF180
+	bl func_080DF180
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -7286,8 +7286,8 @@ _080DEFC2:
 	bx r1
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DEFCC
-sub_80DEFCC: @ 0x080DEFCC
+	THUMB_FUNC_START func_080DEFCC
+func_080DEFCC: @ 0x080DEFCC
 	push {r4, r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -7313,7 +7313,7 @@ sub_80DEFCC: @ 0x080DEFCC
 	adds r1, r2, #0
 	strb r1, [r0, #0x11]
 	adds r4, r7, #4
-	bl sub_80DEAFC
+	bl func_080DEAFC
 	adds r1, r0, #0
 	strb r1, [r4]
 	adds r0, r7, #4
@@ -7321,7 +7321,7 @@ sub_80DEFCC: @ 0x080DEFCC
 	cmp r1, #0
 	beq _080DF01C
 	ldr r0, [r7]
-	bl sub_80DF230
+	bl func_080DF230
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
@@ -7434,11 +7434,11 @@ _080DF0B6:
 	adds r1, r2, #0
 	strb r1, [r0, #0x10]
 	ldr r0, [r7]
-	bl sub_80DF230
+	bl func_080DF230
 	ldr r0, [r7]
-	bl sub_80E0E4C
+	bl func_080E0E4C
 	movs r0, #1
-	bl sub_8062094
+	bl func_08062094
 	ldr r0, [r7]
 	ldrb r1, [r0, #0x12]
 	movs r2, #0
@@ -7498,7 +7498,7 @@ _080DF160:
 	b _080DF03C
 _080DF168:
 	ldr r0, [r7]
-	bl sub_80DF180
+	bl func_080DF180
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -7510,8 +7510,8 @@ _080DF176:
 	bx r1
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DF180
-sub_80DF180: @ 0x080DF180
+	THUMB_FUNC_START func_080DF180
+func_080DF180: @ 0x080DF180
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -7550,7 +7550,7 @@ sub_80DF180: @ 0x080DF180
 	cmp r1, #6
 	bne _080DF1D8
 	ldr r0, [r7]
-	bl sub_80DF230
+	bl func_080DF230
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -7590,7 +7590,7 @@ _080DF1DC:
 	strb r1, [r0]
 	ldr r1, [r7, #8]
 	ldr r0, [r7]
-	bl sub_80DF288
+	bl func_080DF288
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -7602,8 +7602,8 @@ _080DF226:
 	bx r1
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DF230
-sub_80DF230: @ 0x080DF230
+	THUMB_FUNC_START func_080DF230
+func_080DF230: @ 0x080DF230
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -7638,7 +7638,7 @@ sub_80DF230: @ 0x080DF230
 	strb r1, [r0]
 	ldr r1, [r7, #8]
 	ldr r0, [r7]
-	bl sub_80DF288
+	bl func_080DF288
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -7649,8 +7649,8 @@ _080DF280:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_80DF288
-sub_80DF288: @ 0x080DF288
+	THUMB_FUNC_START func_080DF288
+func_080DF288: @ 0x080DF288
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -7788,8 +7788,8 @@ _080DF38C:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_80DF394
-sub_80DF394: @ 0x080DF394
+	THUMB_FUNC_START func_080DF394
+func_080DF394: @ 0x080DF394
 	push {r4, r7, lr}
 	sub sp, #0x14
 	mov r7, sp
@@ -7835,7 +7835,7 @@ _080DF3B8:
 	adds r1, r2, #0
 	lsls r2, r1, #0x18
 	lsrs r1, r2, #0x18
-	bl sub_8061E3C
+	bl func_08061E3C
 	adds r1, r7, #0
 	adds r1, #0x10
 	strh r0, [r1]
@@ -7884,7 +7884,7 @@ _080DF3B8:
 	beq _080DF45C
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF6C0
+	bl func_080DF6C0
 	b _080DF626
 	.align 2, 0
 _080DF458: .4byte Unk_03006BAC
@@ -7918,7 +7918,7 @@ _080DF45C:
 	bne _080DF4A0
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF754
+	bl func_080DF754
 	b _080DF626
 	.align 2, 0
 _080DF49C: .4byte Unk_03006BAC
@@ -7942,7 +7942,7 @@ _080DF4A0:
 	bne _080DF4D0
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF754
+	bl func_080DF754
 	b _080DF626
 	.align 2, 0
 _080DF4CC: .4byte Unk_03006BAC
@@ -7970,7 +7970,7 @@ _080DF4D0:
 	bne _080DF508
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF754
+	bl func_080DF754
 	b _080DF626
 	.align 2, 0
 _080DF504: .4byte Unk_03006BAC
@@ -7993,7 +7993,7 @@ _080DF508:
 	strh r2, [r0]
 	adds r4, r7, #0
 	adds r4, #8
-	bl sub_8002830
+	bl func_08002830
 	movs r1, #0xf
 	ands r0, r1
 	adds r1, r0, #0
@@ -8013,7 +8013,7 @@ _080DF508:
 	blo _080DF564
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF754
+	bl func_080DF754
 	b _080DF626
 	.align 2, 0
 _080DF55C: .4byte Unk_03006BAC
@@ -8086,7 +8086,7 @@ _080DF564:
 	adds r0, #8
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_810E574
+	bl func_0810E574
 	adds r1, r7, #0
 	adds r1, #0xa
 	strh r0, [r1]
@@ -8095,12 +8095,12 @@ _080DF564:
 	adds r1, #0xa
 	ldrh r2, [r1]
 	adds r1, r2, #0
-	bl sub_810D948
+	bl func_0810D948
 	cmp r0, #0
 	beq _080DF618
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF754
+	bl func_080DF754
 	b _080DF626
 	.align 2, 0
 _080DF610: .4byte Unk_03006BAC
@@ -8111,7 +8111,7 @@ _080DF618:
 	str r1, [r0]
 	ldr r1, [r7, #4]
 	adds r0, r1, #0
-	bl sub_80DF634
+	bl func_080DF634
 _080DF626:
 	add sp, #0x14
 	pop {r4, r7}
@@ -8120,8 +8120,8 @@ _080DF626:
 	.align 2, 0
 _080DF630: .4byte Unk_03006BAC
 
-	THUMB_FUNC_START sub_80DF634
-sub_80DF634: @ 0x080DF634
+	THUMB_FUNC_START func_080DF634
+func_080DF634: @ 0x080DF634
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -8193,8 +8193,8 @@ sub_80DF634: @ 0x080DF634
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DF6C0
-sub_80DF6C0: @ 0x080DF6C0
+	THUMB_FUNC_START func_080DF6C0
+func_080DF6C0: @ 0x080DF6C0
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -8219,7 +8219,7 @@ sub_80DF6C0: @ 0x080DF6C0
 	beq _080DF6F6
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF754
+	bl func_080DF754
 	b _080DF74C
 _080DF6F6:
 	ldr r0, [r7]
@@ -8263,15 +8263,15 @@ _080DF6F6:
 	adds r0, #0xa
 	ldrh r2, [r0]
 	ldr r0, [r7]
-	bl sub_80E0518
+	bl func_080E0518
 _080DF74C:
 	add sp, #0xc
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_80DF754
-sub_80DF754: @ 0x080DF754
+	THUMB_FUNC_START func_080DF754
+func_080DF754: @ 0x080DF754
 	push {r4, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -8294,7 +8294,7 @@ sub_80DF754: @ 0x080DF754
 	beq _080DF786
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF988
+	bl func_080DF988
 	b _080DF97E
 _080DF786:
 	adds r0, r7, #0
@@ -8316,7 +8316,7 @@ _080DF786:
 	bne _080DF7B2
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF988
+	bl func_080DF988
 	b _080DF97E
 _080DF7B2:
 	adds r0, r7, #0
@@ -8393,7 +8393,7 @@ _080DF7B2:
 	strh r1, [r0]
 	adds r4, r7, #0
 	adds r4, #8
-	bl sub_8002830
+	bl func_08002830
 	movs r1, #0xf
 	ands r0, r1
 	adds r1, r0, #0
@@ -8411,7 +8411,7 @@ _080DF7B2:
 	blo _080DF87C
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF988
+	bl func_080DF988
 	b _080DF97E
 	.align 2, 0
 _080DF874: .4byte Unk_03006B10
@@ -8457,7 +8457,7 @@ _080DF87C:
 	strb r2, [r0, #8]
 	adds r4, r7, #0
 	adds r4, #8
-	bl sub_8002830
+	bl func_08002830
 	movs r1, #0xf
 	ands r0, r1
 	adds r1, r0, #0
@@ -8499,7 +8499,7 @@ _080DF8E6:
 	adds r0, #0xa
 	ldrh r2, [r0]
 	ldr r0, [r7]
-	bl sub_80E0518
+	bl func_080E0518
 	b _080DF97E
 	.align 2, 0
 _080DF928: .4byte Unk_082185B8
@@ -8545,7 +8545,7 @@ _080DF974:
 _080DF976:
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DF988
+	bl func_080DF988
 _080DF97E:
 	add sp, #0x10
 	pop {r4, r7}
@@ -8553,8 +8553,8 @@ _080DF97E:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_80DF988
-sub_80DF988: @ 0x080DF988
+	THUMB_FUNC_START func_080DF988
+func_080DF988: @ 0x080DF988
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -8615,7 +8615,7 @@ sub_80DF988: @ 0x080DF988
 	strb r1, [r0]
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80E0688
+	bl func_080E0688
 	b _080DFA48
 _080DFA06:
 	ldr r0, [r7, #4]
@@ -8649,7 +8649,7 @@ _080DFA06:
 	strb r1, [r0]
 	ldr r1, [r7, #4]
 	ldr r0, [r7]
-	bl sub_80DFA50
+	bl func_080DFA50
 _080DFA48:
 	add sp, #0xc
 	pop {r7}

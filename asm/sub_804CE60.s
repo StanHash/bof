@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_804CE60
-sub_804CE60: @ 0x0804CE60
+	THUMB_FUNC_START func_0804CE60
+func_0804CE60: @ 0x0804CE60
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
@@ -18,14 +18,14 @@ sub_804CE60: @ 0x0804CE60
 	strb r2, [r0]
 	ldr r0, [r7]
 	movs r1, #0x2c
-	bl sub_806251C
+	bl func_0806251C
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_804CE88
-sub_804CE88: @ 0x0804CE88
+	THUMB_FUNC_START func_0804CE88
+func_0804CE88: @ 0x0804CE88
 	push {r4, r7, lr}
 	sub sp, #0x14
 	mov r7, sp
@@ -59,7 +59,7 @@ sub_804CE88: @ 0x0804CE88
 	movs r2, #8
 	bl memcpy
 	ldr r0, [r7]
-	bl sub_804D008
+	bl func_0804D008
 	adds r1, r7, #4
 	strb r0, [r1]
 	ldr r0, [r7]
@@ -104,7 +104,7 @@ _0804CF1A:
 	adds r0, r0, r2
 	ldrb r1, [r0]
 	ldr r0, [r7]
-	bl sub_80625E4
+	bl func_080625E4
 	add sp, #0x14
 	pop {r4, r7}
 	pop {r0}

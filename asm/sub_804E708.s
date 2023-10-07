@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_804E708
-sub_804E708: @ 0x0804E708
+	THUMB_FUNC_START func_0804E708
+func_0804E708: @ 0x0804E708
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -23,11 +23,11 @@ sub_804E708: @ 0x0804E708
 	adds r0, r0, r1
 	ldrb r1, [r0]
 	ldr r0, [r7]
-	bl sub_806251C
+	bl func_0806251C
 	movs r1, #0x80
 	lsls r1, r1, #1
 	adds r0, r1, #0
-	bl sub_8062170
+	bl func_08062170
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x50
@@ -47,21 +47,21 @@ sub_804E708: @ 0x0804E708
 	.align 2, 0
 _0804E760: .4byte Unk_08125364
 
-	THUMB_FUNC_START sub_804E764
-sub_804E764: @ 0x0804E764
+	THUMB_FUNC_START func_0804E764
+func_0804E764: @ 0x0804E764
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	str r0, [r7]
 	ldr r0, [r7]
 	movs r1, #1
-	bl sub_80628F0
+	bl func_080628F0
 	lsls r1, r0, #0x10
 	lsrs r0, r1, #0x10
 	cmp r0, #0
 	bne _0804E7B2
 	movs r0, #0xa
-	bl sub_8062094
+	bl func_08062094
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x54
@@ -93,8 +93,8 @@ _0804E7B2:
 	bx r0
 	.align 2, 0
 
-	THUMB_FUNC_START sub_804E7BC
-sub_804E7BC: @ 0x0804E7BC
+	THUMB_FUNC_START func_0804E7BC
+func_0804E7BC: @ 0x0804E7BC
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp

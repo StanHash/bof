@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_805E2D0
-sub_805E2D0: @ 0x0805E2D0
+	THUMB_FUNC_START func_0805E2D0
+func_0805E2D0: @ 0x0805E2D0
 	push {r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -37,7 +37,7 @@ _0805E304:
 	adds r0, r0, r2
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_805E828
+	bl func_0805E828
 	adds r1, r7, #0
 	adds r1, #8
 	adds r0, r7, #0
@@ -50,44 +50,44 @@ _0805E304:
 	strb r2, [r0]
 	b _0805E2F2
 _0805E32C:
-	bl sub_805E534
+	bl func_0805E534
 	add sp, #0xc
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_805E338
-sub_805E338: @ 0x0805E338
+	THUMB_FUNC_START func_0805E338
+func_0805E338: @ 0x0805E338
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #4
-	bl sub_805E828
-	bl sub_805E534
+	bl func_0805E828
+	bl func_0805E534
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_805E354
-sub_805E354: @ 0x0805E354
+	THUMB_FUNC_START func_0805E354
+func_0805E354: @ 0x0805E354
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #4
-	bl sub_805E828
-	bl sub_805E534
+	bl func_0805E828
+	bl func_0805E534
 	add sp, #4
 	pop {r7}
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_805E370
-sub_805E370: @ 0x0805E370
+	THUMB_FUNC_START func_0805E370
+func_0805E370: @ 0x0805E370
 	push {r7, lr}
 	sub sp, #4
 	mov r7, sp
