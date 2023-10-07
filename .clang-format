@@ -5,3 +5,4 @@ Language: Cpp
 IndentCaseLabels: true
 IndentPPDirectives: AfterHash
 PointerAlignment: Middle
+Cpp11BracedListStyle: false

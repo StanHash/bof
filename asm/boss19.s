@@ -187,7 +187,7 @@ _080F9E90:
 	strh r1, [r0]
 	b _080F9ED6
 	.align 2, 0
-_080F9EB4: .4byte Unk_03004274
+_080F9EB4: .4byte Unk_03004150+0x124
 _080F9EB8: .4byte 0x00000F68
 _080F9EBC:
 	adds r0, r7, #4

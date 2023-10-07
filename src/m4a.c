@@ -75,15 +75,15 @@ extern void ply_xiecl(struct MusicPlayer *, struct MusicPlayerTrack *);
 extern void ply_xleng(struct MusicPlayer *, struct MusicPlayerTrack *);
 extern void ply_xswee(struct MusicPlayer *, struct MusicPlayerTrack *);
 
-u8 SECTION("bss.SoundMainRam") ALIGNED(4) SoundMainRam[0x400] = {0};
+u8 SECTION("bss.SoundMainRam") ALIGNED(4) SoundMainRam[0x400] = { 0 };
 
-struct SoundInfo COMMON(SoundInfo) SoundInfo = {0};
+struct SoundInfo COMMON(SoundInfo) SoundInfo = { 0 };
 
-MPlayFunc COMMON(MPlayJumpTable) MPlayJumpTable[36] = {0};
+MPlayFunc COMMON(MPlayJumpTable) MPlayJumpTable[36] = { 0 };
 
-struct CgbChannel COMMON(CgbChans) CgbChans[4] = {{0}};
+struct CgbChannel COMMON(CgbChans) CgbChans[4] = { { 0 } };
 
-u8 COMMON(MPlayMemAccArea) MPlayMemAccArea[0x10] = {0};
+u8 COMMON(MPlayMemAccArea) MPlayMemAccArea[0x10] = { 0 };
 
 typedef void (*XcmdFunc)(struct MusicPlayer *, struct MusicPlayerTrack *);
 

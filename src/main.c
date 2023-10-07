@@ -8,7 +8,7 @@
 #define DPAD_REPEAT_DELAY 20
 #define DPAD_REPEAT_INTERVAL 4
 
-struct UnkSt_03002410 COMMON(Unk_03002410) Unk_03002410 = {0};
+struct UnkSt_03002410 COMMON(Unk_03002410) Unk_03002410 = { 0 };
 
 void AgbMain(void)
 {

@@ -183,12 +183,15 @@ struct UnkSt_030055D0
     /* 31 */ i8 unk_31;
     /* 32 */ STRUCT_PAD(0x32, 0x33);
     /* 33 */ u8 unk_33;
-    /* 34 */ STRUCT_PAD(0x34, 0x3F);
+    /* 34 */ u8 unk_34;
+    /* 35 */ STRUCT_PAD(0x35, 0x3F);
     /* 3F */ i8 unk_3F;
     /* 40 */ i8 unk_40;
     /* 41 */ i8 unk_41;
     /* 42 */ i8 unk_42;
-    /* 43 */ STRUCT_PAD(0x43, 0x50);
+    /* 43 */ STRUCT_PAD(0x43, 0x4D);
+    /* 4D */ i8 unk_4D;
+    /* 4E */ STRUCT_PAD(0x4E, 0x50);
 };
 
 struct SavedGameState
@@ -197,7 +200,13 @@ struct SavedGameState
     /* 006 */ u16 unk_006;
     /* 008 */ STRUCT_PAD(0x008, 0x00A);
     /* 00A */ u16 unk_00A;
-    /* 00C */ STRUCT_PAD(0x00C, 0x2A9);
+    /* 00C */ STRUCT_PAD(0x00C, 0x292);
+    /* 292 */ u16 unk_292;
+    /* 294 */ STRUCT_PAD(0x294, 0x298);
+    /* 298 */ u16 unk_298;
+    /* 29A */ u16 unk_29A;
+    /* 29C */ u16 unk_29C;
+    /* 29E */ STRUCT_PAD(0x29E, 0x2A9);
     /* 2A9 */ u8 unk_2A9; // sound/music enable?
     /* 2AA */ STRUCT_PAD(0x2AA, 0x2AF);
     /* 2AF */ u8 unk_2AF;
@@ -208,7 +217,8 @@ struct SavedGameState
     /* 43E */ u8 flags[0x20];
     /* 45E */ STRUCT_PAD(0x45E, 0x4B8);
     /* 4B8 */ u16 unk_4B8;
-    /* 4BA */ STRUCT_PAD(0x4BA, 0x500);
+    /* 4BA */ u16 unk_4BA[26];
+    /* 4EE */ STRUCT_PAD(0x4EE, 0x500);
 };
 
 struct UnkSt_030051B0
@@ -224,13 +234,17 @@ struct UnkSt_030037E0
     /* 002 */ u16 unk_002;
     /* 004 */ STRUCT_PAD(0x004, 0x006);
     /* 006 */ u16 unk_006;
-    /* 008 */ STRUCT_PAD(0x008, 0x061);
+    /* 008 */ STRUCT_PAD(0x008, 0x041);
+    /* 041 */ u8 unk_041;
+    /* 042 */ STRUCT_PAD(0x042, 0x061);
     /* 061 */ u8 unk_061;
     /* 062 */ STRUCT_PAD(0x062, 0x088);
     /* 088 */ u32 unk_088;
     /* 08C */ STRUCT_PAD(0x08C, 0x094);
     /* 094 */ u32 unk_094;
-    /* 098 */ STRUCT_PAD(0x098, 0x124);
+    /* 098 */ STRUCT_PAD(0x098, 0x0C0);
+    /* 0C0 */ u8 unk_0C0;
+    /* 0C1 */ STRUCT_PAD(0x0C1, 0x124);
 };
 
 struct UnkSt_03003110
@@ -246,6 +260,12 @@ struct UnkSt_03006AF0
 {
     /* 00 */ STRUCT_PAD(0x00, 0x0E);
     /* 0E */ u16 unk_0E;
+};
+
+enum
+{
+    FLAG_100 = 0x100,
+    FLAG_101 = 0x101,
 };
 
 #endif // UNKNOWN_TYPES_H

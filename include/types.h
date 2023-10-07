@@ -5,6 +5,7 @@
 #    warning "types.h file is meant to be included via prelude.h"
 #endif
 
+#include <limits.h>
 #include <stddef.h>
 #include <stdint.h>
 
