@@ -2,7 +2,7 @@ CC = gcc
 
 CFLAGS = -Wall -Wextra -Werror -std=c11 -O2 -DPNG_SKIP_SETJMP_CHECK -static-libgcc -static-libstdc++ -static
 
-LIBS = -lpng -lz
+LIBS = -lpng -lz -lm
 
 SRCS = main.c convert_png.c gfx.c jasc_pal.c lz.c rl.c util.c font.c
 

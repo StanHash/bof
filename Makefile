@@ -74,10 +74,9 @@ AIF := tools/aif2pcm/aif2pcm$(EXE)
 MID := tools/mid2agb/mid2agb$(EXE)
 SCANINC := tools/scaninc/scaninc$(EXE)
 PREPROC := tools/preproc/preproc$(EXE)
-RAMSCRGEN := tools/ramscrgen/ramscrgen$(EXE)
 FIX := tools/gbafix/gbafix$(EXE)
 
-TOOLDIRS := $(filter-out tools/agbcc tools/binutils,$(wildcard tools/*))
+TOOLDIRS := $(filter-out tools/install_agbcc.sh tools/agbcc tools/binutils,$(wildcard tools/*))
 TOOLBASE = $(TOOLDIRS:tools/%=%)
 TOOLS = $(foreach tool,$(TOOLBASE),tools/$(tool)/$(tool)$(EXE))
 
