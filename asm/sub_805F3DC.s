@@ -2770,7 +2770,7 @@ sub_8060870: @ 0x08060870
 	mov r7, sp
 	str r0, [r7]
 	movs r0, #0x6d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2960,7 +2960,7 @@ sub_80609E4: @ 0x080609E4
 	cmp r0, #0
 	bne _08060A08
 	movs r0, #0x23
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -2975,7 +2975,7 @@ _08060A08:
 	cmp r0, #1
 	bne _08060A24
 	movs r0, #0x26
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r2, r0, #0x18
 	lsrs r1, r2, #0x18
 	adds r0, r1, #0
@@ -4359,7 +4359,7 @@ sub_80613B0: @ 0x080613B0
 	cmp r0, #0
 	beq _080613EC
 	movs r0, #6
-	bl sub_8002724
+	bl ClearFlag_08002724
 	ldr r0, _080613E4
 	movs r1, #0
 	strb r1, [r0]
@@ -4373,7 +4373,7 @@ _080613E4: .4byte gUnknown_03005BA4
 _080613E8: .4byte gUnknown_03002594
 _080613EC:
 	movs r0, #6
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _08061408
 	movs r2, #0xc0
 	lsls r2, r2, #5

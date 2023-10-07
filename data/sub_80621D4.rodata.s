@@ -15,7 +15,7 @@ gUnknown_081260D4:
     .word gUnknown_0203FE50
     .word gUnknown_081260D4
     .word gUnknown_081260D4
-    .word gMPlayTable
+    .word MusicPlayerTable
     .word gSongTable
     .word gUnknown_0300412C
     .word gUnknown_082A5B20

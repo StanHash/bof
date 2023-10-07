@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_8002524
-sub_8002524: @ 0x08002524
+	THUMB_FUNC_START CheckFlag_08002524
+CheckFlag_08002524: @ 0x08002524
 	push {r4, r7, lr}
 	sub sp, #0xc
 	mov r7, sp
@@ -103,8 +103,8 @@ _080025E0:
 	pop {r1}
 	bx r1
 
-	THUMB_FUNC_START sub_80025E8
-sub_80025E8: @ 0x080025E8
+	THUMB_FUNC_START SetFlag_080025E8
+SetFlag_080025E8: @ 0x080025E8
 	push {r4, r5, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -262,8 +262,8 @@ _0800271C:
 	pop {r0}
 	bx r0
 
-	THUMB_FUNC_START sub_8002724
-sub_8002724: @ 0x08002724
+	THUMB_FUNC_START ClearFlag_08002724
+ClearFlag_08002724: @ 0x08002724
 	push {r4, r5, r7, lr}
 	sub sp, #0x10
 	mov r7, sp
@@ -1513,7 +1513,7 @@ _080030B4:
 	bl sub_8005940
 	bl sub_80059F8
 	movs r0, #0x2a
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1528,7 +1528,7 @@ _080030B4:
 	bl sub_8062094
 _08003194:
 	movs r0, #0x53
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

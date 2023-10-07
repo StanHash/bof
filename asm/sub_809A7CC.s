@@ -244,7 +244,7 @@ _0809A992:
 	cmp r0, #0
 	beq _0809A9C0
 	movs r0, #0x8e
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

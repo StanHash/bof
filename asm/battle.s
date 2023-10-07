@@ -7637,7 +7637,7 @@ sub_80C56E0: @ 0x080C56E0
 	cmp r0, #2
 	bne _080C5700
 	movs r0, #0x1d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -27666,13 +27666,13 @@ _080CF32A:
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xc5
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _080CF382
 	movs r0, #0xca
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -29692,7 +29692,7 @@ _080D02F8:
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -29969,7 +29969,7 @@ _080D04F4:
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -30330,7 +30330,7 @@ sub_80D07B8: @ 0x080D07B8
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -30360,7 +30360,7 @@ sub_80D07F4: @ 0x080D07F4
 	movs r1, #0x5c
 	strb r1, [r0]
 	movs r0, #6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -30424,7 +30424,7 @@ sub_80D0860: @ 0x080D0860
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -30442,7 +30442,7 @@ _080D088E:
 	adds r0, r7, #4
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -30473,7 +30473,7 @@ sub_80D08C0: @ 0x080D08C0
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

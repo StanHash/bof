@@ -174,13 +174,13 @@ sub_80DBA30: @ 0x080DBA30
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x38
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _080DBADE
 	movs r0, #0x3a
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -245,7 +245,7 @@ _080DBA74:
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x39
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -284,13 +284,13 @@ sub_80DBB04: @ 0x080DBB04
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x58
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _080DBB6C
 	movs r0, #0x4c
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -360,13 +360,13 @@ sub_80DBBA4: @ 0x080DBBA4
 	cmp r0, #0xd1
 	bne _080DBBCE
 	movs r0, #0x9b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _080DBBCE
 	movs r0, #0x9b
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DBBCE:
 	ldr r0, _080DBBE4
 	movs r1, #1
@@ -388,7 +388,7 @@ sub_80DBBE8: @ 0x080DBBE8
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x53
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -396,7 +396,7 @@ sub_80DBBE8: @ 0x080DBBE8
 	b _080DBD00
 _080DBC02:
 	movs r0, #0xae
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -456,13 +456,13 @@ _080DBC7E:
 _080DBC80: .4byte gUnknown_03005324
 _080DBC84:
 	movs r0, #0xa8
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _080DBCC8
 	movs r0, #6
-	bl sub_8002724
+	bl ClearFlag_08002724
 	ldr r0, _080DBCB8
 	adds r1, r0, #0
 	ldr r1, _080DBCBC
@@ -530,7 +530,7 @@ sub_80DBD18: @ 0x080DBD18
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #6
-	bl sub_8002724
+	bl ClearFlag_08002724
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
@@ -1006,7 +1006,7 @@ sub_80DC068: @ 0x080DC068
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x39
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1056,7 +1056,7 @@ _080DC104:
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x3a
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DC144:
 	add sp, #4
 	pop {r7}
@@ -1364,7 +1364,7 @@ _080DC390: .4byte gUnknown_030037E0
 _080DC394: .4byte gUnknown_03005324
 _080DC398:
 	movs r0, #0x4b
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DC39E:
 	add sp, #4
 	pop {r7}
@@ -1574,7 +1574,7 @@ _080DC4D8:
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x7e
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DC55C
 	movs r1, #1
 	strb r1, [r0]
@@ -1645,7 +1645,7 @@ sub_80DC5B0: @ 0x080DC5B0
 	cmp r1, #0
 	beq _080DC5D2
 	movs r0, #0x72
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DC5DC
 	movs r1, #1
 	strb r1, [r0]
@@ -1714,7 +1714,7 @@ _080DC620:
 	adds r2, r1, #0
 	strh r2, [r0, #0xa]
 	movs r0, #0x8a
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DC64E:
 	add sp, #4
 	pop {r7}
@@ -1973,7 +1973,7 @@ _080DC848: .4byte gUnknown_030037E0
 _080DC84C: .4byte gUnknown_03005324
 _080DC850:
 	movs r0, #0xa1
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DC856:
 	add sp, #4
 	pop {r7}
@@ -2276,7 +2276,7 @@ _080DCAB8:
 	movs r1, #0x80
 	lsls r1, r1, #1
 	adds r0, r1, #0
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DCB0C
 	ldrh r1, [r0, #6]
 	movs r2, #0
@@ -2385,7 +2385,7 @@ sub_80DCB50: @ 0x080DCB50
 	strb r1, [r0]
 	ldr r1, _080DCBA0
 	adds r0, r1, #0
-	bl sub_8002724
+	bl ClearFlag_08002724
 	bl sub_80DB974
 	b _080DCBB4
 	.align 2, 0
@@ -2501,7 +2501,7 @@ sub_80DCBF8: @ 0x080DCBF8
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x7e
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DCC88
 	movs r1, #1
 	strb r1, [r0]
@@ -2603,7 +2603,7 @@ sub_80DCCC8: @ 0x080DCCC8
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x7e
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DCD58
 	movs r1, #1
 	strb r1, [r0]
@@ -2719,7 +2719,7 @@ sub_80DCDB8: @ 0x080DCDB8
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x7e
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DCE50
 	movs r1, #1
 	strb r1, [r0]
@@ -2782,7 +2782,7 @@ sub_80DCE70: @ 0x080DCE70
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xca
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	b _080DCED8
 	.align 2, 0
 _080DCEB0: .4byte gUnknown_03006AF0
@@ -2950,7 +2950,7 @@ _080DCFBC:
 	adds r2, r1, #0
 	strh r2, [r0, #0xa]
 	movs r0, #0x9d
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DCFEA:
 	add sp, #4
 	pop {r7}
@@ -2999,7 +2999,7 @@ _080DD040: .4byte gUnknown_030037E0
 _080DD044: .4byte gUnknown_03005324
 _080DD048:
 	movs r0, #0xd7
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DD04E:
 	add sp, #4
 	pop {r7}
@@ -3122,7 +3122,7 @@ sub_80DD0E0: @ 0x080DD0E0
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xc5
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DD18C
 	ldr r2, _080DD18C
 	adds r1, r2, #0
@@ -3178,7 +3178,7 @@ _080DD198:
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xca
-	bl sub_80025E8
+	bl SetFlag_080025E8
 _080DD1AE:
 	b _080DD1E0
 	.align 2, 0
@@ -3226,7 +3226,7 @@ sub_80DD1F0: @ 0x080DD1F0
 	cmp r1, #0
 	beq _080DD240
 	movs r0, #0xca
-	bl sub_8002724
+	bl ClearFlag_08002724
 	ldr r0, _080DD238
 	ldr r2, _080DD238
 	adds r1, r2, #0
@@ -3483,7 +3483,7 @@ sub_80DD3A8: @ 0x080DD3A8
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xb6
-	bl sub_8002724
+	bl ClearFlag_08002724
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
@@ -3627,7 +3627,7 @@ sub_80DD4B4: @ 0x080DD4B4
 _080DD4E4: .4byte gUnknown_03006B10
 _080DD4E8:
 	movs r0, #0xb0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3993,7 +3993,7 @@ sub_80DD780: @ 0x080DD780
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -4061,7 +4061,7 @@ sub_80DD7CC: @ 0x080DD7CC
 	movs r1, #2
 	bl sub_80DB8F0
 	movs r0, #0x28
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -4767,7 +4767,7 @@ sub_80DDD90: @ 0x080DDD90
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x7d
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, _080DDE44
 	ldrh r1, [r0, #2]
 	movs r2, #0
@@ -4877,7 +4877,7 @@ sub_80DDE6C: @ 0x080DDE6C
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0x73
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	add sp, #4
 	pop {r7}
 	pop {r0}
@@ -5514,7 +5514,7 @@ sub_80DE328: @ 0x080DE328
 	adds r1, r7, #0
 	strb r0, [r1]
 	movs r0, #0xce
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0

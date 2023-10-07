@@ -28,8 +28,8 @@ j_crt0: @ 0x080000F0
 _080000F4: .4byte gUnknown_03007E00
 _080000F8: .4byte gUnknown_03007FA0
 
-	ARM_FUNC_START sub_80000FC
-sub_80000FC: @ sub_80000FC
+	ARM_FUNC_START IntrMain
+IntrMain: @ IntrMain
 	mov r3, #0x4000000
 	add r3, r3, #0x200
 	ldr r2, [r3]

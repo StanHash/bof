@@ -144,7 +144,7 @@ _08059DD8:
 	cmp r0, #2
 	bne _08059DFC
 	movs r0, #0x1d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -407,13 +407,13 @@ sub_8059FB8: @ 0x08059FB8
 	cmp r0, #3
 	bne _0805A000
 	movs r0, #0x94
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _0805A000
 	movs r0, #0x93
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -930,7 +930,7 @@ sub_805A3CC: @ 0x0805A3CC
 	adds r1, r2, #0
 	strb r1, [r0]
 	movs r0, #0x39
-	bl sub_8002724
+	bl ClearFlag_08002724
 	pop {r7}
 	pop {r0}
 	bx r0
@@ -1048,7 +1048,7 @@ sub_805A4D8: @ 0x0805A4D8
 	adds r0, r1, #0
 	bl sub_805B044
 	movs r0, #0x3f
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r1, _0805A544
 	adds r0, r1, #0
 	bl sub_8065B6C
@@ -1389,7 +1389,7 @@ sub_805A71C: @ 0x0805A71C
 	ldr r1, _0805A7FC
 	bl sub_805AF88
 	movs r0, #0x84
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	pop {r7}
 	pop {r0}
 	bx r0
@@ -1567,7 +1567,7 @@ sub_805A930: @ 0x0805A930
 	movs r3, #6
 	bl sub_8059504
 	movs r0, #0x93
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	pop {r7}
 	pop {r0}
 	bx r0
@@ -3123,7 +3123,7 @@ sub_805B590: @ 0x0805B590
 	str r0, [r7]
 	str r1, [r7, #4]
 	movs r0, #0x46
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	movs r0, #0x31
 	bl sub_800519C
 	movs r0, #3
@@ -4349,7 +4349,7 @@ sub_805BE94: @ 0x0805BE94
 	movs r0, #6
 	bl sub_805A054
 	movs r0, #0x39
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	add sp, #8
 	pop {r7}
 	pop {r0}
@@ -4574,7 +4574,7 @@ sub_805C040: @ 0x0805C040
 	movs r0, #9
 	bl sub_805A054
 	movs r0, #0x3c
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x88
@@ -4745,7 +4745,7 @@ sub_805C1AC: @ 0x0805C1AC
 	str r0, [r7]
 	str r1, [r7, #4]
 	movs r0, #0x6f
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r0, [r7]
 	adds r1, r0, #0
 	adds r0, #0x88
@@ -5420,7 +5420,7 @@ sub_805C6D4: @ 0x0805C6D4
 	str r0, [r7]
 	str r1, [r7, #4]
 	movs r0, #0x6d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

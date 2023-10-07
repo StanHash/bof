@@ -103,7 +103,7 @@ _0806BC7E:
 	b _0806BCB2
 _0806BC9A:
 	movs r0, #0x60
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -131,7 +131,7 @@ _0806BCB2:
 	b _0806BCE4
 _0806BCCE:
 	movs r0, #0x6b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

@@ -6698,7 +6698,7 @@ sub_8055B60: @ 0x08055B60
 	cmp r0, r1
 	bne _08055BAE
 	movs r0, #0x97
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6808,7 +6808,7 @@ sub_8055C18: @ 0x08055C18
 	cmp r0, r1
 	bne _08055C96
 	movs r0, #0xe2
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6838,7 +6838,7 @@ _08055C96:
 	cmp r0, #0xfe
 	bne _08055CD2
 	movs r0, #0x56
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6867,7 +6867,7 @@ _08055CD2:
 	cmp r1, r0
 	bne _08055CF4
 	movs r0, #0xa5
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

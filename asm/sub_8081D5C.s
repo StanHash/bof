@@ -1549,13 +1549,13 @@ sub_808291C: @ 0x0808291C
 	cmp r0, #1
 	bne _08082976
 	movs r0, #0x27
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _0808296C
 	movs r0, #0x24
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1580,7 +1580,7 @@ _08082974:
 	b _080829CC
 _08082976:
 	movs r0, #0x6b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2243,7 +2243,7 @@ sub_8082E2C: @ 0x08082E2C
 	cmp r0, #5
 	bne _08082E84
 	movs r0, #0xc6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2275,7 +2275,7 @@ _08082E8E:
 	cmp r0, r1
 	bne _08082F12
 	movs r0, #0xc5
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2443,13 +2443,13 @@ sub_8082FF0: @ 0x08082FF0
 	ldr r0, [r7]
 	str r0, [r7, #8]
 	movs r0, #0x75
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _0808301C
 	movs r0, #0x60
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2991,7 +2991,7 @@ sub_8083420: @ 0x08083420
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0xa5
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3771,7 +3771,7 @@ sub_8083A28: @ 0x08083A28
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0x95
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3849,7 +3849,7 @@ sub_8083AC0: @ 0x08083AC0
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0x95
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -4467,7 +4467,7 @@ sub_8083F84: @ 0x08083F84
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0xd6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -4562,7 +4562,7 @@ sub_808400C: @ 0x0808400C
 	movs r2, #0xc
 	bl sub_80842EC
 	movs r0, #0xdd
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5038,7 +5038,7 @@ sub_80843C8: @ 0x080843C8
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0x29
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

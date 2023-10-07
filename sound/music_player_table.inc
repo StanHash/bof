@@ -1,6 +1,6 @@
 	.align 2
-	.global gMPlayTable
-gMPlayTable:	@ 0x08142B5C
+	.global MusicPlayerTable
+MusicPlayerTable:	@ 0x08142B5C
 	music_player gUnknown_0203FD00, gUnknown_0203F140, 8, 0
 	music_player gUnknown_0203FD80, gUnknown_0203F3C0, 2, 0
 	music_player gUnknown_0203FDC0, gUnknown_0203F460, 1, 0

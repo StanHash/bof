@@ -134,7 +134,7 @@ _080EA394:
 	ldr r1, _080EA3E8
 	ldr r2, _080EA3EC
 	movs r3, #1
-	bl AGBAssert
+	bl AgbAssert
 _080EA3A0:
 	adds r0, r7, #4
 	adds r1, r7, #4

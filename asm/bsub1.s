@@ -221,7 +221,7 @@ _080DFC08:
 	ldr r1, _080DFC20
 	ldr r2, _080DFC24
 	movs r3, #1
-	bl AGBAssert
+	bl AgbAssert
 _080DFC14:
 	add sp, #0xc
 	pop {r4, r7}
@@ -388,7 +388,7 @@ _080DFD40:
 	lsls r1, r1, #2
 	ldr r2, _080DFDA4
 	movs r3, #1
-	bl AGBAssert
+	bl AgbAssert
 _080DFD4E:
 	adds r0, r7, #0
 	adds r0, #0xc

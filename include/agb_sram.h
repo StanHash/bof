@@ -1,10 +1,10 @@
-#ifndef GUARD_AGB_SRAM_H
-#define GUARD_AGB_SRAM_H
+#ifndef AGB_SRAM_H
+#define AGB_SRAM_H
 
-void SetSramFastFunc(void);
-void WriteSramFast(const u8 *src, u8 *dest, u32 size);
-extern void (*ReadSramFast)(const u8 *src, u8 *dest, u32 size);
-extern u32 (*VerifySramFast)(const u8 *src, u8 *dest, u32 size);
-u32 WriteAndVerifySramFast(const u8 *src, u8 *dest, u32 size);
+#include "prelude.h"
 
-#endif  // GUARD_AGB_SRAM_H
+void ReadSram(u8 const * src, u8 * dst, u32 size);
+void WriteSram(u8 const * src, u8 * dst, u32 size);
+u32 VerifySram(u8 const * src, u8 * dst, u32 size);
+
+#endif // AGB_SRAM_H

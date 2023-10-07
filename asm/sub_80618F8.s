@@ -70,7 +70,7 @@ sub_80618F8: @ 0x080618F8
 	cmp r0, #4
 	bne _08061994
 	movs r0, #0xb9
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1179,6 +1179,6 @@ sub_8062170: @ 0x08062170
 	pop {r0}
 	bx r0
 	.align 2, 0
-_080621C8: .4byte gMPlayTable
+_080621C8: .4byte MusicPlayerTable
 _080621CC: .4byte gSongTable
 _080621D0: .4byte gUnknown_0300412C

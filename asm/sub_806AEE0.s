@@ -29,7 +29,7 @@ sub_806AEE0: @ 0x0806AEE0
 _0806AF10: .4byte gUnknown_081266DC
 _0806AF14:
 	movs r0, #0x27
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -77,13 +77,13 @@ _0806AF5A:
 	b _0806AFBE
 _0806AF6E:
 	movs r0, #0x3f
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _0806AF8C
 	movs r0, #0x24
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

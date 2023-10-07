@@ -2,8 +2,8 @@
 
 .syntax unified
 
-	THUMB_FUNC_START sub_80007C4
-sub_80007C4: @ 0x080007C4
+	THUMB_FUNC_START IntrInit
+IntrInit: @ 0x080007C4
 	push {r7, lr}
 	sub sp, #8
 	mov r7, sp
@@ -87,7 +87,7 @@ _08000810:
 	bx r0
 	.align 2, 0
 _08000864: .4byte 0x040000D4
-_08000868: .4byte sub_80000FC
+_08000868: .4byte IntrMain
 _0800086C: .4byte gUnknown_03000000
 _08000870: .4byte 0x80000400
 _08000874: .4byte gUnknown_03007FFC
@@ -643,7 +643,7 @@ VBlankIntr: @ 0x08000D68
 	ldr r0, _08000DC0
 	movs r1, #0
 	strh r1, [r0]
-	bl SoundVSync_rev01
+	bl m4aSoundVSync
 	bl m4aSoundMain
 	ldr r1, _08000DC4
 	adds r0, r1, #0
@@ -688,7 +688,7 @@ VBlankIntr_NoSound: @ 0x08000DC8
 	ldr r0, _08000E1C
 	movs r1, #0
 	strh r1, [r0]
-	bl SoundVSync_rev01
+	bl m4aSoundVSync
 	ldr r1, _08000E20
 	adds r0, r1, #0
 	adds r1, #0x5b
@@ -1820,7 +1820,7 @@ _080016A0:
 	ldr r1, _0800170C
 	movs r2, #0x80
 	lsls r2, r2, #1
-	bl MPlayVolumeControl
+	bl m4aMPlayVolumeControl
 	b _08001724
 	.align 2, 0
 _080016EC: .4byte gUnknown_03002410
@@ -1828,7 +1828,7 @@ _080016F0: .4byte gUnknown_0300241B
 _080016F4: .4byte gUnknown_030054F0
 _080016F8: .4byte gUnknown_0202DBD0
 _080016FC: .4byte 0x000002A9
-_08001700: .4byte gMPlayTable
+_08001700: .4byte MusicPlayerTable
 _08001704: .4byte gSongTable
 _08001708: .4byte gUnknown_0300412C
 _0800170C: .4byte 0x0000FFFF
@@ -1921,13 +1921,13 @@ sub_800176C: @ 0x0800176C
 	adds r0, r1, #0
 	adds r1, r2, #0
 	movs r2, #0x80
-	bl MPlayVolumeControl
+	bl m4aMPlayVolumeControl
 	b _080017F6
 	.align 2, 0
 _080017C8: .4byte gUnknown_030054F0
 _080017CC: .4byte gUnknown_0202DBD0
 _080017D0: .4byte 0x000002A9
-_080017D4: .4byte gMPlayTable
+_080017D4: .4byte MusicPlayerTable
 _080017D8: .4byte gSongTable
 _080017DC: .4byte gUnknown_0300412C
 _080017E0: .4byte 0x0000FFFF
@@ -2695,7 +2695,7 @@ _08001DBC:
 	cmp r1, #0
 	bne _08001E0C
 	movs r0, #0x27
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	movs r0, #6
 	bl sub_8068B78
 _08001E0C:

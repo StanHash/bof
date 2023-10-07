@@ -1,83 +1,78 @@
-#include "gba/gba.h"
-#include "definitions.h"
+#include "agb_sram.h"
 
-const static char *version = "SRAM_V111";
+#include "gbaio.h"
 
-void ReadSram_Core(const u8 *src, u8 *dest, u32 size)
+char const AgbSramVersion[] = "SRAM_V111";
+
+static void ReadSramFunc(u8 const * src, u8 * dst, u32 size)
 {
     while (--size != -1)
-        *dest++ = *src++;
+        *dst++ = *src++;
 }
 
-void ReadSram(const u8 *src, u8 *dst, u32 size)
+void ReadSram(u8 const * src, u8 * dst, u32 size)
 {
-    u16 readSram_Work[0x40];
-    u16 *src_;
-    u16 *dst_;
-    u16 size_;
-    void (*ReadSramFast)(const u8 *src, u8 *dest, u32 size);  // pointer to readSramFast_Work
+    u16 buf[0x40];
 
-    REG_WAITCNT = (REG_WAITCNT & ~3) | 3;
+    u16 const * func_src;
+    u16 * func_dst;
+    u16 func_len;
 
-    src_ = (u16 *)ReadSram_Core;
-    // clear the least significant bit so that we get the actual start address of the function
-    src_ = (u16 *)((uintptr_t)src_ ^ 1);
-    dst_ = readSram_Work;
-    // get the size of the function by subtracting the address of the next function
-    size_ = ((uintptr_t)ReadSram - (uintptr_t)ReadSram_Core) / 2;
-    // copy the function into the WRAM buffer
-    while (size_ != 0)
+    REG_WAITCNT = (REG_WAITCNT & ~WAITCNT_SRAM_MASK) | WAITCNT_SRAM_8;
+
+    func_src = (void *)((uptr)ReadSramFunc);
+    func_src = (void *)((uptr)func_src ^ 1);
+    func_dst = buf;
+    func_len = ((uptr)ReadSram - (uptr)ReadSramFunc) / 2;
+
+    while (func_len != 0)
     {
-        *dst_++ = *src_++;
-        size_--;
+        *func_dst++ = *func_src++;
+        --func_len;
     }
-    // add 1 to the address of the buffer so that we stay in THUMB mode when bx-ing to the address
-    ReadSramFast = (void *)((uintptr_t)readSram_Work + 1);
 
-    ReadSramFast(src,dst,size);
+    ((void (*)(u8 const *, u8 *, u32))buf + 1)(src, dst, size);
 }
 
-void WriteSram(const u8 *src, u8 *dest, u32 size)
+void WriteSram(u8 const * src, u8 * dst, u32 size)
 {
-    REG_WAITCNT = (REG_WAITCNT & ~3) | 3;
+    REG_WAITCNT = (REG_WAITCNT & ~WAITCNT_SRAM_MASK) | WAITCNT_SRAM_8;
+
     while (--size != -1)
-        *dest++ = *src++;
+        *dst++ = *src++;
 }
 
-u32 VerifySram_Core(const u8 *src, u8 *dest, u32 size)
+static u32 VerifySramFunc(u8 const * src, u8 * dst, u32 size)
 {
     while (--size != -1)
     {
-        if (*dest++ != *src++)
-            return (u32)(dest - 1);
+        if (*dst++ != *src++)
+            return (u32)(dst - 1);
     }
+
     return 0;
 }
 
-u32 VerifySram(const u8 *src, u8 *dst, u32 size)
+u32 VerifySram(u8 const * src, u8 * dst, u32 size)
 {
-    u16 verifySram_Work[0x60];
-    u16 *src_;
-    u16 *dst_;
-    u16 size_;
-    u32 (*VerifySramFast)(const u8 *src, u8 *dest, u32 size);  // pointer to verifySramFast_Work
+    u16 buf[0x60];
 
-    REG_WAITCNT = (REG_WAITCNT & ~3) | 3;
+    u16 const * func_src;
+    u16 * func_dst;
+    u16 func_len;
 
-    src_ = (u16 *)VerifySram_Core;
-    // clear the least significant bit so that we get the actual start address of the function
-    src_ = (u16 *)((uintptr_t)src_ ^ 1);
-    dst_ = verifySram_Work;
-    // get the size of the function by subtracting the address of the next function
-    size_ = ((uintptr_t)VerifySram - (uintptr_t)VerifySram_Core) / 2;
-    // copy the function into the WRAM buffer
-    while (size_ != 0)
+    REG_WAITCNT = (REG_WAITCNT & ~WAITCNT_SRAM_MASK) | WAITCNT_SRAM_8;
+
+    func_src = (void *)((uptr)VerifySramFunc);
+    func_src = (void *)((uptr)func_src ^ 1);
+    func_dst = buf;
+    func_len = ((uptr)VerifySram - (uptr)VerifySramFunc) / 2;
+
+    while (func_len != 0)
     {
-        *dst_++ = *src_++;
-        size_--;
+        *func_dst++ = *func_src++;
+        --func_len;
     }
-    // add 1 to the address of the buffer so that we stay in THUMB mode when bx-ing to the address
-    VerifySramFast = (void *)((uintptr_t)verifySram_Work + 1);
 
-    return VerifySramFast(src,dst,size);
+    return ((u32(*)(u8 const *, u8 *, u32))buf + 1)(src, dst, size);
 }

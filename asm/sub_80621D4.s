@@ -130,7 +130,7 @@ _08062284:
 	adds r0, r0, r2
 	ldr r1, [r0]
 	adds r0, r1, #0
-	bl MPlayStop_rev01
+	bl m4aMPlayStop
 _080622C6:
 	adds r1, r7, #0
 	adds r0, r7, #0
@@ -141,7 +141,7 @@ _080622C6:
 	strb r2, [r0]
 	b _08062276
 	.align 2, 0
-_080622D8: .4byte gMPlayTable
+_080622D8: .4byte MusicPlayerTable
 _080622DC: .4byte gSongTable
 _080622E0: .4byte gUnknown_0300412C
 _080622E4:

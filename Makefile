@@ -41,7 +41,7 @@ DATA_ASM_BUILDDIR = $(OBJ_DIR)/$(DATA_ASM_SUBDIR)
 SONG_BUILDDIR = $(OBJ_DIR)/$(SONG_SUBDIR)
 MID_BUILDDIR = $(OBJ_DIR)/$(MID_SUBDIR)
 
-ASFLAGS := -mcpu=arm7tdmi --defsym MODERN=$(MODERN)
+ASFLAGS := -mcpu=arm7tdmi --defsym MODERN=$(MODERN) -Iinclude
 
 GCC_VER = $(shell $(CC) -dumpversion)
 
@@ -59,7 +59,7 @@ OBJ_DIR := build/modern
 LIBPATH := -L $(TOOLCHAIN)/lib/gcc/arm-none-eabi/$(GCC_VER)/thumb -L $(TOOLCHAIN)/arm-none-eabi/lib/thumb
 endif
 
-CPPFLAGS := -iquote include -Wno-trigraphs -DMODERN=$(MODERN)
+CPPFLAGS := -Iinclude -I. -Wno-trigraphs -DMODERN=$(MODERN)
 ifeq ($(MODERN),0)
 CPPFLAGS += -I tools/agbcc/include -I tools/agbcc
 endif
@@ -110,6 +110,9 @@ C_OBJS := $(patsubst $(C_SUBDIR)/%.c,$(C_BUILDDIR)/%.o,$(C_SRCS))
 ASM_SRCS := $(wildcard $(ASM_SUBDIR)/*.s)
 ASM_OBJS := $(patsubst $(ASM_SUBDIR)/%.s,$(ASM_BUILDDIR)/%.o,$(ASM_SRCS))
 
+C_ASM_SRCS := $(wildcard $(C_SUBDIR)/*.s $(C_SUBDIR)/*/*.s $(C_SUBDIR)/*/*/*.s)
+C_ASM_OBJS := $(patsubst $(C_SUBDIR)/%.s,$(C_BUILDDIR)/%.o,$(C_ASM_SRCS))
+
 DATA_ASM_SRCS := $(wildcard $(DATA_ASM_SUBDIR)/*.s)
 DATA_ASM_OBJS := $(patsubst $(DATA_ASM_SUBDIR)/%.s,$(DATA_ASM_BUILDDIR)/%.o,$(DATA_ASM_SRCS))
 
@@ -119,7 +122,7 @@ SONG_OBJS := $(patsubst $(SONG_SUBDIR)/%.s,$(SONG_BUILDDIR)/%.o,$(SONG_SRCS))
 MID_SRCS := $(wildcard $(MID_SUBDIR)/*.mid)
 MID_OBJS := $(patsubst $(MID_SUBDIR)/%.mid,$(MID_BUILDDIR)/%.o,$(MID_SRCS))
 
-OBJS     := $(C_OBJS) $(ASM_OBJS) $(DATA_ASM_OBJS) $(SONG_OBJS) $(MID_OBJS)
+OBJS     := $(C_OBJS) $(ASM_OBJS) $(C_ASM_OBJS) $(DATA_ASM_OBJS) $(SONG_OBJS) $(MID_OBJS)
 OBJS_REL := $(patsubst $(OBJ_DIR)/%,%,$(OBJS))
 
 SUBDIRS  := $(sort $(dir $(OBJS)))
@@ -158,8 +161,6 @@ ifeq ($(MODERN),0)
 	@$(MAKE) tidy MODERN=1
 endif
 
-include graphics_file_rules.mk
-
 %.s: ;
 %.png: ;
 %.pal: ;
@@ -177,7 +178,7 @@ include graphics_file_rules.mk
 
 ifeq ($(MODERN),0)
 $(C_BUILDDIR)/agb_sram.o: CFLAGS := -O1 -mthumb-interwork
-$(C_BUILDDIR)/m4a.o: CFLAGS := -O1 -mthumb-interwork
+$(C_BUILDDIR)/m4a.o: CFLAGS := -O2 -mthumb-interwork
 endif
 
 ifeq ($(NODEP),1)
@@ -202,6 +203,9 @@ $(ASM_BUILDDIR)/%.o: asm_dep :=
 else
 $(ASM_BUILDDIR)/%.o: asm_dep = $(shell $(SCANINC) -I "" $(ASM_SUBDIR)/$*.s)
 endif
+
+$(C_BUILDDIR)/%.o: $(C_SUBDIR)/%.s
+	$(AS) $(ASFLAGS) -o $@ $<
 
 $(ASM_BUILDDIR)/%.o: $(ASM_SUBDIR)/%.s $$(asm_dep)
 	$(AS) $(ASFLAGS) -o $@ $<
@@ -229,13 +233,13 @@ $(OBJ_DIR)/sym_data.txt: sym_data.txt
 	sed "s#tools/#../../tools/#g" sym_data.txt > $@
 
 ifeq ($(MODERN),0)
-LD_SCRIPT := ld_script.ld
-LD_SCRIPT_DEPS := $(OBJ_DIR)/sym_iwram.txt $(OBJ_DIR)/sym_data.txt $(OBJ_DIR)/sym_ewram.txt
+LD_SCRIPT := bof.lds
+LD_SCRIPT_DEPS := $(OBJ_DIR)/sym_iwram.txt $(OBJ_DIR)/sym_ewram.txt
 else
-LD_SCRIPT := ld_script_modern.txt
+LD_SCRIPT := bof_modern.lds
 LD_SCRIPT_DEPS := 
 endif
-	
+
 $(OBJ_DIR)/ld_script.ld: $(LD_SCRIPT) $(LD_SCRIPT_DEPS)
 	sed "s#tools/#../../tools/#g" $(LD_SCRIPT) > $@
 

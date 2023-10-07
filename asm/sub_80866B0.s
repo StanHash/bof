@@ -1132,7 +1132,7 @@ sub_8086F20: @ 0x08086F20
 	adds r0, r2, #0
 	bl sub_806AD28
 	movs r0, #0x24
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	movs r0, #0x10
 	movs r1, #8
 	bl sub_8003D30

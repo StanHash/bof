@@ -1630,7 +1630,7 @@ _080B602C:
 	lsls r0, r2, #0x10
 	lsrs r1, r0, #0x10
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1699,7 +1699,7 @@ _080B60B0:
 	lsls r0, r2, #0x10
 	lsrs r1, r0, #0x10
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

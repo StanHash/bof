@@ -21,7 +21,7 @@ gUnknown_0811FB38:
     .word IntrDammy
     .word IntrTable
     .word gUnknown_0811FB38
-    .word sub_80000FC
+    .word IntrMain
     .word gUnknown_03000000
     .word gUnknown_0300249C
     .word gUnknown_0817B400
@@ -113,13 +113,13 @@ gUnknown_0811FB38:
     .word gUnknown_0300241B
     .word gUnknown_030054F0
     .word gUnknown_0202DBD0
-    .word gMPlayTable
+    .word MusicPlayerTable
     .word gSongTable
     .word gUnknown_0300412C
     .word gUnknown_030024A0
     .word gUnknown_030054F0
     .word gUnknown_0202DBD0
-    .word gMPlayTable
+    .word MusicPlayerTable
     .word gSongTable
     .word gUnknown_0300412C
     .word sub_8001678

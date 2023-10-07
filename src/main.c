@@ -1,183 +1,213 @@
-#include "gba/gba.h"
-#include "definitions.h"
+#include "prelude.h"
 
-void AgbMain()
+#include "gbaio.h"
+#include "m4a.h"
+
+#include "unknown.h"
+
+#define DPAD_REPEAT_DELAY 20
+#define DPAD_REPEAT_INTERVAL 4
+
+void AgbMain(void)
 {
     u32 unused;
 
-    DmaFill32(3, 0, EWRAM_START, EWRAM_SIZE);
-    DmaFill32(3, 0, IWRAM_START, IWRAM_SIZE);
+    DmaFill32(3, 0, MEM_EWRAM, MEM_EWRAM_SIZE);
+    DmaFill32(3, 0, MEM_IWRAM, MEM_IWRAM_SIZE - 0x200);
 
     sub_8000274(&gUnknown_03002410);
-    sub_8000570((callback_pointer)sub_800198C, &gUnknown_03002410, 0xFFu);
-    sub_8000570((callback_pointer)sub_8002500, &gUnknown_03002410, 3u);
-    sub_80007C4();
+    sub_8000570(sub_800198C, &gUnknown_03002410, CONSTANT_SLOT_AUTO);
+    sub_8000570(sub_8002500, &gUnknown_03002410, 3u);
+
+    IntrInit();
     m4aSoundInit();
+
     sub_80004B0(&gUnknown_03002410);
 }
 
-void sub_8000274(struct_3002410 *a1)
+void sub_8000274(struct Unk_03002410 * unk)
 {
-    u8 i;
-    u8 j;
+    fu8 i;
+    fu8 j;
 
-    a1->byte0 = 0;
-    a1->heldKeysRaw = 0;
-    a1->newAndRepeatedKeys = 0;
-    a1->byte1 = 0;
-    for ( i = 0; i < 5; i++ )
+    unk->unk_00 = 0;
+    unk->keys_held = 0;
+    unk->keys_new = 0;
+    unk->unk_01 = 0;
+
+    for (i = 0; i < NUM_TASK; i++)
     {
-        for ( j = 0; j < 3; j++ )
+        for (j = 0; j < NUM_TASK_PARAMS; j++)
         {
-            j[i[a1->callbacks].params] = 0;
+            *((unk->tasks + i)->params + j) = 0;
         }
     }
 }
 
-void sub_8000314(u32 a1)
+void sub_8000314(u32 arg_0)
 {
-    struct_3002410_callback *v7;
-    struct_3002410_callback *v8;
-    u32 type = gUnknown_03002410.byte1;
+    Task * var_04;
+    Task * var_08;
+    int type;
 
-    v7 = &gUnknown_03002410.callbacks[type];
-    v7->params[0] = 1;
-    v7->params[2] = a1;
-    while ( 1 )
+    type = gUnknown_03002410.unk_01;
+    var_04 = &gUnknown_03002410.tasks[type];
+
+    var_04->params[0] = ENUM_TASK_00_1;
+    var_04->params[2] = arg_0;
+
+    while (TRUE)
     {
-        while ( 1 )
+        while (TRUE)
         {
-            v8 = &gUnknown_03002410.callbacks[gUnknown_03002410.byte1];
-            switch ( v8->params[0] )
+            var_08 = &gUnknown_03002410.tasks[gUnknown_03002410.unk_01];
+
+            switch (var_08->params[0])
             {
-                case 3u:
-                    v8->params[0] = 4;
+                case ENUM_TASK_00_3:
+                    var_08->params[0] = ENUM_TASK_00_4;
                     break;
-                case 4u:
-                    if ( v8 == v7 ) return;
-                    else v8->callback((u32)v8);
+
+                case ENUM_TASK_00_4:
+                    if (var_08 == var_04)
+                        return;
+                    else
+                        var_08->callback(var_08);
+
                     break;
-                case 1u:
-                    if ( v8->params[2] )
+
+                case ENUM_TASK_00_1:
+                    if (var_08->params[2])
                     {
-                        v8->params[2]--;
-                        if ( !v8->params[2] )
+                        var_08->params[2]--;
+                        if (!var_08->params[2])
                         {
-                            v8->params[0] = 4;
+                            var_08->params[0] = 4;
                         }
                     }
-                case 2:
-                case 0:
+
+                    FALLTHROUGH;
+
+                case ENUM_TASK_00_2:
+                case ENUM_TASK_00_0:
                 default:
                     break;
             }
 
-            ++gUnknown_03002410.byte1;
-            if ( gUnknown_03002410.byte1 > 4u )
+            gUnknown_03002410.unk_01++;
+
+            if (gUnknown_03002410.unk_01 > 4)
             {
-                gUnknown_03002410.byte1 = 0;
+                gUnknown_03002410.unk_01 = 0;
                 break;
             }
         }
+
         sub_80018D0();
         ReadKeys(&gUnknown_03002410);
     }
 }
 
-void sub_8000470(u8 a1)
+void sub_8000470(fu8 arg_0)
 {
-    (&gUnknown_03002410.callbacks[gUnknown_03002410.byte1])->params[2] = a1;
+    (gUnknown_03002410.tasks + gUnknown_03002410.unk_01)->params[2] = arg_0;
 }
 
-void sub_80004B0(struct_3002410 *a1)
+void sub_80004B0(struct Unk_03002410 * unk)
 {
-    struct_3002410_callback *v6;
+    Task * var_04;
 
-    while (1)
+    while (TRUE)
     {
-        for ( a1->byte1 = 0; a1->byte1 < 5; a1->byte1++ )
+        for (unk->unk_01 = 0; unk->unk_01 < 5; unk->unk_01++)
         {
-            v6 = &a1->callbacks[a1->byte1];
-            if ( v6->params[0] == 3 )
+            var_04 = &unk->tasks[unk->unk_01];
+
+            if (var_04->params[0] == ENUM_TASK_00_3)
             {
-                v6->params[0] = 4;
+                var_04->params[0] = ENUM_TASK_00_4;
             }
-            else if ( v6->params[0] == 4 )
+            else if (var_04->params[0] == ENUM_TASK_00_4)
             {
-                a1->callbacks[a1->byte1].callback((u32)&a1->callbacks[a1->byte1]);
+                unk->tasks[unk->unk_01].callback(&unk->tasks[unk->unk_01]);
             }
         }
+
         sub_80018D0();
-        ReadKeys(a1);
+        ReadKeys(unk);
     }
 }
 
-struct_3002410_callback *sub_8000570(callback_pointer cb, struct_3002410 *a2, u8 idx)
+Task * sub_8000570(TaskFunc * func, struct Unk_03002410 * unk, fu8 slot)
 {
-    u8 v10, v11;
+    fu8 dummy;
+    fu8 slot_real;
 
-    if ( idx != 0xFF )
-        v11 = idx;
+    if (slot != CONSTANT_SLOT_AUTO)
+        slot_real = slot;
     else
-        v11 = sub_8000640(a2);
-    
+        slot_real = sub_8000640(unk);
 
-    a2->callbacks[v11].params[0] = 3;
-    a2->callbacks[v11].params[2] = 0;
-    a2->callbacks[v11].callback = cb;
-    a2->byte0++;
-    return &a2->callbacks[v11];
+    unk->tasks[slot_real].params[0] = ENUM_TASK_00_3;
+    unk->tasks[slot_real].params[2] = 0;
+    unk->tasks[slot_real].callback = func;
+
+    unk->unk_00++;
+
+    return unk->tasks + slot_real;
 }
 
-u32 sub_8000640(struct_3002410 *a1)
+u32 sub_8000640(struct Unk_03002410 * a1)
 {
-    u8 i;
+    fu8 slot;
 
-    i=0;
-    while(i < 5)
+    for (slot = 0; slot < NUM_TASK; slot++)
     {
-        if(!a1->callbacks[i].params[0])
+        if (a1->tasks[slot].params[0] == ENUM_TASK_00_0)
             break;
-        i++;
     }
-    return i;
+
+    return slot;
 }
 
-void ReadKeys(struct_3002410 *a1)
+void ReadKeys(struct Unk_03002410 * a1)
 {
-    u16 keyInput;
+    fu16 keys;
 
-    keyInput = ~REG_KEYINPUT;
-    a1->newAndRepeatedKeys = keyInput & (keyInput ^ a1->heldKeysRaw);
-    a1->heldKeysRaw = keyInput;
-    if ( keyInput & DPAD_ANY )                      // When input is DPAD
+    keys = ~REG_KEYINPUT;
+    a1->keys_new = keys & (keys ^ a1->keys_held);
+    a1->keys_held = keys;
+
+    // Handle dpad repeat
+    if ((keys & KEY_DPAD_ANY) != 0)
     {
-        if ( a1->keyRepeatCounter < 20 )
+        if (a1->dpad_repeat_delay_counter < DPAD_REPEAT_DELAY)
         {
-            a1->keyRepeatCounter++;
+            a1->dpad_repeat_delay_counter++;
         }
         else
         {
-            if ( !a1->keyDebounceCounter )
+            if (!a1->dpad_repeat_interval_counter)
             {
-                a1->newAndRepeatedKeys &= 0xFF0F;
-                a1->newAndRepeatedKeys |= (keyInput & DPAD_ANY);
+                a1->keys_new &= ~KEY_DPAD_ANY;
+                a1->keys_new |= (keys & KEY_DPAD_ANY);
             }
-            a1->keyDebounceCounter++;
-            if ( a1->keyDebounceCounter > 4u )
+
+            a1->dpad_repeat_interval_counter++;
+
+            if (a1->dpad_repeat_interval_counter > DPAD_REPEAT_INTERVAL)
             {
-                a1->keyDebounceCounter = 0;
+                a1->dpad_repeat_interval_counter = 0;
             }
         }
     }
     else
     {
-        a1->keyRepeatCounter = 0;
-        a1->keyDebounceCounter = 0;
+        a1->dpad_repeat_delay_counter = 0;
+        a1->dpad_repeat_interval_counter = 0;
     }
 }
 
 void sub_80007B8()
 {
-    //empty
 }

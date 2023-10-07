@@ -4580,7 +4580,7 @@ sub_809D598: @ 0x0809D598
 	cmp r0, #0
 	beq _0809D5D8
 	movs r0, #0x98
-	bl sub_80025E8
+	bl SetFlag_080025E8
 	ldr r1, [r7, #4]
 	adds r0, r1, #0
 	bl sub_8070C1C
@@ -4606,7 +4606,7 @@ sub_809D5E8: @ 0x0809D5E8
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0x98
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

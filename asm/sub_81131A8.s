@@ -1794,7 +1794,7 @@ sub_81140A0: @ 0x081140A0
 	bl sub_80BBCBC
 	ldr r1, _0811411C
 	adds r0, r1, #0
-	bl SoundMode_rev01
+	bl m4aSoundMode
 	bl sub_80A4614
 	bl sub_80A3BB4
 	bl sub_80BC874
@@ -5974,7 +5974,7 @@ sub_8116164: @ 0x08116164
 	movs r1, #0x80
 	lsls r1, r1, #9
 	adds r0, r1, #0
-	bl SoundMode_rev01
+	bl m4aSoundMode
 	movs r0, #0x3e
 	bl sub_800519C
 	ldr r0, _08116368
@@ -7254,7 +7254,7 @@ sub_8116D64: @ 0x08116D64
 	bl sub_80BBCBC
 	ldr r1, _08116DD0
 	adds r0, r1, #0
-	bl SoundMode_rev01
+	bl m4aSoundMode
 	bl sub_8114894
 	ldr r0, _08116DD4
 	str r0, [sp]

@@ -2335,7 +2335,7 @@ _0800451C:
 	adds r1, r2, #0
 	strh r1, [r0, #0xe]
 	movs r0, #0x3b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3001,19 +3001,19 @@ sub_8004BE8: @ 0x08004BE8
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x3e
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _08004C44
 	movs r0, #0x38
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _08004C18
 	movs r0, #0x37
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3046,7 +3046,7 @@ _08004C42:
 	b _08004CD2
 _08004C44:
 	movs r0, #0x27
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3073,7 +3073,7 @@ _08004C6E:
 	cmp r0, #6
 	bne _08004C96
 	movs r0, #0x3b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3164,7 +3164,7 @@ sub_8004D20: @ 0x08004D20
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x7d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3172,7 +3172,7 @@ sub_8004D20: @ 0x08004D20
 	b _08004D48
 _08004D34:
 	movs r0, #0x79
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3205,7 +3205,7 @@ sub_8004D50: @ 0x08004D50
 _08004D6C: .4byte gUnknown_03003110
 _08004D70:
 	movs r0, #0x94
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3216,7 +3216,7 @@ _08004D84:
 	.byte 0x16, 0xE0
 _08004D86:
 	movs r0, #0x93
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3316,7 +3316,7 @@ _08004E40: .4byte gUnknown_03003110
 _08004E44: .4byte gUnknown_0202DBD0
 _08004E48:
 	movs r0, #0xc5
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -3325,7 +3325,7 @@ _08004E48:
 	b _08004E80
 _08004E5C:
 	movs r0, #0xc6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

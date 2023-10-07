@@ -15,7 +15,7 @@ sub_805E3EC: @ 0x0805E3EC
 	movs r2, #2
 	bl memcpy
 	movs r0, #0xb2
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -699,7 +699,7 @@ sub_805E920: @ 0x0805E920
 	movs r1, #1
 	strb r1, [r0]
 	movs r0, #0x6b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -898,7 +898,7 @@ sub_805EA94: @ 0x0805EA94
 	mov r7, sp
 	str r0, [r7]
 	movs r0, #0x49
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -956,7 +956,7 @@ sub_805EB00: @ 0x0805EB00
 	mov r7, sp
 	str r0, [r7]
 	movs r0, #0xb2
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1027,7 +1027,7 @@ sub_805EB78: @ 0x0805EB78
 	adds r0, r7, #0
 	ldrb r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

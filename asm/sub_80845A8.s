@@ -925,7 +925,7 @@ sub_8084C98: @ 0x08084C98
 	adds r0, r7, #4
 	ldrh r1, [r0]
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1515,7 +1515,7 @@ sub_8085130: @ 0x08085130
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0xd6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1816,7 +1816,7 @@ sub_8085368: @ 0x08085368
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xdd
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1978,7 +1978,7 @@ sub_80854C8: @ 0x080854C8
 	ldr r0, [r7]
 	str r0, [r7, #4]
 	movs r0, #0xdd
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

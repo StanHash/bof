@@ -784,19 +784,19 @@ sub_80692FC: @ 0x080692FC
 	movs r0, #0xe8
 	bl sub_8068CF8
 	movs r0, #0x3f
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _08069372
 	movs r0, #0x37
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _08069372
 	movs r0, #0x3a
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -816,7 +816,7 @@ _08069342:
 	movs r0, #0x3f
 	bl sub_80690A8
 	movs r0, #0x38
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -856,7 +856,7 @@ sub_806939C: @ 0x0806939C
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x7a
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -877,13 +877,13 @@ sub_80693C4: @ 0x080693C4
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x94
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _08069454
 	movs r0, #0x9c
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -919,13 +919,13 @@ _08069428: .4byte 0x0000FFFF
 _0806942C: .4byte 0x0000011F
 _08069430:
 	movs r0, #0x8d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	beq _08069454
 	movs r0, #0x8e
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1013,7 +1013,7 @@ sub_80694E8: @ 0x080694E8
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x27
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1282,7 +1282,7 @@ _08069708: .4byte gUnknown_0202DBD0
 _0806970C: .4byte 0x000002B3
 _08069710:
 	movs r0, #0x42
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1569,7 +1569,7 @@ sub_8069930: @ 0x08069930
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x30
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1880,7 +1880,7 @@ sub_8069B8C: @ 0x08069B8C
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0x71
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2263,7 +2263,7 @@ sub_8069E78: @ 0x08069E78
 	ldr r1, _08069EA0
 	bl sub_8068CF8
 	movs r0, #0x93
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2740,7 +2740,7 @@ sub_806A230: @ 0x0806A230
 	push {r7, lr}
 	mov r7, sp
 	movs r0, #0xc6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2828,7 +2828,7 @@ sub_806A2D8: @ 0x0806A2D8
 	ldr r1, _0806A31C
 	bl sub_8068CF8
 	movs r0, #0x27
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

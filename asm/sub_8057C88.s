@@ -442,7 +442,7 @@ _08057FD8: .4byte gUnknown_03003110
 _08057FDC: .4byte 0x00000187
 _08057FE0:
 	movs r0, #0x1d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

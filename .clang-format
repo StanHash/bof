@@ -1,0 +1,7 @@
+---
+BasedOnStyle: Microsoft
+---
+Language: Cpp
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+PointerAlignment: Middle

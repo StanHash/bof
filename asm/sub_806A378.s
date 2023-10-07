@@ -304,7 +304,7 @@ _0806A608: .4byte gUnknown_03002400
 _0806A60C: .4byte 0x0000FFFC
 _0806A610:
 	movs r0, #0xa0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -312,7 +312,7 @@ _0806A610:
 	b _0806A87A
 _0806A620:
 	movs r0, #0x53
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -330,7 +330,7 @@ _0806A630:
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0xa1
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

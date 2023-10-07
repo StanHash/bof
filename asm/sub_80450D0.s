@@ -194,7 +194,7 @@ _080451C6:
 	cmp r0, r1
 	bne _080452A0
 	movs r0, #0xb9
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

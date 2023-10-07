@@ -5113,7 +5113,7 @@ sub_809FD24: @ 0x0809FD24
 	adds r2, r1, #0
 	strb r2, [r0]
 	movs r0, #0x2b
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5123,7 +5123,7 @@ sub_809FD24: @ 0x0809FD24
 	b _0809FD86
 _0809FD5A:
 	movs r0, #0x59
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5133,7 +5133,7 @@ _0809FD5A:
 	b _0809FD86
 _0809FD70:
 	movs r0, #0xb9
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5437,13 +5437,13 @@ sub_809FFA8: @ 0x0809FFA8
 	mov r7, sp
 	str r0, [r7]
 	movs r0, #0x3c
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _0809FFCE
 	movs r0, #0x37
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5509,7 +5509,7 @@ sub_80A0020: @ 0x080A0020
 	b _080A013C
 _080A0038:
 	movs r0, #0x75
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5783,7 +5783,7 @@ sub_80A0244: @ 0x080A0244
 	cmp r0, #0
 	bne _080A02A0
 	movs r0, #0x49
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -5971,7 +5971,7 @@ sub_80A03B4: @ 0x080A03B4
 	cmp r0, #3
 	bne _080A04A6
 	movs r0, #0x8f
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6216,7 +6216,7 @@ sub_80A0578: @ 0x080A0578
 	cmp r0, #3
 	bne _080A0600
 	movs r0, #0x80
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6286,7 +6286,7 @@ sub_80A0610: @ 0x080A0610
 	adds r1, r2, #0
 	strb r1, [r0]
 	movs r0, #0xba
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6320,13 +6320,13 @@ sub_80A0674: @ 0x080A0674
 	cmp r0, #4
 	bne _080A06DE
 	movs r0, #0xa1
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _080A06DE
 	movs r0, #0xa0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -6401,7 +6401,7 @@ sub_80A06F4: @ 0x080A06F4
 	adds r1, r2, #0
 	strb r1, [r0]
 	movs r0, #0xb2
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

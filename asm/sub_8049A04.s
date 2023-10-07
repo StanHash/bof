@@ -4921,7 +4921,7 @@ sub_804BF18: @ 0x0804BF18
 	cmp r1, r0
 	bne _0804BF44
 	movs r0, #0x53
-	bl sub_8002724
+	bl ClearFlag_08002724
 _0804BF44:
 	adds r0, r7, #4
 	adds r1, r7, #4
@@ -5359,7 +5359,7 @@ sub_804C28C: @ 0x0804C28C
 	cmp r1, r0
 	bne _0804C2B0
 	movs r0, #0x53
-	bl sub_8002724
+	bl ClearFlag_08002724
 _0804C2B0:
 	b _0804C2B4
 _0804C2B2:

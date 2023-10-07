@@ -1016,7 +1016,7 @@ _080BCF06:
 	cmp r0, #0
 	bne _080BCF7E
 	movs r0, #0x53
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1033,7 +1033,7 @@ _080BCF06:
 	strb r2, [r0]
 _080BCF5E:
 	movs r0, #0xa1
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1292,7 +1292,7 @@ _080BD1B4:
 	ldr r2, [r1]
 	str r2, [r0, #0x20]
 	movs r0, #0x53
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1844,7 +1844,7 @@ sub_80BD5F8: @ 0x080BD5F8
 	cmp r0, #2
 	bne _080BD61C
 	movs r0, #0x1d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -1995,7 +1995,7 @@ sub_80BD718: @ 0x080BD718
 	cmp r0, #2
 	bne _080BD73E
 	movs r0, #0x1d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -2043,7 +2043,7 @@ sub_80BD774: @ 0x080BD774
 	cmp r0, #2
 	bne _080BD79A
 	movs r0, #0x1d
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -7274,7 +7274,7 @@ sub_80C0198: @ 0x080C0198
 	lsls r0, r2, #0x10
 	lsrs r1, r0, #0x10
 	adds r0, r1, #0
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0

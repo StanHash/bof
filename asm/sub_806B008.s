@@ -26,7 +26,7 @@ sub_806B008: @ 0x0806B008
 	cmp r1, r0
 	bne _0806B078
 	movs r0, #0x60
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -187,13 +187,13 @@ sub_806B174: @ 0x0806B174
 	cmp r1, #0xfc
 	bne _0806B1D8
 	movs r0, #0x86
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
 	bne _0806B1A4
 	movs r0, #0x85
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
@@ -258,7 +258,7 @@ sub_806B208: @ 0x0806B208
 	adds r1, r7, #0
 	strh r0, [r1]
 	movs r0, #0xc6
-	bl sub_8002524
+	bl CheckFlag_08002524
 	lsls r1, r0, #0x18
 	lsrs r0, r1, #0x18
 	cmp r0, #0
